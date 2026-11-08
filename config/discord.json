@@ -12,7 +12,7 @@
       "name": "⏰ DROPS",
       "channels": [
         {"key": "next-drops", "name": "📅-next-drops", "topic": "When the next drops are. This list updates itself.", "post": true},
-        {"key": "drop-pings", "name": "🔔-drop-pings", "topic": "Keep notifications on here. This channel pings you when it's time to act.", "post": true},
+        {"key": "drop-pings", "name": "🔔-drop-pings", "topic": "Keep notifications on here. This channel pings you when it's time to act.", "post": true, "static": "drop-pings.md", "ping_on_setup": true},
         {"key": "release-calendar", "name": "📆-release-calendar", "topic": "Every upcoming release and preorder date, plus date changes.", "post": true}
       ]
     },

@@ -348,6 +348,15 @@ class SetupTests(unittest.TestCase):
             self.assertLessEqual(len(payload["content"]), 1900)
         self.assertTrue(any("<#" in payload["content"] for _, payload in api.posts))
 
+    def test_setup_sends_exactly_one_test_ping(self):
+        api, _ = self.build()
+        pings = [payload for _, payload in api.posts if payload.get("allowed_mentions") == {"parse": ["everyone"]}]
+        self.assertEqual(len(pings), 1)
+        self.assertTrue(pings[0]["content"].startswith("@everyone"))
+        discord_setup.build_server(api, "guild", CONFIG)
+        pings_after = [payload for _, payload in api.posts if payload.get("allowed_mentions") == {"parse": ["everyone"]}]
+        self.assertEqual(len(pings_after), 1)
+
     def test_running_again_changes_nothing(self):
         api, _ = self.build()
         channels, posts = len(api.channels_list), len(api.posts)

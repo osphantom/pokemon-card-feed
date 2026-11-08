@@ -64,13 +64,17 @@ def fill_channel_links(text: str, channel_ids: dict) -> str:
     return re.sub(r"\{\{([a-z-]+)\}\}", lambda match: f"<#{channel_ids[match.group(1)]}>", text)
 
 
-def post_static(api, channel_id, webhook, filename, channel_ids):
+def post_static(api, channel_id, webhook, spec, channel_ids):
     if api.has_messages(channel_id):
         return False
-    text = fill_channel_links((CONFIG_DIR / "discord" / filename).read_text(encoding="utf-8"), channel_ids)
-    for chunk in split_message(text):
-        api.post(webhook, {"content": chunk})
-    print(f"Posted guide {filename}")
+    text = fill_channel_links((CONFIG_DIR / "discord" / spec["static"]).read_text(encoding="utf-8"), channel_ids)
+    for index, chunk in enumerate(split_message(text)):
+        payload = {"content": chunk}
+        if index == 0 and spec.get("ping_on_setup"):
+            # One real ping at setup proves alerts reach people.
+            payload = {"content": f"@everyone\n{chunk}", "allowed_mentions": {"parse": ["everyone"]}}
+        api.post(webhook, payload)
+    print(f"Posted guide {spec['static']}")
     return True
 
 
@@ -101,7 +105,7 @@ def build_server(api, guild_id, config) -> dict:
     for spec in specs:
         if spec.get("post") or spec.get("static"):
             webhook = ensure_webhook(api, channel_ids[spec["key"]], config["webhook_name"])
-            if spec.get("static") and post_static(api, channel_ids[spec["key"]], webhook, spec["static"], channel_ids):
+            if spec.get("static") and post_static(api, channel_ids[spec["key"]], webhook, spec, channel_ids):
                 guides += 1
     return {"channels": len(specs), "guides_posted": guides}
 
