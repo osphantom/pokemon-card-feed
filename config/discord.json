@@ -1,0 +1,52 @@
+{
+  "webhook_name": "Card Feed",
+  "categories": [
+    {
+      "name": "START",
+      "channels": [
+        {"name": "start-here", "topic": "How this server works.", "static": "start-here.md"},
+        {"name": "free-alert-sources", "topic": "Free real-time alert servers, and how to pipe them in here.", "static": "free-alert-sources.md"}
+      ]
+    },
+    {
+      "name": "LIVE",
+      "channels": [
+        {"name": "hot-alerts", "topic": "Preorders, queues, and drawings worth acting on. Turn on all notifications here.", "post": true},
+        {"name": "drop-reminders", "topic": "Reminders before the weekly drop windows.", "post": true},
+        {"name": "live-restocks", "topic": "Restock and drop posts. Also a good place to Follow free alert servers.", "post": true}
+      ]
+    },
+    {
+      "name": "BUY",
+      "channels": [
+        {"name": "preorders", "topic": "Preorder openings and early access.", "post": true},
+        {"name": "deals", "topic": "Sealed card deals. Check the price against MSRP.", "post": true},
+        {"name": "store-cheatsheet", "topic": "Store-by-store timing and rules.", "static": "store-cheatsheet.md"}
+      ]
+    },
+    {
+      "name": "SELL",
+      "channels": [
+        {"name": "flip-list", "topic": "Daily list: estimated profit after eBay fees at retail price.", "post": true},
+        {"name": "market-moves", "topic": "Prices, reprints, and market news.", "post": true},
+        {"name": "ebay-cheatsheet", "topic": "Fees, presale rules, and shipping.", "static": "ebay-cheatsheet.md"}
+      ]
+    },
+    {
+      "name": "PLAN",
+      "channels": [
+        {"name": "today", "topic": "Morning summary at about 7 AM ET.", "post": true},
+        {"name": "release-calendar", "topic": "New sets, products, and date changes.", "post": true},
+        {"name": "news", "topic": "General Pokémon TCG news.", "post": true}
+      ]
+    },
+    {
+      "name": "BUSINESS",
+      "channels": [
+        {"name": "shop-roadmap", "topic": "The path from eBay seller to shop owner.", "static": "shop-roadmap.md"},
+        {"name": "purchases-log", "topic": "Your notes: what you bought, where, and for how much."},
+        {"name": "sales-log", "topic": "Your notes: what sold, and what you kept after fees."}
+      ]
+    }
+  ]
+}

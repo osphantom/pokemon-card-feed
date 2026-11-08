@@ -1,0 +1,66 @@
+{
+  "always_reject": [
+    "gamestop", "game stop",
+    "plush", "plushie", "plushies", "hoodie", "t-shirt", "tee shirt", "sweatshirt", "pajama", "pajamas",
+    "apparel", "clothing", "sneaker", "sneakers", "backpack", "socks", "funko", "lego", "needoh",
+    "action figure", "action figures", "holiday calendar",
+    "pokemon go", "pokemon legends", "legends z-a", "pokopia", "pokemon champions", "pokemon sleep",
+    "pokemon unite", "pokemon bank", "tcg pocket", "pokemon pocket", "tcgp", "video game", "nintendo switch",
+    "changi airport", "theme park",
+    "mega thread", "megathread", "charity drive", "unban form",
+    "police", "arrested", "accused", "charged after", "gambling", "stolen", "theft", "robbery", "burglar",
+    "most valuable", "most expensive", "worth the most", "worth a fortune", "top 10", "ranked", "grading",
+    "hall of fame", "best way to play", "deck list", "decklist", "deck guide", "gym leader challenge", "revealed from", "news archive"
+  ],
+  "reject_prefixes": ["help -", "discussion -", "question -", "wtb", "wts", "ft:", "lf:"],
+  "not_deal_terms": ["auction", "million", "sold", "sells for", "lost over", "worth"],
+  "blocked_domains": [
+    "autoqueue.app", "pokemoncenterbot.io", "swooperhq.com", "botbro.io", "decodo.com"
+  ],
+  "require_pokemon": ["pokemon"],
+  "card_terms": [
+    "tcg", "trading card", "trading cards", "card game", "pokemon card", "pokemon cards", "booster", "boosters",
+    "elite trainer", "etb", "etbs", "premium collection", "ultra-premium", "ultra premium", "upc", "mini tin", "blister",
+    "prerelease", "pre-release", "build & battle", "build and battle", "sealed", "league battle deck",
+    "delta reign", "flowing fists", "aura seeker", "30th celebration", "ascended heroes", "perfect order",
+    "chaos rising", "pitch black", "phantasmal flames", "prismatic evolutions", "destined rivals", "happy meal"
+  ],
+  "regional_reject": [
+    "pokemon center uk", "uk only", "canada only", "[uk]", "[ca]", "(uk)", "(canada)", "europe only", "australia",
+    "united kingdom", "germany", "changi", "in canada"
+  ],
+  "japanese_terms": ["japanese", "japan exclusive", "jp exclusive"],
+  "categories": {
+    "preorders": ["preorder", "preorders", "pre-order", "pre-orders", "presale", "pre-sale", "early access"],
+    "restocks": [
+      "restock", "restocks", "restocked", "restocking", "in stock", "back in stock", "live on", "live at", "is live",
+      "are live", "live now", "open now", "queue", "drawing", "drawings", "draw", "lottery", "raffle", "drop", "drops",
+      "dropped", "sold out", "sellout", "invite", "invites"
+    ],
+    "deals": ["deal", "deals", "discount", "discounted", "clearance", "blowout", "blow-out", "price drop", "coupon", "cashback", "black friday", "cyber monday"],
+    "releases": [
+      "release date", "release", "releases", "releasing", "announced", "announces", "revealed", "reveal", "reveals",
+      "launch", "launches", "launched", "prerelease", "pre-release", "set list", "card list", "new set", "expansion",
+      "lineup", "line-up", "upcoming", "coming"
+    ],
+    "market": [
+      "price", "prices", "priced", "market", "value", "values", "worth", "reprint", "reprints", "crash", "bubble", "spike",
+      "scalper", "scalpers", "scalping", "investment", "top selling", "msrp", "fake", "fakes"
+    ]
+  },
+  "hot_terms": [
+    "pokemon center", "elite trainer", "etb", "ultra-premium", "ultra premium", "upc", "drawing", "draw", "lottery", "queue",
+    "booster box", "premium collection", "invite", "invites", "early access"
+  ],
+  "not_hot_terms": ["sold out", "closed", "ended", "recap", "results", "delayed", "review"],
+  "stores": {
+    "Pokémon Center": ["pokemon center", "pokemoncenter"],
+    "Walmart": ["walmart"],
+    "Target": ["target"],
+    "Sam's Club": ["sam's club", "sams club", "sam's"],
+    "Costco": ["costco"],
+    "Best Buy": ["best buy", "bestbuy"],
+    "Dick's": ["dick's", "dicks"],
+    "Amazon": ["amazon"]
+  }
+}

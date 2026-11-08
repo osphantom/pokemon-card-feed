@@ -1,0 +1,24 @@
+{
+  "fee_rate": 0.1325,
+  "fee_cap": 7500,
+  "over_rate": 0.0235,
+  "per_order_small": 0.30,
+  "per_order_large": 0.40,
+  "per_order_cutoff": 10,
+  "top_rated": false,
+  "buyer_tax": 0.07,
+  "your_tax": 0.07,
+  "retail_discount": 0,
+  "sell_pct": 1,
+  "supplies": 1,
+  "shipping": {
+    "pack": 5,
+    "blister": 5.5,
+    "bundle": 6.5,
+    "tin": 8.5,
+    "etb": 9.5,
+    "collection": 10,
+    "box": 12,
+    "upc": 18
+  }
+}

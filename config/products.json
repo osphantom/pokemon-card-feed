@@ -1,0 +1,38 @@
+{
+  "current_days": 200,
+  "exclude": [
+    "\\bcase\\b", "\\bdisplay\\b", "half booster box", "art bundle", "\\[set of", "code card", "\\bsample\\b", "mystery"
+  ],
+  "rules": [
+    {"match": "pokemon center elite trainer box", "type": "Pokémon Center ETB", "group": "PC exclusive", "msrp": 59.99, "ship": "etb"},
+    {"match": "elite trainer box", "type": "Elite Trainer Box", "group": "ETB", "msrp": 49.99, "ship": "etb"},
+    {"match": "30th celebration ultra.?premium collection", "type": "Ultra-Premium Collection", "group": "Collections", "msrp": 179.99, "ship": "upc"},
+    {"match": "booster bundle", "type": "Booster Bundle", "group": "Bundles", "msrp": 26.94, "ship": "bundle"},
+    {"match": "booster (box|display)", "type": "Booster Box", "group": "Boxes", "msrp": 161.64, "ship": "box"},
+    {"match": "sleeved booster pack", "type": "Sleeved Booster Pack", "group": "Packs and blisters", "msrp": 4.49, "ship": "pack"},
+    {"match": "booster pack$", "type": "Booster Pack", "group": "Packs and blisters", "msrp": 4.49, "ship": "pack"},
+    {"match": "premium checklane", "type": "Premium Checklane Blister", "group": "Packs and blisters", "msrp": null, "ship": "blister"},
+    {"match": "enhanced 2.pack", "type": "Enhanced 2-Pack Blister", "group": "Packs and blisters", "msrp": 10.99, "ship": "blister"},
+    {"match": "3.pack blister", "type": "3-Pack Blister", "group": "Packs and blisters", "msrp": 13.99, "ship": "blister"},
+    {"match": "2.pack blister", "type": "2-Pack Blister", "group": "Packs and blisters", "msrp": 9.99, "ship": "blister"},
+    {"match": "(single pack|checklane) blister", "type": "Checklane Blister", "group": "Packs and blisters", "msrp": 5.49, "ship": "blister"},
+    {"match": "build & battle box", "type": "Build & Battle Box", "group": "Bundles", "msrp": 21.99, "ship": "bundle"},
+    {"match": "mini tin", "type": "Mini Tin", "group": "Tins", "msrp": 9.99, "ship": "blister"},
+    {"match": "\\btin\\b", "type": "Tin", "group": "Tins", "msrp": 21.99, "ship": "tin"},
+    {"match": "ditto premium collection", "type": "Premium Collection", "group": "Collections", "msrp": 39.99, "ship": "collection"},
+    {"match": "focused fighters premium collection", "type": "Premium Collection", "group": "Collections", "msrp": 54.98, "ship": "collection"},
+    {"match": "premium tournament collection", "type": "Premium Tournament Collection", "group": "Collections", "msrp": 49.99, "ship": "collection"},
+    {"match": "premium poster collection", "type": "Premium Poster Collection", "group": "Collections", "msrp": 49.99, "ship": "collection"},
+    {"match": "premium collection", "type": "Premium Collection", "group": "Collections", "msrp": 39.99, "ship": "collection"},
+    {"match": "figure collection", "type": "Figure Collection", "group": "Collections", "msrp": 29.99, "ship": "collection"},
+    {"match": "binder collection", "type": "Binder Collection", "group": "Collections", "msrp": 31.99, "ship": "collection"},
+    {"match": "poster collection", "type": "Poster Collection", "group": "Collections", "msrp": 14.99, "ship": "bundle"},
+    {"match": "knock out collection", "type": "Knock Out Collection", "group": "Collections", "msrp": 9.99, "ship": "blister"},
+    {"match": "tech sticker collection", "type": "Tech Sticker Collection", "group": "Collections", "msrp": 14.99, "ship": "bundle"},
+    {"match": "\\bex box\\b", "type": "ex Box", "group": "Collections", "msrp": 21.99, "ship": "collection"},
+    {"match": "league battle deck", "type": "League Battle Deck", "group": "Collections", "msrp": 29.99, "ship": "collection"},
+    {"match": "battle deck", "type": "Battle Deck", "group": "Collections", "msrp": 19.99, "ship": "bundle"},
+    {"match": "first partner illustration", "type": "Illustration Collection", "group": "Collections", "msrp": 14.99, "ship": "bundle"},
+    {"match": "deck crafter", "type": "Deck Crafter's Collection", "group": "Collections", "msrp": 9.99, "ship": "bundle"}
+  ]
+}

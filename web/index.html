@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Sealed Feed</title>
+  <meta name="description" content="Pokémon TCG releases, preorders, restock windows, and eBay resale math for sealed English product.">
+  <link rel="alternate" type="application/rss+xml" title="Sealed Feed" href="feed.xml">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip" href="#next">Skip to content</a>
+  <header class="top">
+    <div class="wrap top-row">
+      <a class="brand" href="./">Sealed Feed</a>
+      <nav aria-label="Sections">
+        <a href="#next">Next up</a>
+        <a href="#calendar">Calendar</a>
+        <a href="#flip">Flip list</a>
+        <a href="#feed">Feed</a>
+        <a href="playbook.html">Playbook</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="next" aria-labelledby="next-title">
+      <div class="section-head">
+        <h1 id="next-title">Next drop window</h1>
+        <p id="freshness" class="muted"></p>
+      </div>
+      <div id="hero"></div>
+      <h2 class="sub-head">This week</h2>
+      <div id="week" class="tickets"></div>
+      <p class="muted small">Times are Eastern. Retailers don't publish these schedules, so a Reported window means when to be ready, not a promise. <a href="playbook.html#week">How these were worked out</a></p>
+    </section>
+
+    <section id="calendar" aria-labelledby="calendar-title">
+      <div class="section-head">
+        <h2 id="calendar-title">Dates to know</h2>
+        <p id="calendar-verified" class="muted"></p>
+      </div>
+      <div id="dates" class="dates"></div>
+      <div id="undated"></div>
+    </section>
+
+    <section id="flip" aria-labelledby="flip-title">
+      <div class="section-head">
+        <h2 id="flip-title">Flip list</h2>
+        <p class="muted">What you'd keep on eBay if you bought at retail price, after fees, shipping, and sales tax.</p>
+      </div>
+      <details class="settings">
+        <summary>Adjust the math</summary>
+        <form id="settings" class="settings-grid" autocomplete="off"></form>
+      </details>
+      <div class="controls">
+        <div id="flip-groups" class="pills" role="group" aria-label="Product type"></div>
+        <div class="toggles">
+          <label><input type="checkbox" id="profit-only"> Profitable only</label>
+          <label><input type="checkbox" id="show-older"> Include older sets</label>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table class="flip">
+          <caption class="sr-only">Estimated eBay profit for sealed products bought at retail price</caption>
+          <thead>
+            <tr>
+              <th scope="col">Product</th>
+              <th scope="col" class="num">Retail</th>
+              <th scope="col" class="num">Market</th>
+              <th scope="col" class="num">eBay asks</th>
+              <th scope="col" class="num">Profit</th>
+              <th scope="col" class="num">Return</th>
+              <th scope="col">Check</th>
+            </tr>
+          </thead>
+          <tbody id="flip-body"></tbody>
+        </table>
+      </div>
+      <p id="flip-note" class="muted small"></p>
+    </section>
+
+    <section id="drawings" aria-labelledby="drawings-title">
+      <div class="section-head">
+        <h2 id="drawings-title">Worth entering the drawing?</h2>
+        <p class="muted">Drawing prices are often above MSRP. Here's the latest list at today's market price.</p>
+      </div>
+      <div id="drawing-list"></div>
+    </section>
+
+    <section id="feed" aria-labelledby="feed-title">
+      <div class="section-head">
+        <h2 id="feed-title">Live feed</h2>
+        <p class="muted">Pokémon cards only. Clothing, plush, video games, and GameStop are filtered out.</p>
+      </div>
+      <div id="feed-tabs" class="pills" role="group" aria-label="Feed category"></div>
+      <ul id="feed-list" class="feed-list"></ul>
+      <button id="feed-more" class="button" type="button" hidden>Show more</button>
+    </section>
+
+    <section id="subscribe" aria-labelledby="subscribe-title">
+      <div class="section-head">
+        <h2 id="subscribe-title">Take it with you</h2>
+      </div>
+      <div class="subscribe-grid">
+        <div class="panel">
+          <h3>RSS feeds</h3>
+          <p class="muted small">Paste a link into any reader app, such as Feedly or Inoreader.</p>
+          <ul id="rss-list" class="link-list"></ul>
+        </div>
+        <div class="panel">
+          <h3>Calendar</h3>
+          <p class="muted small">A file your calendar app can subscribe to. It updates on its own. If these events were already added to your calendar directly, you don't need this too.</p>
+          <ul id="calendar-link" class="link-list"></ul>
+          <h3>Instant restock alerts</h3>
+          <p class="muted small">This feed checks about every 15 minutes, so pair it with a free real-time source. <a href="playbook.html#alerts">Free options</a></p>
+        </div>
+        <div class="panel">
+          <h3>Source status</h3>
+          <p id="source-summary" class="muted small"></p>
+          <details>
+            <summary>Show every source</summary>
+            <ul id="source-list" class="source-list"></ul>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p>A fan-made tool for personal use. Not affiliated with Pokémon, Nintendo, or any retailer. Prices and dates change quickly, so confirm them before you buy. General information only, not financial, tax, or legal advice.</p>
+  </footer>
+
+  <script>window.__DATA__=__DATA_JSON__;</script>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>

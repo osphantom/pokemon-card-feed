@@ -1,0 +1,124 @@
+{
+  "verified": "2026-11-08",
+  "events": [
+    {
+      "id": "mcdonalds-2026",
+      "title": "McDonald's Pokémon Happy Meal cards begin",
+      "date": "2026-11-10",
+      "end": "2026-12-14",
+      "kind": "promo",
+      "status": "official",
+      "note": "McDonald's announced the November 10 start. The December 14 end is reported, and supplies can run out sooner. The set has 15 cards.",
+      "sources": [{"label": "Dexerto", "url": "https://www.dexerto.com/food/mcdonalds-announces-pokemon-happy-meal-return-with-15-toys-and-trading-cards-3422744/"}]
+    },
+    {
+      "id": "greninja-league-deck",
+      "title": "Mega Greninja ex League Battle Deck street date",
+      "date": "2026-11-13",
+      "kind": "release",
+      "status": "reported",
+      "msrp": 29.99,
+      "note": "Most trackers list November 13. ICv2 lists November 11.",
+      "covers": ["Mega Greninja ex League Battle Deck"],
+      "sources": [
+        {"label": "LV1 Gaming", "url": "https://lv1gaming.com/upcoming-pokemon-tcg-releases-2026-2027/"},
+        {"label": "ICv2", "url": "https://icv2.com/articles/news/view/63295/new-pokemon-tcg-league-battle-deck-incoming"}
+      ]
+    },
+    {
+      "id": "pc-delta-reign-ship",
+      "title": "Pokémon Center Delta Reign preorders ship",
+      "date": "2026-11-16",
+      "approx": true,
+      "kind": "preorder",
+      "status": "official",
+      "note": "Pokémon Center's estimated-ship table says mid-November after checkout went down for about six days. Don't list these on eBay until yours has shipped.",
+      "sources": [
+        {"label": "Pokémon Center", "url": "https://support.pokemoncenter.com/hc/en-us/articles/4407702295572-Estimated-Preorder-Release-Dates"},
+        {"label": "Wargamer", "url": "https://www.wargamer.com/pokemon-trading-card-game/delta-reign-preorders-delay"}
+      ]
+    },
+    {
+      "id": "black-friday-2026",
+      "title": "Black Friday",
+      "date": "2026-11-27",
+      "kind": "sale",
+      "status": "reported",
+      "note": "Sales start earlier. On Walmart, check for \"Sold and shipped by Walmart\": many \"deals\" are marketplace sellers priced above MSRP.",
+      "sources": [{"label": "GamesRadar", "url": "https://www.gamesradar.com/black-friday-pokemon-card-deals-sales/"}]
+    },
+    {
+      "id": "thirtieth-tins-binder",
+      "title": "30th Celebration tins and Binder Collection street date",
+      "date": "2026-12-04",
+      "kind": "release",
+      "status": "reported",
+      "msrp": 21.99,
+      "note": "Tins (Greninja ex, Sylveon ex) are $21.99. The Binder Collection is $31.99 and was delayed from October 2.",
+      "covers": ["30th Celebration ex Tin", "30th Celebration Binder Collection"],
+      "sources": [
+        {"label": "LV1 Gaming", "url": "https://lv1gaming.com/upcoming-pokemon-tcg-releases-2026-2027/"},
+        {"label": "Celadon", "url": "https://celadoninfo.com/us/releases"}
+      ]
+    },
+    {
+      "id": "flowing-fists-pc-preorder",
+      "title": "Likely Pokémon Center preorders for Flowing Fists",
+      "date": "2026-12-28",
+      "end": "2026-12-30",
+      "kind": "preorder",
+      "status": "estimate",
+      "note": "Calculated, not announced. Pitch Black and Delta Reign preorders opened 37 days before street date and Chaos Rising 39. Holiday week could shift it, and the February 5 set date isn't confirmed.",
+      "sources": [{"label": "Pokénnoisseur", "url": "https://pokennoisseur.ca/tools/release-calendar"}]
+    },
+    {
+      "id": "valentines-box-2027",
+      "title": "Valentine's Box street date",
+      "date": "2027-01-15",
+      "kind": "release",
+      "status": "reported",
+      "msrp": 14.99,
+      "note": "20 mini packs of 3 cards each. PokeBeach reports January 15, while one outlet said January 27.",
+      "sources": [{"label": "PokeGuardian", "url": "https://www.pokeguardian.com/3429509_pokemon-tcg-valentine-s-box-revealed"}]
+    },
+    {
+      "id": "flowing-fists-prerelease",
+      "title": "Flowing Fists prerelease events",
+      "date": "2027-01-23",
+      "end": "2027-01-31",
+      "kind": "prerelease",
+      "status": "reported",
+      "note": "Reported by PokeBeach. Pokémon hasn't announced it.",
+      "sources": [{"label": "Pokénnoisseur", "url": "https://pokennoisseur.ca/tools/release-calendar"}]
+    },
+    {
+      "id": "flowing-fists",
+      "title": "Flowing Fists street date",
+      "date": "2027-02-05",
+      "kind": "release",
+      "status": "reported",
+      "note": "First main set of 2027, the English version of Japan's Aura Seeker. Pokémon hasn't confirmed the date, and no Pokémon Center ETB is confirmed yet.",
+      "sources": [{"label": "Bill's Archive", "url": "https://billsarchive.com/flowing-fists.html"}]
+    },
+    {
+      "id": "mega-rayquaza-tournament",
+      "title": "Mega Rayquaza ex Premium Tournament Collection street date",
+      "date": "2027-02-12",
+      "kind": "release",
+      "status": "official",
+      "msrp": 49.99,
+      "note": "Pokémon's product page gives the date. The $49.99 price comes from reporting, because the page doesn't list one.",
+      "sources": [{"label": "Pokemon.com", "url": "https://www.pokemon.com/us/pokemon-tcg/product-gallery/mega-rayquaza-ex-premium-tournament-collection"}]
+    }
+  ],
+  "undated": [
+    {
+      "id": "mega-forces-tins",
+      "title": "Mega Forces Tins",
+      "status": "reported",
+      "msrp": 21.99,
+      "note": "Delayed from August 28 with no new date. Retailers expect late 2026.",
+      "sources": [{"label": "Pokénnoisseur", "url": "https://pokennoisseur.ca/tools/release-calendar"}]
+    }
+  ]
+}
