@@ -1,6 +1,7 @@
 """Assemble the static site: dashboard data, RSS feeds, and the calendar file."""
 from __future__ import annotations
 
+import hashlib
 import json
 import shutil
 from datetime import datetime, timedelta
@@ -26,6 +27,16 @@ def safe_json(data) -> str:
     """JSON that can sit inside a script tag even if a headline contains markup."""
     text = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
     return text.replace("<", "\\u003c").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
+
+
+def stamp_asset_version() -> None:
+    """Tie each page to its exact script and stylesheet so browsers can't mix versions."""
+    digest = hashlib.sha1()
+    for name in ("assets/app.js", "assets/styles.css"):
+        digest.update((SITE_DIR / name).read_bytes())
+    for page in ("index.html", "playbook.html"):
+        path = SITE_DIR / page
+        path.write_text(path.read_text(encoding="utf-8").replace("__ASSET_VERSION__", digest.hexdigest()[:10]), encoding="utf-8")
 
 
 def enrich_drawings(market: dict) -> list[dict]:
@@ -135,6 +146,7 @@ def build_site(now, items, market, windows_all, windows, events, undated, health
     if SITE_DIR.exists():
         shutil.rmtree(SITE_DIR)
     shutil.copytree(WEB_DIR, SITE_DIR)
+    stamp_asset_version()
 
     feeds = write_feeds(items, reminder_items(windows, events, now), now)
     (SITE_DIR / "calendar.ics").write_text(build_calendar(events, windows_all, now), encoding="utf-8", newline="")
