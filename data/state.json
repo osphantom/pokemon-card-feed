@@ -119,7 +119,9 @@
   "fc0ec2dad55159",
   "fedca7e46f4feb"
  ],
- "posted_keys": [],
+ "posted_keys": [
+  "morning:2026-11-08"
+ ],
  "event_fingerprints": {
   "mcdonalds-2026": "4a2c9af31a76",
   "greninja-league-deck": "3c2ba998b46b",
