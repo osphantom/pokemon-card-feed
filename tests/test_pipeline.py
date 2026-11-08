@@ -205,6 +205,11 @@ class MarketTests(unittest.TestCase):
         ]
         self.assertEqual(market.ask_from_listings("Delta Reign Elite Trainer Box", 80.0, listings), (75.0, 3))
 
+    def test_sold_search_link_drops_brackets(self):
+        url = market.ebay_sold_url("Delta Reign 3 Pack Blister [Seel]")
+        self.assertIn("LH_Sold=1", url)
+        self.assertNotIn("%5B", url)
+
     def test_no_believable_listings(self):
         self.assertEqual(market.ask_from_listings("Delta Reign Elite Trainer Box", 80.0, []), (None, 0))
 

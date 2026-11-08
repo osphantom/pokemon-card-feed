@@ -57,9 +57,12 @@ def release_date(product: dict):
     return released[:10] if released else None
 
 
+def search_phrase(name: str) -> str:
+    return re.sub(r"[\[\]()]", " ", name) + " sealed"
+
+
 def ebay_sold_url(name: str) -> str:
-    query = quote_plus(f"{re.sub(r'[\[\]()]', ' ', name)} sealed")
-    return f"https://www.ebay.com/sch/i.html?_nkw={query}&LH_Sold=1&LH_Complete=1"
+    return f"https://www.ebay.com/sch/i.html?_nkw={quote_plus(search_phrase(name))}&LH_Sold=1&LH_Complete=1"
 
 
 def set_label(group_name: str) -> str:
@@ -206,7 +209,7 @@ def add_ebay_asks(rows: list[dict], session) -> bool:
             return False
         lookups = [row for row in rows if row["current"]][:EBAY_LOOKUPS_PER_REFRESH]
         for row in lookups:
-            listings = client.search(f"{re.sub(r'[\[\]()]', ' ', row['name'])} sealed")
+            listings = client.search(search_phrase(row["name"]))
             row["ebay_ask"], row["ebay_count"] = ask_from_listings(row["name"], row["market"], listings)
             time.sleep(0.25)
     except requests.RequestException as error:
