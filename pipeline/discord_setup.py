@@ -121,7 +121,7 @@ def main() -> int:
         result = build_server(Discord(token), guild_id, load_json(CONFIG_DIR / "discord.json"))
     except DiscordError as error:
         print(f"Setup stopped: {error}")
-        print("A 403 usually means the bot needs to be invited again with the link in the README.")
+        print("A 401 means the saved bot token is wrong or was reset. A 403 usually means the bot needs to be invited again.")
         return 1
     print(f"Discord server is ready: {result['channels']} channels, {result['guides_posted']} guides posted.")
     return 0
