@@ -1,4 +1,4 @@
-"""Send new feed items, drop reminders, and the daily summaries to Discord."""
+"""Keep the Discord server current: live boards, store channels, and drop pings."""
 from __future__ import annotations
 
 import hashlib
@@ -9,16 +9,38 @@ from datetime import date, timedelta
 
 from .calendar_data import load_events, load_windows, upcoming_events, upcoming_windows
 from .common import CONFIG_DIR, DATA_DIR, EASTERN, SITE_URL, format_eastern, load_json, parse_iso, save_json, utcnow
-from .discord_api import Discord, DiscordError
+from .discord_api import NOT_FOUND, Discord, DiscordError, normalized
 
-CHANNEL_FOR_CATEGORY = {
+BUYING_CATEGORIES = {"preorders", "restocks", "deals"}
+GENERAL_CHANNEL = {
     "preorders": "preorders",
-    "restocks": "live-restocks",
     "deals": "deals",
-    "releases": "release-calendar",
-    "market": "market-moves",
-    "news": "news",
+    "releases": "new-products",
+    "market": "market-prices",
+    "news": "pokemon-news",
 }
+STORE_CHANNEL = {
+    "Pokémon Center": "pokemon-center",
+    "Walmart": "walmart",
+    "Target": "target",
+    "Sam's Club": "sams-club",
+    "Costco": "costco",
+}
+OTHER_STORES = "other-stores"
+PING_CHANNEL = "drop-pings"
+# Only sources that post the moment something goes live can ping.
+ALERT_SOURCES = {"reddit-deals", "dropradar-newsletter"}
+PING_FRESH_FOR = timedelta(hours=3)
+MAX_PINGS_PER_RUN = 3
+MORNING_HOUR_EASTERN = 7
+FIRST_RUN_PER_CHANNEL = 3
+MAX_ITEM_POSTS_PER_RUN = 30
+KEEP_ITEM_IDS = 4000
+KEEP_KEYS = 800
+BEST_BUYS = 10
+WORST_BUYS = 5
+SKIP_LIST_MIN_PRICE = 13
+
 COLORS = {
     "preorders": 0x2447D8,
     "restocks": 0xD9480F,
@@ -26,14 +48,9 @@ COLORS = {
     "releases": 0x7048E8,
     "market": 0x8A5A00,
     "news": 0x5D6472,
-    "hot": 0xC92A2A,
+    "ping": 0xC92A2A,
 }
 STATUS_LABELS = {"official": "Official", "reported": "Reported", "estimate": "Estimate", "listed": "Listed"}
-FIRST_RUN_PER_CHANNEL = 3
-MAX_ITEM_POSTS_PER_RUN = 30
-DIGEST_HOUR_EASTERN = 7
-KEEP_ITEM_IDS = 4000
-KEEP_KEYS = 800
 
 
 def clip(text: str, limit: int) -> str:
@@ -48,40 +65,186 @@ def signed_money(value) -> str:
     return f"{'+' if value >= 0 else '−'}${abs(value):,.2f}"
 
 
-def item_embed(item: dict, hot: bool = False) -> dict:
+def discord_time(iso_text: str, style: str) -> str:
+    """Discord shows this in each reader's own time zone, and relative ones count down live."""
+    return f"<t:{int(parse_iso(iso_text).timestamp())}:{style}>"
+
+
+def when(window: dict) -> str:
+    return f"{discord_time(window['start'], 'F')} ({discord_time(window['start'], 'R')})"
+
+
+def with_ping(payload: dict) -> dict:
+    return {**payload, "content": "@everyone", "allowed_mentions": {"parse": ["everyone"]}}
+
+
+def channels_for(item: dict) -> list[str]:
+    """Each item goes to its store's channel and to one general channel."""
+    targets: list[str] = []
+    if item["category"] in BUYING_CATEGORIES:
+        for store in item["stores"]:
+            channel = STORE_CHANNEL.get(store, OTHER_STORES)
+            if channel not in targets:
+                targets.append(channel)
+        if not targets and item["category"] == "restocks":
+            targets.append(OTHER_STORES)
+    general = GENERAL_CHANNEL.get(item["category"])
+    if general:
+        targets.append(general)
+    return targets
+
+
+def item_payload(item: dict, color_key: str | None = None) -> dict:
     source = item.get("publisher") or item["source"]
     meta = source + (f" · {', '.join(item['stores'])}" if item["stores"] else "")
     return {
-        "title": clip(item["title"], 256),
-        "url": item["link"],
-        "color": COLORS["hot"] if hot else COLORS.get(item["category"], COLORS["news"]),
-        "description": clip(meta, 300),
-        "timestamp": item["published"],
+        "embeds": [{
+            "title": clip(item["title"], 256),
+            "url": item["link"],
+            "color": COLORS.get(color_key or item["category"], COLORS["news"]),
+            "description": clip(meta, 300),
+            "timestamp": item["published"],
+        }]
     }
 
 
-def plan_item_posts(items: list[dict], posted: set, first_run: bool):
-    """Return (channel, item, hot) posts, oldest first, and the ids now considered handled."""
+def should_ping(item: dict, now) -> bool:
+    return bool(
+        item["hot"]
+        and item.get("source_id") in ALERT_SOURCES
+        and now - parse_iso(item["published"]) <= PING_FRESH_FOR
+    )
+
+
+def plan_item_posts(items: list[dict], posted: set, first_run: bool, now):
+    """Return (channel, item, ping) posts, oldest first, and the ids now handled."""
     pending = [item for item in items if item["id"] not in posted]
     if first_run:
         counts: dict[str, int] = {}
         chosen = []
         for item in pending:
-            channel = CHANNEL_FOR_CATEGORY[item["category"]]
-            if counts.get(channel, 0) < FIRST_RUN_PER_CHANNEL:
-                counts[channel] = counts.get(channel, 0) + 1
-                chosen.append(item)
-        handled = {item["id"] for item in pending}
-    else:
-        chosen = pending[:MAX_ITEM_POSTS_PER_RUN]
-        handled = {item["id"] for item in chosen}
+            for channel in channels_for(item):
+                if counts.get(channel, 0) < FIRST_RUN_PER_CHANNEL:
+                    counts[channel] = counts.get(channel, 0) + 1
+                    chosen.append((channel, item, False))
+        return list(reversed(chosen)), {item["id"] for item in pending}
 
-    posts = []
-    for item in reversed(chosen):
-        posts.append((CHANNEL_FOR_CATEGORY[item["category"]], item, False))
-        if item["hot"]:
-            posts.append(("hot-alerts", item, True))
-    return posts, handled
+    batch = pending[:MAX_ITEM_POSTS_PER_RUN]
+    posts, pings = [], 0
+    for item in reversed(batch):
+        posts.extend((channel, item, False) for channel in channels_for(item))
+        if should_ping(item, now) and pings < MAX_PINGS_PER_RUN:
+            posts.append((PING_CHANNEL, item, True))
+            pings += 1
+    return posts, {item["id"] for item in batch}
+
+
+def one_per_window(windows: list[dict]) -> list[dict]:
+    seen, unique = set(), []
+    for window in windows:
+        if window["id"] not in seen:
+            seen.add(window["id"])
+            unique.append(window)
+    return unique
+
+
+def describe_event(event: dict) -> str:
+    start = date.fromisoformat(event["date"])
+    prefix = "Around " if event.get("approx") else ""
+    label = f"{start:%b} {start.day}"
+    if event.get("end"):
+        end = date.fromisoformat(event["end"])
+        label += f" to {end:%b} {end.day}"
+    price = f" ({money(event['msrp'])})" if event.get("msrp") else ""
+    return f"**{prefix}{label}** · {event['title']}{price} · {STATUS_LABELS[event['status']]}"
+
+
+def next_drops_board(windows: list[dict], events: list[dict]) -> dict:
+    upcoming = one_per_window(windows)
+    if not upcoming:
+        return {"embeds": [{"title": "📅 When are the next drops?", "description": "Nothing scheduled right now.", "color": COLORS["preorders"]}]}
+    first = upcoming[0]
+    fields = []
+    rest = [f"**{w['store']}: {w['title']}** · {w['repeat']}\n{when(w)}" for w in upcoming[1:]]
+    if rest:
+        fields.append({"name": "The rest of the week", "value": clip("\n\n".join(rest), 1024)})
+    dated = [describe_event(event) for event in events[:5]]
+    if dated:
+        fields.append({"name": "Release dates coming up", "value": clip("\n".join(dated), 1024)})
+    return {
+        "embeds": [{
+            "title": "📅 When are the next drops?",
+            "url": SITE_URL,
+            "color": COLORS["preorders"],
+            "description": clip(
+                f"## Next up: {first['store']}\n**{first['title']}** · {first['repeat']}\n{when(first)}\n\n"
+                f"**What to do:** {first['action']}",
+                1500,
+            ),
+            "fields": fields,
+            "footer": {"text": "This list updates itself. Times show in your own time zone. These are usual times, not promises."},
+        }]
+    }
+
+
+def calendar_board(events: list[dict], undated: list[dict]) -> dict:
+    lines = [describe_event(event) for event in events] or ["Nothing dated right now."]
+    if undated:
+        lines.append("\n**Date not set yet**")
+        lines.extend(f"{item['title']} · {STATUS_LABELS[item['status']]}" for item in undated)
+    return {
+        "embeds": [{
+            "title": "📆 Every upcoming date",
+            "url": SITE_URL + "#calendar",
+            "color": COLORS["releases"],
+            "description": clip("\n".join(lines), 4000),
+            "footer": {"text": "This list updates itself. Official = confirmed. Reported = not guaranteed. Estimate = calculated."},
+        }]
+    }
+
+
+def what_to_buy_board(products: list[dict]) -> dict:
+    current = sorted((p for p in products if p["current"]), key=lambda p: p["profit"], reverse=True)
+    best = [p for p in current if p["profit"] > 0][:BEST_BUYS]
+    worst = [p for p in reversed(current) if p["profit"] < 0 and p["msrp"] >= SKIP_LIST_MIN_PRICE][:WORST_BUYS]
+    good_lines = [f"**{signed_money(p['profit'])}** · {clip(p['name'], 70)}\nBuy {money(p['msrp'])}, sells about {money(p['market'])}" for p in best]
+    bad_lines = [f"**{signed_money(p['profit'])}** · {clip(p['name'], 70)}" for p in worst]
+    fields = [{"name": "✅ Best buys at the normal store price", "value": clip("\n".join(good_lines) or "Nothing clears a profit right now.", 1024)}]
+    if len(good_lines) > 5:
+        fields = [
+            {"name": "✅ Best buys at the normal store price", "value": clip("\n".join(good_lines[:5]), 1024)},
+            {"name": "✅ More good buys", "value": clip("\n".join(good_lines[5:]), 1024)},
+        ]
+    if bad_lines:
+        fields.append({"name": "❌ Skip these at the normal store price", "value": clip("\n".join(bad_lines), 1024)})
+    return {
+        "embeds": [{
+            "title": "💰 What makes money right now",
+            "url": SITE_URL + "#flip",
+            "color": COLORS["deals"],
+            "description": "What you'd keep after eBay fees, shipping, and sales tax if you bought at the normal store price. Prices above that normal price cut into this.",
+            "fields": fields,
+            "footer": {"text": "Estimates that update twice a day. Check eBay sold listings before you buy."},
+        }]
+    }
+
+
+def morning_windows(windows: list[dict], now) -> list[dict]:
+    horizon = now + timedelta(hours=24)
+    return [w for w in windows if w["remind"] and now <= parse_iso(w["start"]) < horizon]
+
+
+def morning_payload(windows: list[dict]) -> dict:
+    lines = [f"**{w['store']}: {w['title']}**\n{when(w)}\n{w['action']}" for w in windows]
+    return with_ping({
+        "embeds": [{
+            "title": "🔔 Drops in the next 24 hours",
+            "url": SITE_URL,
+            "color": COLORS["ping"],
+            "description": clip("\n\n".join(lines), 3500),
+            "footer": {"text": "These are usual times, not promises."},
+        }]
+    })
 
 
 def due_reminders(windows: list[dict], now, keys: set) -> list[dict]:
@@ -95,130 +258,103 @@ def due_reminders(windows: list[dict], now, keys: set) -> list[dict]:
     return due
 
 
-def reminder_embed(window: dict) -> dict:
-    start, end = parse_iso(window["start"]), parse_iso(window["end"])
-    return {
-        "title": f"{window['store']}: {window['title']}",
-        "url": window["link"],
-        "color": COLORS["restocks"],
-        "description": clip(
-            f"**{format_eastern(start)} to {format_eastern(end, with_day=False)}**\n\n{window['action']}\n\n"
-            f"{STATUS_LABELS[window['status']]}: {window['note']}",
-            1500,
-        ),
-    }
+def reminder_payload(window: dict) -> dict:
+    return with_ping({
+        "embeds": [{
+            "title": f"🔔 {window['store']}: {window['title']}",
+            "url": window["link"],
+            "color": COLORS["ping"],
+            "description": clip(
+                f"**Starts {discord_time(window['start'], 'R')}** ({format_eastern(parse_iso(window['start']))})\n\n"
+                f"**What to do:** {window['action']}",
+                1500,
+            ),
+        }]
+    })
 
 
-def describe_event(event: dict) -> str:
-    start = date.fromisoformat(event["date"])
-    prefix = "Around " if event.get("approx") else ""
-    return f"**{prefix}{start:%b} {start.day}** · {event['title']} ({STATUS_LABELS[event['status']]})"
-
-
-def digest_embed(now, windows: list[dict], events: list[dict], products: list[dict]) -> dict:
-    today = now.astimezone(EASTERN).date()
-    todays = [w for w in windows if parse_iso(w["start"]).astimezone(EASTERN).date() == today]
-    window_lines = [
-        f"**{format_eastern(parse_iso(w['start']), with_day=False)}** · {w['store']}: {w['title']}" for w in todays
-    ] or ["No regular windows today."]
-    soon = [e for e in events if date.fromisoformat(e["date"]) <= today + timedelta(days=7)]
-    event_lines = [describe_event(e) for e in soon] or ["Nothing dated in the next 7 days."]
-    picks = [p for p in products if p["current"] and p["profit"] > 0][:5]
-    pick_lines = [f"{signed_money(p['profit'])} · {p['name']}" for p in picks] or ["Nothing at retail clears a profit right now."]
-    return {
-        "title": f"Today: {today:%A, %B} {today.day}",
-        "url": SITE_URL,
-        "color": COLORS["preorders"],
-        "fields": [
-            {"name": "Windows today", "value": clip("\n".join(window_lines), 1000)},
-            {"name": "Next 7 days", "value": clip("\n".join(event_lines), 1000)},
-            {"name": "Best at retail price", "value": clip("\n".join(pick_lines), 1000)},
-        ],
-        "footer": {"text": "Times are Eastern. Reported windows aren't guaranteed."},
-    }
-
-
-def flip_embed(products: list[dict]) -> dict:
-    rows = [p for p in products if p["current"]][:15]
-    lines = [f"`{signed_money(p['profit']):>9}` {clip(p['name'], 62)} ({money(p['msrp'])} → {money(p['market'])})" for p in rows]
-    return {
-        "title": "Flip list: estimated profit at retail price",
-        "url": SITE_URL + "#flip",
-        "color": COLORS["deals"],
-        "description": clip("\n".join(lines) or "No price data yet.", 3900),
-        "footer": {"text": "After eBay fees, shipping, and sales tax. Default assumptions."},
-    }
+def fingerprint(value) -> str:
+    return hashlib.sha1(json.dumps(value, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:12]
 
 
 def event_fingerprint(event: dict) -> str:
-    fields = {key: event.get(key) for key in ("title", "date", "end", "status", "msrp")}
-    return hashlib.sha1(json.dumps(fields, sort_keys=True).encode()).hexdigest()[:12]
+    return fingerprint({key: event.get(key) for key in ("title", "date", "end", "status", "msrp")})
 
 
-def event_embed(event: dict, changed: bool) -> dict:
+def event_change_payload(event: dict, changed: bool) -> dict:
     sources = " · ".join(f"[{s['label']}]({s['url']})" for s in event.get("sources", []))
     return {
-        "title": clip(f"{'Date update' if changed else 'New date'}: {event['title']}", 256),
-        "url": SITE_URL + "#calendar",
-        "color": COLORS["releases"],
-        "description": clip(f"{describe_event(event)}\n\n{event.get('note', '')}\n\n{sources}", 2000),
+        "embeds": [{
+            "title": clip(f"{'Date update' if changed else 'New date'}: {event['title']}", 256),
+            "url": SITE_URL + "#calendar",
+            "color": COLORS["releases"],
+            "description": clip(f"{describe_event(event)}\n\n{event.get('note', '')}\n\n{sources}", 2000),
+        }]
     }
 
 
-def load_webhooks(api: Discord, guild_id: str, webhook_name: str) -> dict:
-    names = {channel["id"]: channel["name"] for channel in api.channels(guild_id)}
-    return {
-        names[hook["channel_id"]]: hook
-        for hook in api.guild_webhooks(guild_id)
-        if hook.get("name") == webhook_name and hook.get("token") and hook["channel_id"] in names
-    }
+def update_board(client, state: dict, channel: str, payload: dict) -> None:
+    """Keep one message per board and edit it only when its content changes."""
+    boards = state.setdefault("boards", {})
+    digest = fingerprint(payload)
+    entry = boards.get(channel) or {}
+    if entry.get("hash") == digest:
+        return
+    boards[channel] = {"id": client.upsert(channel, payload, entry.get("id")), "hash": digest}
 
 
-def run(now, send, items, windows, events, products, state) -> None:
-    """Decide what to post and record it. Called with a send(channel, payload) function."""
+def run(now, client, items, windows, events, undated, products, state) -> None:
+    """Decide what to post and record it."""
     first_run = not state.get("initialized")
     posted = set(state.get("posted_items", []))
     keys = set(state.get("posted_keys", []))
     fingerprints = dict(state.get("event_fingerprints", {}))
     known_products = set(state.get("known_products", []))
 
-    posts, handled = plan_item_posts(items, posted, first_run)
+    posts, handled = plan_item_posts(items, posted, first_run, now)
     try:
-        for channel, item, hot in posts:
-            send(channel, {"embeds": [item_embed(item, hot)]})
+        update_board(client, state, "next-drops", next_drops_board(windows, events))
+        update_board(client, state, "release-calendar", calendar_board(events, undated))
+        if products:
+            update_board(client, state, "what-to-buy", what_to_buy_board(products))
+
+        for channel, item, ping in posts:
+            payload = item_payload(item, "ping" if ping else None)
+            client.send(channel, with_ping(payload) if ping else payload)
         posted |= handled
 
+        local = now.astimezone(EASTERN)
+        morning_key = f"morning:{local.date().isoformat()}"
+        if not first_run and local.hour >= MORNING_HOUR_EASTERN and morning_key not in keys:
+            coming = morning_windows(windows, now)
+            if coming:
+                client.send(PING_CHANNEL, morning_payload(coming))
+            keys.add(morning_key)
+
         for window in due_reminders(windows, now, keys):
-            send("drop-reminders", {"embeds": [reminder_embed(window)]})
+            if not first_run:
+                client.send(PING_CHANNEL, reminder_payload(window))
             keys.add(f"window:{window['key']}")
 
-        local = now.astimezone(EASTERN)
-        day = local.date().isoformat()
-        if local.hour >= DIGEST_HOUR_EASTERN and f"digest:{day}" not in keys:
-            send("today", {"embeds": [digest_embed(now, windows, events, products)]})
-            keys.add(f"digest:{day}")
-            if products:
-                send("flip-list", {"embeds": [flip_embed(products)]})
-
         for event in events:
-            fingerprint = event_fingerprint(event)
+            current = event_fingerprint(event)
             previous = fingerprints.get(event["id"])
-            if previous != fingerprint:
-                send("release-calendar", {"embeds": [event_embed(event, changed=previous is not None)]})
-                fingerprints[event["id"]] = fingerprint
+            if previous != current:
+                if not first_run:
+                    client.send("release-calendar", event_change_payload(event, changed=previous is not None))
+                fingerprints[event["id"]] = current
 
-        fresh_products = [p for p in products if p["id"] not in known_products]
         if not first_run:
-            for product in fresh_products[:10]:
-                send(
-                    "release-calendar",
-                    {"embeds": [{
+            fresh = [p for p in products if p["id"] not in known_products][:10]
+            for product in fresh:
+                client.send("new-products", {
+                    "embeds": [{
                         "title": clip(f"New sealed listing: {product['name']}", 256),
                         "url": product["url"] or SITE_URL,
                         "color": COLORS["releases"],
-                        "description": f"Retail {money(product['msrp'])} · Market {money(product['market'])}",
-                    }]},
-                )
+                        "description": f"Store price {money(product['msrp'])} · Selling for about {money(product['market'])}",
+                    }]
+                })
         known_products |= {p["id"] for p in products}
         state["initialized"] = True
     finally:
@@ -226,6 +362,46 @@ def run(now, send, items, windows, events, products, state) -> None:
         state["posted_keys"] = sorted(keys)[-KEEP_KEYS:]
         state["event_fingerprints"] = fingerprints
         state["known_products"] = sorted(known_products)
+
+
+class WebhookClient:
+    """Posts by channel key. A channel without a webhook is skipped."""
+
+    def __init__(self, api: Discord, webhooks: dict):
+        self.api = api
+        self.webhooks = webhooks
+
+    def send(self, channel: str, payload: dict) -> None:
+        if channel in self.webhooks:
+            self.api.post(self.webhooks[channel], payload)
+
+    def upsert(self, channel: str, payload: dict, message_id):
+        webhook = self.webhooks.get(channel)
+        if webhook is None:
+            return message_id
+        if message_id:
+            try:
+                self.api.edit(webhook, message_id, payload)
+                return message_id
+            except DiscordError as error:
+                if error.status != NOT_FOUND:
+                    raise
+        return self.api.post(webhook, payload).get("id")
+
+
+def load_webhooks(api: Discord, guild_id: str, config: dict) -> dict:
+    key_by_name = {
+        normalized(channel["name"]): channel["key"]
+        for category in config["categories"]
+        for channel in category["channels"]
+    }
+    names = {channel["id"]: channel["name"] for channel in api.channels(guild_id)}
+    webhooks = {}
+    for hook in api.guild_webhooks(guild_id):
+        key = key_by_name.get(normalized(names.get(hook["channel_id"], "")))
+        if key and hook.get("name") == config["webhook_name"] and hook.get("token"):
+            webhooks[key] = hook
+    return webhooks
 
 
 def main() -> int:
@@ -237,7 +413,6 @@ def main() -> int:
 
     now = utcnow()
     api = Discord(token)
-    config = load_json(CONFIG_DIR / "discord.json")
     state_path = DATA_DIR / "state.json"
     state = load_json(state_path, {})
     items = load_json(DATA_DIR / "items.json", {"items": []})["items"]
@@ -247,16 +422,11 @@ def main() -> int:
     events = upcoming_events(calendar["events"], market.get("presale", []), now)
 
     try:
-        webhooks = load_webhooks(api, guild_id, config["webhook_name"])
+        webhooks = load_webhooks(api, guild_id, load_json(CONFIG_DIR / "discord.json"))
         if not webhooks:
             print("No webhooks found. Run the Set up Discord workflow first.")
             return 0
-
-        def send(channel: str, payload: dict) -> None:
-            if channel in webhooks:
-                api.post(webhooks[channel], payload)
-
-        run(now, send, items, windows, events, market.get("products", []), state)
+        run(now, WebhookClient(api, webhooks), items, windows, events, calendar["undated"], market.get("products", []), state)
     except DiscordError as error:
         print(f"Discord posting stopped: {error}")
         return 1

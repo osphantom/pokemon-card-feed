@@ -21,7 +21,7 @@ These steps need your own login, so they're yours to do. It takes about five min
 4. Open the **Bot** tab, press **Reset Token**, and copy the token. Treat it like a password.
 5. Open this link with your Application ID filled in, pick your server, and authorize:
 
-   `https://discord.com/oauth2/authorize?client_id=YOUR_APPLICATION_ID&scope=bot&permissions=536955920`
+   `https://discord.com/oauth2/authorize?client_id=YOUR_APPLICATION_ID&scope=bot&permissions=537086992`
 
 6. Save the two values as encrypted secrets. Each command asks you to paste the value:
 
@@ -39,7 +39,9 @@ These steps need your own login, so they're yours to do. It takes about five min
    gh workflow run setup-discord.yml --repo osphantom/pokemon-card-feed
    ```
 
-The next scheduled refresh starts posting. Follow the notification steps in `#start-here`.
+The bot builds about 20 read-only channels: a welcome guide, a live list of the next drops, one channel that pings you, a channel for each store, and news. The next refresh starts posting.
+
+`@everyone` is only used in `#drop-pings`, and only for drop reminders and fresh alerts from real-time sources.
 
 ## Add eBay asking prices (optional)
 

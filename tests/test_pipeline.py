@@ -2,7 +2,7 @@ import json
 import unittest
 from datetime import date, datetime, timedelta, timezone
 
-from pipeline import calendar_data, classify, common, discord_api, discord_post, feeds, ics, market, profit, render, rss
+from pipeline import calendar_data, classify, common, feeds, ics, market, profit, render, rss
 
 RULES = classify.load_rules()
 NEWS = {"id": "n", "name": "News", "default": "news"}
@@ -271,120 +271,7 @@ class FileFormatTests(unittest.TestCase):
         self.assertNotIn("</script>", render.safe_json({"title": "</script><script>alert(1)</script>"}))
 
 
-class DiscordTests(unittest.TestCase):
-    def item(self, identifier, category="restocks", hot=False, published="2026-11-08T10:00:00Z"):
-        return {"id": identifier, "title": f"Item {identifier}", "link": "https://x", "source": "S", "publisher": "", "published": published, "category": category, "stores": [], "hot": hot}
-
-    def test_first_run_posts_a_few_and_marks_the_rest_handled(self):
-        items = [self.item(str(n)) for n in range(10)]
-        posts, handled = discord_post.plan_item_posts(items, set(), first_run=True)
-        self.assertEqual(len(posts), 3)
-        self.assertEqual(len(handled), 10)
-
-    def test_later_run_posts_oldest_first_and_doubles_hot_items(self):
-        items = [self.item("new", hot=True), self.item("old")]
-        posts, _ = discord_post.plan_item_posts(items, set(), first_run=False)
-        self.assertEqual([(p[0], p[1]["id"]) for p in posts], [("live-restocks", "old"), ("live-restocks", "new"), ("hot-alerts", "new")])
-
-    def test_already_posted_items_are_skipped(self):
-        posts, handled = discord_post.plan_item_posts([self.item("a")], {"a"}, first_run=False)
-        self.assertEqual((posts, handled), ([], set()))
-
-    def window(self, start="2026-11-11T22:00:00Z"):
-        return {"key": "w:2026-11-11", "id": "w", "store": "Walmart", "title": "Drawing", "status": "reported", "note": "n", "action": "a", "link": "https://x", "remind": True, "remind_minutes": 45, "start": start, "end": "2026-11-11T23:00:00Z"}
-
-    def test_reminder_fires_only_inside_lead_time(self):
-        window = self.window()
-        self.assertEqual(discord_post.due_reminders([window], datetime(2026, 11, 11, 21, 0, tzinfo=timezone.utc), set()), [])
-        self.assertEqual(len(discord_post.due_reminders([window], datetime(2026, 11, 11, 21, 30, tzinfo=timezone.utc), set())), 1)
-        self.assertEqual(discord_post.due_reminders([window], datetime(2026, 11, 11, 21, 30, tzinfo=timezone.utc), {"window:w:2026-11-11"}), [])
-
-    def test_run_records_progress_when_a_post_fails(self):
-        items = [self.item("a"), self.item("b")]
-        state = {"initialized": True, "posted_items": [], "posted_keys": []}
-
-        def fail(channel, payload):
-            raise discord_api.DiscordError("no")
-
-        with self.assertRaises(discord_api.DiscordError):
-            discord_post.run(NOW, fail, items, [], [], [], state)
-        self.assertEqual(state["posted_items"], [])
-
-    def test_digest_posts_once_per_day(self):
-        sent = []
-        state = {"initialized": True}
-        moment = datetime(2026, 11, 8, 13, 0, tzinfo=timezone.utc)
-        for _ in range(2):
-            discord_post.run(moment, lambda channel, payload: sent.append(channel), [], [], [], [], state)
-        self.assertEqual(sent, ["today"])
-
-    def test_digest_waits_for_morning(self):
-        sent = []
-        moment = datetime(2026, 11, 8, 9, 0, tzinfo=timezone.utc)
-        discord_post.run(moment, lambda channel, payload: sent.append(channel), [], [], [], [], {"initialized": True})
-        self.assertEqual(sent, [])
-
-    def test_changed_event_is_announced_once(self):
-        event = {"id": "e", "title": "T", "date": "2026-12-04", "status": "reported", "sources": []}
-        sent = []
-        state = {"initialized": True}
-        moment = datetime(2026, 11, 8, 9, 0, tzinfo=timezone.utc)
-        send = lambda channel, payload: sent.append(payload["embeds"][0]["title"])
-        discord_post.run(moment, send, [], [], [event], [], state)
-        discord_post.run(moment, send, [], [], [event], [], state)
-        discord_post.run(moment, send, [], [], [{**event, "date": "2026-12-11"}], [], state)
-        self.assertEqual(sent, ["New date: T", "Date update: T"])
-
-    def test_webhook_failures_never_expose_the_url(self):
-        import requests
-
-        class Session:
-            def request(self, *args, **kwargs):
-                raise requests.ConnectionError("https://discord.com/api/v10/webhooks/1/SECRET failed")
-
-        api = discord_api.Discord("token", Session())
-        with self.assertRaises(discord_api.DiscordError) as caught:
-            api.post({"id": "1", "token": "SECRET"}, {"content": "x"})
-        self.assertNotIn("SECRET", str(caught.exception))
-
-    def test_posts_cannot_ping_anyone(self):
-        captured = {}
-
-        class Response:
-            status_code = 200
-            content = b"{}"
-
-            def json(self):
-                return {}
-
-        class Session:
-            def request(self, method, url, timeout, **kwargs):
-                captured.update(kwargs["json"])
-                return Response()
-
-        discord_api.time.sleep = lambda seconds: None
-        discord_api.Discord("t", Session()).post({"id": "1", "token": "x"}, {"content": "@everyone"})
-        self.assertEqual(captured["allowed_mentions"], {"parse": []})
-
-    def test_long_guides_are_split_under_the_limit(self):
-        text = "\n\n".join("word " * 120 for _ in range(10))
-        chunks = discord_api.split_message(text)
-        self.assertGreater(len(chunks), 1)
-        self.assertTrue(all(len(chunk) <= 1900 for chunk in chunks))
-
-
 class ConfigTests(unittest.TestCase):
-    def test_every_discord_guide_exists_and_channels_are_unique(self):
-        config = common.load_json(common.CONFIG_DIR / "discord.json")
-        names = []
-        for category in config["categories"]:
-            for channel in category["channels"]:
-                names.append(channel["name"])
-                if channel.get("static"):
-                    self.assertTrue((common.CONFIG_DIR / "discord" / channel["static"]).exists(), channel["static"])
-        self.assertEqual(len(names), len(set(names)))
-        self.assertLessEqual(set(discord_post.CHANNEL_FOR_CATEGORY.values()) | {"hot-alerts", "today", "flip-list", "drop-reminders"}, set(names))
-
     def test_events_are_valid(self):
         data = common.load_json(common.DATA_DIR / "events.json")
         for event in data["events"]:

@@ -1,51 +1,54 @@
 {
-  "webhook_name": "Card Feed",
+  "webhook_name": "Sealed Feed",
   "categories": [
     {
-      "name": "START",
+      "name": "👋 START HERE",
       "channels": [
-        {"name": "start-here", "topic": "How this server works.", "static": "start-here.md"},
-        {"name": "free-alert-sources", "topic": "Free real-time alert servers, and how to pipe them in here.", "static": "free-alert-sources.md"}
+        {"key": "welcome", "name": "👋-welcome", "topic": "What this server does and where to look.", "static": "welcome.md"},
+        {"key": "beginner-guide", "name": "🧭-beginner-guide", "topic": "Your first drop, step by step, and what the words mean.", "static": "beginner-guide.md"}
       ]
     },
     {
-      "name": "LIVE",
+      "name": "⏰ DROPS",
       "channels": [
-        {"name": "hot-alerts", "topic": "Preorders, queues, and drawings worth acting on. Turn on all notifications here.", "post": true},
-        {"name": "drop-reminders", "topic": "Reminders before the weekly drop windows.", "post": true},
-        {"name": "live-restocks", "topic": "Restock and drop posts. Also a good place to Follow free alert servers.", "post": true}
+        {"key": "next-drops", "name": "📅-next-drops", "topic": "When the next drops are. This list updates itself.", "post": true},
+        {"key": "drop-pings", "name": "🔔-drop-pings", "topic": "Keep notifications on here. This channel pings you when it's time to act.", "post": true},
+        {"key": "release-calendar", "name": "📆-release-calendar", "topic": "Every upcoming release and preorder date, plus date changes.", "post": true}
       ]
     },
     {
-      "name": "BUY",
+      "name": "🏬 STORES",
       "channels": [
-        {"name": "preorders", "topic": "Preorder openings and early access.", "post": true},
-        {"name": "deals", "topic": "Sealed card deals. Check the price against MSRP.", "post": true},
-        {"name": "store-cheatsheet", "topic": "Store-by-store timing and rules.", "static": "store-cheatsheet.md"}
+        {"key": "pokemon-center", "name": "🔴-pokemon-center", "topic": "Pokémon Center queues, preorders, and news. Rules at the top.", "post": true, "static": "pokemon-center.md"},
+        {"key": "walmart", "name": "🔵-walmart", "topic": "Walmart drawings, queues, and news. Rules at the top.", "post": true, "static": "walmart.md"},
+        {"key": "target", "name": "🎯-target", "topic": "Target drawings, drops, and news. Rules at the top.", "post": true, "static": "target.md"},
+        {"key": "sams-club", "name": "🛒-sams-club", "topic": "Sam's Club drops and news. Rules at the top.", "post": true, "static": "sams-club.md"},
+        {"key": "costco", "name": "📦-costco", "topic": "Costco sightings and news. Rules at the top.", "post": true, "static": "costco.md"},
+        {"key": "other-stores", "name": "🏪-other-stores", "topic": "Best Buy, Amazon, Dick's, and restocks at any other store.", "post": true, "static": "other-stores.md"}
       ]
     },
     {
-      "name": "SELL",
+      "name": "💰 BUY AND SELL",
       "channels": [
-        {"name": "flip-list", "topic": "Daily list: estimated profit after eBay fees at retail price.", "post": true},
-        {"name": "market-moves", "topic": "Prices, reprints, and market news.", "post": true},
-        {"name": "ebay-cheatsheet", "topic": "Fees, presale rules, and shipping.", "static": "ebay-cheatsheet.md"}
+        {"key": "what-to-buy", "name": "💰-what-to-buy", "topic": "What makes money right now, after eBay fees. This list updates itself.", "post": true},
+        {"key": "preorders", "name": "📝-preorders", "topic": "Preorders from every store.", "post": true},
+        {"key": "deals", "name": "💸-deals", "topic": "Sealed card deals. Compare the price with the store price first.", "post": true},
+        {"key": "ebay-tips", "name": "🚚-ebay-tips", "topic": "Fees, shipping, and rules for selling on eBay.", "static": "ebay-tips.md"}
       ]
     },
     {
-      "name": "PLAN",
+      "name": "📰 POKÉMON NEWS",
       "channels": [
-        {"name": "today", "topic": "Morning summary at about 7 AM ET.", "post": true},
-        {"name": "release-calendar", "topic": "New sets, products, and date changes.", "post": true},
-        {"name": "news", "topic": "General Pokémon TCG news.", "post": true}
+        {"key": "new-products", "name": "✨-new-products", "topic": "New sets and sealed products.", "post": true},
+        {"key": "market-prices", "name": "📊-market-prices", "topic": "Card prices, reprints, and market news.", "post": true},
+        {"key": "pokemon-news", "name": "📰-pokemon-news", "topic": "Everything else about Pokémon cards.", "post": true}
       ]
     },
     {
-      "name": "BUSINESS",
+      "name": "🏁 NEXT STEPS",
       "channels": [
-        {"name": "shop-roadmap", "topic": "The path from eBay seller to shop owner.", "static": "shop-roadmap.md"},
-        {"name": "purchases-log", "topic": "Your notes: what you bought, where, and for how much."},
-        {"name": "sales-log", "topic": "Your notes: what sold, and what you kept after fees."}
+        {"key": "free-alerts", "name": "📡-free-alerts", "topic": "Free alert servers that are faster than this one.", "static": "free-alerts.md"},
+        {"key": "open-a-shop", "name": "🏁-open-a-shop", "topic": "The path from eBay seller to shop owner.", "static": "open-a-shop.md"}
       ]
     }
   ]

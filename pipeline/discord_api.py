@@ -1,17 +1,28 @@
 """A small Discord REST client. Error messages never include tokens or webhook URLs."""
 from __future__ import annotations
 
+import re
 import time
 
 import requests
 
+from .common import fold
+
 API = "https://discord.com/api/v10"
 USER_AGENT = "DiscordBot (https://github.com/osphantom/pokemon-card-feed, 1.0)"
 MAX_ATTEMPTS = 4
+NOT_FOUND = 404
 
 
 class DiscordError(Exception):
-    pass
+    def __init__(self, message: str, status: int | None = None):
+        super().__init__(message)
+        self.status = status
+
+
+def normalized(name: str) -> str:
+    """Compare names by letters and numbers only, ignoring emoji and punctuation."""
+    return re.sub(r"[^a-z0-9]+", "", fold(name))
 
 
 class Discord:
@@ -36,7 +47,7 @@ class Discord:
                 time.sleep(2)
                 continue
             if response.status_code >= 400:
-                raise DiscordError(f"{label} returned {response.status_code}")
+                raise DiscordError(f"{label} returned {response.status_code}", response.status_code)
             return response.json() if response.content else None
         raise DiscordError(f"{label} kept failing after {MAX_ATTEMPTS} attempts")
 
@@ -52,6 +63,9 @@ class Discord:
     def update_channel(self, channel_id: str, body: dict) -> dict:
         return self.api("PATCH", f"/channels/{channel_id}", "Updating a channel", json=body)
 
+    def set_positions(self, guild_id: str, positions: list[dict]) -> None:
+        self.api("PATCH", f"/guilds/{guild_id}/channels", "Ordering categories", json=positions)
+
     def channel_webhooks(self, channel_id: str) -> list[dict]:
         return self.api("GET", f"/channels/{channel_id}/webhooks", "Reading channel webhooks")
 
@@ -64,11 +78,18 @@ class Discord:
     def has_messages(self, channel_id: str) -> bool:
         return bool(self.api("GET", f"/channels/{channel_id}/messages?limit=1", "Reading a channel"))
 
-    def post(self, webhook: dict, payload: dict) -> None:
-        """Post through a webhook. Nothing in a post can ping anyone."""
+    def post(self, webhook: dict, payload: dict) -> dict:
+        """Post through a webhook. Nothing pings anyone unless the payload says so."""
         url = f"{API}/webhooks/{webhook['id']}/{webhook['token']}?wait=true"
-        body = {"username": webhook.get("name", "Card Feed"), "allowed_mentions": {"parse": []}, **payload}
-        self._send("POST", url, "Posting a message", json=body, headers={"User-Agent": USER_AGENT})
+        body = {"username": webhook.get("name", "Sealed Feed"), "allowed_mentions": {"parse": []}, **payload}
+        message = self._send("POST", url, "Posting a message", json=body, headers={"User-Agent": USER_AGENT})
+        time.sleep(0.6)
+        return message or {}
+
+    def edit(self, webhook: dict, message_id: str, payload: dict) -> None:
+        url = f"{API}/webhooks/{webhook['id']}/{webhook['token']}/messages/{message_id}"
+        body = {"allowed_mentions": {"parse": []}, **payload}
+        self._send("PATCH", url, "Editing a message", json=body, headers={"User-Agent": USER_AGENT})
         time.sleep(0.6)
 
 
