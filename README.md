@@ -7,7 +7,7 @@ An auto-updating feed for reselling sealed English Pokémon cards: drop windows,
 - **RSS:** https://osphantom.github.io/pokemon-card-feed/feed.xml
 - **Calendar:** https://osphantom.github.io/pokemon-card-feed/calendar.ics
 
-GitHub Actions rebuilds it about every 15 minutes. Scheduled runs can start late when GitHub is busy.
+GitHub Actions rebuilds it on a 15-minute schedule, but GitHub can start those runs hours late. To keep it on time, a Windows Task Scheduler task named **Pokemon Feed Refresh** on the owner's PC runs `tools/trigger_refresh.py` every 15 minutes while the PC is on and signed in. GitHub's schedule remains the backup.
 
 It reads public feeds and public price data, identifies itself honestly, and skips any source that refuses it. It doesn't watch store pages, join queues, or check anything out.
 
