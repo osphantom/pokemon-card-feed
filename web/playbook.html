@@ -521,5 +521,10 @@
   <footer class="wrap footer">
     <p>A fan-made tool for personal use. Not affiliated with Pokémon, Nintendo, or any retailer. General information only, not financial, tax, or legal advice.</p>
   </footer>
+  <script>
+    if (window.matchMedia("(max-width: 900px)").matches) {
+      document.querySelector(".toc details").open = false;
+    }
+  </script>
 </body>
 </html>

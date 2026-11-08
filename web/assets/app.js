@@ -85,8 +85,10 @@
   function ticket(window, isHero) {
     const start = new Date(window.start);
     const end = new Date(window.end);
+    const schedule = window.repeat + ", " + clockFormat.format(start) + " to " + clockFormat.format(end);
     const body = el("div", { class: "ticket-body" },
       el("h3", { text: window.store + ": " + window.title }),
+      el("p", { class: "schedule", text: schedule }),
       el("p", { text: window.note }),
       isHero ? el("p", { class: "action", text: window.action }) : null);
     return el("article", { class: "ticket" + (isHero ? " hero" : "") },
@@ -111,8 +113,13 @@
       return;
     }
     hero.append(ticket(windows[0], true));
-    const limit = Date.now() + 7 * 864e5;
-    windows.slice(1).filter((window) => Date.parse(window.start) < limit).forEach((window) => week.append(ticket(window, false)));
+    // Each weekly window appears once, at its next occurrence.
+    const seen = new Set([windows[0].id]);
+    windows.slice(1).forEach((window) => {
+      if (seen.has(window.id)) return;
+      seen.add(window.id);
+      week.append(ticket(window, false));
+    });
   }
 
   function tickCountdowns() {
@@ -440,7 +447,11 @@
 
   function renderSubscribe() {
     byId("rss-list").replaceChildren(...data.feeds.map((feed) => linkRow(feed.label, feed.path)));
-    byId("calendar-link").replaceChildren(linkRow("Drop calendar", "calendar.ics"));
+    const calendarAddress = (data.site_url + "calendar.ics").replace(/^https:/, "webcal:");
+    const googleLink = "https://calendar.google.com/calendar/r?cid=" + encodeURIComponent(calendarAddress);
+    byId("calendar-link").replaceChildren(
+      el("li", null, externalLink(googleLink, "Add to Google Calendar")),
+      linkRow("Link for other calendar apps", "calendar.ics"));
     const working = data.sources.filter((source) => source.ok).length;
     byId("source-summary").textContent = working + " of " + data.sources.length + " sources responded on the last check.";
     byId("source-list").replaceChildren(...data.sources.map((source) =>

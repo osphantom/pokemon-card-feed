@@ -15,13 +15,6 @@
       "cards_only": true
     },
     {
-      "id": "substack-restocks",
-      "name": "Pokémon Restocks & News",
-      "url": "https://pokemonrestocks.substack.com/feed",
-      "default": "news",
-      "cards_only": true
-    },
-    {
       "id": "slickdeals",
       "name": "Slickdeals",
       "url": "https://slickdeals.net/newsearch.php?q=pokemon+trading+card&searcharea=deals&searchin=first&rss=1",

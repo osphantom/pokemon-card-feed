@@ -5,6 +5,8 @@ from datetime import date, datetime, time, timedelta
 
 from .common import DATA_DIR, EASTERN, fold, iso, load_json
 
+DAY_NAMES = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+
 
 def load_windows() -> list[dict]:
     return load_json(DATA_DIR / "windows.json")["windows"]
@@ -12,6 +14,14 @@ def load_windows() -> list[dict]:
 
 def load_events() -> dict:
     return load_json(DATA_DIR / "events.json")
+
+
+def schedule_label(days: list[int]) -> str:
+    if sorted(days) == [0, 1, 2, 3, 4]:
+        return "Every weekday"
+    if len(days) == 1:
+        return f"Every {DAY_NAMES[days[0]]}"
+    return ", ".join(DAY_NAMES[day][:3] for day in sorted(days))
 
 
 def occurrence(window: dict, day: date) -> dict:
@@ -26,6 +36,7 @@ def occurrence(window: dict, day: date) -> dict:
         "note": window["note"],
         "action": window["action"],
         "link": window["link"],
+        "repeat": schedule_label(window["days"]),
         "weekday": day.weekday(),
         "remind": day.weekday() in window.get("remind_days", []),
         "remind_minutes": window.get("remind_minutes", 30),

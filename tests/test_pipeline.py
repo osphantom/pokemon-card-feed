@@ -221,6 +221,11 @@ class CalendarTests(unittest.TestCase):
         self.assertEqual(before["start"], "2026-10-28T21:00:00Z")
         self.assertEqual(after["start"], "2026-11-04T22:00:00Z")
 
+    def test_schedule_labels(self):
+        self.assertEqual(calendar_data.schedule_label([0, 1, 2, 3, 4]), "Every weekday")
+        self.assertEqual(calendar_data.schedule_label([2]), "Every Wednesday")
+        self.assertEqual(calendar_data.schedule_label([1, 3]), "Tue, Thu")
+
     def test_finished_window_is_dropped(self):
         evening = datetime(2026, 11, 11, 23, 30, tzinfo=timezone.utc)
         found = calendar_data.upcoming_windows([self.WINDOW], evening, days=1)
