@@ -28,7 +28,8 @@ def normalized(name: str) -> str:
 class Discord:
     def __init__(self, token: str, session=None):
         self.session = session or requests.Session()
-        self.bot_headers = {"Authorization": f"Bot {token}", "User-Agent": USER_AGENT}
+        # A pasted token often carries a stray space or line break, which HTTP rejects.
+        self.bot_headers = {"Authorization": f"Bot {token.strip()}", "User-Agent": USER_AGENT}
 
     def _send(self, method: str, url: str, label: str, **kwargs):
         for _ in range(MAX_ATTEMPTS):

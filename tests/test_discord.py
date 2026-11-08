@@ -249,6 +249,9 @@ class ClientSafetyTests(unittest.TestCase):
             discord_api.Discord("token", Session()).post({"id": "1", "token": "SECRET"}, {"content": "x"})
         self.assertNotIn("SECRET", str(caught.exception))
 
+    def test_stray_whitespace_in_a_pasted_token_is_removed(self):
+        self.assertEqual(discord_api.Discord(" abc.def.ghi\r\n").bot_headers["Authorization"], "Bot abc.def.ghi")
+
     def test_feed_text_cannot_ping_anyone(self):
         captured = {}
         response = self.Response()
