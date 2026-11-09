@@ -5,6 +5,11 @@ on:
     # Off the top of the hour, because runs queued at :00 start late.
     - cron: "4,19,34,49 * * * *"
   workflow_dispatch:
+    inputs:
+      refresh_prices:
+        description: Refresh prices now instead of waiting for the twice-daily update
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -43,6 +48,7 @@ jobs:
         env:
           EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
           EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+          REFRESH_PRICES: ${{ inputs.refresh_prices }}
         run: python -m pipeline.run
 
       - name: Post to Discord

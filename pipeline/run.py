@@ -1,6 +1,8 @@
 """Scheduled entry point: refresh feeds and prices, then rebuild the site."""
 from __future__ import annotations
 
+import os
+
 from .calendar_data import load_events, load_windows, upcoming_events, upcoming_windows
 from .classify import load_rules
 from .common import CONFIG_DIR, DATA_DIR, load_json, save_json, utcnow
@@ -19,7 +21,7 @@ def main() -> None:
     items = merge_items(stored, fresh, sources, rules, now)
     save_json(DATA_DIR / "items.json", {"items": items})
 
-    market = refresh_if_due(now)
+    market = refresh_if_due(now, force=os.environ.get("REFRESH_PRICES") == "true")
     windows_all = load_windows()
     windows = upcoming_windows(windows_all, now)
     calendar = load_events()
