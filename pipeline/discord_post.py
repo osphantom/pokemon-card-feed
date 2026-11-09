@@ -43,6 +43,7 @@ KEEP_KEYS = 800
 BEST_BUYS = 10
 WORST_BUYS = 5
 SKIP_LIST_MIN_PRICE = 13
+RETIRED_NOTE = "*An older copy of this list was here. The current one is below.* ⬇️"
 
 COLORS = {
     "preorders": 0x2447D8,
@@ -472,6 +473,10 @@ def run(now, client, items, windows, events, undated, products, state, costco=No
 
     posts, handled = plan_item_posts(items, posted, first_run, now)
     try:
+        # Old copies of a list are replaced with a short note instead of being deleted.
+        for retired in state.pop("retired_messages", []):
+            client.upsert(retired["channel"], {"content": RETIRED_NOTE, "embeds": []}, retired["id"])
+
         update_board(client, state, "next-drops", next_drops_board(windows, events))
         update_board(client, state, "release-calendar", calendar_board(events, undated))
         if products:

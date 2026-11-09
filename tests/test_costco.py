@@ -166,6 +166,16 @@ class ApplyTests(unittest.TestCase):
         self.assertEqual(discord_post.costco_board(data)["embeds"][0]["fields"][0]["name"], "Nothing yet")
 
 
+class RetiredMessageTests(unittest.TestCase):
+    def test_old_list_is_replaced_with_a_note_once(self):
+        client = FakeClient()
+        state = {"initialized": True, "retired_messages": [{"channel": "costco", "id": "9"}]}
+        discord_post.run(NOW, client, [], [], [], [], [], state)
+        self.assertEqual(client.boards["costco"]["content"], discord_post.RETIRED_NOTE)
+        self.assertEqual(client.boards["costco"]["embeds"], [])
+        self.assertNotIn("retired_messages", state)
+
+
 class SourceFilterTests(unittest.TestCase):
     RULES = classify.load_rules()
     SOURCE = {"id": "x", "name": "X", "default": "restocks", "cards_only": True, "only_terms": ["costco", "sam's club"]}

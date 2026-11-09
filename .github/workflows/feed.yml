@@ -23,8 +23,12 @@ jobs:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
+      # Use the branch, not the commit that triggered this run. A run that waited
+      # in line would otherwise start from data the previous run already replaced.
       - name: Check out the repo
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -57,7 +61,7 @@ jobs:
             echo "No data changes."
           else
             git commit -m "Update feed data [skip ci]"
-            git pull --rebase --autostash
+            git pull --rebase --autostash -X theirs
             git push
           fi
 

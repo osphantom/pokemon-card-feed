@@ -17,8 +17,8 @@
    "hash": "07c7618ab6af"
   },
   "costco": {
-   "id": "1569154744788721716",
-   "hash": "1584283e9543"
+   "id": "1569155125014954136",
+   "hash": ""
   },
   "walmart": {
    "id": "1569157229586944012",
@@ -355,7 +355,6 @@
   718674,
   729930
  ],
- "costco_checked_at": "2026-11-09T01:10:30Z",
  "costco_status": {
   "1493": "transit",
   "324": "none",
@@ -444,5 +443,11 @@
   "maryland",
   "pennsylvania",
   "virginia"
+ ],
+ "retired_messages": [
+  {
+   "channel": "costco",
+   "id": "1569154744788721716"
+  }
  ]
 }
