@@ -5,7 +5,7 @@
   const EASTERN = "America/New_York";
   const STATUS = { official: "Official", reported: "Reported", estimate: "Estimate", listed: "Listed" };
   const CATEGORIES = [
-    ["all", "All"], ["hot", "Hot"], ["promos", "Free promos"], ["preorders", "Preorders"], ["restocks", "Restocks"],
+    ["all", "All"], ["hot", "Hot"], ["raffles", "Raffles"], ["promos", "Free promos"], ["preorders", "Preorders"], ["restocks", "Restocks"],
     ["deals", "Deals"], ["releases", "Releases"], ["market", "Market"], ["news", "News"],
   ];
   const PAGE_SIZE = 50;

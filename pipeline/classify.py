@@ -7,7 +7,7 @@ from urllib.parse import urlsplit
 from .common import CONFIG_DIR, Terms, fold, load_json
 
 CATEGORY_ORDER = ("preorders", "restocks", "deals", "releases", "market")
-BUYING_CATEGORIES = {"promos", "preorders", "restocks", "deals"}
+BUYING_CATEGORIES = {"promos", "raffles", "preorders", "restocks", "deals"}
 PRICE_IN_TITLE = re.compile(r"\$\s?\d|\d+\s?% off")
 MIN_TITLE_WORDS = 3
 
@@ -34,8 +34,9 @@ def load_rules() -> Rules:
 
 
 def categorize(text: str, source: dict, rules: Rules) -> str:
-    if rules.categories["promos"].search(text):
-        return "promos"
+    for name in ("promos", "raffles"):
+        if rules.categories[name].search(text):
+            return name
     for name in CATEGORY_ORDER[:2]:
         if rules.categories[name].search(text):
             return name
@@ -77,7 +78,7 @@ def classify(title: str, link: str, source: dict, rules: Rules):
 
     stores = [label for label, terms in rules.stores if terms.search(text)]
     hot = (
-        category in ("preorders", "restocks")
+        category in ("raffles", "preorders", "restocks")
         and rules.hot.search(text)
         and not rules.not_hot.search(text)
     )

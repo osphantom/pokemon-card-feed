@@ -15,14 +15,16 @@ from .common import CONFIG_DIR, DATA_DIR, EASTERN, USER_AGENT, fold, iso, load_j
 from .profit import estimate
 
 TCGCSV = "https://tcgcsv.com/tcgplayer/3"
-FIRST_GROUP_ID = 23821  # Prismatic Evolutions. Earlier sets are not at retail.
-GROUP_NAME = re.compile(r"^(ME|SV)\d*:")
+GROUP_NAME = re.compile(
+    r"^((ME|SV|SWSH)\d*(\.\d+)?:|Celebrations$|Shining Fates$|Champion's Path$|Hidden Fates$|Pokemon GO$|First Partner Collection|Trick or Trade)"
+)
 SKIP_GROUP = re.compile(r"promo|energies", re.I)
 REFRESH_AFTER = timedelta(hours=11)
 
 EBAY_TOKEN_URL = "https://api.ebay.com/identity/v1/oauth2/token"
 EBAY_SEARCH_URL = "https://api.ebay.com/buy/browse/v1/item_summary/search"
-EBAY_LOOKUPS_PER_REFRESH = 60
+# eBay allows 5,000 calls a day, and prices refresh about twice a day.
+EBAY_LOOKUPS_PER_REFRESH = 800
 
 TITLE_REJECT = re.compile(
     r"\b(empty|opened|open box|no packs|japanese|korean|chinese|box only|codes?|lot of|bulk|proxy|custom|"
@@ -36,9 +38,7 @@ def modern_groups(groups: list[dict]) -> list[dict]:
     return [
         group
         for group in groups
-        if group["groupId"] >= FIRST_GROUP_ID
-        and GROUP_NAME.match(group["name"])
-        and not SKIP_GROUP.search(group["name"])
+        if GROUP_NAME.match(group["name"]) and not SKIP_GROUP.search(group["name"])
     ]
 
 
@@ -66,7 +66,7 @@ def ebay_sold_url(name: str) -> str:
 
 
 def set_label(group_name: str) -> str:
-    return re.sub(r"^(ME|SV)\d*:\s*", "", group_name)
+    return re.sub(r"^(ME|SV|SWSH)\d*(\.\d+)?:\s*", "", group_name)
 
 
 def product_rows(group, products, prices, config, assumptions, today: date):

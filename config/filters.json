@@ -33,11 +33,12 @@
   "japanese_terms": ["japanese", "japan exclusive", "jp exclusive"],
   "categories": {
     "promos": ["promo card", "promo cards", "promos", "free promo", "exclusive promo", "stamped promo", "gift with purchase", "happy meal", "mcdonald's", "mcdonalds"],
+    "raffles": ["raffle", "raffles", "lottery", "lotteries", "drawing", "drawings", "draw", "draws", "invite", "invites", "invitation", "invitations"],
     "preorders": ["preorder", "preorders", "pre-order", "pre-orders", "presale", "pre-sale", "early access"],
     "restocks": [
       "restock", "restocks", "restocked", "restocking", "in stock", "back in stock", "live on", "live at", "is live",
-      "are live", "live now", "open now", "queue", "drawing", "drawings", "draw", "lottery", "raffle", "drop", "drops",
-      "dropped", "sold out", "sellout", "invite", "invites"
+      "are live", "live now", "open now", "queue", "drop", "drops",
+      "dropped", "sold out", "sellout"
     ],
     "deals": ["deal", "deals", "discount", "discounted", "clearance", "blowout", "blow-out", "price drop", "coupon", "cashback", "black friday", "cyber monday"],
     "releases": [
@@ -51,8 +52,8 @@
     ]
   },
   "hot_terms": [
-    "pokemon center", "elite trainer", "etb", "ultra-premium", "ultra premium", "upc", "drawing", "draw", "lottery", "queue",
-    "booster box", "premium collection", "invite", "invites", "early access"
+    "pokemon center", "elite trainer", "etb", "ultra-premium", "ultra premium", "upc", "drawing", "drawings", "draw", "draws", "lottery", "raffle", "raffles", "queue",
+    "booster box", "premium collection", "invite", "invites", "invitation", "early access"
   ],
   "not_hot_terms": ["sold out", "closed", "ended", "recap", "results", "delayed", "review"],
   "stores": {

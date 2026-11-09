@@ -126,6 +126,13 @@
       "google_news": true
     },
     {
+      "id": "gn-raffles",
+      "name": "Google News: raffles and invites",
+      "url": "https://news.google.com/rss/search?q=Pok%C3%A9mon+cards+raffle+OR+drawing+OR+lottery+OR+invite+%22Best+Buy%22+OR+Target+OR+Walmart+OR+Amazon+when:7d&hl=en-US&gl=US&ceid=US:en",
+      "default": "news",
+      "google_news": true
+    },
+    {
       "id": "gn-promos",
       "name": "Google News: free promos",
       "url": "https://news.google.com/rss/search?q=Pok%C3%A9mon+TCG+%22promo+card%22+OR+%22promo+cards%22+OR+%22gift+with+purchase%22+when:14d&hl=en-US&gl=US&ceid=US:en",

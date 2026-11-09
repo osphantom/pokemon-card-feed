@@ -1,0 +1,70 @@
+{
+  "verified": "2026-11-09",
+  "programs": [
+    {
+      "id": "best-buy",
+      "store": "Best Buy",
+      "name": "Invites",
+      "how": "Sign in, open the product page, and press **Ask for an invite**. If you're picked, Best Buy emails you and you get about 24 hours to buy. If not, you stay on the list for restocks.",
+      "when": "Opens around releases and restocks, and stays open for days.",
+      "link": "https://www.bestbuy.com/site/searchpage.jsp?st=pokemon+trading+card+game",
+      "sources": [{"label": "PrintedPrice", "url": "https://printedprice.com/best-buy-invitations"}]
+    },
+    {
+      "id": "walmart",
+      "store": "Walmart",
+      "name": "Collectibles Drawing",
+      "how": "Sign in, choose your address, card, and quantity, then enter during the window. It's free, but if you're picked Walmart charges you automatically, so only enter for what you'd pay for.",
+      "when": "Lately Wednesdays around 5 PM ET, for about an hour. Each drawing sets its own window.",
+      "link": "https://www.walmart.com/shop/collectibles/draw",
+      "sources": [{"label": "HotDropStock", "url": "https://hotdropstock.com/guides/walmart-pokemon-drawing/"}]
+    },
+    {
+      "id": "target",
+      "store": "Target",
+      "name": "Drawings",
+      "how": "Sign in and press **Enter drawing** on the product page, where Add to cart normally is. One entry per account. If you're picked, Target emails you a link to buy, and it ships only.",
+      "when": "New. The first one ran Nov 2 to 4, and more may follow.",
+      "link": "https://www.target.com/s?searchTerm=pokemon+trading+cards",
+      "sources": [{"label": "Game Rant", "url": "https://gamerant.com/target-pokemon-tcg-lottery-drawing-system-explained/"}]
+    },
+    {
+      "id": "amazon",
+      "store": "Amazon",
+      "name": "Invitations",
+      "how": "On the product page, press **Request invitation**. If you're picked, Amazon emails you and a timer starts. Check that it's sold by Amazon.com and compare the price first, because some invites are well above normal.",
+      "when": "Around big releases.",
+      "link": "https://www.amazon.com/s?k=pokemon+trading+card+game",
+      "sources": [{"label": "HotDropStock", "url": "https://hotdropstock.com/guides/amazon-pokemon-invite/"}]
+    },
+    {
+      "id": "pokemon-center",
+      "store": "Pokémon Center",
+      "name": "Invite Only",
+      "how": "You can't ask for this one. Subscribe to the Pokémon Center newsletter, then watch your email for a personal invite link before it expires.",
+      "when": "Before some big preorders.",
+      "link": "https://www.pokemoncenter.com/",
+      "sources": [{"label": "HotDropStock", "url": "https://hotdropstock.com/guides/pokemon-center-queue-invite-only/"}]
+    }
+  ],
+  "open": [
+    {
+      "id": "best-buy-prismatic-etb",
+      "store": "Best Buy",
+      "title": "Prismatic Evolutions Elite Trainer Box",
+      "price": 49.99,
+      "match": "Prismatic Evolutions Elite Trainer Box",
+      "closes": "",
+      "link": "https://www.bestbuy.com/product/pokemon-trading-card-game-scarlet-violet-prismatic-evolutions-elite-trainer-box/JJG2TLCW3L"
+    },
+    {
+      "id": "best-buy-delta-reign-box",
+      "store": "Best Buy",
+      "title": "Delta Reign Booster Box",
+      "price": 160.99,
+      "match": "Delta Reign Booster Box",
+      "closes": "",
+      "link": "https://www.bestbuy.com/product/pokemon-trading-card-game-mega-evolution-delta-reign-booster-box-36-packs/JJG2TL8QYX"
+    }
+  ]
+}

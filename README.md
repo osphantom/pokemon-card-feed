@@ -45,7 +45,7 @@ The bot builds about 20 read-only channels: a welcome guide, a live list of the 
 
 ## Add eBay asking prices (optional)
 
-The Flip List works without this. Adding keys fills in the eBay asks column. It uses about 120 of eBay's default 5,000 daily calls.
+The Flip List works without this. Adding keys fills in the eBay asks column. It uses about 1,100 of eBay's default 5,000 daily calls.
 
 1. Create a Production keyset at https://developer.ebay.com/.
 2. This project stores no eBay user data, so request the exemption from Marketplace Account Deletion notifications. eBay can disable a new keyset that hasn't dealt with this.

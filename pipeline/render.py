@@ -12,6 +12,7 @@ from .rss import render_feed
 
 CATEGORY_FEEDS = {
     "promos": ("Free promos", "Free promo cards and gifts with purchase."),
+    "raffles": ("Raffles and invites", "Drawings, raffles, and invites you can sign up for."),
     "preorders": ("Preorders", "Preorder openings and early access."),
     "restocks": ("Restocks and drops", "Restocks, queues, and drawings."),
     "deals": ("Deals", "Sealed card deals."),

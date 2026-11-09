@@ -189,7 +189,7 @@ class MarketTests(unittest.TestCase):
             {"groupId": 24938, "name": "McDonald's Promos 2026"},
             {"groupId": 22873, "name": "SV01: Scarlet & Violet Base Set"},
         ]
-        self.assertEqual([g["groupId"] for g in market.modern_groups(groups)], [24831, 24722])
+        self.assertEqual([g["groupId"] for g in market.modern_groups(groups)], [24831, 24722, 22873])
 
     def listing(self, title, price, shipping="0.00"):
         return {"title": title, "price": {"value": str(price)}, "shippingOptions": [{"shippingCost": {"value": shipping}}]}

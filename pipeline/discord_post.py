@@ -15,9 +15,13 @@ from .costco_stock import status_of
 from .discord_api import NOT_FOUND, Discord, DiscordError, normalized
 from .promos import refresh_if_due as refresh_promos
 from .promos import worth_showing
+from .raffles import MIN_PROFIT as RAFFLE_MIN_PROFIT
+from .raffles import load_current as load_raffles
+from .raffles import worth_showing as raffle_worth_showing
 
-BUYING_CATEGORIES = {"preorders", "restocks", "deals"}
+BUYING_CATEGORIES = {"raffles", "preorders", "restocks", "deals"}
 GENERAL_CHANNEL = {
+    "raffles": "raffles",
     "promos": "free-promos",
     "preorders": "preorders",
     "deals": "deals",
@@ -37,6 +41,9 @@ PING_CHANNEL = "drop-pings"
 # Only sources that post the moment something goes live can ping.
 ALERT_SOURCES = {"reddit-deals", "dropradar-newsletter"}
 PING_FRESH_FOR = timedelta(hours=3)
+# A drawing stays open for hours or days, so slower news sources can still ping in time.
+RAFFLE_PING_FRESH_FOR = timedelta(hours=12)
+MAX_RAFFLES_SHOWN = 12
 MAX_PINGS_PER_RUN = 3
 MORNING_HOUR_EASTERN = 7
 FIRST_RUN_PER_CHANNEL = 3
@@ -50,6 +57,7 @@ MAX_PROMOS_SHOWN = 12
 RETIRED_NOTE = "*An older copy of this list was here. The current one is below.* ⬇️"
 
 COLORS = {
+    "raffles": 0x0B7285,
     "promos": 0x9C36B5,
     "preorders": 0x2447D8,
     "restocks": 0xD9480F,
@@ -118,14 +126,22 @@ def item_payload(item: dict, color_key: str | None = None) -> dict:
 
 
 def should_ping(item: dict, now) -> bool:
-    return bool(
-        item["hot"]
-        and item.get("source_id") in ALERT_SOURCES
-        and now - parse_iso(item["published"]) <= PING_FRESH_FOR
-    )
+    if not item["hot"]:
+        return False
+    age = now - parse_iso(item["published"])
+    if item["category"] == "raffles":
+        return age <= RAFFLE_PING_FRESH_FOR
+    return item.get("source_id") in ALERT_SOURCES and age <= PING_FRESH_FOR
 
 
-def plan_item_posts(items: list[dict], posted: set, first_run: bool, now):
+def raffle_ping_key(item: dict, now):
+    """Many outlets cover the same drawing, so each store pings at most once a day."""
+    if item["category"] != "raffles":
+        return None
+    return f"raffle-ping:{'+'.join(item['stores']) or 'any'}:{now.astimezone(EASTERN).date().isoformat()}"
+
+
+def plan_item_posts(items: list[dict], posted: set, first_run: bool, now, keys=None):
     """Return (channel, item, ping) posts, oldest first, and the ids now handled."""
     pending = [item for item in items if item["id"] not in posted]
     if first_run:
@@ -138,13 +154,17 @@ def plan_item_posts(items: list[dict], posted: set, first_run: bool, now):
                     chosen.append((channel, item, False))
         return list(reversed(chosen)), {item["id"] for item in pending}
 
+    keys = set() if keys is None else keys
     batch = pending[:MAX_ITEM_POSTS_PER_RUN]
     posts, pings = [], 0
     for item in reversed(batch):
         posts.extend((channel, item, False) for channel in channels_for(item))
-        if should_ping(item, now) and pings < MAX_PINGS_PER_RUN:
+        ping_key = raffle_ping_key(item, now)
+        if should_ping(item, now) and pings < MAX_PINGS_PER_RUN and ping_key not in keys:
             posts.append((PING_CHANNEL, item, True))
             pings += 1
+            if ping_key:
+                keys.add(ping_key)
     return posts, {item["id"] for item in batch}
 
 
@@ -446,6 +466,64 @@ def apply_promos(client, state: dict, promos: list[dict]) -> None:
     state["promos_announced"] = sorted(set(known or []) | {promo["id"] for promo in worth})
 
 
+def whole_lines(lines: list[str], limit: int) -> str:
+    """Join as many complete lines as fit, so a link is never cut in half."""
+    kept: list[str] = []
+    used = 0
+    for line in lines:
+        if used + len(line) + 1 > limit:
+            break
+        kept.append(line)
+        used += len(line) + 1
+    return "\n".join(kept)
+
+
+def raffle_line(item: dict) -> str:
+    gain = f"**+{money(item['profit'])}**" if item["profit"] is not None else "**No resale price yet**"
+    return f"{gain} · {item['store']} · {money(item['price'])} · [{item['title']}]({item['link']})"
+
+
+def raffles_board(raffles: dict) -> dict:
+    worth = sorted((i for i in raffles["open"] if raffle_worth_showing(i)), key=lambda i: -(i["profit"] or 0))
+    empty = f"Nothing open right now clears {money(RAFFLE_MIN_PROFIT)}. You'll get a ping when that changes."
+    fields = [{"name": "🟢 Open now and worth entering", "value": whole_lines([raffle_line(i) for i in worth[:MAX_RAFFLES_SHOWN]], 1024) or empty}]
+    for program in raffles["programs"][:8]:
+        fields.append({
+            "name": clip(f"{program['store']}: {program['name']}", 120),
+            "value": clip(f"{program['how']}\n**When:** {program['when']}\n[Go to the page]({program['link']})", 700),
+        })
+    return {
+        "embeds": [{
+            "title": "🎟️ Raffles and invites you can enter",
+            "color": COLORS["raffles"],
+            "description": f"Profit is what you'd keep after eBay fees, shipping, and tax. Only sign-ups that clear {money(RAFFLE_MIN_PROFIT)} are listed as open.",
+            "fields": fields,
+            "footer": {"text": "Being picked isn't guaranteed. Use one account per store."},
+        }]
+    }
+
+
+def raffle_ping(fresh: list[dict]) -> dict:
+    return with_ping({
+        "embeds": [{
+            "title": "🎟️ New raffle or invite worth entering",
+            "color": COLORS["ping"],
+            "description": whole_lines([raffle_line(item) for item in fresh], 3500),
+        }]
+    })
+
+
+def apply_raffles(client, state: dict, raffles: dict) -> None:
+    """Keep the raffle list current. The first run only records what's already open."""
+    update_board(client, state, "raffles", raffles_board(raffles))
+    worth = [item for item in raffles["open"] if raffle_worth_showing(item)]
+    known = state.get("raffles_announced")
+    fresh = [item for item in worth if known is not None and item["id"] not in known]
+    if fresh:
+        client.send(PING_CHANNEL, raffle_ping(fresh))
+    state["raffles_announced"] = sorted(set(known or []) | {item["id"] for item in worth})
+
+
 def morning_windows(windows: list[dict], now) -> list[dict]:
     horizon = now + timedelta(hours=24)
     return [w for w in windows if w["remind"] and now <= parse_iso(w["start"]) < horizon]
@@ -521,7 +599,7 @@ def update_board(client, state: dict, channel: str, payload: dict) -> None:
     boards[channel] = {"id": client.upsert(channel, payload, entry.get("id")), "hash": digest}
 
 
-def run(now, client, items, windows, events, undated, products, state, costco=None, promos=None) -> None:
+def run(now, client, items, windows, events, undated, products, state, costco=None, promos=None, raffles=None) -> None:
     """Decide what to post and record it."""
     first_run = not state.get("initialized")
     posted = set(state.get("posted_items", []))
@@ -529,7 +607,7 @@ def run(now, client, items, windows, events, undated, products, state, costco=No
     fingerprints = dict(state.get("event_fingerprints", {}))
     known_products = set(state.get("known_products", []))
 
-    posts, handled = plan_item_posts(items, posted, first_run, now)
+    posts, handled = plan_item_posts(items, posted, first_run, now, keys)
     try:
         # Old copies of a list are replaced with a short note instead of being deleted.
         for retired in state.pop("retired_messages", []):
@@ -546,6 +624,8 @@ def run(now, client, items, windows, events, undated, products, state, costco=No
             apply_costco(client, state, costco, keys)
         if promos is not None:
             apply_promos(client, state, promos)
+        if raffles is not None:
+            apply_raffles(client, state, raffles)
 
         for channel, item, ping in posts:
             payload = item_payload(item, "ping" if ping else None)
@@ -574,7 +654,8 @@ def run(now, client, items, windows, events, undated, products, state, costco=No
                 fingerprints[event["id"]] = current
 
         if not first_run:
-            fresh = [p for p in products if p["id"] not in known_products][:10]
+            # Older sets joining the tracker aren't new products.
+            fresh = [p for p in products if p["id"] not in known_products and p["current"]][:10]
             for product in fresh:
                 client.send("new-products", {
                     "embeds": [{
@@ -667,7 +748,8 @@ def main() -> int:
             return 0
         costco = refresh_costco(now, state)
         promos = refresh_promos(now, state)
-        run(now, WebhookClient(api, webhooks), items, windows, events, calendar["undated"], market.get("products", []), state, costco, promos)
+        raffles = load_raffles(now, market.get("products", []))
+        run(now, WebhookClient(api, webhooks), items, windows, events, calendar["undated"], market.get("products", []), state, costco, promos, raffles)
     except DiscordError as error:
         print(f"Discord posting stopped: {error}")
         return 1
