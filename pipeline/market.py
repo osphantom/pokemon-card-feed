@@ -199,8 +199,9 @@ class EbayClient:
 
 
 def add_ebay_asks(rows: list[dict], session) -> bool:
-    client_id = os.environ.get("EBAY_CLIENT_ID")
-    client_secret = os.environ.get("EBAY_CLIENT_SECRET")
+    # A pasted key often carries a stray space or line break.
+    client_id = os.environ.get("EBAY_CLIENT_ID", "").strip()
+    client_secret = os.environ.get("EBAY_CLIENT_SECRET", "").strip()
     if not client_id or not client_secret:
         return False
     client = EbayClient(client_id, client_secret, session)
