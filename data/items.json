@@ -1,6 +1,21 @@
 {
  "items": [
   {
+   "title": "Sam's Club 151 Mini Tins",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9hMVFZMkdsSTZ6NThwYVlnSGJQUHE1T3Z1T2UtbEo3ZUduUUwxN29vVFNra1FzSUNvdzViT0FHYVVxLXpEeEpDU1RnRjhlMDRYeE4wT1ZGWFkyaVg5Vk01ZEwwUmQ1TUJNUEFWbDJuQVYtLXlMalZKVEdtbnA?oc=5",
+   "source": "Restockd",
+   "source_id": "gn-restockd",
+   "publisher": "Restockd",
+   "published": "2026-11-08T20:11:29Z",
+   "category": "restocks",
+   "stores": [
+    "Sam's Club"
+   ],
+   "hot": false,
+   "id": "5f2c1dc7ac955b",
+   "first_seen": "2026-11-09T00:59:44Z"
+  },
+  {
    "title": "The Pokémon TCG 30th Celebration Elite Trainer Box is way under market price at Amazon — buy now for $59.99",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOd2plUk5mU3cyNzJhZ19GdUFVSnNvTTBNSDRPXzFiS0RwblMtcUU5QVk4RVNJT0JfWExiZlFxSjM1ckhwUng1WlB2NllyaG5LLVpCaC00VnN4YnowY3RpaDgyMDRBY2JSRWFCNFJIdUgxTWFOVWNFUnV4OUVQZHpBdnBiOEx5cmgwSWhKR2FOZ1J6VzZI?oc=5",
    "source": "Google News: market",
@@ -14,6 +29,19 @@
    "hot": false,
    "id": "4e3fb90deb5c86",
    "first_seen": "2026-11-08T17:32:32Z"
+  },
+  {
+   "title": "What Pokémon restocked this week (Nov 1 to Nov 8, 2026)",
+   "link": "https://pokerestockapp.com/pokemon/this-week/",
+   "source": "PokeRestock",
+   "source_id": "pokerestock-news",
+   "publisher": "",
+   "published": "2026-11-08T13:36:37Z",
+   "category": "restocks",
+   "stores": [],
+   "hot": false,
+   "id": "aa6322cc8d2d89",
+   "first_seen": "2026-11-09T00:59:44Z"
   },
   {
    "title": "The Pokémon TCG 30th Celebration Elite Trainer Box is live at Amazon: Shop now for way under market price",
@@ -42,6 +70,19 @@
    "hot": false,
    "id": "61ee85476d2fdb",
    "first_seen": "2026-11-08T17:32:32Z"
+  },
+  {
+   "title": "Store hires overnight guards after thieves steal $50,000 worth of Pokemon cards",
+   "link": "https://www.dexerto.com/pokemon/store-hires-overnight-guards-after-thieves-steal-50000-worth-of-pokemon-cards-3425591/",
+   "source": "PokeRestock",
+   "source_id": "pokerestock-news",
+   "publisher": "",
+   "published": "2026-11-07T11:08:28Z",
+   "category": "market",
+   "stores": [],
+   "hot": false,
+   "id": "75a4ef865c7872",
+   "first_seen": "2026-11-09T00:59:44Z"
   },
   {
    "title": "Retiree's $2.6m Pokemon cards sale drives surge in rare trading card prices at auction, World News",
@@ -83,6 +124,19 @@
    "hot": true,
    "id": "abbd515acfedb9",
    "first_seen": "2026-11-08T17:32:32Z"
+  },
+  {
+   "title": "Avery the Poké Kid's Father Pleads With The Pokémon Company to Make a Trading Card in Honor of His Late Son",
+   "link": "https://www.ign.com/articles/avery-the-pok-kids-father-pleads-with-the-pokmon-company-to-make-a-trading-card-in-honor-of-his-late-son",
+   "source": "PokeRestock",
+   "source_id": "pokerestock-news",
+   "publisher": "",
+   "published": "2026-11-06T22:58:25Z",
+   "category": "news",
+   "stores": [],
+   "hot": false,
+   "id": "d49f9c183f5036",
+   "first_seen": "2026-11-09T00:59:44Z"
   },
   {
    "title": "Dad Has 6-Year-Old Daughter Save His Spot In Line At Target For Pokémon Cards And Then Leaves",
@@ -313,7 +367,7 @@
    "source": "Google News: preorders",
    "source_id": "gn-preorder",
    "publisher": "IGN",
-   "published": "2026-11-06T11:34:53Z",
+   "published": "2026-11-06T11:34:36Z",
    "category": "preorders",
    "stores": [],
    "hot": true,
@@ -468,19 +522,6 @@
    "first_seen": "2026-11-08T17:32:32Z"
   },
   {
-   "title": "Pokemon cards can now be delivered in 15 minutes with massive discounts on rare cards",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVUZZYUV1SEtWZk5BS1dIMTVheDlOUjdxcG5wdFRfeG9Zam9OS3Q1d1NHWGNrWFQyYUpPc1k2NzdOR2VQSjFQZ2Rsd1liNHpPMU1GdmRjLWNkdDBwelJmRmFRbldBTWRISklrdE9jUGZob3I5cEdNaDgyQ3VUYTFVempmUTdMV3A5cWwxeFBzcjRMM2lCb2hQWVBJTzdLNHBLdDlCSVlYUko3Ymhvb0VHNkhqQ1hKV0dTbWJicGdaeEZydmVx?oc=5",
-   "source": "Google News: market",
-   "source_id": "gn-market",
-   "publisher": "Dexerto",
-   "published": "2026-11-05T22:54:22Z",
-   "category": "market",
-   "stores": [],
-   "hot": false,
-   "id": "a55749d78b954f",
-   "first_seen": "2026-11-08T17:32:32Z"
-  },
-  {
    "title": "Pokémon 30th Celebration Ultra-Premium Collection: What’s Inside And Is It Worth It?",
    "link": "https://cardlines.com/pokemon-30th-celebration-ultra-premium-collections/",
    "source": "Cardlines",
@@ -590,6 +631,19 @@
    "stores": [],
    "hot": false,
    "id": "3631ba2115cb50",
+   "first_seen": "2026-11-08T17:32:32Z"
+  },
+  {
+   "title": "Pokemon cards can now be delivered in 15 minutes with massive discounts on rare cards",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVUZZYUV1SEtWZk5BS1dIMTVheDlOUjdxcG5wdFRfeG9Zam9OS3Q1d1NHWGNrWFQyYUpPc1k2NzdOR2VQSjFQZ2Rsd1liNHpPMU1GdmRjLWNkdDBwelJmRmFRbldBTWRISklrdE9jUGZob3I5cEdNaDgyQ3VUYTFVempmUTdMV3A5cWwxeFBzcjRMM2lCb2hQWVBJTzdLNHBLdDlCSVlYUko3Ymhvb0VHNkhqQ1hKV0dTbWJicGdaeEZydmVx?oc=5",
+   "source": "Google News: market",
+   "source_id": "gn-market",
+   "publisher": "Dexerto",
+   "published": "2026-11-05T14:54:22Z",
+   "category": "market",
+   "stores": [],
+   "hot": false,
+   "id": "a55749d78b954f",
    "first_seen": "2026-11-08T17:32:32Z"
   },
   {
@@ -1278,6 +1332,19 @@
    "hot": false,
    "id": "04334bb6e21626",
    "first_seen": "2026-11-08T17:32:32Z"
+  },
+  {
+   "title": "Pokémon TCG release dates (updated Oct 24)",
+   "link": "https://pokerestockapp.com/pokemon/release-dates/",
+   "source": "PokeRestock",
+   "source_id": "pokerestock-news",
+   "publisher": "",
+   "published": "2026-10-24T12:00:00Z",
+   "category": "releases",
+   "stores": [],
+   "hot": false,
+   "id": "ce090f40fe3e85",
+   "first_seen": "2026-11-09T00:59:44Z"
   },
   {
    "title": "WALMART LOTTERY OCTOBER 26th! Prismatic bundles",
