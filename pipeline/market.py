@@ -208,7 +208,8 @@ def add_ebay_asks(rows: list[dict], session) -> bool:
     try:
         if not client.authenticate():
             return False
-        lookups = [row for row in rows if row["current"]][:EBAY_LOOKUPS_PER_REFRESH]
+        # Newest products come first, in case the list ever outgrows the cap.
+        lookups = rows[:EBAY_LOOKUPS_PER_REFRESH]
         for row in lookups:
             listings = client.search(search_phrase(row["name"]))
             row["ebay_ask"], row["ebay_count"] = ask_from_listings(row["name"], row["market"], listings)

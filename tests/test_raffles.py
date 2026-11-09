@@ -1,5 +1,6 @@
 import unittest
 from datetime import date, datetime, timedelta, timezone
+from unittest import mock
 
 from pipeline import classify, common, discord_post, market, raffles
 from pipeline.common import iso
@@ -171,8 +172,25 @@ class CoverageTests(unittest.TestCase):
         self.assertEqual(price("Charizard ex Ultra-Premium Collection"), 119.99)
         self.assertEqual(price("30th Celebration Ultra-Premium Collection [Night]"), 179.99)
 
-    def test_every_product_can_get_an_ebay_price(self):
-        self.assertGreaterEqual(market.EBAY_LOOKUPS_PER_REFRESH, 800)
+    def test_older_sets_get_ebay_prices_too(self):
+        searched = []
+
+        class FakeEbay:
+            def __init__(self, *args):
+                pass
+
+            def authenticate(self):
+                return True
+
+            def search(self, query):
+                searched.append(query)
+                return []
+
+        rows = [{"name": "New Box", "market": 50, "current": True}, {"name": "Old Box", "market": 50, "current": False}]
+        keys = {"EBAY_CLIENT_ID": "a", "EBAY_CLIENT_SECRET": "b"}
+        with mock.patch.dict("os.environ", keys), mock.patch.object(market, "EbayClient", FakeEbay), mock.patch.object(market.time, "sleep"):
+            market.add_ebay_asks(rows, None)
+        self.assertEqual(len(searched), 2)
 
 
 class NewProductTests(unittest.TestCase):
