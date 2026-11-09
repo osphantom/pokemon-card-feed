@@ -52,6 +52,14 @@ jobs:
           DISCORD_GUILD_ID: ${{ secrets.DISCORD_GUILD_ID }}
         run: python -m pipeline.discord_post
 
+      - name: Check Best Buy stock
+        continue-on-error: true
+        env:
+          BESTBUY_API_KEY: ${{ secrets.BESTBUY_API_KEY }}
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_GUILD_ID: ${{ secrets.DISCORD_GUILD_ID }}
+        run: python -m pipeline.bestbuy
+
       - name: Save updated data
         run: |
           git config user.name "pokemon-card-feed-bot"

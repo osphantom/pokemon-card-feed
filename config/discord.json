@@ -25,7 +25,8 @@
         {"key": "target", "name": "🎯-target", "topic": "Target drawings, drops, and news. Rules at the top.", "post": true, "static": "target.md"},
         {"key": "sams-club", "name": "🛒-sams-club", "topic": "Sam's Club drops and news. Rules at the top.", "post": true, "static": "sams-club.md"},
         {"key": "costco", "name": "📦-costco", "topic": "Costco sightings and news. Rules at the top.", "post": true, "static": "costco.md"},
-        {"key": "other-stores", "name": "🏪-other-stores", "topic": "Best Buy, Amazon, Dick's, and restocks at any other store.", "post": true, "static": "other-stores.md"}
+        {"key": "other-stores", "name": "🏪-other-stores", "topic": "Best Buy, Amazon, Dick's, and restocks at any other store.", "post": true, "static": "other-stores.md"},
+        {"key": "best-buy", "name": "🏷️-best-buy", "topic": "Your own stock bot for Best Buy, online and in Maryland stores. Only you can see this channel. Uses Best Buy data.", "post": true, "static": "best-buy.md", "private": true}
       ]
     },
     {

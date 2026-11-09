@@ -41,7 +41,7 @@ These steps need your own login, so they're yours to do. It takes about five min
 
 The bot builds about 20 read-only channels: a welcome guide, a live list of the next drops, one channel that pings you, a channel for each store, and news. The next refresh starts posting.
 
-`@everyone` is only used in `#drop-pings`, and only for drop reminders and fresh alerts from real-time sources.
+`@everyone` is only used in `#drop-pings`, and only for drop reminders and fresh alerts from real-time sources. `#best-buy` is private and pings only the server owner.
 
 ## Add eBay asking prices (optional)
 
@@ -58,6 +58,19 @@ The Flip List works without this. Adding keys fills in the eBay asks column. It 
    ```bash
    gh secret set EBAY_CLIENT_SECRET --repo osphantom/pokemon-card-feed
    ```
+
+## Add Best Buy stock alerts (optional)
+
+This reads Best Buy's official [Developer API](https://developer.bestbuy.com/) and posts to a private `#best-buy` channel when sealed cards come back online or show up in a Maryland store. Change the area in `config/bestbuy.json`.
+
+1. Get a key at https://developer.bestbuy.com/.
+2. Save it:
+
+   ```bash
+   gh secret set BESTBUY_API_KEY --repo osphantom/pokemon-card-feed
+   ```
+
+Best Buy's [terms](https://developer.bestbuy.com/legal) set the rules this follows: credit Best Buy and show its logo, keep its data no longer than 72 hours, and don't use the key for anyone else. This public repo saves only one-way fingerprints of what's in stock, alerts delete themselves after two days, and Best Buy's data stays out of the public site and RSS feed. Keep the channel private and don't reuse the key for other people.
 
 ## Update the calendar by hand
 

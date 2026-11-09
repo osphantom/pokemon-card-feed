@@ -301,6 +301,9 @@ class FakeSetupApi:
     def channels(self, guild_id):
         return [dict(channel) for channel in self.channels_list]
 
+    def current_user(self):
+        return {"id": "the-bot"}
+
     def create_channel(self, guild_id, body):
         self.next_id += 1
         channel = {"id": str(self.next_id), **body}
@@ -341,7 +344,20 @@ class SetupTests(unittest.TestCase):
         text = [channel for channel in api.channels_list if channel["type"] == 0]
         self.assertEqual(len(text), result["channels"])
         for channel in text:
-            self.assertEqual(channel["permission_overwrites"][0]["deny"], "2048")
+            self.assertTrue(int(channel["permission_overwrites"][0]["deny"]) & discord_setup.SEND_MESSAGES)
+
+    def test_private_channel_is_hidden_but_the_bot_can_use_it(self):
+        api, _ = self.build()
+        channel = next(c for c in api.channels_list if discord_api.normalized(c["name"]) == "bestbuy")
+        everyone, bot = channel["permission_overwrites"]
+        self.assertTrue(int(everyone["deny"]) & discord_setup.VIEW_CHANNEL)
+        self.assertEqual(bot["id"], "the-bot")
+        self.assertTrue(int(bot["allow"]) & discord_setup.MANAGE_WEBHOOKS)
+
+    def test_public_channels_stay_visible(self):
+        api, _ = self.build()
+        visible = [c for c in api.channels_list if c["type"] == 0 and discord_api.normalized(c["name"]) != "bestbuy"]
+        self.assertTrue(all(not int(c["permission_overwrites"][0]["deny"]) & discord_setup.VIEW_CHANNEL for c in visible))
 
     def test_guides_get_clickable_links_and_fit_in_a_message(self):
         api, result = self.build()

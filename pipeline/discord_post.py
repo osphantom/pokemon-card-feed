@@ -557,6 +557,16 @@ class WebhookClient:
                     raise
         return self.api.post(webhook, payload).get("id")
 
+    def delete(self, channel: str, message_id: str) -> None:
+        webhook = self.webhooks.get(channel)
+        if webhook is None:
+            return
+        try:
+            self.api.delete(webhook, message_id)
+        except DiscordError as error:
+            if error.status != NOT_FOUND:
+                raise
+
 
 def load_webhooks(api: Discord, guild_id: str, config: dict) -> dict:
     key_by_name = {

@@ -55,6 +55,12 @@ class Discord:
     def api(self, method: str, path: str, label: str, **kwargs):
         return self._send(method, f"{API}{path}", label, headers=self.bot_headers, **kwargs)
 
+    def current_user(self) -> dict:
+        return self.api("GET", "/users/@me", "Reading the bot's account")
+
+    def guild(self, guild_id: str) -> dict:
+        return self.api("GET", f"/guilds/{guild_id}", "Reading the server")
+
     def channels(self, guild_id: str) -> list[dict]:
         return self.api("GET", f"/guilds/{guild_id}/channels", "Reading channels")
 
@@ -91,6 +97,11 @@ class Discord:
         url = f"{API}/webhooks/{webhook['id']}/{webhook['token']}/messages/{message_id}"
         body = {"allowed_mentions": {"parse": []}, **payload}
         self._send("PATCH", url, "Editing a message", json=body, headers={"User-Agent": USER_AGENT})
+        time.sleep(0.6)
+
+    def delete(self, webhook: dict, message_id: str) -> None:
+        url = f"{API}/webhooks/{webhook['id']}/{webhook['token']}/messages/{message_id}"
+        self._send("DELETE", url, "Deleting a message", headers={"User-Agent": USER_AGENT})
         time.sleep(0.6)
 
 

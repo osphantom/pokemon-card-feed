@@ -14,7 +14,10 @@ from .discord_api import Discord, DiscordError, normalized, split_message
 TYPE_TEXT = 0
 TYPE_CATEGORY = 4
 TYPE_ROLE_OVERWRITE = 0
+TYPE_MEMBER_OVERWRITE = 1
+VIEW_CHANNEL = 1024
 SEND_MESSAGES = 2048
+MANAGE_WEBHOOKS = 536870912
 
 
 def find_channel(existing: list[dict], kind: int, name: str):
@@ -32,6 +35,17 @@ def ensure_category(api, guild_id, existing, name):
     return created
 
 
+def channel_overwrites(api, guild_id, spec) -> list[dict]:
+    """Only the feed posts here, which keeps every channel easy to read."""
+    deny = SEND_MESSAGES | (VIEW_CHANNEL if spec.get("private") else 0)
+    overwrites = [{"id": guild_id, "type": TYPE_ROLE_OVERWRITE, "deny": str(deny), "allow": "0"}]
+    if spec.get("private"):
+        # The server owner can always see it. The bot has to be let in by name.
+        allow = VIEW_CHANNEL | SEND_MESSAGES | MANAGE_WEBHOOKS
+        overwrites.append({"id": api.current_user()["id"], "type": TYPE_MEMBER_OVERWRITE, "allow": str(allow), "deny": "0"})
+    return overwrites
+
+
 def ensure_channel(api, guild_id, existing, spec, parent_id):
     found = find_channel(existing, TYPE_TEXT, spec["name"])
     if found:
@@ -43,8 +57,7 @@ def ensure_channel(api, guild_id, existing, spec, parent_id):
         "type": TYPE_TEXT,
         "topic": spec.get("topic", ""),
         "parent_id": parent_id,
-        # Only the feed posts here, which keeps every channel easy to read.
-        "permission_overwrites": [{"id": guild_id, "type": TYPE_ROLE_OVERWRITE, "deny": str(SEND_MESSAGES), "allow": "0"}],
+        "permission_overwrites": channel_overwrites(api, guild_id, spec),
     }
     created = api.create_channel(guild_id, body)
     existing.append(created)

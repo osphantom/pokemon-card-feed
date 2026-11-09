@@ -2,6 +2,11 @@ name: Set up Discord
 
 on:
   workflow_dispatch:
+    inputs:
+      test_best_buy_alert:
+        description: Post one test Best Buy alert
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -28,3 +33,10 @@ jobs:
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
           DISCORD_GUILD_ID: ${{ secrets.DISCORD_GUILD_ID }}
         run: python -m pipeline.discord_setup
+
+      - name: Post a test Best Buy alert
+        if: ${{ inputs.test_best_buy_alert }}
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_GUILD_ID: ${{ secrets.DISCORD_GUILD_ID }}
+        run: python -m pipeline.bestbuy --sample
