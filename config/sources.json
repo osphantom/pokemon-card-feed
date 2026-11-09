@@ -15,6 +15,21 @@
       "cards_only": true
     },
     {
+      "id": "pokerestock-news",
+      "name": "PokeRestock",
+      "url": "https://pokerestockapp.com/pokemon/news/feed.xml",
+      "default": "news"
+    },
+    {
+      "id": "gn-restockd",
+      "name": "Restockd",
+      "url": "https://news.google.com/rss/search?q=site:restockd.app+when:30d&hl=en-US&gl=US&ceid=US:en",
+      "default": "restocks",
+      "cards_only": true,
+      "google_news": true,
+      "only_terms": ["costco", "sam's club", "sams club"]
+    },
+    {
       "id": "slickdeals",
       "name": "Slickdeals",
       "url": "https://slickdeals.net/newsearch.php?q=pokemon+trading+card&searcharea=deals&searchin=first&rss=1",

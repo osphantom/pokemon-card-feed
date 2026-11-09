@@ -19,7 +19,7 @@
   ],
   "require_pokemon": ["pokemon"],
   "card_terms": [
-    "tcg", "trading card", "trading cards", "card game", "pokemon card", "pokemon cards", "booster", "boosters",
+    "restocked", "tcg", "trading card", "trading cards", "card game", "pokemon card", "pokemon cards", "booster", "boosters",
     "elite trainer", "etb", "etbs", "premium collection", "ultra-premium", "ultra premium", "upc", "mini tin", "blister",
     "prerelease", "pre-release", "build & battle", "build and battle", "sealed", "league battle deck",
     "delta reign", "flowing fists", "aura seeker", "30th celebration", "ascended heroes", "perfect order",

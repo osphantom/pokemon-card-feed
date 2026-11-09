@@ -9,6 +9,9 @@ from datetime import date, timedelta
 
 from .calendar_data import load_events, load_windows, upcoming_events, upcoming_windows
 from .common import CONFIG_DIR, DATA_DIR, EASTERN, SITE_URL, format_eastern, load_json, parse_iso, save_json, utcnow
+from .costco_stock import BASE_URL as COSTCO_LOOKUP_URL
+from .costco_stock import refresh_if_due as refresh_costco
+from .costco_stock import status_of
 from .discord_api import NOT_FOUND, Discord, DiscordError, normalized
 
 BUYING_CATEGORIES = {"preorders", "restocks", "deals"}
@@ -229,6 +232,133 @@ def what_to_buy_board(products: list[dict]) -> dict:
     }
 
 
+def short_name(warehouse: dict, abbreviation: str) -> str:
+    suffix = f" {abbreviation}"
+    return warehouse["name"][: -len(suffix)] if warehouse["name"].endswith(suffix) else warehouse["name"]
+
+
+def counted(rows: list[tuple[str, int]]) -> str:
+    return ", ".join(f"{name} ({units:,})" for name, units in sorted(rows, key=lambda row: -row[1]))
+
+
+def state_field(abbreviation: str, warehouses: list[dict], value_limit: int):
+    here = [(short_name(w, abbreviation), w["hand"]) for w in warehouses if w["hand"] > 0]
+    coming = [(short_name(w, abbreviation), w["transit"]) for w in warehouses if w["transit"] > 0]
+    ordered = sum(w["order"] for w in warehouses)
+    if not here and not coming and not ordered:
+        return None
+    parts = []
+    if here:
+        parts.append(f"**In the store:** {counted(here)}")
+    if coming:
+        parts.append(f"**On the truck:** {counted(coming)}")
+    if ordered:
+        parts.append(f"**Ordered:** {ordered:,} units")
+    total_here = sum(units for _, units in here)
+    total_coming = sum(units for _, units in coming)
+    return {
+        "name": f"{abbreviation}: {total_here:,} in the store · {total_coming:,} on the truck",
+        "value": clip("\n".join(parts), value_limit),
+    }, total_here + total_coming
+
+
+def costco_board(data: dict) -> dict:
+    # Discord caps a whole embed at 6,000 characters, so states share the room.
+    limit = max(120, 3800 // max(1, len(data["states"])))
+    built = [state_field(abbreviation, rows, min(limit, 1024)) for abbreviation, rows in data["states"].items()]
+    fields = [entry[0] for entry in sorted((b for b in built if b), key=lambda entry: -entry[1])][:25]
+    return {
+        "embeds": [{
+            "title": "📦 Costco shipments near you",
+            "url": COSTCO_LOOKUP_URL,
+            "color": COLORS["restocks"],
+            "description": clip(
+                f"**{data['product']}** · item #{data['item']}\n"
+                f"Latest sheet: **{data['sheet_date']}**. Covers Eastern-time states.\n\n"
+                f"[Look up any Costco by ZIP]({COSTCO_LOOKUP_URL}). Numbers come from shipment sheets, not live "
+                "shelves, so call the warehouse with the item number before you drive.",
+                1000,
+            ),
+            "fields": fields or [{"name": "Nothing yet", "value": "No warehouses in these states have stock on this sheet."}],
+            "footer": {"text": "Data from PokeRestock. Checked about every 6 hours."},
+        }]
+    }
+
+
+def shipment_payload(data: dict, arrivals: list[tuple[str, int]], trucks: list[tuple[str, int]]) -> dict:
+    lines = []
+    if arrivals:
+        lines.append(f"**Just arrived:** {counted(arrivals)}")
+    if trucks:
+        lines.append(f"**Now on the truck:** {counted(trucks)}")
+    return {
+        "embeds": [{
+            "title": f"📦 New Costco shipments on the {data['sheet_date']} sheet",
+            "url": COSTCO_LOOKUP_URL,
+            "color": COLORS["restocks"],
+            "description": clip("\n\n".join(lines), 3800),
+            "footer": {"text": f"Item #{data['item']}. Call the warehouse before you drive."},
+        }]
+    }
+
+
+def shipment_ping(data: dict, arrivals: list, trucks: list) -> dict:
+    return with_ping({
+        "embeds": [{
+            "title": "🔔 New Costco shipments",
+            "url": COSTCO_LOOKUP_URL,
+            "color": COLORS["ping"],
+            "description": (
+                f"{len(arrivals)} Eastern-time warehouses just got stock and {len(trucks)} have it on the truck. "
+                "See which ones in the Costco channel."
+            ),
+            "footer": {"text": f"{data['product']} · item #{data['item']}"},
+        }]
+    })
+
+
+def apply_costco(client, state: dict, data: dict, keys: set) -> None:
+    """Update the Costco list. The first check only records where things stand."""
+    previous = state.get("costco_status")
+    arrivals, trucks, current = [], [], {}
+    for abbreviation, warehouses in data["states"].items():
+        for warehouse in warehouses:
+            status = status_of(warehouse)
+            current[warehouse["number"]] = status
+            if previous is None:
+                continue
+            before = previous.get(warehouse["number"], "none")
+            label = f"{short_name(warehouse, abbreviation)} {abbreviation}"
+            if status == "hand" and before != "hand":
+                arrivals.append((label, warehouse["hand"]))
+            elif status == "transit" and before in ("none", "order"):
+                trucks.append((label, warehouse["transit"]))
+
+    update_board(client, state, "costco", costco_board(data))
+    if arrivals or trucks:
+        client.send("costco", shipment_payload(data, arrivals, trucks))
+        sheet_key = f"costco-sheet:{data['sheet_date']}"
+        if sheet_key not in keys:
+            client.send(PING_CHANNEL, shipment_ping(data, arrivals, trucks))
+            keys.add(sheet_key)
+    state["costco_status"] = {**(previous or {}), **current}
+
+
+def sams_board() -> dict:
+    return {
+        "embeds": [{
+            "title": "🛒 Check Sam's Club stock by club",
+            "url": "https://restockd.app/pokemon-in-store",
+            "color": COLORS["restocks"],
+            "description": (
+                "[Restockd's free in-store map](https://restockd.app/pokemon-in-store) shows reported on-order "
+                "counts by club for the items it tracks. Search your ZIP, then call the club before you drive.\n\n"
+                "When Restockd posts a new Sam's Club list, it will show up in this channel."
+            ),
+        }]
+    }
+
+
 def morning_windows(windows: list[dict], now) -> list[dict]:
     horizon = now + timedelta(hours=24)
     return [w for w in windows if w["remind"] and now <= parse_iso(w["start"]) < horizon]
@@ -303,7 +433,7 @@ def update_board(client, state: dict, channel: str, payload: dict) -> None:
     boards[channel] = {"id": client.upsert(channel, payload, entry.get("id")), "hash": digest}
 
 
-def run(now, client, items, windows, events, undated, products, state) -> None:
+def run(now, client, items, windows, events, undated, products, state, costco=None) -> None:
     """Decide what to post and record it."""
     first_run = not state.get("initialized")
     posted = set(state.get("posted_items", []))
@@ -317,6 +447,9 @@ def run(now, client, items, windows, events, undated, products, state) -> None:
         update_board(client, state, "release-calendar", calendar_board(events, undated))
         if products:
             update_board(client, state, "what-to-buy", what_to_buy_board(products))
+        update_board(client, state, "sams-club", sams_board())
+        if costco:
+            apply_costco(client, state, costco, keys)
 
         for channel, item, ping in posts:
             payload = item_payload(item, "ping" if ping else None)
@@ -426,7 +559,8 @@ def main() -> int:
         if not webhooks:
             print("No webhooks found. Run the Set up Discord workflow first.")
             return 0
-        run(now, WebhookClient(api, webhooks), items, windows, events, calendar["undated"], market.get("products", []), state)
+        costco = refresh_costco(now, state)
+        run(now, WebhookClient(api, webhooks), items, windows, events, calendar["undated"], market.get("products", []), state, costco)
     except DiscordError as error:
         print(f"Discord posting stopped: {error}")
         return 1

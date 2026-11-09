@@ -62,6 +62,8 @@ def classify(title: str, link: str, source: dict, rules: Rules):
     if not source.get("cards_only"):
         if not rules.pokemon.search(text) or not rules.card_terms.search(text):
             return None
+    if source.get("only_terms") and not any(fold(term) in text for term in source["only_terms"]):
+        return None
 
     category = categorize(text, source, rules)
     if category in BUYING_CATEGORIES and (rules.japanese.search(text) or rules.regional.search(text)):
