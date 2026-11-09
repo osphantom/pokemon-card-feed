@@ -70,6 +70,7 @@
   "34f22421dd4b2c",
   "3631ba2115cb50",
   "3778d66a4a95ee",
+  "3a00015b2fef07",
   "3a6473c292ef2f",
   "3e333299ee3d08",
   "40730cb3cf5931",
@@ -172,7 +173,8 @@
  ],
  "posted_keys": [
   "morning:2026-11-08",
-  "morning:2026-11-09"
+  "morning:2026-11-09",
+  "raffle-ping:Target:2026-11-09"
  ],
  "event_fingerprints": {
   "mcdonalds-2026": "4a2c9af31a76",
