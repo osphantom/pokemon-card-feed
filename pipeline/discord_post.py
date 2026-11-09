@@ -13,9 +13,12 @@ from .costco_stock import BASE_URL as COSTCO_LOOKUP_URL
 from .costco_stock import refresh_if_due as refresh_costco
 from .costco_stock import status_of
 from .discord_api import NOT_FOUND, Discord, DiscordError, normalized
+from .promos import refresh_if_due as refresh_promos
+from .promos import worth_showing
 
 BUYING_CATEGORIES = {"preorders", "restocks", "deals"}
 GENERAL_CHANNEL = {
+    "promos": "free-promos",
     "preorders": "preorders",
     "deals": "deals",
     "releases": "new-products",
@@ -43,9 +46,11 @@ KEEP_KEYS = 800
 BEST_BUYS = 10
 WORST_BUYS = 5
 SKIP_LIST_MIN_PRICE = 13
+MAX_PROMOS_SHOWN = 12
 RETIRED_NOTE = "*An older copy of this list was here. The current one is below.* ⬇️"
 
 COLORS = {
+    "promos": 0x9C36B5,
     "preorders": 0x2447D8,
     "restocks": 0xD9480F,
     "deals": 0x12703F,
@@ -389,6 +394,58 @@ def spotted_board(store: str, alerts_channel: str) -> dict:
     }
 
 
+def promo_value(promo: dict) -> str:
+    if promo["market"] is None:
+        return "No resale price yet. Check eBay sold listings before you make a special trip."
+    return f"Sells for about {money(promo['market'])}. You'd keep about {money(promo['keep'])} after eBay fees and shipping."
+
+
+def promo_field(promo: dict) -> dict:
+    starts = date.fromisoformat(promo["start"])
+    when = f"**Starts {starts:%b} {starts.day}.** " if promo["upcoming"] else ""
+    source = promo["sources"][0]
+    return {
+        "name": clip(f"{promo['card']} · {', '.join(promo['stores'])}", 120),
+        "value": clip(f"{when}{promo['how']} {promo['until']}.\n{promo_value(promo)}\n[{source['label']}]({source['url']})", 500),
+    }
+
+
+def promos_board(promos: list[dict]) -> dict:
+    shown = sorted((p for p in promos if worth_showing(p)), key=lambda p: -(p["keep"] or 0))[:MAX_PROMOS_SHOWN]
+    return {
+        "embeds": [{
+            "title": "🎁 Free promos you can get right now",
+            "color": COLORS["promos"],
+            "description": "Best value first. Anything that wouldn't make money after eBay fees and shipping stays off this list.",
+            "fields": [promo_field(p) for p in shown] or [{"name": "Nothing right now", "value": "You'll get a ping when a new one starts."}],
+            "footer": {"text": "Prices from TCGplayer. Stores run out, so call before you make a special trip."},
+        }]
+    }
+
+
+def promo_ping(fresh: list[dict]) -> dict:
+    lines = [f"**{p['card']}** at {', '.join(p['stores'])}\n{p['how']}\n{promo_value(p)}" for p in fresh]
+    return with_ping({
+        "embeds": [{
+            "title": "🎁 New free promo",
+            "url": fresh[0]["sources"][0]["url"],
+            "color": COLORS["ping"],
+            "description": clip("\n\n".join(lines), 3500),
+        }]
+    })
+
+
+def apply_promos(client, state: dict, promos: list[dict]) -> None:
+    """Keep the promo list current. The first run only records what's already running."""
+    update_board(client, state, "free-promos", promos_board(promos))
+    worth = [promo for promo in promos if worth_showing(promo)]
+    known = state.get("promos_announced")
+    fresh = [promo for promo in worth if known is not None and promo["id"] not in known]
+    if fresh:
+        client.send(PING_CHANNEL, promo_ping(fresh))
+    state["promos_announced"] = sorted(set(known or []) | {promo["id"] for promo in worth})
+
+
 def morning_windows(windows: list[dict], now) -> list[dict]:
     horizon = now + timedelta(hours=24)
     return [w for w in windows if w["remind"] and now <= parse_iso(w["start"]) < horizon]
@@ -458,12 +515,13 @@ def update_board(client, state: dict, channel: str, payload: dict) -> None:
     boards = state.setdefault("boards", {})
     digest = fingerprint(payload)
     entry = boards.get(channel) or {}
-    if entry.get("hash") == digest:
+    # No saved message means the channel wasn't ready last time, so it still needs posting.
+    if entry.get("hash") == digest and entry.get("id"):
         return
     boards[channel] = {"id": client.upsert(channel, payload, entry.get("id")), "hash": digest}
 
 
-def run(now, client, items, windows, events, undated, products, state, costco=None) -> None:
+def run(now, client, items, windows, events, undated, products, state, costco=None, promos=None) -> None:
     """Decide what to post and record it."""
     first_run = not state.get("initialized")
     posted = set(state.get("posted_items", []))
@@ -486,6 +544,8 @@ def run(now, client, items, windows, events, undated, products, state, costco=No
         update_board(client, state, "target", spotted_board("Target", "target-free"))
         if costco:
             apply_costco(client, state, costco, keys)
+        if promos is not None:
+            apply_promos(client, state, promos)
 
         for channel, item, ping in posts:
             payload = item_payload(item, "ping" if ping else None)
@@ -606,7 +666,8 @@ def main() -> int:
             print("No webhooks found. Run the Set up Discord workflow first.")
             return 0
         costco = refresh_costco(now, state)
-        run(now, WebhookClient(api, webhooks), items, windows, events, calendar["undated"], market.get("products", []), state, costco)
+        promos = refresh_promos(now, state)
+        run(now, WebhookClient(api, webhooks), items, windows, events, calendar["undated"], market.get("products", []), state, costco, promos)
     except DiscordError as error:
         print(f"Discord posting stopped: {error}")
         return 1

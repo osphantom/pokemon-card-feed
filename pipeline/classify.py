@@ -7,7 +7,7 @@ from urllib.parse import urlsplit
 from .common import CONFIG_DIR, Terms, fold, load_json
 
 CATEGORY_ORDER = ("preorders", "restocks", "deals", "releases", "market")
-BUYING_CATEGORIES = {"preorders", "restocks", "deals"}
+BUYING_CATEGORIES = {"promos", "preorders", "restocks", "deals"}
 PRICE_IN_TITLE = re.compile(r"\$\s?\d|\d+\s?% off")
 MIN_TITLE_WORDS = 3
 
@@ -15,6 +15,7 @@ MIN_TITLE_WORDS = 3
 class Rules:
     def __init__(self, config: dict):
         self.reject = Terms(config["always_reject"])
+        self.promo_only = Terms(config["promo_only"])
         self.reject_prefixes = tuple(config["reject_prefixes"])
         self.not_deal = Terms(config["not_deal_terms"])
         self.blocked_domains = tuple(config["blocked_domains"])
@@ -33,6 +34,8 @@ def load_rules() -> Rules:
 
 
 def categorize(text: str, source: dict, rules: Rules) -> str:
+    if rules.categories["promos"].search(text):
+        return "promos"
     for name in CATEGORY_ORDER[:2]:
         if rules.categories[name].search(text):
             return name
@@ -66,6 +69,9 @@ def classify(title: str, link: str, source: dict, rules: Rules):
         return None
 
     category = categorize(text, source, rules)
+    # GameStop's prices run far above normal, so only its free promos get through.
+    if rules.promo_only.search(text) and category != "promos":
+        return None
     if category in BUYING_CATEGORIES and (rules.japanese.search(text) or rules.regional.search(text)):
         return None
 

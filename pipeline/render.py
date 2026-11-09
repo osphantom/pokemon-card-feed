@@ -11,6 +11,7 @@ from .ics import build_calendar
 from .rss import render_feed
 
 CATEGORY_FEEDS = {
+    "promos": ("Free promos", "Free promo cards and gifts with purchase."),
     "preorders": ("Preorders", "Preorder openings and early access."),
     "restocks": ("Restocks and drops", "Restocks, queues, and drawings."),
     "deals": ("Deals", "Sealed card deals."),

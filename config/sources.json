@@ -124,6 +124,20 @@
       "url": "https://news.google.com/rss/search?q=%22Pok%C3%A9mon+cards%22+prices+OR+reprint+OR+sealed+market+when:7d&hl=en-US&gl=US&ceid=US:en",
       "default": "market",
       "google_news": true
+    },
+    {
+      "id": "gn-promos",
+      "name": "Google News: free promos",
+      "url": "https://news.google.com/rss/search?q=Pok%C3%A9mon+TCG+%22promo+card%22+OR+%22promo+cards%22+OR+%22gift+with+purchase%22+when:14d&hl=en-US&gl=US&ceid=US:en",
+      "default": "news",
+      "google_news": true
+    },
+    {
+      "id": "gn-promo-stores",
+      "name": "Google News: store promos",
+      "url": "https://news.google.com/rss/search?q=Pok%C3%A9mon+promo+GameStop+OR+%22Barnes+%26+Noble%22+OR+%22Hot+Topic%22+OR+%22Five+Below%22+when:14d&hl=en-US&gl=US&ceid=US:en",
+      "default": "news",
+      "google_news": true
     }
   ]
 }

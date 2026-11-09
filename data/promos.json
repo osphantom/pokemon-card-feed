@@ -1,0 +1,57 @@
+{
+  "verified": "2026-11-08",
+  "promos": [
+    {
+      "id": "delta-reign-kyogre",
+      "card": "Kyogre promo",
+      "stores": ["Barnes & Noble", "Hot Topic", "Five Below"],
+      "how": "Spend $15 or more on Pokémon cards, in store or online.",
+      "start": "2026-11-06",
+      "end": "",
+      "until": "While supplies last",
+      "status": "official",
+      "group": 24451,
+      "match": "^Kyogre\\b",
+      "sources": [{"label": "Pokémon.com", "url": "https://www.pokemon.com/us/news/get-kyogre-groudon-and-giratina-pokemon-tcg-promo-cards-at-participating-retailers"}]
+    },
+    {
+      "id": "delta-reign-groudon",
+      "card": "Groudon promo",
+      "stores": ["GameStop"],
+      "how": "Spend $15 or more on Pokémon cards, in store or online.",
+      "start": "2026-11-06",
+      "end": "",
+      "until": "While supplies last",
+      "status": "official",
+      "group": 24451,
+      "match": "^Groudon\\b",
+      "sources": [{"label": "Pokémon.com", "url": "https://www.pokemon.com/us/news/get-kyogre-groudon-and-giratina-pokemon-tcg-promo-cards-at-participating-retailers"}]
+    },
+    {
+      "id": "delta-reign-giratina",
+      "card": "Giratina promo",
+      "stores": ["Best Buy"],
+      "how": "Spend $15 or more on Pokémon cards, in store or online.",
+      "start": "2026-11-06",
+      "end": "",
+      "until": "While supplies last",
+      "status": "official",
+      "group": 24451,
+      "match": "^Giratina\\b",
+      "sources": [{"label": "Pokémon.com", "url": "https://www.pokemon.com/us/news/get-kyogre-groudon-and-giratina-pokemon-tcg-promo-cards-at-participating-retailers"}]
+    },
+    {
+      "id": "30th-celebration-mewtwo",
+      "card": "Mewtwo promo (30th Celebration)",
+      "stores": ["GameStop", "Barnes & Noble"],
+      "how": "Spend $15 or more on Pokémon cards.",
+      "start": "2026-10-02",
+      "end": "",
+      "until": "Started Oct 2 and may be gone, so call first",
+      "status": "reported",
+      "group": 24451,
+      "match": "^Mewtwo - 104 \\(30th Celebration\\)",
+      "sources": [{"label": "Screen Rant", "url": "https://screenrant.com/pokemon-free-mewtwo-card-gamestop-october-2/"}]
+    }
+  ]
+}

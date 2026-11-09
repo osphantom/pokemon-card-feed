@@ -12,6 +12,8 @@
   "sell_pct": 1,
   "supplies": 1,
   "shipping": {
+    "card": 1.5,
+    "card_tracked": 4.5,
     "pack": 5,
     "blister": 5.5,
     "bundle": 6.5,

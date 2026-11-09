@@ -14,7 +14,8 @@
         {"key": "next-drops", "name": "📅-next-drops", "topic": "When the next drops are. This list updates itself.", "post": true},
         {"key": "drop-pings", "name": "🔔-drop-pings", "topic": "Keep notifications on here. This channel pings you when it's time to act.", "post": true, "static": "drop-pings.md", "ping_on_setup": true},
         {"key": "release-calendar", "name": "📆-release-calendar", "topic": "Every upcoming release and preorder date, plus date changes.", "post": true},
-        {"key": "weekly-rundown", "name": "📣-weekly-rundown", "topic": "A store-by-store rundown of the week's drops, shared from Pokemon Restocks and Alerts."}
+        {"key": "weekly-rundown", "name": "📣-weekly-rundown", "topic": "A store-by-store rundown of the week's drops, shared from Pokemon Restocks and Alerts."},
+        {"key": "free-promos", "name": "🎁-free-promos", "topic": "Free promo cards at any store, and what each one sells for. This list updates itself.", "post": true, "static": "free-promos.md"}
       ]
     },
     {

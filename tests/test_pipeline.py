@@ -285,9 +285,9 @@ class ConfigTests(unittest.TestCase):
             self.assertTrue(set(window["calendar_days"]) <= set(window["days"]), window["id"])
             self.assertTrue(window["sources"], window["id"])
 
-    def test_gamestop_is_never_a_source(self):
-        text = json.dumps(common.load_json(common.CONFIG_DIR / "sources.json")).lower()
-        self.assertNotIn("gamestop", text)
+    def test_gamestop_is_only_searched_for_free_promos(self):
+        sources = common.load_json(common.CONFIG_DIR / "sources.json")["sources"]
+        self.assertEqual([s["id"] for s in sources if "gamestop" in json.dumps(s).lower()], ["gn-promo-stores"])
 
 
 if __name__ == "__main__":

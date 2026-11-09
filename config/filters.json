@@ -1,6 +1,6 @@
 {
+  "promo_only": ["gamestop", "game stop"],
   "always_reject": [
-    "gamestop", "game stop",
     "plush", "plushie", "plushies", "hoodie", "t-shirt", "tee shirt", "sweatshirt", "pajama", "pajamas",
     "apparel", "clothing", "sneaker", "sneakers", "backpack", "socks", "funko", "lego", "needoh",
     "action figure", "action figures", "holiday calendar",
@@ -22,6 +22,7 @@
     "restocked", "tcg", "trading card", "trading cards", "card game", "pokemon card", "pokemon cards", "booster", "boosters",
     "elite trainer", "etb", "etbs", "premium collection", "ultra-premium", "ultra premium", "upc", "mini tin", "blister",
     "prerelease", "pre-release", "build & battle", "build and battle", "sealed", "league battle deck",
+    "promo card", "promo cards", "promos",
     "delta reign", "flowing fists", "aura seeker", "30th celebration", "ascended heroes", "perfect order",
     "chaos rising", "pitch black", "phantasmal flames", "prismatic evolutions", "destined rivals", "happy meal"
   ],
@@ -31,6 +32,7 @@
   ],
   "japanese_terms": ["japanese", "japan exclusive", "jp exclusive"],
   "categories": {
+    "promos": ["promo card", "promo cards", "promos", "free promo", "exclusive promo", "stamped promo", "gift with purchase", "happy meal", "mcdonald's", "mcdonalds"],
     "preorders": ["preorder", "preorders", "pre-order", "pre-orders", "presale", "pre-sale", "early access"],
     "restocks": [
       "restock", "restocks", "restocked", "restocking", "in stock", "back in stock", "live on", "live at", "is live",
@@ -61,6 +63,11 @@
     "Costco": ["costco"],
     "Best Buy": ["best buy", "bestbuy"],
     "Dick's": ["dick's", "dicks"],
-    "Amazon": ["amazon"]
+    "Amazon": ["amazon"],
+    "GameStop": ["gamestop", "game stop"],
+    "Barnes & Noble": ["barnes & noble", "barnes and noble"],
+    "Hot Topic": ["hot topic"],
+    "Five Below": ["five below"],
+    "McDonald's": ["mcdonald's", "mcdonalds"]
   }
 }
