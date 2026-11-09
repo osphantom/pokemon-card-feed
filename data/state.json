@@ -18,7 +18,7 @@
   },
   "costco": {
    "id": "1569155125014954136",
-   "hash": ""
+   "hash": "1584283e9543"
   },
   "walmart": {
    "id": "1569157229586944012",
@@ -444,10 +444,5 @@
   "pennsylvania",
   "virginia"
  ],
- "retired_messages": [
-  {
-   "channel": "costco",
-   "id": "1569154744788721716"
-  }
- ]
+ "costco_checked_at": "2026-11-09T01:19:48Z"
 }
