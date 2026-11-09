@@ -18,7 +18,15 @@
   },
   "costco": {
    "id": "1569154744788721716",
-   "hash": "e6b3feb70596"
+   "hash": "1584283e9543"
+  },
+  "walmart": {
+   "id": "1569157229586944012",
+   "hash": "86b7011c55d2"
+  },
+  "target": {
+   "id": "1569157234435293235",
+   "hash": "ecc595cf88dc"
   }
  },
  "initialized": true,
@@ -347,7 +355,7 @@
   718674,
   729930
  ],
- "costco_checked_at": "2026-11-09T01:00:08Z",
+ "costco_checked_at": "2026-11-09T01:10:30Z",
  "costco_status": {
   "1493": "transit",
   "324": "none",
@@ -429,5 +437,12 @@
   "1686": "none",
   "1448": "none",
   "630": "none"
- }
+ },
+ "costco_watched": [
+  "delaware",
+  "district-of-columbia",
+  "maryland",
+  "pennsylvania",
+  "virginia"
+ ]
 }
