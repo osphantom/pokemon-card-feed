@@ -30,7 +30,7 @@
   },
   "free-promos": {
    "id": "1569375425384161463",
-   "hash": "4f24e278bee3"
+   "hash": "099521c968f7"
   },
   "raffles": {
    "id": "1569386105378447482",
@@ -877,10 +877,10 @@
   "pennsylvania",
   "virginia"
  ],
- "costco_checked_at": "2026-11-09T19:31:05Z",
- "promos_checked_at": "2026-11-09T15:37:36Z",
+ "costco_checked_at": "2026-11-09T21:46:02Z",
+ "promos_checked_at": "2026-11-09T21:46:02Z",
  "promo_markets": {
-  "30th-celebration-mewtwo": 22.97
+  "30th-celebration-mewtwo": 21.1
  },
  "promos_announced": [
   "30th-celebration-mewtwo",
