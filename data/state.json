@@ -27,11 +27,16 @@
   "target": {
    "id": "1569157234435293235",
    "hash": "ecc595cf88dc"
+  },
+  "free-promos": {
+   "id": "1569375425384161463",
+   "hash": "4f24e278bee3"
   }
  },
  "initialized": true,
  "posted_items": [
   "00a025097d10ad",
+  "0138043beb69d7",
   "018020cde51267",
   "04334bb6e21626",
   "0532a95ac415b6",
@@ -52,6 +57,7 @@
   "23002c6d8f22a6",
   "24320ce7bf1fc9",
   "24b102c9f04202",
+  "2634a884f31158",
   "2761e92d834f98",
   "2f234ea43805ce",
   "31dd8b448f9234",
@@ -112,6 +118,7 @@
   "aed726088d0ef5",
   "afa0b17db260a8",
   "b04f0fba820311",
+  "b0cf324d349f9a",
   "b5d00a37e17624",
   "b7a80ee2a83986",
   "b7e8c2bb7c8113",
@@ -130,6 +137,7 @@
   "cf8086da550d2e",
   "d439a3cffa47d5",
   "d49f9c183f5036",
+  "dae0def6b2d083",
   "dd0e4849a86c57",
   "df4a79ed553a74",
   "dfbf3e79ccf688",
@@ -144,6 +152,7 @@
   "f0cf0778aa3ffe",
   "f518e6b442751a",
   "f58447a93c6c59",
+  "f84baf1bc86b6b",
   "fac1757c00a3ce",
   "fb0f712bb465ab",
   "fc0ec2dad55159",
@@ -454,5 +463,15 @@
   "pennsylvania",
   "virginia"
  ],
- "costco_checked_at": "2026-11-09T15:28:39Z"
+ "costco_checked_at": "2026-11-09T15:28:39Z",
+ "promos_checked_at": "2026-11-09T15:37:36Z",
+ "promo_markets": {
+  "30th-celebration-mewtwo": 22.97
+ },
+ "promos_announced": [
+  "30th-celebration-mewtwo",
+  "delta-reign-giratina",
+  "delta-reign-groudon",
+  "delta-reign-kyogre"
+ ]
 }
