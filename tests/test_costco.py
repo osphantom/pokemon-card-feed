@@ -1,7 +1,7 @@
 import unittest
 from datetime import datetime, timedelta, timezone
 
-from pipeline import classify, costco_stock, discord_post
+from pipeline import classify, common, costco_stock, discord_post
 from pipeline.common import iso
 
 NOW = datetime(2026, 11, 9, 18, 0, tzinfo=timezone.utc)
@@ -78,8 +78,23 @@ class FetchTests(unittest.TestCase):
         self.assertNotIn("Mozilla", session.headers["User-Agent"])
 
     def test_checks_only_a_few_times_a_day(self):
-        state = {"costco_checked_at": iso(NOW - timedelta(hours=2))}
+        watched = sorted(common.load_json(common.CONFIG_DIR / "costco.json")["states"])
+        state = {"costco_checked_at": iso(NOW - timedelta(hours=1)), "costco_watched": watched}
         self.assertIsNone(costco_stock.refresh_if_due(NOW, state, self.session([])))
+
+    def test_changing_the_states_checks_right_away(self):
+        state = {"costco_checked_at": iso(NOW - timedelta(minutes=5)), "costco_watched": ["ohio"]}
+        session = self.session([self.Response(403)])
+        costco_stock.refresh_if_due(NOW, state, session, pause=0)
+        self.assertEqual(type(session).calls, 1)
+
+    def test_a_state_with_no_stock_still_counts_as_a_good_read(self):
+        empty = "<p>Sheet date: Nov 7</p><p>Maryland totals Bundle · item 1</p>"
+        pages = len(common.load_json(common.CONFIG_DIR / "costco.json")["states"])
+        data = costco_stock.fetch_states(self.session([self.Response(200, empty) for _ in range(pages)]), pause=0)
+        self.assertEqual(data["states"], {})
+        self.assertEqual(data["sheet_date"], "Nov 7")
+        self.assertEqual(data["focus"], "MD")
 
     def test_a_failed_check_still_waits_before_trying_again(self):
         state = {}
@@ -127,6 +142,24 @@ class ApplyTests(unittest.TestCase):
         self.assertTrue(all(len(field["value"]) <= 1024 for field in embed["fields"]))
         total = len(embed["title"]) + len(embed["description"]) + sum(len(f["name"]) + len(f["value"]) for f in embed["fields"])
         self.assertLessEqual(total, 6000)
+
+    def test_home_state_always_comes_first(self):
+        data = {
+            "sheet_date": "Nov 8", "product": "Bundle", "item": "1", "focus": "MD", "area": "Maryland and nearby",
+            "states": {"PA": [warehouse("1", "Oaks PA", hand=960)], "MD": [warehouse("2", "Columbia MD", transit=240)]},
+        }
+        embed = discord_post.costco_board(data)["embeds"][0]
+        self.assertTrue(embed["fields"][0]["name"].startswith("MD:"))
+        self.assertIn("Maryland and nearby", embed["title"])
+
+    def test_home_state_shows_even_with_no_stock(self):
+        data = {
+            "sheet_date": "Nov 8", "product": "Bundle", "item": "1", "focus": "MD", "area": "Maryland and nearby",
+            "states": {"PA": [warehouse("1", "Oaks PA", hand=960)]},
+        }
+        fields = discord_post.costco_board(data)["embeds"][0]["fields"]
+        self.assertEqual(fields[0]["name"], "MD: nothing on this sheet yet")
+        self.assertTrue(fields[1]["name"].startswith("PA:"))
 
     def test_state_with_nothing_is_left_off_the_board(self):
         data = {"sheet_date": "Nov 8", "product": "Bundle", "item": "1", "states": {"MA": [warehouse("1", "Avon MA")]}}

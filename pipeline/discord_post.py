@@ -265,22 +265,34 @@ def state_field(abbreviation: str, warehouses: list[dict], value_limit: int):
 def costco_board(data: dict) -> dict:
     # Discord caps a whole embed at 6,000 characters, so states share the room.
     limit = max(120, 3800 // max(1, len(data["states"])))
-    built = [state_field(abbreviation, rows, min(limit, 1024)) for abbreviation, rows in data["states"].items()]
-    fields = [entry[0] for entry in sorted((b for b in built if b), key=lambda entry: -entry[1])][:25]
+    built = [
+        (abbreviation, state_field(abbreviation, rows, min(limit, 1024)))
+        for abbreviation, rows in data["states"].items()
+    ]
+    ranked = sorted((entry for entry in built if entry[1]), key=lambda entry: -entry[1][1])
+    focus = data.get("focus", "")
+    fields = [entry[1][0] for entry in ranked if entry[0] == focus] + [entry[1][0] for entry in ranked if entry[0] != focus]
+    if focus and not any(entry[0] == focus for entry in ranked):
+        fields.insert(0, {
+            "name": f"{focus}: nothing on this sheet yet",
+            "value": "No warehouse here has stock listed right now. You'll get a ping when that changes.",
+        })
+    fields = fields[:25]
+    area = data.get("area") or "Eastern-time states"
     return {
         "embeds": [{
-            "title": "📦 Costco shipments near you",
+            "title": f"📦 Costco shipments: {area}",
             "url": COSTCO_LOOKUP_URL,
             "color": COLORS["restocks"],
             "description": clip(
                 f"**{data['product']}** · item #{data['item']}\n"
-                f"Latest sheet: **{data['sheet_date']}**. Covers Eastern-time states.\n\n"
+                f"Latest sheet: **{data['sheet_date']}**. Covers {area}.\n\n"
                 f"[Look up any Costco by ZIP]({COSTCO_LOOKUP_URL}). Numbers come from shipment sheets, not live "
                 "shelves, so call the warehouse with the item number before you drive.",
                 1000,
             ),
             "fields": fields or [{"name": "Nothing yet", "value": "No warehouses in these states have stock on this sheet."}],
-            "footer": {"text": "Data from PokeRestock. Checked about every 6 hours."},
+            "footer": {"text": "Data from PokeRestock. Checked about every 2 hours."},
         }]
     }
 
@@ -309,7 +321,7 @@ def shipment_ping(data: dict, arrivals: list, trucks: list) -> dict:
             "url": COSTCO_LOOKUP_URL,
             "color": COLORS["ping"],
             "description": (
-                f"{len(arrivals)} Eastern-time warehouses just got stock and {len(trucks)} have it on the truck. "
+                f"{len(arrivals)} warehouses in your area just got stock and {len(trucks)} have it on the truck. "
                 "See which ones in the Costco channel."
             ),
             "footer": {"text": f"{data['product']} · item #{data['item']}"},
@@ -354,6 +366,23 @@ def sams_board() -> dict:
                 "[Restockd's free in-store map](https://restockd.app/pokemon-in-store) shows reported on-order "
                 "counts by club for the items it tracks. Search your ZIP, then call the club before you drive.\n\n"
                 "When Restockd posts a new Sam's Club list, it will show up in this channel."
+            ),
+        }]
+    }
+
+
+def spotted_board(store: str, alerts_channel: str) -> dict:
+    return {
+        "embeds": [{
+            "title": f"📍 See what people spotted at {store} near you",
+            "url": "https://restockd.app/pokemon-in-store",
+            "color": COLORS["restocks"],
+            "description": (
+                f"There's no public list of what's headed to each {store}. The closest thing is "
+                f"[Restockd's free map](https://restockd.app/pokemon-in-store), which shows stock members saw on {store} "
+                "shelves near your ZIP, about an hour behind.\n\n"
+                f"For instant online alerts, turn on notifications for **{alerts_channel}** in PokePings, or join "
+                "[Restockd's free Discord](https://discord.gg/cnek2qsAht)."
             ),
         }]
     }
@@ -448,6 +477,8 @@ def run(now, client, items, windows, events, undated, products, state, costco=No
         if products:
             update_board(client, state, "what-to-buy", what_to_buy_board(products))
         update_board(client, state, "sams-club", sams_board())
+        update_board(client, state, "walmart", spotted_board("Walmart", "walmart-free"))
+        update_board(client, state, "target", spotted_board("Target", "target-free"))
         if costco:
             apply_costco(client, state, costco, keys)
 

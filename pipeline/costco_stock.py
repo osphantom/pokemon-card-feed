@@ -16,7 +16,7 @@ import requests
 from .common import CONFIG_DIR, USER_AGENT, iso, load_json, parse_iso
 
 BASE_URL = "https://pokerestockapp.com/costco/"
-REFRESH_AFTER = timedelta(hours=6)
+REFRESH_AFTER = timedelta(hours=2)
 ROW = re.compile(
     r'class="nm">(?P<name>[^<]+)</span>\s*<span class="ct">#(?P<number>\d+)</span>'
     r'.*?data-l="On hand">(?P<hand>[\d,]+)<'
@@ -76,6 +76,8 @@ def fetch_states(session=None, pause: float = 1.5):
     states: dict[str, list] = {}
     details = {"sheet_date": "", "product": "", "item": ""}
     for slug, abbreviation in config["states"].items():
+        if slug != next(iter(config["states"])):
+            time.sleep(pause)
         try:
             response = session.get(f"{BASE_URL}{slug}/", timeout=25)
         except requests.RequestException as error:
@@ -87,22 +89,24 @@ def fetch_states(session=None, pause: float = 1.5):
             print(f"Costco check stopped: the site returned {response.status_code}")
             break
         page = parse_page(response.text)
+        for key in details:
+            details[key] = details[key] or page[key]
         if page["warehouses"]:
             states[abbreviation] = page["warehouses"]
-            for key in details:
-                details[key] = details[key] or page[key]
-        time.sleep(pause)
-    if not states:
-        print("Costco check found no warehouses; the page layout may have changed.")
+    if not details["sheet_date"]:
+        print("Costco check found no sheet date; the site refused or its page layout changed.")
         return None
     print(f"Costco check: {sum(len(rows) for rows in states.values())} warehouses on the sheet in {len(states)} states.")
-    return {**details, "states": states}
+    return {**details, "states": states, "focus": config.get("focus", ""), "area": config.get("area", "")}
 
 
 def refresh_if_due(now, state: dict, session=None, pause: float = 1.5):
     """Check a few times a day. Failed checks wait too, so a refusing site isn't hammered."""
     last = state.get("costco_checked_at")
-    if last and now - parse_iso(last) < REFRESH_AFTER:
+    # Editing the list of states takes effect on the next run.
+    watched = sorted(load_json(CONFIG_DIR / "costco.json")["states"])
+    if last and now - parse_iso(last) < REFRESH_AFTER and state.get("costco_watched") == watched:
         return None
     state["costco_checked_at"] = iso(now)
+    state["costco_watched"] = watched
     return fetch_states(session, pause)
