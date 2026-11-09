@@ -1,6 +1,74 @@
 {
  "items": [
   {
+   "title": "What Pokémon restocked this week (Nov 2 to Nov 9, 2026)",
+   "link": "https://pokerestockapp.com/pokemon/this-week/",
+   "source": "PokeRestock",
+   "source_id": "pokerestock-news",
+   "publisher": "",
+   "published": "2026-11-09T13:40:44Z",
+   "category": "restocks",
+   "stores": [],
+   "hot": false,
+   "id": "c77c5daac82b93",
+   "first_seen": "2026-11-09T15:28:14Z"
+  },
+  {
+   "title": "Pokémon card drops and restocks: Best deals from Amazon, Walmart, TCGplayer",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNY0RLRTVMaktueDJtcFhWYk5NclZmVXR0WERUQjVXeUJsaVdiam9KR1JOM2RpMkdsaFRxNm5nSHpqVXBJSHM1ZkNYMGcwNFRIZGlpUG1yRk1hNjcweUdFVFBwZXRjbmI4d2t4cmVIcm9JdjBFbUtXMUJ2YWdfRmNkSzFB?oc=5",
+   "source": "Google News: restocks",
+   "source_id": "gn-restock",
+   "publisher": "Mashable",
+   "published": "2026-11-09T12:33:18Z",
+   "category": "restocks",
+   "stores": [
+    "Walmart",
+    "Amazon"
+   ],
+   "hot": false,
+   "id": "23002c6d8f22a6",
+   "first_seen": "2026-11-09T15:28:14Z"
+  },
+  {
+   "title": "Pokémon TCG 30th Anniversary Ultra-Premium Collection preorders are live: Buy at market price",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTmlPUzRLM2FwZmx0Qi1sdm8zZ1dmeGlkbl9JN3ZKRUMtaWx0cURGOTZCenZoeEZOckFtM2FpRlBPRHJrWHlvTmxSQjE1R1VCV21fUWlwa3czM2Zwc2Q5QmpUR0VCZDM5a2ZMdmtxbW5yQ1U4REV1eVE4bi02MGZid3FETk5pVHlqWl9ZXzZXY1hZVUpLdkl4Z2NR?oc=5",
+   "source": "Google News: preorders",
+   "source_id": "gn-preorder",
+   "publisher": "Mashable",
+   "published": "2026-11-09T11:21:19Z",
+   "category": "preorders",
+   "stores": [],
+   "hot": true,
+   "id": "40d1437b9466b0",
+   "first_seen": "2026-11-09T15:28:14Z"
+  },
+  {
+   "title": "Can Pokémon cards really make you rich?",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaVlRRGY0NVZ5UDR3bE53SmczUHg3bXd2SFpwSWlXa1p5MmM0WGExVTZ5bV9HdDhDV3pVOXBIUEFvT1RrNnFMSVNTMUgzUlNWWmY0TGhvaE56amR0aW51WTIwQTdGdm1mdTd4V2hjRFVsd0h2di1DUDdQckVCVVFyT24zaDF4NXRSRzFTZlB2cmFMcjZObzRVNC1sUnZyYkcxNkRlZzVqOTFYRW9yODlHRkNxUlVqazZ6YlE?oc=5",
+   "source": "Google News: market",
+   "source_id": "gn-market",
+   "publisher": "NME",
+   "published": "2026-11-09T10:47:43Z",
+   "category": "market",
+   "stores": [],
+   "hot": false,
+   "id": "fb0f712bb465ab",
+   "first_seen": "2026-11-09T15:28:14Z"
+  },
+  {
+   "title": "Vulpix and Ninetales from \"Aura Seeker\" Revealed!",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdlNDTHlYMVo5S2RjOHhwajh0akZHbGQwN3NzcnhuUldrcFdZOE55ejgzTVJLek9yNTROUG1vMVhFeDBUWVVhYnB0SDJVd0lVQ3JJNFJxYll0UVlMZkxLMXZRUFdMbWRJclVfbmhVdGhmcmRyTzdjZy1RUHd1MmxuaFRFTzRDVEE?oc=5",
+   "source": "PokeBeach",
+   "source_id": "gn-pokebeach",
+   "publisher": "PokeBeach",
+   "published": "2026-11-09T10:06:00Z",
+   "category": "releases",
+   "stores": [],
+   "hot": false,
+   "id": "b04f0fba820311",
+   "first_seen": "2026-11-09T15:28:14Z"
+  },
+  {
    "title": "Costco UPC 2-pack watch + the next Pokémon release dates",
    "link": "https://buttondown.com/tcgdropradar/archive/costco-upc-2-pack-watch-the-next-pokemon-release/",
    "source": "TCG Drop Radar newsletter",
@@ -57,6 +125,19 @@
    "hot": false,
    "id": "aa6322cc8d2d89",
    "first_seen": "2026-11-09T00:59:44Z"
+  },
+  {
+   "title": "Pokemon TCG: Journey Together set – Release date, Trainer’s Pokemon & more",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMTJPSGRvbU1HZXJXYXlDZ3JWXzNxRUo2M3lubUN3SDAtc3Q2MG5qaU9SWldaVW1jX0pPbTN6WXliTGFaYVhuTkp4REpFd2xmcmt6VFNuYUVXZ3NCZ21XTzZ1bUNsRGhnNGp3dm56bFZyVlY5VDNyb184TGFtWEZBRlJtX3l3ZnBGMUVZdDhCYllLb0FRbU1SS2tUdjlWUk1EdTk2c3dLTS1kQQ?oc=5",
+   "source": "Google News: releases",
+   "source_id": "gn-release",
+   "publisher": "Dexerto",
+   "published": "2026-11-07T19:08:28Z",
+   "category": "releases",
+   "stores": [],
+   "hot": false,
+   "id": "cf8086da550d2e",
+   "first_seen": "2026-11-09T15:28:14Z"
   },
   {
    "title": "The Pokémon TCG 30th Celebration Elite Trainer Box is live at Amazon: Shop now for way under market price",

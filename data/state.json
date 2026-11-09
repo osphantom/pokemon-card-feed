@@ -18,7 +18,7 @@
   },
   "costco": {
    "id": "1569155125014954136",
-   "hash": "1584283e9543"
+   "hash": "ac86a3be3f3e"
   },
   "walmart": {
    "id": "1569157229586944012",
@@ -49,6 +49,7 @@
   "1d8c919dbab227",
   "2057bce2d25785",
   "22e7ca2c39f858",
+  "23002c6d8f22a6",
   "24320ce7bf1fc9",
   "24b102c9f04202",
   "2761e92d834f98",
@@ -59,6 +60,7 @@
   "3a6473c292ef2f",
   "3e333299ee3d08",
   "40730cb3cf5931",
+  "40d1437b9466b0",
   "40d9eb9a8812b3",
   "40e3eb9db5f0ed",
   "4112d83ae2cd80",
@@ -108,6 +110,7 @@
   "ae56fb57af9c10",
   "aed726088d0ef5",
   "afa0b17db260a8",
+  "b04f0fba820311",
   "b5d00a37e17624",
   "b7a80ee2a83986",
   "b7e8c2bb7c8113",
@@ -117,11 +120,13 @@
   "c0aa0ce54c7466",
   "c3c5128447fa70",
   "c4fb9a4271eaf1",
+  "c77c5daac82b93",
   "c89eb5d7b6a6d8",
   "ca701ee9627917",
   "ccb75f24edd9db",
   "ce090f40fe3e85",
   "ceb1c9128722c8",
+  "cf8086da550d2e",
   "d439a3cffa47d5",
   "d49f9c183f5036",
   "dd0e4849a86c57",
@@ -139,11 +144,13 @@
   "f518e6b442751a",
   "f58447a93c6c59",
   "fac1757c00a3ce",
+  "fb0f712bb465ab",
   "fc0ec2dad55159",
   "fedca7e46f4feb"
  ],
  "posted_keys": [
-  "morning:2026-11-08"
+  "morning:2026-11-08",
+  "morning:2026-11-09"
  ],
  "event_fingerprints": {
   "mcdonalds-2026": "4a2c9af31a76",
@@ -446,5 +453,5 @@
   "pennsylvania",
   "virginia"
  ],
- "costco_checked_at": "2026-11-09T07:58:35Z"
+ "costco_checked_at": "2026-11-09T15:28:39Z"
 }
