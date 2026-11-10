@@ -2,7 +2,7 @@
  "boards": {
   "next-drops": {
    "id": "1569124781813665805",
-   "hash": "791d75d9f46f"
+   "hash": "c6355ded6c2e"
   },
   "release-calendar": {
    "id": "1569124785269768347",
@@ -150,6 +150,7 @@
   "b5d00a37e17624",
   "b7a80ee2a83986",
   "b7e8c2bb7c8113",
+  "b9bf2518cca5c9",
   "bbfb0ac0db70bb",
   "bcdbbcecab5552",
   "be90014a32f52a",
@@ -183,6 +184,7 @@
   "edbf8ad390a946",
   "effd6a2c510c53",
   "f0cf0778aa3ffe",
+  "f1b91f989634b4",
   "f518e6b442751a",
   "f58447a93c6c59",
   "f84baf1bc86b6b",
@@ -194,6 +196,7 @@
  "posted_keys": [
   "morning:2026-11-08",
   "morning:2026-11-09",
+  "morning:2026-11-10",
   "raffle-ping:Target:2026-11-09"
  ],
  "event_fingerprints": {
@@ -887,8 +890,8 @@
   "pennsylvania",
   "virginia"
  ],
- "costco_checked_at": "2026-11-10T08:50:25Z",
- "promos_checked_at": "2026-11-10T03:46:02Z",
+ "costco_checked_at": "2026-11-10T16:17:49Z",
+ "promos_checked_at": "2026-11-10T16:17:49Z",
  "promo_markets": {
   "30th-celebration-mewtwo": 21.1
  },
