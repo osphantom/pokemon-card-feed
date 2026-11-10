@@ -123,6 +123,47 @@ class FeedMergeTests(unittest.TestCase):
         self.assertEqual(Session.calls, 1)
         self.assertEqual(health[0], {"id": "a", "name": "A", "ok": False, "status": 403, "count": 0})
 
+    def test_failing_source_rests_longer_each_time(self):
+        class Response:
+            status_code = 403
+            content = b""
+
+        class Session:
+            headers = {}
+            calls = 0
+
+            def get(self, url, timeout):
+                Session.calls += 1
+                return Response()
+
+        source = [{"id": "a", "name": "A", "url": "https://example.com/feed"}]
+        rests = {}
+        feeds.fetch_sources(source, NOW, Session(), pause=0, rests=rests)
+        feeds.fetch_sources(source, NOW + timedelta(minutes=15), Session(), pause=0, rests=rests)
+        self.assertEqual(rests["a"]["failures"], 2)
+        _, health = feeds.fetch_sources(source, NOW + timedelta(minutes=30), Session(), pause=0, rests=rests)
+        self.assertEqual(Session.calls, 2)
+        self.assertEqual(health[0]["status"], "resting")
+        later = NOW + timedelta(minutes=46)
+        feeds.fetch_sources(source, later, Session(), pause=0, rests=rests)
+        self.assertEqual(Session.calls, 3)
+        self.assertEqual(common.parse_iso(rests["a"]["until"]) - later, timedelta(hours=2))
+
+    def test_source_that_works_again_stops_resting(self):
+        class Response:
+            status_code = 200
+            content = b"<rss><channel></channel></rss>"
+
+        class Session:
+            headers = {}
+
+            def get(self, url, timeout):
+                return Response()
+
+        rests = {"a": {"failures": 4, "until": common.iso(NOW - timedelta(minutes=1))}}
+        feeds.fetch_sources([{"id": "a", "name": "A", "url": "https://example.com/feed"}], NOW, Session(), pause=0, rests=rests)
+        self.assertEqual(rests, {})
+
     def test_client_name_is_not_a_browser(self):
         self.assertNotIn("Mozilla", common.USER_AGENT)
         self.assertNotIn("@", common.USER_AGENT)

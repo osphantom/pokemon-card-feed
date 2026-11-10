@@ -192,6 +192,26 @@ class CoverageTests(unittest.TestCase):
             market.add_ebay_asks(rows, None)
         self.assertEqual(len(searched), 2)
 
+    def test_ebay_pass_stops_when_ebay_keeps_refusing(self):
+        searched = []
+
+        class RefusingEbay:
+            def __init__(self, *args):
+                pass
+
+            def authenticate(self):
+                return True
+
+            def search(self, query):
+                searched.append(query)
+                return None
+
+        rows = [{"name": f"Box {number}", "market": 50, "current": True} for number in range(20)]
+        keys = {"EBAY_CLIENT_ID": "a", "EBAY_CLIENT_SECRET": "b"}
+        with mock.patch.dict("os.environ", keys), mock.patch.object(market, "EbayClient", RefusingEbay), mock.patch.object(market.time, "sleep"):
+            market.add_ebay_asks(rows, None)
+        self.assertEqual(len(searched), market.EBAY_REFUSALS_BEFORE_STOP)
+
 
 class NewProductTests(unittest.TestCase):
     def product(self, identifier, current):

@@ -17,7 +17,10 @@ def main() -> None:
     rules = load_rules()
 
     stored = load_json(DATA_DIR / "items.json", {"items": []})["items"]
-    fresh, health = fetch_sources(sources, now)
+    # Which sources are resting after repeated failures carries over from run to run.
+    rests = load_json(DATA_DIR / "source_rests.json", {})
+    fresh, health = fetch_sources(sources, now, rests=rests)
+    save_json(DATA_DIR / "source_rests.json", rests)
     items = merge_items(stored, fresh, sources, rules, now)
     save_json(DATA_DIR / "items.json", {"items": items})
 

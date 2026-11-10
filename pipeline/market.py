@@ -25,6 +25,8 @@ EBAY_TOKEN_URL = "https://api.ebay.com/identity/v1/oauth2/token"
 EBAY_SEARCH_URL = "https://api.ebay.com/buy/browse/v1/item_summary/search"
 # eBay allows 5,000 calls a day, and prices refresh about twice a day.
 EBAY_LOOKUPS_PER_REFRESH = 800
+# If eBay keeps refusing, stop instead of asking hundreds more times.
+EBAY_REFUSALS_BEFORE_STOP = 5
 
 TITLE_REJECT = re.compile(
     r"\b(empty|opened|open box|no packs|japanese|korean|chinese|box only|codes?|lot of|bulk|proxy|custom|"
@@ -181,7 +183,8 @@ class EbayClient:
         self.token = response.json()["access_token"]
         return True
 
-    def search(self, query: str) -> list[dict]:
+    def search(self, query: str) -> list[dict] | None:
+        """Listings for one search, or None when eBay refuses."""
         response = self.session.get(
             EBAY_SEARCH_URL,
             headers={"Authorization": f"Bearer {self.token}", "X-EBAY-C-MARKETPLACE-ID": "EBAY_US"},
@@ -194,7 +197,7 @@ class EbayClient:
             timeout=30,
         )
         if response.status_code != 200:
-            return []
+            return None
         return response.json().get("itemSummaries", []) or []
 
 
@@ -210,9 +213,17 @@ def add_ebay_asks(rows: list[dict], session) -> bool:
             return False
         # Newest products come first, in case the list ever outgrows the cap.
         lookups = rows[:EBAY_LOOKUPS_PER_REFRESH]
+        refusals = 0
         for row in lookups:
             listings = client.search(search_phrase(row["name"]))
-            row["ebay_ask"], row["ebay_count"] = ask_from_listings(row["name"], row["market"], listings)
+            if listings is None:
+                refusals += 1
+                if refusals >= EBAY_REFUSALS_BEFORE_STOP:
+                    print(f"eBay refused {refusals} searches in a row; stopping until the next price refresh.")
+                    break
+            else:
+                refusals = 0
+                row["ebay_ask"], row["ebay_count"] = ask_from_listings(row["name"], row["market"], listings)
             time.sleep(0.25)
     except requests.RequestException as error:
         print(f"eBay lookup stopped early: {type(error).__name__}")

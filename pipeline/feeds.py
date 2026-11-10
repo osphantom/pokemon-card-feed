@@ -17,6 +17,9 @@ from .common import USER_AGENT, fold, iso, parse_iso
 MAX_ENTRY_AGE = timedelta(days=21)
 KEEP_FOR = timedelta(days=30)
 MAX_ITEMS = 1000
+# A source that keeps failing rests longer each time (after the 2nd miss in a row, the 3rd, then every
+# later one), so a site that's refusing isn't asked again every 15 minutes.
+SOURCE_RESTS = [timedelta(0), timedelta(0), timedelta(minutes=30), timedelta(hours=2), timedelta(hours=6)]
 PAGE_SUFFIX = re.compile(r"\s*\|\s*Page \d+$", re.I)
 
 
@@ -68,8 +71,14 @@ def story_id(title: str, published: str) -> str:
     return hashlib.sha1(f"{words}|{year}-{week}".encode()).hexdigest()[:14]
 
 
-def fetch_sources(sources, now, session=None, pause: float = 1.0):
-    """Fetch each source once. A refusal or failure is recorded, never retried."""
+def rest_after(failures: int) -> timedelta:
+    return SOURCE_RESTS[min(failures, len(SOURCE_RESTS) - 1)]
+
+
+def fetch_sources(sources, now, session=None, pause: float = 1.0, rests: dict | None = None):
+    """Fetch each source once. A refusal or failure is recorded and never retried in the same run,
+    and a source that keeps failing rests longer before it's asked again."""
+    rests = {} if rests is None else rests
     session = session or requests.Session()
     session.headers.update(
         {"User-Agent": USER_AGENT, "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.5"}
@@ -77,6 +86,11 @@ def fetch_sources(sources, now, session=None, pause: float = 1.0):
     entries, health = [], []
     for source in sources:
         record = {"id": source["id"], "name": source["name"], "ok": False, "status": "", "count": 0}
+        resting = rests.get(source["id"])
+        if resting and parse_iso(resting["until"]) > now:
+            record["status"] = "resting"
+            health.append(record)
+            continue
         try:
             response = session.get(source["url"], timeout=25)
             record["status"] = response.status_code
@@ -88,6 +102,11 @@ def fetch_sources(sources, now, session=None, pause: float = 1.0):
                 record.update(ok=True, count=len(kept))
         except requests.RequestException as error:
             record["status"] = type(error).__name__
+        if record["ok"]:
+            rests.pop(source["id"], None)
+        else:
+            failures = (resting or {}).get("failures", 0) + 1
+            rests[source["id"]] = {"failures": failures, "until": iso(now + rest_after(failures))}
         health.append(record)
         time.sleep(pause)
     return entries, health
