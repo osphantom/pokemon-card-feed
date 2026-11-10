@@ -302,6 +302,21 @@
    "first_seen": "2026-11-09T00:59:44Z"
   },
   {
+   "title": "Costco Pokémon 30th Celebration ETB + Booster Bundle",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ZR0lfV2ROQmpsclpWRG0yRmVVNHZBWDdpUlM3SVJJTWVzZi0tTG5uZFVvSE1DYTdDTXY1MFJENElWQUM5RkV4N3BMUDZXbUJjRy1oOG9jQXJqLUFRLUNzOUJGd0RSX2FJcTdQcg?oc=5",
+   "source": "Restockd",
+   "source_id": "gn-restockd",
+   "publisher": "Restockd",
+   "published": "2026-11-08T08:00:00Z",
+   "category": "restocks",
+   "stores": [
+    "Costco"
+   ],
+   "hot": true,
+   "id": "29ef0bcba8b98d",
+   "first_seen": "2026-11-10T08:49:57Z"
+  },
+  {
    "title": "Pokémon TCG 30th Celebration Elite Trainer Box Available for $59.99 on Amazon",
    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNanhwN0VQa28wVmI2VTBVOWJ5RDlPNUNQOC1FLW41YTVxRURKZ05YTnphREJlSEdtVDdHM184WEJiZ3FtLVJ6T01FdWk0ZUFFaHZLMHBXelhQZ3BFX01iVXBSRFpLQzJxZWJJdVR2c29mVVlaY1RiSTVPRVFmSFpTTXR6dkFiVlE3dnk5bFhrb1FFLV95TmtyeEFUQzllc2MyYm1nYUd3?oc=5",
    "source": "Google News: raffles and invites",
@@ -1540,19 +1555,6 @@
    "first_seen": "2026-11-08T17:32:32Z"
   },
   {
-   "title": "Check Out Every Pokémon TCG Product Release in November 2026",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQN3hHOW5zZzdmSHFLLTV1X2F2bUhnX2Izakd0eGN2T0lVOFc0ejE4QTRleENYOXF5TUJhaG1KYlZ2bVVHSWpzY2pnZ1dfWnlhWXRxV2VCWER4U05ZYUptTUpsQ1VuYzN6M2RvU2VuZGdLcGVXdTBaZ1hBR1owQjFwaGdBRHV5UDZ1LWpDa1R2QjRTSTR1QzE4?oc=5",
-   "source": "Pokemon.com",
-   "source_id": "gn-official",
-   "publisher": "Pokemon.com",
-   "published": "2026-11-02T16:14:50Z",
-   "category": "releases",
-   "stores": [],
-   "hot": false,
-   "id": "89959e5bf5c711",
-   "first_seen": "2026-11-08T17:32:32Z"
-  },
-  {
    "title": "Limited-Time Pokémon Cards Accidentally Revealed a Year Early",
    "link": "https://www.polygon.com/pokemon-cards-mcdonalds-2027-leak/",
    "source": "Polygon",
@@ -1617,6 +1619,19 @@
    "stores": [],
    "hot": false,
    "id": "fac1757c00a3ce",
+   "first_seen": "2026-11-08T17:32:32Z"
+  },
+  {
+   "title": "Check Out Every Pokémon TCG Product Release in November 2026",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQN3hHOW5zZzdmSHFLLTV1X2F2bUhnX2Izakd0eGN2T0lVOFc0ejE4QTRleENYOXF5TUJhaG1KYlZ2bVVHSWpzY2pnZ1dfWnlhWXRxV2VCWER4U05ZYUptTUpsQ1VuYzN6M2RvU2VuZGdLcGVXdTBaZ1hBR1owQjFwaGdBRHV5UDZ1LWpDa1R2QjRTSTR1QzE4?oc=5",
+   "source": "Pokemon.com",
+   "source_id": "gn-official",
+   "publisher": "Pokemon.com",
+   "published": "2026-11-02T08:00:00Z",
+   "category": "releases",
+   "stores": [],
+   "hot": false,
+   "id": "89959e5bf5c711",
    "first_seen": "2026-11-08T17:32:32Z"
   },
   {

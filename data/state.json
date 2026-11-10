@@ -30,7 +30,7 @@
   },
   "free-promos": {
    "id": "1569375425384161463",
-   "hash": "099521c968f7"
+   "hash": "77cec083e1a3"
   },
   "raffles": {
    "id": "1569386105378447482",
@@ -66,6 +66,7 @@
   "2634a884f31158",
   "272f3165398020",
   "2761e92d834f98",
+  "29ef0bcba8b98d",
   "2f234ea43805ce",
   "31dd8b448f9234",
   "33bb96ede7ca5a",
@@ -886,7 +887,7 @@
   "pennsylvania",
   "virginia"
  ],
- "costco_checked_at": "2026-11-10T06:16:04Z",
+ "costco_checked_at": "2026-11-10T08:50:25Z",
  "promos_checked_at": "2026-11-10T03:46:02Z",
  "promo_markets": {
   "30th-celebration-mewtwo": 21.1
