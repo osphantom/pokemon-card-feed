@@ -145,6 +145,7 @@
   "afa0b17db260a8",
   "b04f0fba820311",
   "b0cf324d349f9a",
+  "b0e25389bb95fc",
   "b1396410837240",
   "b21dbbc0ff90a3",
   "b387508a9837df",
@@ -198,7 +199,8 @@
   "morning:2026-11-08",
   "morning:2026-11-09",
   "morning:2026-11-10",
-  "raffle-ping:Target:2026-11-09"
+  "raffle-ping:Target:2026-11-09",
+  "raffle-ping:any:2026-11-10"
  ],
  "event_fingerprints": {
   "mcdonalds-2026": "4a2c9af31a76",
