@@ -4,7 +4,7 @@
     {
       "id": "delta-reign-kyogre",
       "card": "Kyogre promo",
-      "stores": ["Barnes & Noble", "Hot Topic", "Five Below"],
+      "stores": ["Barnes & Noble", "Hot Topic", "Five Below", "Macy's"],
       "how": "Spend $15 or more on Pokémon cards, in store or online.",
       "start": "2026-11-06",
       "end": "",
@@ -12,7 +12,10 @@
       "status": "official",
       "group": 24451,
       "match": "^Kyogre\\b",
-      "sources": [{"label": "Pokémon.com", "url": "https://www.pokemon.com/us/news/get-kyogre-groudon-and-giratina-pokemon-tcg-promo-cards-at-participating-retailers"}]
+      "sources": [
+        {"label": "Pokémon.com", "url": "https://www.pokemon.com/us/news/get-kyogre-groudon-and-giratina-pokemon-tcg-promo-cards-at-participating-retailers"},
+        {"label": "OTIA retailer list", "url": "https://otia.com/news/pokemon-tcg-mega-evolution-delta-reign-promo-cards-retailers-november-6-2026"}
+      ]
     },
     {
       "id": "delta-reign-groudon",
