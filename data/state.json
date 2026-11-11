@@ -903,7 +903,7 @@
   "pennsylvania",
   "virginia"
  ],
- "costco_checked_at": "2026-11-11T03:22:33Z",
+ "costco_checked_at": "2026-11-11T04:01:00Z",
  "promos_checked_at": "2026-11-11T01:42:59Z",
  "promo_markets": {
   "30th-celebration-mewtwo": 20.43,
@@ -979,5 +979,7 @@
    "6351": "order",
    "4729": "order"
   }
- }
+ },
+ "costco_stamp": "2026-11-09T14:04:35Z",
+ "costco_read_at": "2026-11-11T04:01:00Z"
 }
