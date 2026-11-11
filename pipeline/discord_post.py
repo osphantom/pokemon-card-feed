@@ -18,6 +18,7 @@ from .promos import worth_showing
 from .raffles import MIN_PROFIT as RAFFLE_MIN_PROFIT
 from .raffles import load_current as load_raffles
 from .raffles import worth_showing as raffle_worth_showing
+from .sams_stock import refresh_if_due as refresh_sams
 
 BUYING_CATEGORIES = {"raffles", "preorders", "restocks", "deals"}
 GENERAL_CHANNEL = {
@@ -387,6 +388,123 @@ def apply_costco(client, state: dict, data: dict, keys: set) -> None:
         state["costco_watched_states"] = list(watched)
 
 
+SHEET_RANK = {"none": 0, "order": 1, "transit": 2, "hand": 3}
+SAMS_ITEMS_SHOWN = 3
+
+
+def club_units(club: dict) -> int:
+    return club["hand"] + club["transit"] + club["order"]
+
+
+def club_line(club: dict) -> str:
+    number = f" #{club['number']}" if club["number"] else ""
+    parts = [
+        f"{club['hand']:,} in the club" if club["hand"] else "",
+        f"{club['transit']:,} on the truck" if club["transit"] else "",
+        f"{club['order']:,} on order" if club["order"] else "",
+    ]
+    return f"{club['name']}{number}: {', '.join(part for part in parts if part)}"
+
+
+def sams_item_embed(item: dict, budget: int) -> dict:
+    states = item["states"]
+    focus = item.get("focus", "")
+    ranked = sorted(states, key=lambda abbreviation: (abbreviation != focus, -sum(club_units(c) for c in states[abbreviation])))
+    fields = []
+    if focus and focus not in states:
+        fields.append({"name": f"{focus}: nothing on this sheet yet", "value": "No club here is on the sheet right now. You'll get a ping when that changes."})
+    # Discord caps a whole message at 6,000 characters, so the states share the room.
+    limit = min(1000, max(100, (budget - 900) // max(1, len(ranked))))
+    for abbreviation in ranked:
+        clubs = sorted(states[abbreviation], key=lambda club: -club_units(club))
+        total = sum(club_units(club) for club in clubs)
+        fields.append({
+            "name": f"{abbreviation}: {total:,} at {len(clubs)} club{'' if len(clubs) == 1 else 's'}",
+            "value": clip("\n".join(club_line(club) for club in clubs), limit),
+        })
+    area = item.get("area") or "your area"
+    return {
+        "title": clip(f"🛒 Sam's Club shipments: {item['product']}", 250),
+        "url": item["url"],
+        "color": COLORS["restocks"],
+        "description": clip(
+            f"Item #{item['item']} · latest sheet: **{item['sheet_date']}**. Covers {area}.\n\n"
+            "These are reported orders on a dated sheet, not live shelf stock. Call the club with the item number before you go.",
+            600,
+        ),
+        "fields": fields[:8] or [{"name": "Nothing nearby yet", "value": "No club in these states is on this sheet."}],
+        "footer": {"text": "Data from PokeRestock. Checked about every 30 minutes."},
+    }
+
+
+def sams_shipments_board(items: list) -> dict:
+    shown = items[:SAMS_ITEMS_SHOWN]
+    budget = 5600 // max(1, len(shown))
+    return {"embeds": [sams_item_embed(item, budget) for item in shown]}
+
+
+def sams_shipment_payload(item: dict, news: list[tuple[str, int, str]]) -> dict:
+    headings = {"hand": "Now in the club", "transit": "On the truck", "order": "Newly on order"}
+    lines = []
+    for status, heading in headings.items():
+        rows = [(label, units) for label, units, kind in news if kind == status]
+        if rows:
+            lines.append(f"**{heading}:** {counted(rows)}")
+    return {
+        "embeds": [{
+            "title": f"🛒 New Sam's Club shipments on the {item['sheet_date']} sheet",
+            "url": item["url"],
+            "color": COLORS["restocks"],
+            "description": clip(f"**{item['product']}** · item #{item['item']}\n\n" + "\n\n".join(lines), 3800),
+            "footer": {"text": "Reported orders on a dated sheet, not shelf stock. Call the club before you go."},
+        }]
+    }
+
+
+def sams_shipment_ping(item: dict, news: list) -> dict:
+    return with_ping({
+        "embeds": [{
+            "title": "🔔 New Sam's Club shipments",
+            "url": item["url"],
+            "color": COLORS["ping"],
+            "description": (
+                f"{len(news)} club{'' if len(news) == 1 else 's'} in your area just moved up on the {item['product']} sheet. "
+                "See which ones in the Sam's Club channel."
+            ),
+            "footer": {"text": f"Item #{item['item']} · sheet {item['sheet_date']}"},
+        }]
+    })
+
+
+def apply_sams(client, state: dict, items: list, keys: set) -> None:
+    """Update the Sam's Club shipment list. The first check of each item only records where things stand.
+    Only each club's status is saved, since this repository is public and the counts aren't ours to publish."""
+    if not items:
+        return
+    update_board(client, state, "sams-club", sams_shipments_board(items), key="sams-club-shipments")
+    seen = state.setdefault("sams_status", {})
+    for item in items:
+        previous = seen.get(item["item"])
+        current, news = {}, []
+        for abbreviation, clubs in item["states"].items():
+            for club in clubs:
+                club_key = club["number"] or f"{abbreviation}:{club['name']}"
+                status = status_of(club)
+                current[club_key] = status
+                if previous is None:
+                    continue
+                if SHEET_RANK[status] > SHEET_RANK[previous.get(club_key, "none")]:
+                    units = {"hand": club["hand"], "transit": club["transit"], "order": club["order"]}[status]
+                    news.append((f"{club['name']} {abbreviation}", units, status))
+        seen[item["item"]] = {**(previous or {}), **current}
+        if news:
+            client.send("sams-club", sams_shipment_payload(item, news))
+            sheet_key = f"sams-sheet:{item['item']}:{item['sheet_date']}"
+            if sheet_key not in keys:
+                client.send(PING_CHANNEL, sams_shipment_ping(item, news))
+                keys.add(sheet_key)
+
+
 def sams_board() -> dict:
     return {
         "embeds": [{
@@ -593,18 +711,20 @@ def event_change_payload(event: dict, changed: bool) -> dict:
     }
 
 
-def update_board(client, state: dict, channel: str, payload: dict) -> None:
-    """Keep one message per board and edit it only when its content changes."""
+def update_board(client, state: dict, channel: str, payload: dict, key: str | None = None) -> None:
+    """Keep one message per board and edit it only when its content changes.
+    A channel with more than one board gives each of the others its own key."""
     boards = state.setdefault("boards", {})
+    name = key or channel
     digest = fingerprint(payload)
-    entry = boards.get(channel) or {}
+    entry = boards.get(name) or {}
     # No saved message means the channel wasn't ready last time, so it still needs posting.
     if entry.get("hash") == digest and entry.get("id"):
         return
-    boards[channel] = {"id": client.upsert(channel, payload, entry.get("id")), "hash": digest}
+    boards[name] = {"id": client.upsert(channel, payload, entry.get("id")), "hash": digest}
 
 
-def run(now, client, items, windows, events, undated, products, state, costco=None, promos=None, raffles=None) -> None:
+def run(now, client, items, windows, events, undated, products, state, costco=None, promos=None, raffles=None, sams=None) -> None:
     """Decide what to post and record it."""
     first_run = not state.get("initialized")
     posted = set(state.get("posted_items", []))
@@ -623,6 +743,8 @@ def run(now, client, items, windows, events, undated, products, state, costco=No
         if products:
             update_board(client, state, "what-to-buy", what_to_buy_board(products))
         update_board(client, state, "sams-club", sams_board())
+        if sams:
+            apply_sams(client, state, sams, keys)
         update_board(client, state, "walmart", spotted_board("Walmart", "walmart-free"))
         update_board(client, state, "target", spotted_board("Target", "target-free"))
         if costco:
@@ -752,9 +874,10 @@ def main() -> int:
             print("No webhooks found. Run the Set up Discord workflow first.")
             return 0
         costco = refresh_costco(now, state)
+        sams = refresh_sams(now, state)
         promos = refresh_promos(now, state)
         raffles = load_raffles(now, market.get("products", []))
-        run(now, WebhookClient(api, webhooks), items, windows, events, calendar["undated"], market.get("products", []), state, costco, promos, raffles)
+        run(now, WebhookClient(api, webhooks), items, windows, events, calendar["undated"], market.get("products", []), state, costco, promos, raffles, sams)
     except DiscordError as error:
         print(f"Discord posting stopped: {error}")
         return 1

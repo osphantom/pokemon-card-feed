@@ -16,7 +16,11 @@ import requests
 from .common import CONFIG_DIR, USER_AGENT, iso, load_json, parse_iso
 
 BASE_URL = "https://pokerestockapp.com/costco/"
-REFRESH_AFTER = timedelta(hours=2)
+# Every 30 minutes one small page says whether a new sheet is out. The state pages are only
+# read when it is, and at least every 6 hours in case that page stops saying.
+LOOK_EVERY = timedelta(minutes=30)
+FULL_CHECK_EVERY = timedelta(hours=6)
+INDEX_MODIFIED = re.compile(r'"dateModified":"([^"]+)"')
 ROW = re.compile(
     r'class="nm">(?P<name>[^<]+)</span>\s*<span class="ct">#(?P<number>\d+)</span>'
     r'.*?data-l="On hand">(?P<hand>[\d,]+)<'
@@ -106,13 +110,40 @@ def fetch_states(session=None, pause: float = 1.5):
     }
 
 
+def sheet_stamp(session) -> str | None:
+    """When the Costco index page last changed, "" if it doesn't say, or None if the site refused."""
+    try:
+        response = session.get(BASE_URL, timeout=25)
+    except requests.RequestException:
+        return None
+    if response.status_code != OK:
+        return None
+    found = INDEX_MODIFIED.search(response.text)
+    return found.group(1) if found else ""
+
+
 def refresh_if_due(now, state: dict, session=None, pause: float = 1.5):
-    """Check a few times a day. Failed checks wait too, so a refusing site isn't hammered."""
+    """Look for a new sheet every 30 minutes and read the state pages when one shows up.
+    Failed checks wait too, so a refusing site isn't hammered."""
     last = state.get("costco_checked_at")
     # Editing the list of states takes effect on the next run.
     watched = sorted(load_json(CONFIG_DIR / "costco.json")["states"])
-    if last and now - parse_iso(last) < REFRESH_AFTER and state.get("costco_watched") == watched:
+    same_states = state.get("costco_watched") == watched
+    if last and now - parse_iso(last) < LOOK_EVERY and same_states:
         return None
     state["costco_checked_at"] = iso(now)
-    state["costco_watched"] = watched
-    return fetch_states(session, pause)
+    session = session or requests.Session()
+    session.headers.update({"User-Agent": USER_AGENT, "Accept": "text/html"})
+    stamp = sheet_stamp(session)
+    if stamp is None:
+        print("Costco check stopped: the site didn't answer.")
+        return None
+    read_at = state.get("costco_read_at")
+    recently_read = bool(read_at) and now - parse_iso(read_at) < FULL_CHECK_EVERY
+    if same_states and stamp and stamp == state.get("costco_stamp") and recently_read:
+        return None
+    time.sleep(pause)
+    data = fetch_states(session, pause)
+    if data is not None:
+        state.update(costco_watched=watched, costco_stamp=stamp, costco_read_at=iso(now))
+    return data

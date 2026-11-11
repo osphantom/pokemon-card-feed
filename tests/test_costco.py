@@ -77,10 +77,42 @@ class FetchTests(unittest.TestCase):
         costco_stock.fetch_states(session, pause=0)
         self.assertNotIn("Mozilla", session.headers["User-Agent"])
 
-    def test_checks_only_a_few_times_a_day(self):
+    def test_looks_at_most_every_half_hour(self):
         watched = sorted(common.load_json(common.CONFIG_DIR / "costco.json")["states"])
-        state = {"costco_checked_at": iso(NOW - timedelta(hours=1)), "costco_watched": watched}
+        state = {"costco_checked_at": iso(NOW - timedelta(minutes=10)), "costco_watched": watched}
         self.assertIsNone(costco_stock.refresh_if_due(NOW, state, self.session([])))
+
+    def test_an_unchanged_sheet_costs_one_small_page(self):
+        watched = sorted(common.load_json(common.CONFIG_DIR / "costco.json")["states"])
+        state = {
+            "costco_checked_at": iso(NOW - timedelta(hours=1)), "costco_watched": watched,
+            "costco_stamp": "2026-11-09T14:04:35Z", "costco_read_at": iso(NOW - timedelta(hours=1)),
+        }
+        session = self.session([self.Response(200, '{"dateModified":"2026-11-09T14:04:35Z"}')])
+        self.assertIsNone(costco_stock.refresh_if_due(NOW, state, session, pause=0))
+        self.assertEqual(type(session).calls, 1)
+
+    def test_a_new_sheet_reads_the_states_right_away(self):
+        watched = sorted(common.load_json(common.CONFIG_DIR / "costco.json")["states"])
+        state = {
+            "costco_checked_at": iso(NOW - timedelta(hours=1)), "costco_watched": watched,
+            "costco_stamp": "2026-11-09T14:04:35Z", "costco_read_at": iso(NOW - timedelta(hours=1)),
+        }
+        empty = "<p>Sheet date: Nov 10</p><p>Maryland totals Bundle · item 1</p>"
+        pages = [self.Response(200, '{"dateModified":"2026-11-10T14:04:35Z"}')] + [self.Response(200, empty) for _ in watched]
+        data = costco_stock.refresh_if_due(NOW, state, self.session(pages), pause=0)
+        self.assertEqual(data["sheet_date"], "Nov 10")
+        self.assertEqual(state["costco_stamp"], "2026-11-10T14:04:35Z")
+
+    def test_the_states_are_still_read_every_few_hours(self):
+        watched = sorted(common.load_json(common.CONFIG_DIR / "costco.json")["states"])
+        state = {
+            "costco_checked_at": iso(NOW - timedelta(hours=1)), "costco_watched": watched,
+            "costco_stamp": "2026-11-09T14:04:35Z", "costco_read_at": iso(NOW - timedelta(hours=7)),
+        }
+        empty = "<p>Sheet date: Nov 9</p><p>Maryland totals Bundle · item 1</p>"
+        pages = [self.Response(200, '{"dateModified":"2026-11-09T14:04:35Z"}')] + [self.Response(200, empty) for _ in watched]
+        self.assertIsNotNone(costco_stock.refresh_if_due(NOW, state, self.session(pages), pause=0))
 
     def test_changing_the_states_checks_right_away(self):
         state = {"costco_checked_at": iso(NOW - timedelta(minutes=5)), "costco_watched": ["ohio"]}
