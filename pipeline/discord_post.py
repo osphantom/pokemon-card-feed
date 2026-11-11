@@ -10,7 +10,9 @@ from datetime import date, timedelta
 from .calendar_data import load_events, load_windows, upcoming_events, upcoming_windows
 from .common import CONFIG_DIR, DATA_DIR, EASTERN, SITE_URL, format_eastern, load_json, parse_iso, save_json, utcnow
 from .costco_stock import BASE_URL as COSTCO_LOOKUP_URL
+from .costco_stock import UPC_URL
 from .costco_stock import refresh_if_due as refresh_costco
+from .costco_stock import refresh_upc_if_due as refresh_upc
 from .costco_stock import status_of
 from .discord_api import NOT_FOUND, Discord, DiscordError, normalized
 from .promos import refresh_if_due as refresh_promos
@@ -388,6 +390,33 @@ def apply_costco(client, state: dict, data: dict, keys: set) -> None:
         state["costco_watched_states"] = list(watched)
 
 
+def apply_upc(client, state: dict, posted: bool) -> None:
+    """Tell you once, the moment Costco store counts for the 30th Celebration UPC show up."""
+    if not posted or state.get("upc_counts_seen"):
+        return
+    client.send("costco", {
+        "embeds": [{
+            "title": "📦 Costco store counts for the 30th Celebration UPC are up",
+            "url": UPC_URL,
+            "color": COLORS["restocks"],
+            "description": (
+                "PokeRestock just started listing which Costco warehouses are getting the 30th Celebration "
+                "Ultra-Premium Collection. Check the ones near you, then call with the item number before you go."
+            ),
+            "footer": {"text": "Data from PokeRestock. Checked about every 30 minutes."},
+        }]
+    })
+    client.send(PING_CHANNEL, with_ping({
+        "embeds": [{
+            "title": "🔔 Costco UPC store counts are up",
+            "url": UPC_URL,
+            "color": COLORS["ping"],
+            "description": "See which Costcos are getting the 30th Celebration Ultra-Premium Collection. Details in the Costco channel.",
+        }]
+    }))
+    state["upc_counts_seen"] = True
+
+
 SHEET_RANK = {"none": 0, "order": 1, "transit": 2, "hand": 3}
 SAMS_ITEMS_SHOWN = 3
 
@@ -724,7 +753,7 @@ def update_board(client, state: dict, channel: str, payload: dict, key: str | No
     boards[name] = {"id": client.upsert(channel, payload, entry.get("id")), "hash": digest}
 
 
-def run(now, client, items, windows, events, undated, products, state, costco=None, promos=None, raffles=None, sams=None) -> None:
+def run(now, client, items, windows, events, undated, products, state, costco=None, promos=None, raffles=None, sams=None, upc=None) -> None:
     """Decide what to post and record it."""
     first_run = not state.get("initialized")
     posted = set(state.get("posted_items", []))
@@ -749,6 +778,8 @@ def run(now, client, items, windows, events, undated, products, state, costco=No
         update_board(client, state, "target", spotted_board("Target", "target-free"))
         if costco:
             apply_costco(client, state, costco, keys)
+        if upc:
+            apply_upc(client, state, upc)
         if promos is not None:
             apply_promos(client, state, promos)
         if raffles is not None:
@@ -875,9 +906,10 @@ def main() -> int:
             return 0
         costco = refresh_costco(now, state)
         sams = refresh_sams(now, state)
+        upc = refresh_upc(now, state)
         promos = refresh_promos(now, state)
         raffles = load_raffles(now, market.get("products", []))
-        run(now, WebhookClient(api, webhooks), items, windows, events, calendar["undated"], market.get("products", []), state, costco, promos, raffles, sams)
+        run(now, WebhookClient(api, webhooks), items, windows, events, calendar["undated"], market.get("products", []), state, costco, promos, raffles, sams, upc)
     except DiscordError as error:
         print(f"Discord posting stopped: {error}")
         return 1

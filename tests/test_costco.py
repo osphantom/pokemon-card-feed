@@ -134,6 +134,46 @@ class FetchTests(unittest.TestCase):
         self.assertEqual(state["costco_checked_at"], iso(NOW))
 
 
+class UpcTests(unittest.TestCase):
+    SOON = "<p>In-store counts</p> <p>Coming soon</p>"
+    LIVE = "<p>In-store counts</p> <p>1,200 warehouses listed</p>"
+
+    def session(self, responses):
+        class Session:
+            headers = {}
+            calls = 0
+
+            def get(inner, url, timeout):
+                Session.calls += 1
+                return responses.pop(0)
+
+        return Session()
+
+    def test_coming_soon_means_not_yet(self):
+        self.assertFalse(costco_stock.upc_counts_posted(self.session([FetchTests.Response(200, self.SOON)])))
+
+    def test_counts_showing_up_is_noticed(self):
+        self.assertTrue(costco_stock.upc_counts_posted(self.session([FetchTests.Response(200, self.LIVE)])))
+
+    def test_a_refusal_is_not_news(self):
+        self.assertIsNone(costco_stock.upc_counts_posted(self.session([FetchTests.Response(403)])))
+
+    def test_looks_at_most_every_half_hour_and_stops_once_seen(self):
+        self.assertIsNone(costco_stock.refresh_upc_if_due(NOW, {"upc_checked_at": iso(NOW - timedelta(minutes=10))}, self.session([])))
+        self.assertIsNone(costco_stock.refresh_upc_if_due(NOW, {"upc_counts_seen": True}, self.session([])))
+
+    def test_tells_you_once(self):
+        client, state = FakeClient(), {}
+        discord_post.apply_upc(client, state, True)
+        discord_post.apply_upc(client, state, True)
+        self.assertEqual([channel for channel, _ in client.sent], ["costco", "drop-pings"])
+
+    def test_not_yet_says_nothing(self):
+        client = FakeClient()
+        discord_post.apply_upc(client, {}, False)
+        self.assertEqual(client.sent, [])
+
+
 class ApplyTests(unittest.TestCase):
     def test_first_check_only_records(self):
         client, state = FakeClient(), {}

@@ -21,6 +21,9 @@ BASE_URL = "https://pokerestockapp.com/costco/"
 LOOK_EVERY = timedelta(minutes=30)
 FULL_CHECK_EVERY = timedelta(hours=6)
 INDEX_MODIFIED = re.compile(r'"dateModified":"([^"]+)"')
+# The 30th Celebration Ultra-Premium Collection page says "coming soon" until store counts are posted.
+UPC_URL = f"{BASE_URL}30th-celebration-upc/"
+COMING_SOON = re.compile(r"In-store counts\s+Coming soon|Restock info is coming soon", re.I)
 ROW = re.compile(
     r'class="nm">(?P<name>[^<]+)</span>\s*<span class="ct">#(?P<number>\d+)</span>'
     r'.*?data-l="On hand">(?P<hand>[\d,]+)<'
@@ -108,6 +111,31 @@ def fetch_states(session=None, pause: float = 1.5):
         "focus": config.get("focus", ""),
         "area": config.get("area", ""),
     }
+
+
+def upc_counts_posted(session) -> bool | None:
+    """Whether the UPC page lists store counts yet, or None if it couldn't be read."""
+    try:
+        response = session.get(UPC_URL, timeout=25)
+    except requests.RequestException:
+        return None
+    if response.status_code != OK:
+        return None
+    plain = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", response.text)))
+    return not COMING_SOON.search(plain)
+
+
+def refresh_upc_if_due(now, state: dict, session=None):
+    """Look at the UPC page every 30 minutes until its store counts are up."""
+    if state.get("upc_counts_seen"):
+        return None
+    last = state.get("upc_checked_at")
+    if last and now - parse_iso(last) < LOOK_EVERY:
+        return None
+    state["upc_checked_at"] = iso(now)
+    session = session or requests.Session()
+    session.headers.update({"User-Agent": USER_AGENT, "Accept": "text/html"})
+    return upc_counts_posted(session)
 
 
 def sheet_stamp(session) -> str | None:
