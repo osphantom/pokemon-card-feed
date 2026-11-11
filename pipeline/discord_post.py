@@ -676,6 +676,56 @@ def apply_raffles(client, state: dict, raffles: dict) -> None:
     state["raffles_announced"] = sorted(set(known or []) | {item["id"] for item in worth})
 
 
+# A tracked item has to move at least this much, both ways, before it's worth a post.
+PRICE_MOVE_PCT = 0.12
+PRICE_MOVE_DOLLARS = 12.0
+PRICE_MOVERS_SHOWN = 12
+
+
+def price_moves(products: list[dict], seen: dict) -> list[dict]:
+    """Current items whose resale price moved a real amount since the last price refresh."""
+    moves = []
+    for product in products:
+        if not product.get("current") or not product.get("market"):
+            continue
+        old = seen.get(str(product["id"]))
+        new = round(product["market"], 2)
+        if not old or old <= 0:
+            continue
+        change = round(new - old, 2)
+        if abs(change) >= PRICE_MOVE_DOLLARS and abs(change) / old >= PRICE_MOVE_PCT:
+            moves.append({"name": product["name"], "old": old, "new": new, "change": change, "profit": product.get("profit")})
+    moves.sort(key=lambda move: -abs(move["change"]))
+    return moves
+
+
+def price_moves_message(moves: list[dict], now) -> dict:
+    lines = []
+    for move in moves[:PRICE_MOVERS_SHOWN]:
+        arrow = "🔺" if move["change"] > 0 else "🔻"
+        flip = f" · now +{money(move['profit'])} to flip" if move.get("profit") and move["profit"] > 0 else ""
+        lines.append(f"{arrow} **{clip(move['name'], 70)}**: {money(move['old'])} → {money(move['new'])} ({signed_money(move['change'])}){flip}")
+    return {
+        "embeds": [{
+            "title": "📊 Prices moved since the last update",
+            "color": COLORS["market"],
+            "description": clip("\n".join(lines), 3800),
+            "footer": {"text": f"TCGplayer market prices, refreshed twice a day · {format_eastern(now)}"},
+        }]
+    }
+
+
+def apply_price_moves(client, state: dict, products: list[dict], now) -> None:
+    """Post to #market-prices when a tracked item jumps or drops. The first run only records today's prices."""
+    seen = state.get("price_seen")
+    if seen is not None:
+        moves = price_moves(products, seen)
+        if moves:
+            client.send("market-prices", price_moves_message(moves, now))
+    current = {str(p["id"]): round(p["market"], 2) for p in products if p.get("current") and p.get("market")}
+    state["price_seen"] = {**(seen or {}), **current}
+
+
 def morning_windows(windows: list[dict], now) -> list[dict]:
     horizon = now + timedelta(hours=24)
     return [w for w in windows if w["remind"] and now <= parse_iso(w["start"]) < horizon]
@@ -771,6 +821,7 @@ def run(now, client, items, windows, events, undated, products, state, costco=No
         update_board(client, state, "release-calendar", calendar_board(events, undated))
         if products:
             update_board(client, state, "what-to-buy", what_to_buy_board(products))
+            apply_price_moves(client, state, products, now)
         update_board(client, state, "sams-club", sams_board())
         if sams:
             apply_sams(client, state, sams, keys)
