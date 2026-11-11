@@ -358,12 +358,15 @@ def shipment_ping(data: dict, arrivals: list, trucks: list) -> dict:
 def apply_costco(client, state: dict, data: dict, keys: set) -> None:
     """Update the Costco list. The first check only records where things stand."""
     previous = state.get("costco_status")
+    # A state just added to the watch list starts quietly, so stock it already had isn't announced as new.
+    watched, watched_before = data.get("watched"), state.get("costco_watched_states")
+    starting = set(watched) - set(watched_before) if watched is not None and watched_before is not None else set()
     arrivals, trucks, current = [], [], {}
     for abbreviation, warehouses in data["states"].items():
         for warehouse in warehouses:
             status = status_of(warehouse)
             current[warehouse["number"]] = status
-            if previous is None:
+            if previous is None or abbreviation in starting:
                 continue
             before = previous.get(warehouse["number"], "none")
             label = f"{short_name(warehouse, abbreviation)} {abbreviation}"
@@ -380,6 +383,8 @@ def apply_costco(client, state: dict, data: dict, keys: set) -> None:
             client.send(PING_CHANNEL, shipment_ping(data, arrivals, trucks))
             keys.add(sheet_key)
     state["costco_status"] = {**(previous or {}), **current}
+    if watched is not None:
+        state["costco_watched_states"] = list(watched)
 
 
 def sams_board() -> dict:

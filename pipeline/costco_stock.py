@@ -97,7 +97,13 @@ def fetch_states(session=None, pause: float = 1.5):
         print("Costco check found no sheet date; the site refused or its page layout changed.")
         return None
     print(f"Costco check: {sum(len(rows) for rows in states.values())} warehouses on the sheet in {len(states)} states.")
-    return {**details, "states": states, "focus": config.get("focus", ""), "area": config.get("area", "")}
+    return {
+        **details,
+        "states": states,
+        "watched": sorted(config["states"].values()),
+        "focus": config.get("focus", ""),
+        "area": config.get("area", ""),
+    }
 
 
 def refresh_if_due(now, state: dict, session=None, pause: float = 1.5):

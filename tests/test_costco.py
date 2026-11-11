@@ -129,6 +129,19 @@ class ApplyTests(unittest.TestCase):
         discord_post.apply_costco(client, state, sheet([warehouse("1", "Princeton NJ", hand=480)]), set())
         self.assertEqual(client.sent, [])
 
+    def test_a_newly_watched_state_starts_quietly(self):
+        client, state = FakeClient(), {"costco_status": {}, "costco_watched_states": ["MD"]}
+        data = {**sheet([warehouse("1", "Princeton NJ", hand=480)]), "watched": ["MD", "NJ"]}
+        discord_post.apply_costco(client, state, data, set())
+        self.assertEqual(client.sent, [])
+        self.assertEqual(state["costco_watched_states"], ["MD", "NJ"])
+        data = {**sheet([warehouse("1", "Princeton NJ", hand=480), warehouse("2", "Mt Laurel NJ", transit=240)]), "watched": ["MD", "NJ"]}
+        discord_post.apply_costco(client, state, data, set())
+        self.assertIn("Mt Laurel NJ (240)", client.sent[0][1]["embeds"][0]["description"])
+
+    def test_new_jersey_is_watched(self):
+        self.assertIn("NJ", common.load_json(common.CONFIG_DIR / "costco.json")["states"].values())
+
     def test_stock_going_backward_is_not_news(self):
         client, state = FakeClient(), {"costco_status": {"1": "hand"}}
         discord_post.apply_costco(client, state, sheet([warehouse("1", "Princeton NJ", transit=240)]), set())
