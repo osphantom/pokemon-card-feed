@@ -35,6 +35,10 @@
   "raffles": {
    "id": "1569386105378447482",
    "hash": "a0c0a1367f8a"
+  },
+  "sams-club-shipments": {
+   "id": "1569917583694495748",
+   "hash": "29663afed284"
   }
  },
  "initialized": true,
@@ -921,5 +925,59 @@
   "NJ",
   "PA",
   "VA"
- ]
+ ],
+ "sams_checked_at": "2026-11-11T03:31:57Z",
+ "sams_status": {
+  "990416407": {
+   "6330": "order",
+   "6357": "order",
+   "6653": "order",
+   "8193": "order",
+   "6434": "order",
+   "6650": "order",
+   "6651": "order",
+   "6652": "order",
+   "6383": "order",
+   "4771": "order",
+   "6239": "order",
+   "8145": "order",
+   "8144": "order",
+   "6670": "order",
+   "6369": "order",
+   "6671": "order",
+   "4722": "order",
+   "6536": "order",
+   "6460": "order",
+   "4859": "order",
+   "6567": "order",
+   "4847": "order",
+   "4855": "order",
+   "4994": "order",
+   "6547": "order",
+   "PA:Pittsburgh area": "order",
+   "6581": "order",
+   "4952": "order",
+   "8160": "order",
+   "8175": "order",
+   "6677": "order",
+   "6533": "order",
+   "6251": "order",
+   "6679": "order",
+   "8191": "order",
+   "6676": "order",
+   "6518": "order",
+   "6524": "order",
+   "6354": "order",
+   "6343": "order",
+   "8220": "order",
+   "4711": "order",
+   "6371": "order",
+   "6569": "order",
+   "6365": "order",
+   "4996": "order",
+   "6458": "order",
+   "6351": "order",
+   "4729": "order"
+  }
+ }
 }
