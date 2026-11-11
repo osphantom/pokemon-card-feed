@@ -1,6 +1,90 @@
 {
  "items": [
   {
+   "title": "Pokémon Happy Meals Return to US McDonald's With Two TCG Promo Cards Each, Through Dec. 14, 2026",
+   "link": "https://pokerestockapp.com/pokemon/news/mcdonalds-pokemon-happy-meal-tcg-cards-through-dec-14/",
+   "source": "PokeRestock",
+   "source_id": "pokerestock-news",
+   "publisher": "",
+   "published": "2026-11-11T15:09:00Z",
+   "category": "promos",
+   "stores": [
+    "McDonald's"
+   ],
+   "hot": false,
+   "id": "238a4a778db090",
+   "first_seen": "2026-11-11T16:27:37Z"
+  },
+  {
+   "title": "Price Trends: Pokémon Cards Climbing in Price - 11/11/2026",
+   "link": "https://seller.tcgplayer.com/blog/price-trends-pok%C3%A9mon-cards-climbing-in-price-11-11-2026",
+   "source": "TCGplayer Seller Blog",
+   "source_id": "tcgplayer-sellers",
+   "publisher": "",
+   "published": "2026-11-11T14:45:15Z",
+   "category": "market",
+   "stores": [],
+   "hot": false,
+   "id": "8ada658baaf712",
+   "first_seen": "2026-11-11T16:27:37Z"
+  },
+  {
+   "title": "How to buy Pokémon cards on Gopuff: Schedule for weekly 15-minute drops",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5sV1J4VnNaY01iQXozVFhsZVpLVmR5dnNmMmtsV2dTY29tWGQwc2tfZGM1bUhnNXE0VlRfTTg5OUFCcnNCeDJtQjc3M3dJanJzRGlGSWstUUNHbWticjNCMUZhY2g4dlAxTkFQUXFqeFhCQQ?oc=5",
+   "source": "Google News: market",
+   "source_id": "gn-market",
+   "publisher": "Mashable",
+   "published": "2026-11-11T14:01:00Z",
+   "category": "restocks",
+   "stores": [],
+   "hot": false,
+   "id": "5e0ab043bbbca6",
+   "first_seen": "2026-11-11T16:27:37Z"
+  },
+  {
+   "title": "The Pokémon TCG 30th Celebration Elite Trainer Box is live at Amazon: Buy for way under market price",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNS1xNmV6T0VRS3I3bzA3SW1NRlRmYXNoNC1NN1N6ajVBY0p5WXM5ZDFZLTFTc1o4X216anoyVU5vbC1ydU5kVEc4SzhBZHhtT0NOU214T0dRVXVfaWwzR2RsWTd3WEFKMnhXaHBidjBwTjkzYnVidWU0UEl4cEtyYUR3d2pyZ21OSkxXeQ?oc=5",
+   "source": "Google News: market",
+   "source_id": "gn-market",
+   "publisher": "Mashable",
+   "published": "2026-11-11T12:51:59Z",
+   "category": "restocks",
+   "stores": [
+    "Amazon"
+   ],
+   "hot": true,
+   "id": "4812358c808ca5",
+   "first_seen": "2026-11-11T16:27:37Z"
+  },
+  {
+   "title": "McDonald’s x Pokémon collab is now live: How to collect 15 new toys and 15 trading cards",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9QMWwzWDF5RHFtekFUQnFSMXJJWkdLVmh3dUxZRy1DdGg0TmtpNUtXYXBJeERRamNsUTc5Y3dFSGtTcjBXTXRoM0tLZHg0Z2FHUFU4MU5vLTI4ZVkyTWpkMlY4b205THZrVzFzZ3ltLUdOeWVkRDRSS2tfSmtoRkk?oc=5",
+   "source": "Google News: Costco and Sam's Club",
+   "source_id": "gn-clubs",
+   "publisher": "Mashable",
+   "published": "2026-11-11T10:54:38Z",
+   "category": "promos",
+   "stores": [
+    "McDonald's"
+   ],
+   "hot": false,
+   "id": "f9b0f6fba943e3",
+   "first_seen": "2026-11-11T16:27:37Z"
+  },
+  {
+   "title": "Pokémon TCG Mega Evolution preorder guide",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9uRk5JQVE2MTR4ckdYMmE2cEpKX3NieHB5am9QMm92REJlSEw3UHJZZjdrenlLZ2JoUU9ENmxLQmtfVGY3T1J5ZTZXNXhEUEcxTGl6Unh6LWJoUG9WWENKekZOejNBSnd1c2o5Q291VVZBcHcwTTZlX0lWUlRvQQ?oc=5",
+   "source": "Google News: preorders",
+   "source_id": "gn-preorder",
+   "publisher": "Mashable",
+   "published": "2026-11-11T09:00:00Z",
+   "category": "preorders",
+   "stores": [],
+   "hot": false,
+   "id": "b17dd2b97b0496",
+   "first_seen": "2026-11-11T16:27:37Z"
+  },
+  {
    "title": "Pokémon Center Delta Reign Pre-Orders Hit a Last-Minute Delay",
    "link": "https://pokerestockapp.com/pokemon/news/pokemon-center-delta-reign-preorders-delayed/",
    "source": "PokeRestock",
@@ -330,19 +414,6 @@
    "first_seen": "2026-11-09T16:15:31Z"
   },
   {
-   "title": "Pokémon TCG: Full Release Schedule for 2026 and Beyond",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQemVmZEpoOXFDeTR0M2MwUUFSWlFlbDEyb3ZoWnUyWnJlMUhDbDRMWFUtb0ZBaTlBRFpqcHBsTV9VQW83WTl1b1RpOHVxcF9vbENvNTE3Si1KMGJ5RWdRalcyWTU1QmRwM0c4dW0yRmstOEozdjNESnU1NDBhcnhtdDRB?oc=5",
-   "source": "Google News: market",
-   "source_id": "gn-market",
-   "publisher": "IGN",
-   "published": "2026-11-09T16:02:16Z",
-   "category": "releases",
-   "stores": [],
-   "hot": false,
-   "id": "272f3165398020",
-   "first_seen": "2026-11-09T18:00:41Z"
-  },
-  {
    "title": "Catch Pokemon's TCG 30th Celebration Elite Trainer Box With This $60 Black Friday Find and Avoid Scalpers",
    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbXB0cDVCX0pZWGNPTWtsOWlmVWplcDRROEVudGNoclFVUzJWNFhGZHJSRllTMEN4UFozUmFFNDVtcVlmRUZkR05nRXFnNnNrZWd2aFNhNWtSOEJsOGZ1TkpnQXc3bTk2akdoNzItMXlSWmN3akJDdEJjNjdOQjZPb2k5akRDdw?oc=5",
    "source": "Google News: restocks",
@@ -367,6 +438,19 @@
    "hot": false,
    "id": "c77c5daac82b93",
    "first_seen": "2026-11-09T15:28:14Z"
+  },
+  {
+   "title": "Pokémon TCG: Full Release Schedule for 2026 and Beyond",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQemVmZEpoOXFDeTR0M2MwUUFSWlFlbDEyb3ZoWnUyWnJlMUhDbDRMWFUtb0ZBaTlBRFpqcHBsTV9VQW83WTl1b1RpOHVxcF9vbENvNTE3Si1KMGJ5RWdRalcyWTU1QmRwM0c4dW0yRmstOEozdjNESnU1NDBhcnhtdDRB?oc=5",
+   "source": "Google News: market",
+   "source_id": "gn-market",
+   "publisher": "IGN",
+   "published": "2026-11-09T13:27:49Z",
+   "category": "releases",
+   "stores": [],
+   "hot": false,
+   "id": "272f3165398020",
+   "first_seen": "2026-11-09T18:00:41Z"
   },
   {
    "title": "Pokémon card drops and restocks: Best deals from Amazon, Walmart, TCGplayer",
@@ -435,6 +519,21 @@
    "hot": false,
    "id": "b04f0fba820311",
    "first_seen": "2026-11-09T15:28:14Z"
+  },
+  {
+   "title": "The Pokémon TCG 30th Celebration Elite Trainer Box is live at Amazon: Shop now for under market price",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOb0pfVXQ0dVJQb3BWQkgyTjJBNzc4VDRQMzNQNkNCbDNnczlwN3lxTnpzZlQyVVZRQnBLcGthU2F3bDZvN0tqY3dwTU5DNVBib0dzX2t4OWJXV1hPZGFaX1FqcG0tUkNFWDcxQklqbmltSkpvbi15eGxieUVwZkVNaVE5ZlJJb1BPaldN?oc=5",
+   "source": "Google News: Costco and Sam's Club",
+   "source_id": "gn-clubs",
+   "publisher": "Mashable",
+   "published": "2026-11-09T09:51:42Z",
+   "category": "restocks",
+   "stores": [
+    "Amazon"
+   ],
+   "hot": true,
+   "id": "6d11100759f6fe",
+   "first_seen": "2026-11-11T16:27:37Z"
   },
   {
    "title": "Costco Pokémon 30th Celebration ETB + Booster Bundle",

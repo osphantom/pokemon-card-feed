@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T03:15:32Z",
+ "generated_at": "2026-11-11T16:27:37Z",
  "ebay_used": true,
  "products": [
   {
@@ -16,8 +16,8 @@
    "current": true,
    "url": "https://www.tcgplayer.com/product/704144/pokemon-me-30th-celebration-30th-celebration-pokemon-center-elite-trainer-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=30th+Celebration+Pokemon+Center+Elite+Trainer+Box+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 289.99,
-   "ebay_count": 22,
+   "ebay_ask": 289.98,
+   "ebay_count": 23,
    "profit": 148.18,
    "roi": 2.3085
   },
@@ -35,8 +35,8 @@
    "current": true,
    "url": "https://www.tcgplayer.com/product/704191/pokemon-me-30th-celebration-30th-celebration-ultra-premium-collection-night",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=30th+Celebration+Ultra-Premium+Collection++Night++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 399.99,
-   "ebay_count": 29,
+   "ebay_ask": 395.0,
+   "ebay_count": 36,
    "profit": 123.33,
    "roi": 0.6404
   },
@@ -54,7 +54,7 @@
    "current": true,
    "url": "https://www.tcgplayer.com/product/704190/pokemon-me-30th-celebration-30th-celebration-ultra-premium-collection-day",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=30th+Celebration+Ultra-Premium+Collection++Day++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 374.99,
+   "ebay_ask": 369.99,
    "ebay_count": 37,
    "profit": 100.24,
    "roi": 0.5205
@@ -74,7 +74,7 @@
    "url": "https://www.tcgplayer.com/product/712104/pokemon-me06-delta-reign-delta-reign-pokemon-center-elite-trainer-box-exclusive",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Delta+Reign+Pokemon+Center+Elite+Trainer+Box++Exclusive++sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 179.95,
-   "ebay_count": 39,
+   "ebay_count": 38,
    "profit": 77.55,
    "roi": 1.2081
   },
@@ -130,29 +130,10 @@
    "current": true,
    "url": "https://www.tcgplayer.com/product/704143/pokemon-me-30th-celebration-30th-celebration-elite-trainer-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=30th+Celebration+Elite+Trainer+Box+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 110.0,
-   "ebay_count": 36,
+   "ebay_ask": 109.99,
+   "ebay_count": 37,
    "profit": 33.19,
    "roi": 0.6205
-  },
-  {
-   "id": 668541,
-   "name": "Ascended Heroes Booster Bundle",
-   "set": "Ascended Heroes",
-   "type": "Booster Bundle",
-   "group": "Bundles",
-   "msrp": 26.94,
-   "market": 77.26,
-   "ship": "bundle",
-   "release": "2026-04-24",
-   "presale": false,
-   "current": true,
-   "url": "https://www.tcgplayer.com/product/668541/pokemon-me-ascended-heroes-ascended-heroes-booster-bundle",
-   "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Ascended+Heroes+Booster+Bundle+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 69.99,
-   "ebay_count": 45,
-   "profit": 29.58,
-   "roi": 1.0262
   },
   {
    "id": 704149,
@@ -187,7 +168,7 @@
    "current": true,
    "url": "https://www.tcgplayer.com/product/704189/pokemon-me-30th-celebration-30th-celebration-ditto-premium-collection",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=30th+Celebration+Ditto+Premium+Collection+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 90.9,
+   "ebay_ask": 89.99,
    "ebay_count": 42,
    "profit": 28.47,
    "roi": 0.6655
@@ -225,8 +206,8 @@
    "current": true,
    "url": "https://www.tcgplayer.com/product/692949/pokemon-me05-pitch-black-pitch-black-pokemon-center-elite-trainer-box-exclusive",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Pitch+Black+Pokemon+Center+Elite+Trainer+Box++Exclusive++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 118.82,
-   "ebay_count": 49,
+   "ebay_ask": 119.0,
+   "ebay_count": 48,
    "profit": 21.98,
    "roi": 0.3424
   },
@@ -263,8 +244,8 @@
    "current": true,
    "url": "https://www.tcgplayer.com/product/704194/pokemon-me-30th-celebration-30th-celebration-figure-collection-mewtwo",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=30th+Celebration+Figure+Collection++Mewtwo++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 74.99,
-   "ebay_count": 21,
+   "ebay_ask": 73.99,
+   "ebay_count": 24,
    "profit": 20.66,
    "roi": 0.6439
   },
@@ -282,8 +263,8 @@
    "current": true,
    "url": "https://www.tcgplayer.com/product/704193/pokemon-me-30th-celebration-30th-celebration-figure-collection-mew",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=30th+Celebration+Figure+Collection++Mew++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 78.98,
-   "ebay_count": 18,
+   "ebay_ask": 74.99,
+   "ebay_count": 22,
    "profit": 17.58,
    "roi": 0.5479
   },
@@ -397,7 +378,7 @@
    "url": "https://www.tcgplayer.com/product/704146/pokemon-me-30th-celebration-30th-celebration-tech-sticker-collection-lucario",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=30th+Celebration+Tech+Sticker+Collection++Lucario++sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 39.99,
-   "ebay_count": 28,
+   "ebay_count": 26,
    "profit": 5.09,
    "roi": 0.3176
   },
@@ -434,7 +415,7 @@
    "current": true,
    "url": "https://www.tcgplayer.com/product/704177/pokemon-me-30th-celebration-30th-celebration-mini-tin-day-pikachu",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=30th+Celebration+Mini+Tin++Day+Pikachu++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 23.0,
+   "ebay_ask": 22.95,
    "ebay_count": 28,
    "profit": 4.35,
    "roi": 0.4067
@@ -472,7 +453,7 @@
    "current": true,
    "url": "https://www.tcgplayer.com/product/704155/pokemon-me-30th-celebration-30th-celebration-sylveon-ex-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=30th+Celebration+Sylveon+ex+Box+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 48.5,
+   "ebay_ask": 48.0,
    "ebay_count": 33,
    "profit": 3.7,
    "roi": 0.1572
@@ -491,7 +472,7 @@
    "current": true,
    "url": "https://www.tcgplayer.com/product/704180/pokemon-me-30th-celebration-30th-celebration-mini-tin-moltres",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=30th+Celebration+Mini+Tin++Moltres++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 20.75,
+   "ebay_ask": 20.95,
    "ebay_count": 31,
    "profit": 3.5,
    "roi": 0.3272
@@ -510,8 +491,8 @@
    "current": true,
    "url": "https://www.tcgplayer.com/product/704182/pokemon-me-30th-celebration-30th-celebration-mini-tin-umbreon",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=30th+Celebration+Mini+Tin++Umbreon++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 27.98,
-   "ebay_count": 23,
+   "ebay_ask": 28.25,
+   "ebay_count": 22,
    "profit": 3.5,
    "roi": 0.3272
   },
@@ -529,7 +510,7 @@
    "current": true,
    "url": "https://www.tcgplayer.com/product/704153/pokemon-me-30th-celebration-30th-celebration-poster-collection",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=30th+Celebration+Poster+Collection+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 32.5,
+   "ebay_ask": 32.0,
    "ebay_count": 45,
    "profit": 3.26,
    "roi": 0.2031
@@ -586,8 +567,8 @@
    "current": true,
    "url": "https://www.tcgplayer.com/product/704183/pokemon-me-30th-celebration-30th-celebration-mini-tin-mewtwo",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=30th+Celebration+Mini+Tin++Mewtwo++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 29.95,
-   "ebay_count": 21,
+   "ebay_ask": 27.0,
+   "ebay_count": 22,
    "profit": 2.58,
    "roi": 0.2413
   },
@@ -606,7 +587,7 @@
    "url": "https://www.tcgplayer.com/product/704184/pokemon-me-30th-celebration-30th-celebration-mini-tin-night-pikachu",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=30th+Celebration+Mini+Tin++Night+Pikachu++sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 21.0,
-   "ebay_count": 26,
+   "ebay_count": 27,
    "profit": 2.48,
    "roi": 0.2316
   },
@@ -644,7 +625,7 @@
    "url": "https://www.tcgplayer.com/product/702497/pokemon-me-ascended-heroes-ascended-heroes-tin-mega-feraligatr-ex",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Ascended+Heroes+Tin++Mega+Feraligatr+ex++sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 43.25,
-   "ebay_count": 46,
+   "ebay_count": 47,
    "profit": 2.13,
    "roi": 0.0904
   },
@@ -681,8 +662,8 @@
    "current": true,
    "url": "https://www.tcgplayer.com/product/684454/pokemon-me04-chaos-rising-chaos-rising-build-and-battle-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Chaos+Rising+Build+%26+Battle+Box+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 42.48,
-   "ebay_count": 13,
+   "ebay_ask": 41.72,
+   "ebay_count": 14,
    "profit": 1.23,
    "roi": 0.0521
   },
@@ -719,8 +700,8 @@
    "current": true,
    "url": "https://www.tcgplayer.com/product/702496/pokemon-me-ascended-heroes-ascended-heroes-tin-mega-emboar-ex",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Ascended+Heroes+Tin++Mega+Emboar+ex++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 41.0,
-   "ebay_count": 50,
+   "ebay_ask": 41.99,
+   "ebay_count": 49,
    "profit": 1.18,
    "roi": 0.0503
   },
@@ -757,7 +738,7 @@
    "current": true,
    "url": "https://www.tcgplayer.com/product/704168/pokemon-me-30th-celebration-30th-celebration-greninja-ex-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=30th+Celebration+Greninja+ex+Box+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 44.99,
+   "ebay_ask": 42.99,
    "ebay_count": 35,
    "profit": 1.0,
    "roi": 0.0423
@@ -777,7 +758,7 @@
    "url": "https://www.tcgplayer.com/product/704185/pokemon-me-30th-celebration-30th-celebration-mini-tin-greninja",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=30th+Celebration+Mini+Tin++Greninja++sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 21.99,
-   "ebay_count": 26,
+   "ebay_count": 27,
    "profit": 0.92,
    "roi": 0.0863
   },
@@ -796,7 +777,7 @@
    "url": "https://www.tcgplayer.com/product/692946/pokemon-me05-pitch-black-pitch-black-build-and-battle-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Pitch+Black+Build+%26+Battle+Box+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 44.99,
-   "ebay_count": 6,
+   "ebay_count": 7,
    "profit": -1.37,
    "roi": -0.0584
   },
@@ -815,7 +796,7 @@
    "url": "https://www.tcgplayer.com/product/712093/pokemon-me06-delta-reign-delta-reign-3-pack-blister-seel",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Delta+Reign+3+Pack+Blister++Seel++sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 21.9,
-   "ebay_count": 43,
+   "ebay_count": 42,
    "profit": -1.52,
    "roi": -0.1016
   },
@@ -852,8 +833,8 @@
    "current": true,
    "url": "https://www.tcgplayer.com/product/696613/pokemon-me-30th-celebration-30th-celebration-booster-pack",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=30th+Celebration+Booster+Pack+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 11.5,
-   "ebay_count": 27,
+   "ebay_ask": 10.75,
+   "ebay_count": 26,
    "profit": -2.19,
    "roi": -0.4565
   },
@@ -890,7 +871,7 @@
    "current": true,
    "url": "https://www.tcgplayer.com/product/688712/pokemon-first-partner-collection-2026-first-partner-illustration-collection-series-2",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=First+Partner+Illustration+Collection++Series+2++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 17.99,
+   "ebay_ask": 18.99,
    "ebay_count": 50,
    "profit": -3.47,
    "roi": -0.2164
@@ -928,7 +909,7 @@
    "current": true,
    "url": "https://www.tcgplayer.com/product/684450/pokemon-me04-chaos-rising-chaos-rising-elite-trainer-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Chaos+Rising+Elite+Trainer+Box+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 64.95,
+   "ebay_ask": 64.99,
    "ebay_count": 43,
    "profit": -3.9,
    "roi": -0.0729
@@ -947,8 +928,8 @@
    "current": true,
    "url": "https://www.tcgplayer.com/product/704187/pokemon-me-30th-celebration-30th-celebration-battle-deck-espeon-ex",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=30th+Celebration+Battle+Deck++Espeon+ex++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 31.95,
-   "ebay_count": 47,
+   "ebay_ask": 30.99,
+   "ebay_count": 49,
    "profit": -4.6,
    "roi": -0.215
   },
@@ -967,7 +948,7 @@
    "url": "https://www.tcgplayer.com/product/712112/pokemon-me06-delta-reign-delta-reign-sleeved-booster-pack",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Delta+Reign+Sleeved+Booster+Pack+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 9.99,
-   "ebay_count": 11,
+   "ebay_count": 14,
    "profit": -4.76,
    "roi": -0.9912
   },
@@ -985,7 +966,7 @@
    "current": true,
    "url": "https://www.tcgplayer.com/product/692947/pokemon-me05-pitch-black-pitch-black-elite-trainer-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Pitch+Black+Elite+Trainer+Box+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 65.0,
+   "ebay_ask": 63.0,
    "ebay_count": 46,
    "profit": -5.11,
    "roi": -0.0956
@@ -1043,7 +1024,7 @@
    "url": "https://www.tcgplayer.com/product/712099/pokemon-me06-delta-reign-delta-reign-booster-pack",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Delta+Reign+Booster+Pack+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 7.77,
-   "ebay_count": 21,
+   "ebay_count": 25,
    "profit": -5.53,
    "roi": -1.1502
   },
@@ -1137,7 +1118,7 @@
    "current": true,
    "url": "https://www.tcgplayer.com/product/684446/pokemon-me04-chaos-rising-chaos-rising-booster-pack",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Chaos+Rising+Booster+Pack+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 6.48,
+   "ebay_ask": 6.5,
    "ebay_count": 43,
    "profit": -6.51,
    "roi": -1.3556
@@ -1289,8 +1270,8 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/501999/pokemon-sv-scarlet-and-violet-151-151-pokemon-center-elite-trainer-box-exclusive",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=151+Pokemon+Center+Elite+Trainer+Box++Exclusive++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 1099.99,
-   "ebay_count": 12,
+   "ebay_ask": 1050.0,
+   "ebay_count": 13,
    "profit": 913.81,
    "roi": 14.2362
   },
@@ -1384,7 +1365,7 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/502005/pokemon-sv-scarlet-and-violet-151-151-ultra-premium-collection",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=151+Ultra-Premium+Collection+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 806.99,
+   "ebay_ask": 774.99,
    "ebay_count": 47,
    "profit": 579.79,
    "roi": 4.5159
@@ -1422,8 +1403,8 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/277324/pokemon-swsh11-lost-origin-lost-origin-booster-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Lost+Origin+Booster+Box+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 733.0,
-   "ebay_count": 16,
+   "ebay_ask": 729.99,
+   "ebay_count": 17,
    "profit": 442.12,
    "roi": 2.5563
   },
@@ -1574,7 +1555,7 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/282401/pokemon-swsh11-lost-origin-sword-and-shield-ultra-premium-collection-charizard",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Sword+%26+Shield+Ultra-Premium+Collection%3A+Charizard+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 550.0,
+   "ebay_ask": 549.0,
    "ebay_count": 24,
    "profit": 346.76,
    "roi": 2.7009
@@ -1765,7 +1746,7 @@
    "url": "https://www.tcgplayer.com/product/593324/pokemon-sv-prismatic-evolutions-prismatic-evolutions-pokemon-center-elite-trainer-box-exclusive",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Prismatic+Evolutions+Pokemon+Center+Elite+Trainer+Box++Exclusive++sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 365.0,
-   "ebay_count": 32,
+   "ebay_count": 31,
    "profit": 250.36,
    "roi": 3.9003
   },
@@ -1803,7 +1784,7 @@
    "url": "https://www.tcgplayer.com/product/277336/pokemon-swsh11-lost-origin-lost-origin-pokemon-center-elite-trainer-box-exclusive",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Lost+Origin+Pokemon+Center+Elite+Trainer+Box++Exclusive++sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 375.0,
-   "ebay_count": 10,
+   "ebay_count": 9,
    "profit": 244.61,
    "roi": 3.8107
   },
@@ -1859,7 +1840,7 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/609597/pokemon-sv-scarlet-and-violet-151-blooming-waters-premium-collection",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Blooming+Waters+Premium+Collection+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 303.99,
+   "ebay_ask": 300.0,
    "ebay_count": 42,
    "profit": 222.12,
    "roi": 5.1909
@@ -1879,7 +1860,7 @@
    "url": "https://www.tcgplayer.com/product/247671/pokemon-swsh08-fusion-strike-fusion-strike-elite-trainer-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Fusion+Strike+Elite+Trainer+Box+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 320.0,
-   "ebay_count": 25,
+   "ebay_count": 24,
    "profit": 221.84,
    "roi": 4.1473
   },
@@ -1935,8 +1916,8 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/236258/pokemon-swsh06-chilling-reign-chilling-reign-booster-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Chilling+Reign+Booster+Box+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 469.98,
-   "ebay_count": 24,
+   "ebay_ask": 469.99,
+   "ebay_count": 23,
    "profit": 211.66,
    "roi": 1.2238
   },
@@ -2012,7 +1993,7 @@
    "url": "https://www.tcgplayer.com/product/453470/pokemon-swsh-crown-zenith-crown-zenith-elite-trainer-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Crown+Zenith+Elite+Trainer+Box+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 319.99,
-   "ebay_count": 23,
+   "ebay_count": 25,
    "profit": 205.4,
    "roi": 3.8401
   },
@@ -2050,7 +2031,7 @@
    "url": "https://www.tcgplayer.com/product/283325/pokemon-swsh11-lost-origin-arceus-vstar-premium-collection",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Arceus+VSTAR+Premium+Collection+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 309.99,
-   "ebay_count": 18,
+   "ebay_count": 19,
    "profit": 201.84,
    "roi": 4.7172
   },
@@ -2106,8 +2087,8 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/478756/pokemon-sv01-scarlet-and-violet-base-set-scarlet-and-violet-pokemon-center-elite-trainer-box-exclusive-miraidon",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Scarlet+%26+Violet+Pokemon+Center+Elite+Trainer+Box++Exclusive+++Miraidon++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 288.99,
-   "ebay_count": 3,
+   "ebay_ask": 278.1,
+   "ebay_count": 2,
    "profit": 196.87,
    "roi": 3.0671
   },
@@ -2144,8 +2125,8 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/285674/pokemon-swsh11-lost-origin-arceus-vstar-ultra-premium-collection",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Arceus+VSTAR+Ultra-Premium+Collection+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 380.0,
-   "ebay_count": 13,
+   "ebay_ask": 362.5,
+   "ebay_count": 14,
    "profit": 170.66,
    "roi": 1.3292
   },
@@ -2182,8 +2163,8 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/501264/pokemon-sv03-obsidian-flames-obsidian-flames-elite-trainer-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Obsidian+Flames+Elite+Trainer+Box+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 274.59,
-   "ebay_count": 25,
+   "ebay_ask": 274.88,
+   "ebay_count": 23,
    "profit": 166.77,
    "roi": 3.1177
   },
@@ -2315,8 +2296,8 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/528080/pokemon-sv-paldean-fates-paldean-fates-premium-collection-skeledirge-ex",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Paldean+Fates+Premium+Collection++Skeledirge+ex++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 245.0,
-   "ebay_count": 4,
+   "ebay_ask": 249.99,
+   "ebay_count": 3,
    "profit": 154.38,
    "roi": 3.6078
   },
@@ -2354,7 +2335,7 @@
    "url": "https://www.tcgplayer.com/product/527562/pokemon-swsh-crown-zenith-crown-zenith-booster-bundle",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Crown+Zenith+Booster+Bundle+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 200.0,
-   "ebay_count": 21,
+   "ebay_count": 23,
    "profit": 149.81,
    "roi": 5.1971
   },
@@ -2373,7 +2354,7 @@
    "url": "https://www.tcgplayer.com/product/630687/pokemon-sv-black-bolt-black-bolt-pokemon-center-elite-trainer-box-exclusive",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Black+Bolt+Pokemon+Center+Elite+Trainer+Box++Exclusive++sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 245.0,
-   "ebay_count": 17,
+   "ebay_count": 19,
    "profit": 148.81,
    "roi": 2.3183
   },
@@ -2487,7 +2468,7 @@
    "url": "https://www.tcgplayer.com/product/501257/pokemon-sv03-obsidian-flames-obsidian-flames-booster-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Obsidian+Flames+Booster+Box+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 405.68,
-   "ebay_count": 12,
+   "ebay_count": 13,
    "profit": 140.7,
    "roi": 0.8135
   },
@@ -2582,7 +2563,7 @@
    "url": "https://www.tcgplayer.com/product/270709/pokemon-pokemon-go-pokemon-go-pokemon-center-elite-trainer-box-plus-exclusive",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Pokemon+GO+Pokemon+Center+Elite+Trainer+Box+Plus++Exclusive++sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 220.0,
-   "ebay_count": 13,
+   "ebay_count": 12,
    "profit": 135.44,
    "roi": 2.11
   },
@@ -2657,8 +2638,8 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/630688/pokemon-sv-white-flare-white-flare-pokemon-center-elite-trainer-box-exclusive",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=White+Flare+Pokemon+Center+Elite+Trainer+Box++Exclusive++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 249.99,
-   "ebay_count": 14,
+   "ebay_ask": 250.0,
+   "ebay_count": 13,
    "profit": 131.37,
    "roi": 2.0467
   },
@@ -2886,7 +2867,7 @@
    "url": "https://www.tcgplayer.com/product/218791/pokemon-champions-path-champions-path-elite-trainer-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Champion%27s+Path+Elite+Trainer+Box+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 199.99,
-   "ebay_count": 27,
+   "ebay_count": 28,
    "profit": 115.11,
    "roi": 2.152
   },
@@ -2942,8 +2923,8 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/216853/pokemon-swsh03-darkness-ablaze-darkness-ablaze-booster-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Darkness+Ablaze+Booster+Box+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 345.0,
-   "ebay_count": 18,
+   "ebay_ask": 320.0,
+   "ebay_count": 20,
    "profit": 108.67,
    "roi": 0.6283
   },
@@ -2999,7 +2980,7 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/502000/pokemon-sv-scarlet-and-violet-151-151-booster-bundle",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=151+Booster+Bundle+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 161.0,
+   "ebay_ask": 152.0,
    "ebay_count": 39,
    "profit": 106.66,
    "roi": 3.7001
@@ -3114,7 +3095,7 @@
    "url": "https://www.tcgplayer.com/product/277335/pokemon-swsh11-lost-origin-lost-origin-elite-trainer-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Lost+Origin+Elite+Trainer+Box+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 210.0,
-   "ebay_count": 23,
+   "ebay_count": 24,
    "profit": 100.52,
    "roi": 1.8792
   },
@@ -3133,7 +3114,7 @@
    "url": "https://www.tcgplayer.com/product/475629/pokemon-swsh-crown-zenith-crown-zenith-tin-galarian-moltres",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Crown+Zenith+Tin++Galarian+Moltres++sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 154.99,
-   "ebay_count": 22,
+   "ebay_count": 23,
    "profit": 99.54,
    "roi": 4.2306
   },
@@ -3151,7 +3132,7 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/622770/pokemon-sv-prismatic-evolutions-prismatic-evolutions-super-premium-collection",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Prismatic+Evolutions+Super-Premium+Collection+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 229.9,
+   "ebay_ask": 225.95,
    "ebay_count": 48,
    "profit": 97.46,
    "roi": 1.0122
@@ -3171,7 +3152,7 @@
    "url": "https://www.tcgplayer.com/product/475628/pokemon-swsh-crown-zenith-crown-zenith-tin-galarian-articuno",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Crown+Zenith+Tin++Galarian+Articuno++sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 160.0,
-   "ebay_count": 16,
+   "ebay_count": 17,
    "profit": 97.34,
    "roi": 4.1369
   },
@@ -3266,7 +3247,7 @@
    "url": "https://www.tcgplayer.com/product/650799/pokemon-sv-prismatic-evolutions-prismatic-evolutions-premium-figure-collection",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Prismatic+Evolutions+Premium+Figure+Collection+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 200.0,
-   "ebay_count": 37,
+   "ebay_count": 38,
    "profit": 89.88,
    "roi": 1.2002
   },
@@ -3379,7 +3360,7 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/475630/pokemon-swsh-crown-zenith-crown-zenith-tin-galarian-zapdos",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Crown+Zenith+Tin++Galarian+Zapdos++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 130.0,
+   "ebay_ask": 135.0,
    "ebay_count": 21,
    "profit": 87.37,
    "roi": 3.7131
@@ -3399,7 +3380,7 @@
    "url": "https://www.tcgplayer.com/product/512801/pokemon-sv04-paradox-rift-paradox-rift-pokemon-center-elite-trainer-box-exclusive-iron-valiant",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Paradox+Rift+Pokemon+Center+Elite+Trainer+Box++Exclusive+++Iron+Valiant++sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 205.0,
-   "ebay_count": 7,
+   "ebay_count": 6,
    "profit": 86.88,
    "roi": 1.3536
   },
@@ -3417,8 +3398,8 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/221313/pokemon-swsh04-vivid-voltage-vivid-voltage-booster-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Vivid+Voltage+Booster+Box+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 315.0,
-   "ebay_count": 16,
+   "ebay_ask": 310.0,
+   "ebay_count": 18,
    "profit": 86.73,
    "roi": 0.5015
   },
@@ -3569,7 +3550,7 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/206039/pokemon-swsh01-sword-and-shield-base-set-sword-and-shield-elite-trainer-box-zamazenta",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Sword+%26+Shield+Elite+Trainer+Box++Zamazenta++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 154.0,
+   "ebay_ask": 148.0,
    "ebay_count": 18,
    "profit": 84.41,
    "roi": 1.5781
@@ -3608,7 +3589,7 @@
    "url": "https://www.tcgplayer.com/product/668530/pokemon-me-ascended-heroes-ascended-heroes-mini-tins-5-pack",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Ascended+Heroes+Mini+Tins+5-Pack+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 94.29,
-   "ebay_count": 23,
+   "ebay_count": 25,
    "profit": 83.59,
    "roi": 7.8197
   },
@@ -3627,7 +3608,7 @@
    "url": "https://www.tcgplayer.com/product/557340/pokemon-sv07-stellar-crown-stellar-crown-pokemon-center-elite-trainer-box-exclusive",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Stellar+Crown+Pokemon+Center+Elite+Trainer+Box++Exclusive++sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 199.99,
-   "ebay_count": 11,
+   "ebay_count": 10,
    "profit": 82.1,
    "roi": 1.2791
   },
@@ -3646,7 +3627,7 @@
    "url": "https://www.tcgplayer.com/product/256138/pokemon-swsh09-brilliant-stars-brilliant-stars-elite-trainer-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Brilliant+Stars+Elite+Trainer+Box+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 164.64,
-   "ebay_count": 28,
+   "ebay_count": 27,
    "profit": 81.91,
    "roi": 1.5314
   },
@@ -3722,7 +3703,7 @@
    "url": "https://www.tcgplayer.com/product/265528/pokemon-swsh10-astral-radiance-astral-radiance-pokemon-center-elite-trainer-box-exclusive",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Astral+Radiance+Pokemon+Center+Elite+Trainer+Box++Exclusive++sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 199.98,
-   "ebay_count": 12,
+   "ebay_count": 11,
    "profit": 81.33,
    "roi": 1.267
   },
@@ -3836,7 +3817,7 @@
    "url": "https://www.tcgplayer.com/product/557350/pokemon-sv07-stellar-crown-stellar-crown-elite-trainer-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Stellar+Crown+Elite+Trainer+Box+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 149.99,
-   "ebay_count": 27,
+   "ebay_count": 28,
    "profit": 73.97,
    "roi": 1.3828
   },
@@ -3873,8 +3854,8 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/566954/pokemon-trick-or-trade-booster-bundle-2024-trick-or-trade-booster-bundle-2024-80-mini-packs",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Trick+or+Trade+BOOster+Bundle+2024++80+mini+packs++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 199.99,
-   "ebay_count": 1,
+   "ebay_ask": null,
+   "ebay_count": 0,
    "profit": 73.45,
    "roi": 2.5482
   },
@@ -3988,7 +3969,7 @@
    "url": "https://www.tcgplayer.com/product/206040/pokemon-swsh01-sword-and-shield-base-set-sword-and-shield-build-and-battle-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Sword+%26+Shield+Build+%26+Battle+Box+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 78.87,
-   "ebay_count": 11,
+   "ebay_count": 12,
    "profit": 70.39,
    "roi": 2.9916
   },
@@ -4007,7 +3988,7 @@
    "url": "https://www.tcgplayer.com/product/496914/pokemon-sv02-paldea-evolved-paldea-evolved-booster-bundle",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Paldea+Evolved+Booster+Bundle+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 125.99,
-   "ebay_count": 7,
+   "ebay_count": 6,
    "profit": 69.69,
    "roi": 2.4178
   },
@@ -4082,8 +4063,8 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/630686/pokemon-sv-black-bolt-black-bolt-elite-trainer-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Black+Bolt+Elite+Trainer+Box+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 154.99,
-   "ebay_count": 41,
+   "ebay_ask": 159.98,
+   "ebay_count": 38,
    "profit": 67.15,
    "roi": 1.2554
   },
@@ -4101,8 +4082,8 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/475644/pokemon-swsh-crown-zenith-morpeko-v-union-playmat-premium-collection",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Morpeko+V-UNION+Playmat+Premium+Collection+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 170.0,
-   "ebay_count": 7,
+   "ebay_ask": 174.99,
+   "ebay_count": 6,
    "profit": 66.11,
    "roi": 1.545
   },
@@ -4444,7 +4425,7 @@
    "url": "https://www.tcgplayer.com/product/630689/pokemon-sv-white-flare-white-flare-elite-trainer-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=White+Flare+Elite+Trainer+Box+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 144.99,
-   "ebay_count": 47,
+   "ebay_count": 46,
    "profit": 58.1,
    "roi": 1.0861
   },
@@ -4500,8 +4481,8 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/528051/pokemon-sv-paldean-fates-paldean-fates-mini-tin-maushold",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Paldean+Fates+Mini+Tin++Maushold++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 100.0,
-   "ebay_count": 6,
+   "ebay_ask": 97.0,
+   "ebay_count": 7,
    "profit": 56.24,
    "roi": 5.2617
   },
@@ -4519,8 +4500,8 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/247668/pokemon-swsh08-fusion-strike-fusion-strike-3-pack-blister-espeon",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Fusion+Strike+3+Pack+Blister++Espeon++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 114.0,
-   "ebay_count": 8,
+   "ebay_ask": 149.99,
+   "ebay_count": 6,
    "profit": 55.79,
    "roi": 3.7271
   },
@@ -4576,8 +4557,8 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/654136/pokemon-me02-phantasmal-flames-phantasmal-flames-elite-trainer-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Phantasmal+Flames+Elite+Trainer+Box+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 107.99,
-   "ebay_count": 46,
+   "ebay_ask": 139.99,
+   "ebay_count": 45,
    "profit": 54.81,
    "roi": 1.0247
   },
@@ -4767,7 +4748,7 @@
    "url": "https://www.tcgplayer.com/product/247667/pokemon-swsh08-fusion-strike-fusion-strike-3-pack-blister-eevee",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Fusion+Strike+3+Pack+Blister++Eevee++sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 125.0,
-   "ebay_count": 6,
+   "ebay_count": 5,
    "profit": 48.16,
    "roi": 3.2174
   },
@@ -4805,7 +4786,7 @@
    "url": "https://www.tcgplayer.com/product/630431/pokemon-sv-black-bolt-black-bolt-booster-bundle",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Black+Bolt+Booster+Bundle+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 96.0,
-   "ebay_count": 29,
+   "ebay_count": 30,
    "profit": 46.84,
    "roi": 1.6249
   },
@@ -4995,7 +4976,7 @@
    "url": "https://www.tcgplayer.com/product/502001/pokemon-sv-scarlet-and-violet-151-151-poster-collection",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=151+Poster+Collection+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 75.0,
-   "ebay_count": 34,
+   "ebay_count": 35,
    "profit": 44.41,
    "roi": 2.7688
   },
@@ -5014,7 +4995,7 @@
    "url": "https://www.tcgplayer.com/product/222985/pokemon-swsh04-vivid-voltage-fall-2020-collectors-chest-tin",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Fall+2020+Collector%27s+Chest+Tin+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 95.0,
-   "ebay_count": 12,
+   "ebay_count": 11,
    "profit": 44.09,
    "roi": 1.8736
   },
@@ -5128,7 +5109,7 @@
    "url": "https://www.tcgplayer.com/product/630696/pokemon-sv-white-flare-white-flare-booster-bundle",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=White+Flare+Booster+Bundle+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 90.0,
-   "ebay_count": 27,
+   "ebay_count": 28,
    "profit": 41.36,
    "roi": 1.435
   },
@@ -5242,7 +5223,7 @@
    "url": "https://www.tcgplayer.com/product/242438/pokemon-swsh07-evolving-skies-evolving-skies-sleeved-booster-pack",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Evolving+Skies+Sleeved+Booster+Pack+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 57.0,
-   "ebay_count": 30,
+   "ebay_count": 29,
    "profit": 38.32,
    "roi": 7.9752
   },
@@ -5280,7 +5261,7 @@
    "url": "https://www.tcgplayer.com/product/528049/pokemon-sv-paldean-fates-paldean-fates-mini-tin-smoliv",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Paldean+Fates+Mini+Tin++Smoliv++sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 59.99,
-   "ebay_count": 7,
+   "ebay_count": 8,
    "profit": 38.17,
    "roi": 3.5708
   },
@@ -5722,6 +5703,25 @@
    "roi": 1.0283
   },
   {
+   "id": 668541,
+   "name": "Ascended Heroes Booster Bundle",
+   "set": "Ascended Heroes",
+   "type": "Booster Bundle",
+   "group": "Bundles",
+   "msrp": 26.94,
+   "market": 77.26,
+   "ship": "bundle",
+   "release": "2026-04-24",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/668541/pokemon-me-ascended-heroes-ascended-heroes-booster-bundle",
+   "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Ascended+Heroes+Booster+Bundle+sealed&LH_Sold=1&LH_Complete=1",
+   "ebay_ask": 69.99,
+   "ebay_count": 45,
+   "profit": 29.58,
+   "roi": 1.0262
+  },
+  {
    "id": 528050,
    "name": "Paldean Fates Mini Tin [Flamigo]",
    "set": "Paldean Fates",
@@ -5736,7 +5736,7 @@
    "url": "https://www.tcgplayer.com/product/528050/pokemon-sv-paldean-fates-paldean-fates-mini-tin-flamigo",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Paldean+Fates+Mini+Tin++Flamigo++sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 60.0,
-   "ebay_count": 4,
+   "ebay_count": 5,
    "profit": 29.42,
    "roi": 2.7527
   },
@@ -5773,8 +5773,8 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/558713/pokemon-trick-or-trade-booster-bundle-2024-trick-or-trade-booster-bundle-2024-35-mini-packs",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Trick+or+Trade+BOOster+Bundle+2024++35+mini+packs++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 74.99,
-   "ebay_count": 11,
+   "ebay_ask": 75.0,
+   "ebay_count": 10,
    "profit": 29.02,
    "roi": 1.0068
   },
@@ -5831,7 +5831,7 @@
    "url": "https://www.tcgplayer.com/product/644279/pokemon-me01-mega-evolution-mega-evolution-elite-trainer-box-mega-gardevoir",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Mega+Evolution+Elite+Trainer+Box++Mega+Gardevoir++sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 106.65,
-   "ebay_count": 44,
+   "ebay_count": 45,
    "profit": 28.49,
    "roi": 0.5326
   },
@@ -5982,7 +5982,7 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/624676/pokemon-sv10-destined-rivals-destined-rivals-elite-trainer-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Destined+Rivals+Elite+Trainer+Box+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 104.0,
+   "ebay_ask": 110.0,
    "ebay_count": 49,
    "profit": 26.75,
    "roi": 0.5002
@@ -6001,8 +6001,8 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/528055/pokemon-sv-paldean-fates-paldean-fates-mini-tin-finizen",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Paldean+Fates+Mini+Tin++Finizen++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 62.45,
-   "ebay_count": 4,
+   "ebay_ask": 60.0,
+   "ebay_count": 5,
    "profit": 26.57,
    "roi": 2.4861
   },
@@ -6020,8 +6020,8 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/528052/pokemon-sv-paldean-fates-paldean-fates-mini-tin-tinkatink",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Paldean+Fates+Mini+Tin++Tinkatink++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 63.5,
-   "ebay_count": 4,
+   "ebay_ask": 60.0,
+   "ebay_count": 5,
    "profit": 26.55,
    "roi": 2.4837
   },
@@ -6078,7 +6078,7 @@
    "url": "https://www.tcgplayer.com/product/654160/pokemon-me02-phantasmal-flames-phantasmal-flames-booster-bundle",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Phantasmal+Flames+Booster+Bundle+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 75.0,
-   "ebay_count": 38,
+   "ebay_count": 34,
    "profit": 26.35,
    "roi": 0.9142
   },
@@ -6096,8 +6096,8 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/522703/pokemon-sv-scarlet-and-violet-151-151-mini-tin-hitmonlee-and-kadabra",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=151+Mini+Tin++Hitmonlee+%26+Kadabra++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 48.0,
-   "ebay_count": 13,
+   "ebay_ask": 49.99,
+   "ebay_count": 12,
    "profit": 26.31,
    "roi": 2.4612
   },
@@ -6533,7 +6533,7 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/630430/pokemon-sv-black-bolt-black-bolt-binder-collection",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Black+Bolt+Binder+Collection+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 79.95,
+   "ebay_ask": 79.99,
    "ebay_count": 37,
    "profit": 22.26,
    "roi": 0.6502
@@ -6723,7 +6723,7 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/544386/pokemon-sv06-twilight-masquerade-twilight-masquerade-build-and-battle-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Twilight+Masquerade+Build+%26+Battle+Box+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 59.99,
+   "ebay_ask": 59.9,
    "ebay_count": 5,
    "profit": 20.97,
    "roi": 0.8914
@@ -6781,7 +6781,7 @@
    "url": "https://www.tcgplayer.com/product/644362/pokemon-me01-mega-evolution-mega-evolution-booster-bundle",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Mega+Evolution+Booster+Bundle+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 39.99,
-   "ebay_count": 16,
+   "ebay_count": 17,
    "profit": 20.22,
    "roi": 0.7014
   },
@@ -7104,7 +7104,7 @@
    "url": "https://www.tcgplayer.com/product/625683/pokemon-sv10-destined-rivals-destined-rivals-3-pack-blister-kangaskhan",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Destined+Rivals+3+Pack+Blister++Kangaskhan++sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 32.0,
-   "ebay_count": 40,
+   "ebay_count": 39,
    "profit": 16.41,
    "roi": 1.0961
   },
@@ -7198,7 +7198,7 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/593450/pokemon-sv-prismatic-evolutions-prismatic-evolutions-tech-sticker-collection-sylveon",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Prismatic+Evolutions+Tech+Sticker+Collection++Sylveon++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 35.99,
+   "ebay_ask": 38.69,
    "ebay_count": 25,
    "profit": 15.7,
    "roi": 0.979
@@ -7503,7 +7503,7 @@
    "url": "https://www.tcgplayer.com/product/625684/pokemon-sv10-destined-rivals-destined-rivals-3-pack-blister-zebstrika",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Destined+Rivals+3+Pack+Blister++Zebstrika++sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 30.0,
-   "ebay_count": 40,
+   "ebay_count": 39,
    "profit": 13.68,
    "roi": 0.9138
   },
@@ -7597,7 +7597,7 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/593451/pokemon-sv-prismatic-evolutions-prismatic-evolutions-tech-sticker-collection-glaceon",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Prismatic+Evolutions+Tech+Sticker+Collection++Glaceon++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 38.5,
+   "ebay_ask": 39.99,
    "ebay_count": 26,
    "profit": 12.23,
    "roi": 0.7623
@@ -7636,7 +7636,7 @@
    "url": "https://www.tcgplayer.com/product/668534/pokemon-me-ascended-heroes-ascended-heroes-mini-tin-togepi-and-totodile",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Ascended+Heroes+Mini+Tin++Togepi+%26+Totodile++sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 25.0,
-   "ebay_count": 21,
+   "ebay_count": 22,
    "profit": 12.08,
    "roi": 1.1301
   },
@@ -7673,7 +7673,7 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/553031/pokemon-sv-shrouded-fable-shrouded-fable-booster-bundle",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Shrouded+Fable+Booster+Bundle+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 52.99,
+   "ebay_ask": 54.0,
    "ebay_count": 38,
    "profit": 11.99,
    "roi": 0.4158
@@ -7882,8 +7882,8 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/668535/pokemon-me-ascended-heroes-ascended-heroes-mini-tin-clefairy-and-chikorita",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Ascended+Heroes+Mini+Tin++Clefairy+%26+Chikorita++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 41.88,
-   "ebay_count": 4,
+   "ebay_ask": 41.0,
+   "ebay_count": 5,
    "profit": 11.14,
    "roi": 1.0417
   },
@@ -7959,7 +7959,7 @@
    "url": "https://www.tcgplayer.com/product/672735/pokemon-me-ascended-heroes-ascended-heroes-mega-feraligatr-ex-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Ascended+Heroes+Mega+Feraligatr+ex+Box+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 51.99,
-   "ebay_count": 12,
+   "ebay_count": 13,
    "profit": 10.76,
    "roi": 0.4574
   },
@@ -7977,7 +7977,7 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/668533/pokemon-me-ascended-heroes-ascended-heroes-mini-tin-zorua-and-cramorant",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Ascended+Heroes+Mini+Tin++Zorua+%26+Cramorant++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 26.49,
+   "ebay_ask": 26.0,
    "ebay_count": 13,
    "profit": 10.71,
    "roi": 1.0016
@@ -7997,7 +7997,7 @@
    "url": "https://www.tcgplayer.com/product/668531/pokemon-me-ascended-heroes-ascended-heroes-mini-tin-pikachu-and-tepig",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Ascended+Heroes+Mini+Tin++Pikachu+%26+Tepig++sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 33.93,
-   "ebay_count": 13,
+   "ebay_count": 14,
    "profit": 10.44,
    "roi": 0.9767
   },
@@ -8148,7 +8148,7 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/528038/pokemon-sv-paldean-fates-paldean-fates-booster-pack",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Paldean+Fates+Booster+Pack+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 33.98,
+   "ebay_ask": 33.49,
    "ebay_count": 4,
    "profit": 9.71,
    "roi": 2.0212
@@ -8225,7 +8225,7 @@
    "url": "https://www.tcgplayer.com/product/668532/pokemon-me-ascended-heroes-ascended-heroes-mini-tin-riolu-and-darumaka",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Ascended+Heroes+Mini+Tin++Riolu+%26+Darumaka++sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 29.0,
-   "ebay_count": 16,
+   "ebay_count": 17,
    "profit": 9.38,
    "roi": 0.878
   },
@@ -8319,8 +8319,8 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/593453/pokemon-sv-prismatic-evolutions-prismatic-evolutions-tech-sticker-collection-leafeon",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Prismatic+Evolutions+Tech+Sticker+Collection++Leafeon++sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 35.99,
-   "ebay_count": 25,
+   "ebay_ask": 40.0,
+   "ebay_count": 26,
    "profit": 8.72,
    "roi": 0.5434
   },
@@ -8453,7 +8453,7 @@
    "url": "https://www.tcgplayer.com/product/277326/pokemon-swsh11-lost-origin-lost-origin-sleeved-booster-pack",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Lost+Origin+Sleeved+Booster+Pack+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 22.0,
-   "ebay_count": 12,
+   "ebay_count": 13,
    "profit": 7.95,
    "roi": 1.655
   },
@@ -8662,7 +8662,7 @@
    "url": "https://www.tcgplayer.com/product/630612/pokemon-sv-black-bolt-unova-poster-collection",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Unova+Poster+Collection+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 39.99,
-   "ebay_count": 25,
+   "ebay_count": 23,
    "profit": 6.4,
    "roi": 0.399
   },
@@ -8680,8 +8680,8 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/672733/pokemon-me-ascended-heroes-ascended-heroes-mega-meganium-ex-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Ascended+Heroes+Mega+Meganium+ex+Box+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 45.99,
-   "ebay_count": 22,
+   "ebay_ask": 46.0,
+   "ebay_count": 21,
    "profit": 6.2,
    "roi": 0.2634
   },
@@ -9080,7 +9080,7 @@
    "url": "https://www.tcgplayer.com/product/277325/pokemon-swsh11-lost-origin-lost-origin-booster-pack",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Lost+Origin+Booster+Pack+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 19.99,
-   "ebay_count": 17,
+   "ebay_count": 18,
    "profit": 3.63,
    "roi": 0.7547
   },
@@ -9687,8 +9687,8 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/672400/pokemon-me03-perfect-order-perfect-order-build-and-battle-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Perfect+Order+Build+%26+Battle+Box+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 44.95,
-   "ebay_count": 10,
+   "ebay_ask": 40.65,
+   "ebay_count": 11,
    "profit": 0.05,
    "roi": 0.0021
   },
@@ -9802,7 +9802,7 @@
    "url": "https://www.tcgplayer.com/product/501256/pokemon-sv03-obsidian-flames-obsidian-flames-booster-pack",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Obsidian+Flames+Booster+Pack+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 12.0,
-   "ebay_count": 21,
+   "ebay_count": 22,
    "profit": -0.34,
    "roi": -0.0706
   },
@@ -9954,7 +9954,7 @@
    "url": "https://www.tcgplayer.com/product/236257/pokemon-swsh06-chilling-reign-chilling-reign-booster-pack",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Chilling+Reign+Booster+Pack+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 14.99,
-   "ebay_count": 15,
+   "ebay_count": 14,
    "profit": -0.79,
    "roi": -0.1635
   },
@@ -10314,8 +10314,8 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/624684/pokemon-sv10-destined-rivals-destined-rivals-sleeved-booster-pack",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Destined+Rivals+Sleeved+Booster+Pack+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 12.48,
-   "ebay_count": 27,
+   "ebay_ask": 12.0,
+   "ebay_count": 28,
    "profit": -1.98,
    "roi": -0.4118
   },
@@ -10352,8 +10352,8 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/557352/pokemon-sv07-stellar-crown-stellar-crown-sleeved-booster-pack",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Stellar+Crown+Sleeved+Booster+Pack+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 10.0,
-   "ebay_count": 8,
+   "ebay_ask": 9.6,
+   "ebay_count": 9,
    "profit": -2.02,
    "roi": -0.4207
   },
@@ -10391,7 +10391,7 @@
    "url": "https://www.tcgplayer.com/product/672434/pokemon-me-ascended-heroes-ascended-heroes-booster-pack",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Ascended+Heroes+Booster+Pack+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 10.99,
-   "ebay_count": 42,
+   "ebay_count": 43,
    "profit": -2.13,
    "roi": -0.4439
   },
@@ -10543,7 +10543,7 @@
    "url": "https://www.tcgplayer.com/product/229276/pokemon-swsh05-battle-styles-battle-styles-booster-pack",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Battle+Styles+Booster+Pack+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 10.99,
-   "ebay_count": 23,
+   "ebay_count": 22,
    "profit": -2.66,
    "roi": -0.5535
   },
@@ -10638,7 +10638,7 @@
    "url": "https://www.tcgplayer.com/product/543843/pokemon-sv06-twilight-masquerade-twilight-masquerade-booster-pack",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Twilight+Masquerade+Booster+Pack+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 9.69,
-   "ebay_count": 21,
+   "ebay_count": 22,
    "profit": -3.12,
    "roi": -0.65
   },
@@ -10714,7 +10714,7 @@
    "url": "https://www.tcgplayer.com/product/512822/pokemon-sv04-paradox-rift-paradox-rift-booster-pack",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Paradox+Rift+Booster+Pack+sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 8.99,
-   "ebay_count": 27,
+   "ebay_count": 28,
    "profit": -3.4,
    "roi": -0.7072
   },
@@ -10732,7 +10732,7 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/610953/pokemon-sv09-journey-together-journey-together-booster-bundle",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Journey+Together+Booster+Bundle+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 41.0,
+   "ebay_ask": 39.98,
    "ebay_count": 48,
    "profit": -3.44,
    "roi": -0.1195
@@ -10828,7 +10828,7 @@
    "url": "https://www.tcgplayer.com/product/270710/pokemon-pokemon-go-v-battle-deck-mewtwo-v",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=V+Battle+Deck++Mewtwo+V++sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 24.99,
-   "ebay_count": 14,
+   "ebay_count": 13,
    "profit": -3.67,
    "roi": -0.1716
   },
@@ -11017,7 +11017,7 @@
    "current": false,
    "url": "https://www.tcgplayer.com/product/672401/pokemon-me03-perfect-order-perfect-order-elite-trainer-box",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=Perfect+Order+Elite+Trainer+Box+sealed&LH_Sold=1&LH_Complete=1",
-   "ebay_ask": 69.95,
+   "ebay_ask": 69.9,
    "ebay_count": 41,
    "profit": -6.11,
    "roi": -0.1142
@@ -11094,7 +11094,7 @@
    "url": "https://www.tcgplayer.com/product/270711/pokemon-pokemon-go-v-battle-deck-melmetal-v",
    "sold_url": "https://www.ebay.com/sch/i.html?_nkw=V+Battle+Deck++Melmetal+V++sealed&LH_Sold=1&LH_Complete=1",
    "ebay_ask": 10.0,
-   "ebay_count": 35,
+   "ebay_count": 34,
    "profit": -17.65,
    "roi": -0.8253
   },

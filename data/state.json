@@ -10,7 +10,7 @@
   },
   "what-to-buy": {
    "id": "1569124788478148641",
-   "hash": "f9e16f38a6be"
+   "hash": "07c1df7344e9"
   },
   "sams-club": {
    "id": "1569154741123022993",
@@ -18,7 +18,7 @@
   },
   "costco": {
    "id": "1569155125014954136",
-   "hash": "ac86a3be3f3e"
+   "hash": "009ddd5c99a6"
   },
   "walmart": {
    "id": "1569157229586944012",
@@ -66,6 +66,7 @@
   "2057bce2d25785",
   "22e7ca2c39f858",
   "23002c6d8f22a6",
+  "238a4a778db090",
   "24320ce7bf1fc9",
   "24b102c9f04202",
   "24e557d47ec2cb",
@@ -90,6 +91,7 @@
   "4112d83ae2cd80",
   "42d1a6b1184e2b",
   "455915f0b4856f",
+  "4812358c808ca5",
   "4e3fb90deb5c86",
   "535dfcdd48af59",
   "537900d690f335",
@@ -98,6 +100,7 @@
   "59863c15131597",
   "5beedb40f21810",
   "5d13a875b6728b",
+  "5e0ab043bbbca6",
   "5f2c1dc7ac955b",
   "61dd1c3f29705c",
   "61ee85476d2fdb",
@@ -109,6 +112,7 @@
   "69d4818fcc9d60",
   "6b05a6e66deeac",
   "6ba9e51f41aba2",
+  "6d11100759f6fe",
   "6ef6ab677b65bf",
   "6fb80ed33199d7",
   "708b12f0a62ffb",
@@ -131,6 +135,7 @@
   "88bb9211785d4b",
   "89959e5bf5c711",
   "89ef8aac6b24cb",
+  "8ada658baaf712",
   "8b3d1aba086df5",
   "8f20d92991b0e6",
   "914e0683fbc066",
@@ -163,6 +168,7 @@
   "b0cf324d349f9a",
   "b0e25389bb95fc",
   "b1396410837240",
+  "b17dd2b97b0496",
   "b21dbbc0ff90a3",
   "b387508a9837df",
   "b5d00a37e17624",
@@ -206,6 +212,7 @@
   "f518e6b442751a",
   "f58447a93c6c59",
   "f84baf1bc86b6b",
+  "f9b0f6fba943e3",
   "fac1757c00a3ce",
   "fb0f712bb465ab",
   "fc0ec2dad55159",
@@ -215,6 +222,7 @@
   "morning:2026-11-08",
   "morning:2026-11-09",
   "morning:2026-11-10",
+  "morning:2026-11-11",
   "raffle-ping:Target:2026-11-09",
   "raffle-ping:Walmart:2026-11-10",
   "raffle-ping:any:2026-11-10"
@@ -912,8 +920,8 @@
   "pennsylvania",
   "virginia"
  ],
- "costco_checked_at": "2026-11-11T08:25:02Z",
- "promos_checked_at": "2026-11-11T08:25:02Z",
+ "costco_checked_at": "2026-11-11T16:34:49Z",
+ "promos_checked_at": "2026-11-11T16:34:49Z",
  "promo_markets": {
   "30th-celebration-mewtwo": 20.43,
   "delta-reign-kyogre": 10.97
@@ -935,7 +943,7 @@
   "PA",
   "VA"
  ],
- "sams_checked_at": "2026-11-11T08:25:02Z",
+ "sams_checked_at": "2026-11-11T16:34:49Z",
  "sams_status": {
   "990416407": {
    "6330": "order",
@@ -989,9 +997,9 @@
    "4729": "order"
   }
  },
- "costco_stamp": "2026-11-09T14:04:35Z",
- "costco_read_at": "2026-11-11T04:01:00Z",
- "upc_checked_at": "2026-11-11T08:25:02Z",
+ "costco_stamp": "2026-11-11T14:02:17Z",
+ "costco_read_at": "2026-11-11T16:34:49Z",
+ "upc_checked_at": "2026-11-11T16:34:49Z",
  "price_seen": {
   "704144": 260.15,
   "704191": 390.71,
