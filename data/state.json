@@ -926,7 +926,7 @@
   "PA",
   "VA"
  ],
- "sams_checked_at": "2026-11-11T03:31:57Z",
+ "sams_checked_at": "2026-11-11T04:16:01Z",
  "sams_status": {
   "990416407": {
    "6330": "order",
@@ -981,5 +981,6 @@
   }
  },
  "costco_stamp": "2026-11-09T14:04:35Z",
- "costco_read_at": "2026-11-11T04:01:00Z"
+ "costco_read_at": "2026-11-11T04:01:00Z",
+ "upc_checked_at": "2026-11-11T04:16:01Z"
 }
