@@ -30,7 +30,7 @@
   },
   "free-promos": {
    "id": "1569375425384161463",
-   "hash": "77cec083e1a3"
+   "hash": "a9b90e20551f"
   },
   "raffles": {
    "id": "1569386105378447482",
@@ -85,6 +85,7 @@
   "42d1a6b1184e2b",
   "455915f0b4856f",
   "4e3fb90deb5c86",
+  "535dfcdd48af59",
   "537900d690f335",
   "5671fbf08b2a94",
   "578ffb6272bda3",
@@ -121,6 +122,7 @@
   "89ef8aac6b24cb",
   "8b3d1aba086df5",
   "914e0683fbc066",
+  "93c480150f7882",
   "9c595192d9f401",
   "9c839b2bf7c0ad",
   "9dfd8e2446d1d3",
@@ -200,6 +202,7 @@
   "morning:2026-11-09",
   "morning:2026-11-10",
   "raffle-ping:Target:2026-11-09",
+  "raffle-ping:Walmart:2026-11-10",
   "raffle-ping:any:2026-11-10"
  ],
  "event_fingerprints": {
@@ -893,10 +896,11 @@
   "pennsylvania",
   "virginia"
  ],
- "costco_checked_at": "2026-11-10T21:59:04Z",
- "promos_checked_at": "2026-11-10T16:17:49Z",
+ "costco_checked_at": "2026-11-11T01:42:59Z",
+ "promos_checked_at": "2026-11-11T01:42:59Z",
  "promo_markets": {
-  "30th-celebration-mewtwo": 21.1
+  "30th-celebration-mewtwo": 20.43,
+  "delta-reign-kyogre": 10.97
  },
  "promos_announced": [
   "30th-celebration-mewtwo",
