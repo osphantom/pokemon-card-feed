@@ -10,7 +10,7 @@
   },
   "what-to-buy": {
    "id": "1569124788478148641",
-   "hash": "787e27eac816"
+   "hash": "f9e16f38a6be"
   },
   "sams-club": {
    "id": "1569154741123022993",
@@ -34,7 +34,7 @@
   },
   "raffles": {
    "id": "1569386105378447482",
-   "hash": "c6ce3ff13cf2"
+   "hash": "a0c0a1367f8a"
   }
  },
  "initialized": true,
@@ -802,6 +802,7 @@
   712102,
   712104,
   712108,
+  712109,
   712110,
   712112,
   718673,
@@ -894,10 +895,11 @@
   "delaware",
   "district-of-columbia",
   "maryland",
+  "new-jersey",
   "pennsylvania",
   "virginia"
  ],
- "costco_checked_at": "2026-11-11T01:42:59Z",
+ "costco_checked_at": "2026-11-11T03:22:33Z",
  "promos_checked_at": "2026-11-11T01:42:59Z",
  "promo_markets": {
   "30th-celebration-mewtwo": 20.43,
@@ -911,5 +913,13 @@
  ],
  "raffles_announced": [
   "best-buy-prismatic-etb"
+ ],
+ "costco_watched_states": [
+  "DC",
+  "DE",
+  "MD",
+  "NJ",
+  "PA",
+  "VA"
  ]
 }
