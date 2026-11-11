@@ -229,7 +229,8 @@
   "morning:2026-11-11",
   "raffle-ping:Target:2026-11-09",
   "raffle-ping:Walmart:2026-11-10",
-  "raffle-ping:any:2026-11-10"
+  "raffle-ping:any:2026-11-10",
+  "window:walmart-drawing:2026-11-11"
  ],
  "event_fingerprints": {
   "mcdonalds-2026": "4a2c9af31a76",
