@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import os
 
+from . import accessories
 from .calendar_data import load_events, load_windows, upcoming_events, upcoming_windows
 from .classify import load_rules
 from .common import CONFIG_DIR, DATA_DIR, load_json, save_json, utcnow
@@ -24,7 +25,9 @@ def main() -> None:
     items = merge_items(stored, fresh, sources, rules, now)
     save_json(DATA_DIR / "items.json", {"items": items})
 
-    market = refresh_if_due(now, force=os.environ.get("REFRESH_PRICES") == "true")
+    refresh = os.environ.get("REFRESH_PRICES") == "true"
+    market = refresh_if_due(now, force=refresh)
+    accessory_list = accessories.refresh_if_due(now, force=refresh)
     windows_all = load_windows()
     windows = upcoming_windows(windows_all, now)
     calendar = load_events()
@@ -39,6 +42,7 @@ def main() -> None:
             print(f"  Skipped {record['name']}: {record['status']}")
     print(f"Items kept: {len(items)}. New this run: {len([i for i in items if i['first_seen'] == items[0]['first_seen']]) if items else 0}.")
     print(f"Sealed products priced: {len(market.get('products', []))}.")
+    print(f"Accessories priced: {len(accessory_list.get('items', []))}.")
 
 
 if __name__ == "__main__":

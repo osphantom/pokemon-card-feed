@@ -1,0 +1,14 @@
+{
+ "generated_at": "2026-11-12T00:00:00Z",
+ "ebay_used": false,
+ "stopwords": [
+  "pokemon", "the", "of", "a", "an", "and", "for", "with", "in", "on", "to",
+  "new", "sealed", "official", "officially", "licensed", "authentic", "genuine",
+  "nib", "nwt", "nwot", "bnib", "boxed", "mint", "brand", "edition", "exclusive",
+  "collectible", "collectable", "collection", "rare", "htf", "vintage", "gift",
+  "inch", "inches", "cm", "tall", "ct", "pcs", "pc", "pack", "count", "set",
+  "lot", "piece", "pieces", "size", "plushie", "plushies", "stuffed", "toy",
+  "figure", "figures", "item", "items", "us", "usa", "ship", "fast", "free"
+ ],
+ "items": []
+}

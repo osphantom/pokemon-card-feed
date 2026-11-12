@@ -183,17 +183,20 @@ class EbayClient:
         self.token = response.json()["access_token"]
         return True
 
-    def search(self, query: str) -> list[dict] | None:
-        """Listings for one search, or None when eBay refuses."""
+    def search(self, query: str, sort: str = "price", limit: int = 50) -> list[dict] | None:
+        """Listings for one search, or None when eBay refuses. sort='best' uses eBay Best Match."""
+        params = {
+            "q": query,
+            "limit": str(limit),
+            "filter": "buyingOptions:{FIXED_PRICE},conditions:{NEW},itemLocationCountry:US",
+        }
+        # Cheapest-first is right for pricing a known product; Best Match is right for discovery.
+        if sort != "best":
+            params["sort"] = sort
         response = self.session.get(
             EBAY_SEARCH_URL,
             headers={"Authorization": f"Bearer {self.token}", "X-EBAY-C-MARKETPLACE-ID": "EBAY_US"},
-            params={
-                "q": query,
-                "limit": "50",
-                "sort": "price",
-                "filter": "buyingOptions:{FIXED_PRICE},conditions:{NEW},itemLocationCountry:US",
-            },
+            params=params,
             timeout=30,
         )
         if response.status_code != 200:

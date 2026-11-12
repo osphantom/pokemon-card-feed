@@ -37,6 +37,7 @@
         {"key": "what-to-buy", "name": "💰-what-to-buy", "topic": "What makes money right now, after eBay fees. This list updates itself.", "post": true},
         {"key": "preorders", "name": "📝-preorders", "topic": "Preorders from every store.", "post": true},
         {"key": "deals", "name": "💸-deals", "topic": "Sealed card deals. Compare the price with the store price first.", "post": true},
+        {"key": "accessories", "name": "🧸-accessories", "topic": "Flippable Pokémon accessories — plush, peripherals, toys — priced off recent eBay sales. The watcher pings these too.", "static": "accessories.md"},
         {"key": "ebay-tips", "name": "🚚-ebay-tips", "topic": "Fees, shipping, and rules for selling on eBay.", "static": "ebay-tips.md"}
       ]
     },
