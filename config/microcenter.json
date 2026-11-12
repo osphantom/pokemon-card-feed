@@ -1,0 +1,14 @@
+{
+  "store": { "id": "125", "name": "Parkville, MD" },
+  "min_profit": 20,
+  "queries": [
+    "pokemon elite trainer box",
+    "pokemon booster bundle",
+    "pokemon booster box",
+    "pokemon mini tin",
+    "pokemon tin",
+    "pokemon premium collection",
+    "pokemon blister",
+    "pokemon tcg"
+  ]
+}
