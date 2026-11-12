@@ -94,7 +94,7 @@
    "source": "PokeBeach",
    "source_id": "gn-pokebeach",
    "publisher": "PokeBeach",
-   "published": "2026-11-12T16:53:03Z",
+   "published": "2026-11-12T16:49:17Z",
    "category": "releases",
    "stores": [],
    "hot": false,
@@ -141,6 +141,19 @@
    "hot": true,
    "id": "7a614415342799",
    "first_seen": "2026-11-12T16:45:35Z"
+  },
+  {
+   "title": "The best early Pokémon Black Friday deals: Shop live deals on 30th Celebration, Delta Reign, and more",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5IMTFsWVlkWG9pVGNCejJlaHRNR3doYkJzUURpUURLTGQ3RGM3X3YzY1hCTERSUU5zMVZnY0MyNWRHcWU2YWlIWlhXY1k4Z3loYTRXQjFJVUVnX1JuVjRhOWQxNnNJV2UzUURlZmwyMDZpSTdFbmpJ?oc=5",
+   "source": "Google News: raffles and invites",
+   "source_id": "gn-raffles",
+   "publisher": "Mashable",
+   "published": "2026-11-12T12:01:25Z",
+   "category": "deals",
+   "stores": [],
+   "hot": false,
+   "id": "877564f83740e9",
+   "first_seen": "2026-11-12T23:00:33Z"
   },
   {
    "title": "Best Pokémon TCG deal: Delta Reign Booster Display Box is close to market price",
@@ -556,6 +569,21 @@
    "hot": false,
    "id": "0835caf24c5b92",
    "first_seen": "2026-11-12T00:45:34Z"
+  },
+  {
+   "title": "Pokémon TCG 30th Celebration Elite Trainer Box Available at Amazon for $59.99",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNay16SlYwYUtzODFoNy1fQVVGenJxVlJXWXc4UE50SVRreUhrZEJKUlBiajl1NmdXY095M3NfcDlCVDVfcHlMNUZxMDhIS0JnNVo3WnVJVGdaNnh4QlRJZXgtbFhMYkFuUUdRNGlaZVNSbHJ2T2hMbHRKX2xkMFJRSTRCMm1nUzd6aVBIUWFXLUNyeWtkUXZMYWxHT2hPd1JCOE45MHdB?oc=5",
+   "source": "Google News: raffles and invites",
+   "source_id": "gn-raffles",
+   "publisher": "SSBCrack",
+   "published": "2026-11-10T10:45:14Z",
+   "category": "deals",
+   "stores": [
+    "Amazon"
+   ],
+   "hot": false,
+   "id": "7967506920cc64",
+   "first_seen": "2026-11-12T23:00:33Z"
   },
   {
    "title": "Kecleon from \"Aura Seeker\" Revealed!",
