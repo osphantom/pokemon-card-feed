@@ -288,7 +288,8 @@ def refresh_if_due(now: datetime, session=None, force: bool = False) -> dict:
         return current
     try:
         fresh = build_accessories(now, session)
-    except (requests.RequestException, ValueError, KeyError) as error:
+    except Exception as error:
+        # Accessories are a side feature; never let them break the card feed or the site build.
         print(f"Accessory refresh failed, keeping last list: {type(error).__name__}")
         config = load_json(CONFIG_DIR / "accessories.json")
         return current or {"generated_at": iso(now), "ebay_used": False, "stopwords": config["stopwords"], "items": []}
