@@ -3,6 +3,3 @@ site/
 __pycache__/
 *.pyc
 .env
-
-# Local Micro Center tracker state (per-machine, not for the repo)
-data/microcenter_state.json
