@@ -1,14 +1,539 @@
 {
- "generated_at": "2026-11-12T00:00:00Z",
- "ebay_used": false,
+ "generated_at": "2026-11-12T21:44:50Z",
+ "ebay_used": true,
  "stopwords": [
-  "pokemon", "the", "of", "a", "an", "and", "for", "with", "in", "on", "to",
-  "new", "sealed", "official", "officially", "licensed", "authentic", "genuine",
-  "nib", "nwt", "nwot", "bnib", "boxed", "mint", "brand", "edition", "exclusive",
-  "collectible", "collectable", "collection", "rare", "htf", "vintage", "gift",
-  "inch", "inches", "cm", "tall", "ct", "pcs", "pc", "pack", "count", "set",
-  "lot", "piece", "pieces", "size", "plushie", "plushies", "stuffed", "toy",
-  "figure", "figures", "item", "items", "us", "usa", "ship", "fast", "free"
+  "pokemon",
+  "the",
+  "of",
+  "a",
+  "an",
+  "and",
+  "for",
+  "with",
+  "in",
+  "on",
+  "to",
+  "new",
+  "sealed",
+  "official",
+  "officially",
+  "licensed",
+  "authentic",
+  "genuine",
+  "nib",
+  "nwt",
+  "nwot",
+  "bnib",
+  "boxed",
+  "mint",
+  "brand",
+  "edition",
+  "exclusive",
+  "collectible",
+  "collectable",
+  "collection",
+  "rare",
+  "htf",
+  "vintage",
+  "gift",
+  "inch",
+  "inches",
+  "cm",
+  "tall",
+  "ct",
+  "pcs",
+  "pc",
+  "pack",
+  "count",
+  "set",
+  "lot",
+  "piece",
+  "pieces",
+  "size",
+  "plushie",
+  "plushies",
+  "stuffed",
+  "toy",
+  "figure",
+  "figures",
+  "item",
+  "items",
+  "us",
+  "usa",
+  "ship",
+  "fast",
+  "free"
  ],
- "items": []
+ "items": [
+  {
+   "key": "bag|bean|snorlax",
+   "tokens": [
+    "snorlax",
+    "bean",
+    "bag"
+   ],
+   "title": "Snorlax Bean Bag",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 385.94,
+     "count": 3
+    }
+   ],
+   "market": 385.94,
+   "count": 3,
+   "last_seen": "2026-11-12"
+  },
+  {
+   "key": "board|game|master|trainer",
+   "tokens": [
+    "master",
+    "trainer",
+    "board",
+    "game"
+   ],
+   "title": "Pokemon Master Trainer Board Game 100%",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 229.99,
+     "count": 3
+    }
+   ],
+   "market": 229.99,
+   "count": 3,
+   "last_seen": "2026-11-12"
+  },
+  {
+   "key": "espeon|gaming|headset|kraken|limited|razer|umbreon|v4",
+   "tokens": [
+    "razer",
+    "kraken",
+    "v4",
+    "espeon",
+    "umbreon",
+    "gaming",
+    "headset",
+    "limited"
+   ],
+   "title": "Razer Kraken X V4 Pokemon Espeon Umbreon Gaming Headset Limited Edition New",
+   "ship": "bundle",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 132.95,
+     "count": 3
+    }
+   ],
+   "market": 132.95,
+   "count": 3,
+   "last_seen": "2026-11-12"
+  },
+  {
+   "key": "30th|anniversary|keyboard|limited|target|wireless",
+   "tokens": [
+    "target",
+    "wireless",
+    "keyboard",
+    "limited",
+    "30th",
+    "anniversary"
+   ],
+   "title": "Target x Pokemon Wireless Keyboard Limited Edition 30th Anniversary",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 94.99,
+     "count": 3
+    }
+   ],
+   "market": 94.99,
+   "count": 3,
+   "last_seen": "2026-11-12"
+  },
+  {
+   "key": "gaming|gengar|headset|kitty|kraken|razer|v2",
+   "tokens": [
+    "razer",
+    "kraken",
+    "kitty",
+    "v2",
+    "gengar",
+    "gaming",
+    "headset"
+   ],
+   "title": "Razer Kraken Kitty V2 Pokemon Gengar Edition Gaming Headset",
+   "ship": "bundle",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 88.99,
+     "count": 5
+    }
+   ],
+   "market": 88.99,
+   "count": 5,
+   "last_seen": "2026-11-12"
+  },
+  {
+   "key": "artisan|batch|craft|from|keycaps|unmounted|unused",
+   "tokens": [
+    "craft",
+    "artisan",
+    "keycaps",
+    "from",
+    "batch",
+    "unused",
+    "unmounted"
+   ],
+   "title": "S-Craft Artisan Pokemon Keycaps from Batch 6 (2022) - New/Unused/Unmounted",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 84.0,
+     "count": 7
+    }
+   ],
+   "market": 84.0,
+   "count": 7,
+   "last_seen": "2026-11-12"
+  },
+  {
+   "key": "197u|controller|hori|horipad|nsx|purple|switch|turbo|wireless",
+   "tokens": [
+    "hori",
+    "wireless",
+    "horipad",
+    "turbo",
+    "purple",
+    "switch",
+    "controller",
+    "nsx",
+    "197u"
+   ],
+   "title": "Pokemon HORI Wireless HORIPAD Turbo Purple Switch Controller w/ Turbo NSX-197U",
+   "ship": "bundle",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 79.95,
+     "count": 3
+    }
+   ],
+   "market": 79.95,
+   "count": 3,
+   "last_seen": "2026-11-12"
+  },
+  {
+   "key": "gogh|museum|pikachu|plush|van",
+   "tokens": [
+    "van",
+    "gogh",
+    "museum",
+    "pikachu",
+    "plush"
+   ],
+   "title": "Van Gogh Museum Pikachu Plush",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 69.99,
+     "count": 27
+    }
+   ],
+   "market": 69.99,
+   "count": 27,
+   "last_seen": "2026-11-12"
+  },
+  {
+   "key": "90h|classic|clog|crocs|mens|nwb|starters",
+   "tokens": [
+    "crocs",
+    "starters",
+    "classic",
+    "clog",
+    "90h",
+    "mens",
+    "nwb"
+   ],
+   "title": "Crocs x Pokemon \"Pokemon Starters\" Classic Clog 211343-90H Men’s Size 9 NWB",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 62.24,
+     "count": 3
+    }
+   ],
+   "market": 62.24,
+   "count": 3,
+   "last_seen": "2026-11-12"
+  },
+  {
+   "key": "center|gengar|mug|nidorino|opening|oz|retro|scene",
+   "tokens": [
+    "opening",
+    "scene",
+    "mug",
+    "oz",
+    "gengar",
+    "nidorino",
+    "retro",
+    "center"
+   ],
+   "title": "Official Pokémon Center Opening Scene Mug | 15 oz Gengar Nidorino Retro New",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 58.33,
+     "count": 4
+    }
+   ],
+   "market": 58.33,
+   "count": 4,
+   "last_seen": "2026-11-12"
+  },
+  {
+   "key": "classic|clog|crocs|mens|starters|womens",
+   "tokens": [
+    "crocs",
+    "starters",
+    "classic",
+    "clog",
+    "mens",
+    "womens"
+   ],
+   "title": "Crocs x Pokemon \"Pokemon Starters\" Classic Clog Men’s Size 8 Women's Size 10",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 49.99,
+     "count": 3
+    }
+   ],
+   "market": 49.99,
+   "count": 3,
+   "last_seen": "2026-11-12"
+  },
+  {
+   "key": "bottle|charizard|fl|freesip|owala|oz|special|water",
+   "tokens": [
+    "owala",
+    "fl",
+    "oz",
+    "special",
+    "freesip",
+    "water",
+    "bottle",
+    "charizard"
+   ],
+   "title": "POKEMON x OWALA 24 fl oz Special Edition FreeSip Water Bottle - Charizard",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 49.99,
+     "count": 3
+    }
+   ],
+   "market": 49.99,
+   "count": 3,
+   "last_seen": "2026-11-12"
+  },
+  {
+   "key": "championships|francisco|puzzle|san|world|xp",
+   "tokens": [
+    "world",
+    "championships",
+    "xp",
+    "puzzle",
+    "san",
+    "francisco"
+   ],
+   "title": "Pokemon World Championships &  XP 2026 Puzzle 1000 PCs San Francisco Exclusive",
+   "ship": "bundle",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 48.0,
+     "count": 4
+    }
+   ],
+   "market": 48.0,
+   "count": 4,
+   "last_seen": "2026-11-12"
+  },
+  {
+   "key": "board|game|johto|monopoly",
+   "tokens": [
+    "monopoly",
+    "board",
+    "game",
+    "johto"
+   ],
+   "title": "Pokemon Monopoly Board Game Johto Edition Brand New",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 41.99,
+     "count": 3
+    }
+   ],
+   "market": 41.99,
+   "count": 3,
+   "last_seen": "2026-11-12"
+  },
+  {
+   "key": "expert|game|guess|pro|ready|trainer|ultra",
+   "tokens": [
+    "trainer",
+    "expert",
+    "game",
+    "ready",
+    "guess",
+    "ultra",
+    "pro"
+   ],
+   "title": "Pokemon Trainer Expert Game. Ready Set Guess.  Ultra Pro. Brand New",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 30.0,
+     "count": 4
+    }
+   ],
+   "market": 30.0,
+   "count": 4,
+   "last_seen": "2026-11-12"
+  },
+  {
+   "key": "jazwares|kellytoy|pikachu|plush|soft|squishmallows|tag|ukca",
+   "tokens": [
+    "pikachu",
+    "squishmallows",
+    "plush",
+    "jazwares",
+    "kellytoy",
+    "soft",
+    "ukca",
+    "tag"
+   ],
+   "title": "Pokémon Pikachu Squishmallows Plush 12” 2023 Jazwares Kellytoy Soft Toy UKCA Tag",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 28.98,
+     "count": 4
+    }
+   ],
+   "market": 28.98,
+   "count": 4,
+   "last_seen": "2026-11-12"
+  },
+  {
+   "key": "board|by|characters|game|hasbro|monopoly",
+   "tokens": [
+    "monopoly",
+    "board",
+    "game",
+    "characters",
+    "by",
+    "hasbro"
+   ],
+   "title": "Monopoly Pokemon Board Game with Characters 2025 by Hasbro - NEW",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 24.9,
+     "count": 1
+    }
+   ],
+   "market": 24.9,
+   "count": 1,
+   "last_seen": "2026-11-12"
+  },
+  {
+   "key": "gaming|grande|large|mouse|mousepad|pad|snorlax",
+   "tokens": [
+    "snorlax",
+    "grande",
+    "mousepad",
+    "large",
+    "gaming",
+    "mouse",
+    "pad"
+   ],
+   "title": "Pokemon Snorlax Grande Mousepad Large Gaming Mouse Pad",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 20.0,
+     "count": 4
+    }
+   ],
+   "market": 20.0,
+   "count": 4,
+   "last_seen": "2026-11-12"
+  },
+  {
+   "key": "30th|anniversary|bottle|mystery|target|type|water",
+   "tokens": [
+    "target",
+    "mystery",
+    "water",
+    "type",
+    "bottle",
+    "30th",
+    "anniversary"
+   ],
+   "title": "Pokemon X Target Mystery Water Type Pokemon Bottle 30th Anniversary - Sealed",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 18.24,
+     "count": 4
+    }
+   ],
+   "market": 18.24,
+   "count": 4,
+   "last_seen": "2026-11-12"
+  },
+  {
+   "key": "gaming|gengar|grande|large|mouse|mousepad|pad",
+   "tokens": [
+    "gengar",
+    "grande",
+    "mousepad",
+    "large",
+    "gaming",
+    "mouse",
+    "pad"
+   ],
+   "title": "P-Pokemon-Gengar Grande Mousepad Large Gaming Mouse Pad",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 18.0,
+     "count": 5
+    }
+   ],
+   "market": 18.0,
+   "count": 5,
+   "last_seen": "2026-11-12"
+  }
+ ]
 }
