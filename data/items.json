@@ -1,6 +1,32 @@
 {
  "items": [
   {
+   "title": "What Pokémon restocked this week (Nov 5 to Nov 12, 2026)",
+   "link": "https://pokerestockapp.com/pokemon/this-week/",
+   "source": "PokeRestock",
+   "source_id": "pokerestock-news",
+   "publisher": "",
+   "published": "2026-11-12T13:32:49Z",
+   "category": "restocks",
+   "stores": [],
+   "hot": false,
+   "id": "1bc6de424b3727",
+   "first_seen": "2026-11-12T16:45:35Z"
+  },
+  {
+   "title": "Pokémon TCG 30th Celebration Ultra-Premium Collections restock retailers: Where to buy",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN095TzJyR2FUY3M3VlRCSEpLSEczNjlpV1VXenp0eWJCa3lrX0swQVYtVEp2UndzNVdWa2JmWFktSEJ6bXdUUi10c1IwNVpYOUhSSTExcWt1WjBlUmh0TVRnelJxWFhlaXM3ZWNoNHpYX083dGJQdHRCcmoyUDFpd0JBNUhXV3hiUThuV0VFLXctWXFrY1EwRjFhM1o?oc=5",
+   "source": "Google News: restocks",
+   "source_id": "gn-restock",
+   "publisher": "Mashable",
+   "published": "2026-11-12T12:59:01Z",
+   "category": "restocks",
+   "stores": [],
+   "hot": true,
+   "id": "7a614415342799",
+   "first_seen": "2026-11-12T16:45:35Z"
+  },
+  {
    "title": "Best Pokémon TCG deal: Delta Reign Booster Display Box is close to market price",
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPV21RcEduMlR2VUMwWk1IcUhaaDdkN2wxaUpOUm9UOEh0WXFmMnh2VDAtMkxIaEw0Q2hBc1VBd3AyVzNDQTd1ZU1NazEwTlA1dXpNTVNtYnJuQXJ1WWU4YlUyWnhPWU9qdVdEOWVTOUhxNEMyOXM0YlhtTHY5U0hscmJ5Ui1iVHZLZnJuTDNCRU02YUk?oc=5",
    "source": "Google News: preorders",
@@ -137,19 +163,17 @@
    "first_seen": "2026-11-11T16:27:37Z"
   },
   {
-   "title": "The Pokémon TCG 30th Celebration Elite Trainer Box is live at Amazon: Buy for way under market price",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNS1xNmV6T0VRS3I3bzA3SW1NRlRmYXNoNC1NN1N6ajVBY0p5WXM5ZDFZLTFTc1o4X216anoyVU5vbC1ydU5kVEc4SzhBZHhtT0NOU214T0dRVXVfaWwzR2RsWTd3WEFKMnhXaHBidjBwTjkzYnVidWU0UEl4cEtyYUR3d2pyZ21OSkxXeQ?oc=5",
-   "source": "Google News: market",
-   "source_id": "gn-market",
+   "title": "Pokémon TCG 30th Anniversary Ultra-Premium Collections are live: Shop for close to market price",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZF9ZaGs4Zk4wWVhGSDFrNzg2UmpDTDNpYXRlQXR1T00xYzFkRl9rLXB6Ny1hcVhkS3RsWm1oQmI3V1ZyOFQ1VTYyTTROYUs4WFRnU0VlUlhxTV81Q2hORk81TmV0NWZQN2hKMjVieVV1WVIzeVhRcFpPN3VtSTQ3VHdCbDNDejZrY2xWbXFOU2hWeVVGRzJmdXBKZjY5dHc?oc=5",
+   "source": "Google News: restocks",
+   "source_id": "gn-restock",
    "publisher": "Mashable",
-   "published": "2026-11-11T12:51:59Z",
+   "published": "2026-11-11T11:38:59Z",
    "category": "restocks",
-   "stores": [
-    "Amazon"
-   ],
+   "stores": [],
    "hot": true,
-   "id": "4812358c808ca5",
-   "first_seen": "2026-11-11T16:27:37Z"
+   "id": "0eada0d5210707",
+   "first_seen": "2026-11-12T16:45:35Z"
   },
   {
    "title": "McDonald’s x Pokémon collab is now live: How to collect 15 new toys and 15 trading cards",
@@ -164,6 +188,21 @@
    ],
    "hot": false,
    "id": "f9b0f6fba943e3",
+   "first_seen": "2026-11-11T16:27:37Z"
+  },
+  {
+   "title": "The Pokémon TCG 30th Celebration Elite Trainer Box is live at Amazon: Buy for way under market price",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNS1xNmV6T0VRS3I3bzA3SW1NRlRmYXNoNC1NN1N6ajVBY0p5WXM5ZDFZLTFTc1o4X216anoyVU5vbC1ydU5kVEc4SzhBZHhtT0NOU214T0dRVXVfaWwzR2RsWTd3WEFKMnhXaHBidjBwTjkzYnVidWU0UEl4cEtyYUR3d2pyZ21OSkxXeQ?oc=5",
+   "source": "Google News: market",
+   "source_id": "gn-market",
+   "publisher": "Mashable",
+   "published": "2026-11-11T10:50:58Z",
+   "category": "restocks",
+   "stores": [
+    "Amazon"
+   ],
+   "hot": true,
+   "id": "4812358c808ca5",
    "first_seen": "2026-11-11T16:27:37Z"
   },
   {
@@ -1294,6 +1333,21 @@
    "hot": true,
    "id": "e3752a1abb5913",
    "first_seen": "2026-11-08T17:32:32Z"
+  },
+  {
+   "title": "Pokémon TCG Delta Reign Booster Bundles get a price cut on launch day — shop for market price at Amazon",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdGNEd0ZJTk5XQ1hBcncwU2FMWVAycUJNTXNBUlZyaXFyb2pEN0ZydFM5cmZ6ck9ObHcxMUs4M3BjUG1VdkNYblRSdm5fbUY4RDI5eFY4cVVRMDZMLXJYTUpzWGZHWVBhbVMzX185RkRUdXlEWkJMR3ZzeENEdDJlbQ?oc=5",
+   "source": "Google News: market",
+   "source_id": "gn-market",
+   "publisher": "Mashable",
+   "published": "2026-11-06T09:34:43Z",
+   "category": "releases",
+   "stores": [
+    "Amazon"
+   ],
+   "hot": false,
+   "id": "e6887a1ab4ef95",
+   "first_seen": "2026-11-12T16:45:35Z"
   },
   {
    "title": "Best Pokémon TCG deal: Delta Reign Elite Trainer Box down to market price",

@@ -2,7 +2,7 @@
  "boards": {
   "next-drops": {
    "id": "1569124781813665805",
-   "hash": "bb6614b54033"
+   "hash": "c9026d20b26f"
   },
   "release-calendar": {
    "id": "1569124785269768347",
@@ -53,6 +53,7 @@
   "0835caf24c5b92",
   "08aac65ba8435f",
   "0a1104146fd7d1",
+  "0eada0d5210707",
   "100e5c711e2459",
   "1189e9acbf56c0",
   "128f54990c83f0",
@@ -63,6 +64,7 @@
   "17bd0ecc243c72",
   "194834e1795d03",
   "1af326c7862fd0",
+  "1bc6de424b3727",
   "1c871203d29f1f",
   "1d0e1d513bbbce",
   "1d8c919dbab227",
@@ -127,6 +129,7 @@
   "75a4ef865c7872",
   "7725d7b737e208",
   "78847bab6dc800",
+  "7a614415342799",
   "7a78b30ff6012c",
   "7b36c5ec2fe09e",
   "7b5e4443a7a6d7",
@@ -210,6 +213,7 @@
   "e20b8befbb585d",
   "e3752a1abb5913",
   "e4c3bdf7c84917",
+  "e6887a1ab4ef95",
   "e93a6c70b68555",
   "e9e79b2b168458",
   "ea572e8854b89e",
@@ -234,6 +238,7 @@
   "morning:2026-11-09",
   "morning:2026-11-10",
   "morning:2026-11-11",
+  "morning:2026-11-12",
   "raffle-ping:Target:2026-11-09",
   "raffle-ping:Walmart:2026-11-10",
   "raffle-ping:any:2026-11-10",
@@ -932,7 +937,7 @@
   "pennsylvania",
   "virginia"
  ],
- "costco_checked_at": "2026-11-12T11:53:09Z",
+ "costco_checked_at": "2026-11-12T16:53:18Z",
  "promos_checked_at": "2026-11-12T11:53:09Z",
  "promo_markets": {
   "30th-celebration-mewtwo": 19.07,
@@ -955,7 +960,7 @@
   "PA",
   "VA"
  ],
- "sams_checked_at": "2026-11-12T11:53:09Z",
+ "sams_checked_at": "2026-11-12T16:53:18Z",
  "sams_status": {
   "990416407": {
    "6330": "order",
@@ -1011,7 +1016,7 @@
  },
  "costco_stamp": "2026-11-11T14:02:17Z",
  "costco_read_at": "2026-11-12T11:53:09Z",
- "upc_checked_at": "2026-11-12T11:53:09Z",
+ "upc_checked_at": "2026-11-12T16:53:18Z",
  "price_seen": {
   "704144": 255.37,
   "704191": 381.27,
