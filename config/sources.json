@@ -145,6 +145,42 @@
       "url": "https://news.google.com/rss/search?q=Pok%C3%A9mon+promo+GameStop+OR+%22Barnes+%26+Noble%22+OR+%22Hot+Topic%22+OR+%22Five+Below%22+when:14d&hl=en-US&gl=US&ceid=US:en",
       "default": "news",
       "google_news": true
+    },
+    {
+      "id": "gn-lorcana",
+      "name": "Google News: Lorcana",
+      "url": "https://news.google.com/rss/search?q=%22Disney+Lorcana%22+preorder+OR+restock+OR+%22booster+box%22+when:10d&hl=en-US&gl=US&ceid=US:en",
+      "default": "preorders",
+      "google_news": true,
+      "cards_only": true,
+      "only_terms": ["lorcana"]
+    },
+    {
+      "id": "gn-onepiece",
+      "name": "Google News: One Piece TCG",
+      "url": "https://news.google.com/rss/search?q=%22One+Piece%22+card+game+preorder+OR+restock+OR+%22booster+box%22+when:10d&hl=en-US&gl=US&ceid=US:en",
+      "default": "preorders",
+      "google_news": true,
+      "cards_only": true,
+      "only_terms": ["one piece"]
+    },
+    {
+      "id": "gn-mtg",
+      "name": "Google News: Magic TCG",
+      "url": "https://news.google.com/rss/search?q=%22Magic%3A+The+Gathering%22+preorder+OR+restock+OR+%22collector+booster%22+when:10d&hl=en-US&gl=US&ceid=US:en",
+      "default": "preorders",
+      "google_news": true,
+      "cards_only": true,
+      "only_terms": ["magic"]
+    },
+    {
+      "id": "gn-swu",
+      "name": "Google News: Star Wars Unlimited",
+      "url": "https://news.google.com/rss/search?q=%22Star+Wars+Unlimited%22+preorder+OR+restock+OR+%22booster+box%22+when:10d&hl=en-US&gl=US&ceid=US:en",
+      "default": "preorders",
+      "google_news": true,
+      "cards_only": true,
+      "only_terms": ["star wars unlimited"]
     }
   ]
 }

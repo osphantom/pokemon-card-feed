@@ -90,6 +90,42 @@ class CollectTests(unittest.TestCase):
         self.assertEqual(pres[0]["store"], "Amazon")
 
 
+TCG = [
+    {"game": "Lorcana", "name": "Disney Lorcana: Into the Inkdark Booster Box", "set": "Into the Inkdark", "market": 297.0, "current": True, "presale": True},
+    {"game": "One Piece", "name": "The Dominance of God Booster Box", "set": "The Dominance of God", "market": 228.55, "current": True, "presale": True},
+]
+
+
+class TcgTests(unittest.TestCase):
+    def test_headline_price(self):
+        self.assertEqual(signups.headline_price("Lorcana box preorder — $144.99 at Amazon"), 144.99)
+        self.assertIsNone(signups.headline_price("Lorcana box preorder live at Amazon"))
+
+    def test_matches_a_set_and_takes_its_box(self):
+        product = signups.match_tcg("Disney Lorcana Into the Inkdark booster box preorder", TCG)
+        self.assertEqual(product["game"], "Lorcana")
+
+    def test_prices_a_non_pokemon_preorder_from_the_headline_price(self):
+        item = {"category": "preorders", "title": "Disney Lorcana Into the Inkdark booster box preorder — $144.99 at Amazon",
+                "link": "https://x", "stores": ["Amazon"], "published": "2026-11-12T00:00:00Z"}
+        found = signups.collect([item], [], [], NOW, costs=COSTS, tcg_products=TCG)
+        self.assertEqual(len(found), 1)
+        self.assertEqual(found[0]["game"], "Lorcana")
+        self.assertGreater(found[0]["profit"], 50)
+
+    def test_no_headline_price_means_no_non_pokemon_signup(self):
+        item = {"category": "preorders", "title": "Disney Lorcana Into the Inkdark booster box preorder live at Amazon",
+                "link": "https://x", "stores": ["Amazon"], "published": "2026-11-12T00:00:00Z"}
+        self.assertEqual(signups.collect([item], [], [], NOW, costs=COSTS, tcg_products=TCG), [])
+
+    def test_the_board_shows_games_and_fits(self):
+        from pipeline import discord_post
+        import json
+        board = discord_post.tcg_board({"products": TCG})
+        self.assertLess(len(json.dumps(board, ensure_ascii=False)), 6000)
+        self.assertIn("Lorcana", board["embeds"][0]["fields"][0]["value"])
+
+
 class FakeClient:
     def __init__(self):
         self.sent = []

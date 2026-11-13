@@ -8,11 +8,15 @@ so the raffles and preorders channels show opportunities to act on, not reading.
 """
 from __future__ import annotations
 
+import re
 from datetime import timedelta
 
-from .common import CONFIG_DIR, DATA_DIR, load_json, parse_iso
+from .common import CONFIG_DIR, DATA_DIR, fold, load_json, parse_iso
 from .market import title_matches
 from .profit import estimate
+
+PRICE = re.compile(r"\$\s?(\d[\d,]*(?:\.\d{1,2})?)")
+BOXY = re.compile(r"booster box|booster display|\bdisplay\b|elite trainer|trainer box|ultra-?premium")
 
 # Same bar as everywhere else: what a sign-up must clear after eBay fees, shipping, and tax.
 MIN_PROFIT = 20
@@ -51,6 +55,70 @@ def priced_signup(item: dict, products: list[dict], costs: dict, programs_by_sto
         "link": item["link"],
         "how": program["how"] if program else None,
         "published": item["published"],
+        "game": "Pokémon",
+    }
+
+
+def headline_price(title: str):
+    """The dollar amount named in a headline, if any — the buy price for a non-Pokémon preorder."""
+    match = PRICE.search(title)
+    if not match:
+        return None
+    try:
+        value = float(match.group(1).replace(",", ""))
+    except ValueError:
+        return None
+    return value if value >= 5 else None
+
+
+def tcg_ship(name: str) -> str:
+    low = name.lower()
+    if "booster pack" in low and "box" not in low:
+        return "pack"
+    if "bundle" in low and "box" not in low:
+        return "bundle"
+    return "box"
+
+
+def match_tcg(title: str, tcg_products: list[dict]) -> dict | None:
+    """Match a non-Pokémon headline to a set by its name, then take that set's main sealed box."""
+    folded = fold(title)
+    by_set: dict = {}
+    for product in tcg_products:
+        if product.get("market"):
+            by_set.setdefault(product["set"], []).append(product)
+    best, best_len = None, 0
+    for set_name, products in by_set.items():
+        folded_set = fold(set_name)
+        if len(folded_set) >= 6 and folded_set in folded and len(folded_set) > best_len:
+            best, best_len = products, len(folded_set)
+    if not best:
+        return None
+    boxes = [product for product in best if BOXY.search(product["name"].lower())]
+    return max(boxes or best, key=lambda product: product["market"])
+
+
+def priced_tcg_signup(item: dict, tcg_products: list[dict], costs: dict) -> dict | None:
+    price = headline_price(item["title"])
+    if price is None:
+        return None
+    product = match_tcg(item["title"], tcg_products)
+    if product is None:
+        return None
+    profit = estimate(product["market"], price, tcg_ship(product["name"]), costs)["profit"]
+    store = item["stores"][0] if item.get("stores") else None
+    return {
+        "kind": item["category"],
+        "store": store or "See the article",
+        "product": f"{product['game']}: {product['name']}",
+        "market": product["market"],
+        "msrp": price,
+        "profit": profit,
+        "title": item["title"],
+        "link": item["link"],
+        "how": None,
+        "published": item["published"],
+        "game": product["game"],
     }
 
 
@@ -62,10 +130,14 @@ def is_fresh(item: dict, now) -> bool:
 
 
 def collect(items: list[dict], products: list[dict], programs: list[dict], now, costs: dict | None = None,
-            min_profit: int = MIN_PROFIT) -> list[dict]:
-    """Profitable raffle and preorder sign-ups, best profit first, one per product+store."""
+            min_profit: int = MIN_PROFIT, tcg_products: list[dict] | None = None) -> list[dict]:
+    """Profitable raffle and preorder sign-ups, best profit first, one per product+store.
+
+    Pokémon items price against the Pokémon table at list price; non-Pokémon items price against
+    the other-games resale table using the price named in the headline."""
     costs = costs if costs is not None else load_json(CONFIG_DIR / "assumptions.json")
     by_store = {program["store"]: program for program in programs}
+    tcg_products = tcg_products or []
     # One entry per product+kind. When several articles cover it, keep the one with a named store
     # (so "enter at Walmart" beats "see the article"), then the higher profit.
     best: dict = {}
@@ -73,6 +145,8 @@ def collect(items: list[dict], products: list[dict], programs: list[dict], now, 
         if item.get("category") not in SIGNUP_CATEGORIES or not is_fresh(item, now):
             continue
         signup = priced_signup(item, products, costs, by_store)
+        if signup is None and tcg_products:
+            signup = priced_tcg_signup(item, tcg_products, costs)
         if signup is None or signup["profit"] < min_profit:
             continue
         key = (signup["product"], signup["kind"])

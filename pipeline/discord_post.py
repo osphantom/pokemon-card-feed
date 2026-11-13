@@ -682,10 +682,36 @@ PREORDERS_SHOWN = 12
 
 
 def signup_line(signup: dict) -> str:
+    game = f"{signup['game']} · " if signup.get("game") and signup["game"] != "Pokémon" else ""
     return (
-        f"**+{money(signup['profit'])}** · {signup['store']} · list {money(signup['msrp'])}, "
+        f"**+{money(signup['profit'])}** · {game}{signup['store']} · list {money(signup['msrp'])}, "
         f"sells about {money(signup['market'])} · [{clip(signup['product'], 60)}]({signup['link']})"
     )
+
+
+TCG_SHOWN = 14
+
+
+def tcg_line(product: dict) -> str:
+    tag = " · upcoming" if product.get("presale") else ""
+    return f"**{money(product['market'])}** · {product['game']} · {clip(product['name'], 58)}{tag}"
+
+
+def tcg_board(data: dict) -> dict:
+    products = sorted((p for p in data.get("products", []) if p.get("current")), key=lambda p: -p["market"])
+    shown = products[:TCG_SHOWN]
+    return {
+        "embeds": [{
+            "title": "📦 Other card games — sealed resale",
+            "color": COLORS["market"],
+            "description": (
+                "What sealed product sells for in Lorcana, One Piece, Magic, Star Wars Unlimited, and more. "
+                "Compare a preorder or store price against this to spot a flip — if you can buy near it, it's worth a look."
+            ),
+            "fields": [{"name": "Highest-value current & upcoming sealed", "value": whole_lines([tcg_line(p) for p in shown], 1024) or "Nothing yet."}],
+            "footer": {"text": "TCGplayer market prices, refreshed twice a day. These are resale; the buy price is yours to find."},
+        }]
+    }
 
 
 def preorders_board(signups: list[dict]) -> dict:
@@ -856,7 +882,7 @@ def update_board(client, state: dict, channel: str, payload: dict, key: str | No
     boards[name] = {"id": client.upsert(channel, payload, entry.get("id")), "hash": digest}
 
 
-def run(now, client, items, windows, events, undated, products, state, costco=None, promos=None, raffles=None, sams=None, upc=None, preorders=None) -> None:
+def run(now, client, items, windows, events, undated, products, state, costco=None, promos=None, raffles=None, sams=None, upc=None, preorders=None, tcg=None) -> None:
     """Decide what to post and record it."""
     first_run = not state.get("initialized")
     posted = set(state.get("posted_items", []))
@@ -890,6 +916,8 @@ def run(now, client, items, windows, events, undated, products, state, costco=No
             apply_raffles(client, state, raffles)
         if preorders is not None:
             apply_preorders(client, state, preorders)
+        if tcg is not None:
+            update_board(client, state, "preorders", tcg_board(tcg), key="preorders-tcg")
 
         for channel, item, ping in posts:
             payload = item_payload(item, "ping" if ping else None)
@@ -1015,16 +1043,18 @@ def main() -> int:
         upc = refresh_upc(now, state)
         promos = refresh_promos(now, state)
         products = market.get("products", [])
+        tcg = load_json(DATA_DIR / "tcg_market.json", {"products": []})
         raffles = load_raffles(now, products)
-        # Price the raffle and preorder news into profitable sign-ups: raffle ones join the raffles
-        # board, preorder ones get their own board.
-        found = signups_module.collect(items, products, raffles["programs"], now)
+        # Price the raffle and preorder news into profitable sign-ups: Pokémon against its own table,
+        # other card games against the TCG resale table. Raffle ones join the raffles board, preorders
+        # get their own board.
+        found = signups_module.collect(items, products, raffles["programs"], now, tcg_products=tcg.get("products", []))
         open_already = {(o["store"], o["title"].lower()) for o in raffles["open"]}
         for shaped in signups_module.as_open_raffles(found):
             if (shaped["store"], shaped["title"].lower()) not in open_already:
                 raffles["open"].append(shaped)
         preorders = signups_module.preorder_signups(found)
-        run(now, WebhookClient(api, webhooks), items, windows, events, calendar["undated"], products, state, costco, promos, raffles, sams, upc, preorders)
+        run(now, WebhookClient(api, webhooks), items, windows, events, calendar["undated"], products, state, costco, promos, raffles, sams, upc, preorders, tcg)
     except DiscordError as error:
         print(f"Discord posting stopped: {error}")
         return 1
