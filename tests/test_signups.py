@@ -119,6 +119,12 @@ class TcgTests(unittest.TestCase):
                 "link": "https://x", "stores": ["Amazon"], "published": "2026-11-12T00:00:00Z"}
         self.assertEqual(signups.collect([item], [], [], NOW, costs=COSTS, tcg_products=unverified), [])
 
+    def test_rejects_an_implausible_ratio(self):
+        # A $80 item can't resell for $297 (nearly 4x) — that's a bad match, not a flip.
+        item = {"category": "preorders", "title": "Disney Lorcana Into the Inkdark booster box preorder — $80 at Amazon",
+                "link": "https://x", "stores": ["Amazon"], "published": "2026-11-12T00:00:00Z"}
+        self.assertEqual(signups.collect([item], [], [], NOW, costs=COSTS, tcg_products=TCG), [])
+
     def test_no_headline_price_means_no_non_pokemon_signup(self):
         item = {"category": "preorders", "title": "Disney Lorcana Into the Inkdark booster box preorder live at Amazon",
                 "link": "https://x", "stores": ["Amazon"], "published": "2026-11-12T00:00:00Z"}

@@ -85,6 +85,15 @@ class BelievableAskTests(unittest.TestCase):
         listings = [listing("Dominance of God Booster Box", 120)]
         self.assertEqual(tcg_market.believable_ask("The Dominance of God Booster Box", listings, 8), (None, 1))
 
+    def test_cases_and_lots_never_price_a_single_box(self):
+        listings = [
+            listing("One Piece Dominance of God Booster Box Case", 1600),
+            listing("One Piece Dominance of God Booster Box lot of 3", 350),
+            listing("One Piece Dominance of God Booster Box x6", 1500),
+            listing("One Piece Dominance of God Booster Box", 120),  # the only real single box
+        ]
+        self.assertEqual(tcg_market.believable_ask("The Dominance of God Booster Box", listings, 8), (None, 1))
+
     def test_no_keys_marks_everything_unverified(self):
         rows = [{"market": 424.0, "name": "Star Trek - Collector Booster Display"}]
         tcg_market.ground_with_ebay(rows, None, {"ebay_lookups": 200, "min_market": 8, "min_ebay_count": 3})
