@@ -1,0 +1,1595 @@
+{
+ "generated_at": "2026-11-13T19:24:56Z",
+ "games": [
+  "Lorcana",
+  "One Piece",
+  "Star Wars Unlimited",
+  "Gundam",
+  "Riftbound",
+  "Digimon",
+  "Magic",
+  "Yu-Gi-Oh"
+ ],
+ "products": [
+  {
+   "game": "Magic",
+   "name": "Marvel: Darkhold Destiny - Collector Booster Display",
+   "set": "Marvel: Darkhold Destiny",
+   "market": 688.47,
+   "release": "2027-04-09",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/723266/magic-marvel-darkhold-destiny-marvel-darkhold-destiny-collector-booster-display"
+  },
+  {
+   "game": "Magic",
+   "name": "Mystery Booster Commander Edition - Booster Display",
+   "set": "Mystery Booster Commander Edition",
+   "market": 451.19,
+   "release": "2026-10-24",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/709724/magic-mystery-booster-commander-edition-mystery-booster-commander-edition-booster-display"
+  },
+  {
+   "game": "Magic",
+   "name": "Star Trek - Collector Booster Display",
+   "set": "Star Trek",
+   "market": 424.84,
+   "release": "2026-11-13",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/706142/magic-star-trek-star-trek-collector-booster-display"
+  },
+  {
+   "game": "One Piece",
+   "name": "Double Pack Set Vol. 12 Display",
+   "set": "The World's Strongest Warriors",
+   "market": 361.8,
+   "release": "2026-08-28",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/704878/one-piece-card-game-the-worlds-strongest-warriors-double-pack-set-vol-12-display"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Into the Inkdark Booster Box",
+   "set": "Into the Inkdark",
+   "market": 297.22,
+   "release": "2027-02-12",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/723336/lorcana-tcg-into-the-inkdark-disney-lorcana-into-the-inkdark-booster-box"
+  },
+  {
+   "game": "One Piece",
+   "name": "The World's Strongest Warriors Booster Box",
+   "set": "The World's Strongest Warriors",
+   "market": 295.07,
+   "release": "2026-08-28",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/704752/one-piece-card-game-the-worlds-strongest-warriors-the-worlds-strongest-warriors-booster-box"
+  },
+  {
+   "game": "Riftbound",
+   "name": "Gift of the Rift Bundle",
+   "set": "Gift of the Rift Bundles",
+   "market": 280.54,
+   "release": "2026-12-04",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/714486/riftbound-league-of-legends-trading-card-game-gift-of-the-rift-bundles-gift-of-the-rift-bundle"
+  },
+  {
+   "game": "Magic",
+   "name": "Marvel: Darkhold Destiny Commander Deck - Midnight Sons (Collector's Edition)",
+   "set": "Commander: Marvel: Darkhold Destiny",
+   "market": 259.99,
+   "release": "2027-04-09",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/723298/magic-commander-marvel-darkhold-destiny-marvel-darkhold-destiny-commander-deck-midnight-sons-collectors-edition"
+  },
+  {
+   "game": "Yu-Gi-Oh",
+   "name": "Magnificent Monsters Display",
+   "set": "Magnificent Monsters",
+   "market": 251.68,
+   "release": "2026-09-04",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/694826/yugioh-magnificent-monsters-magnificent-monsters-display"
+  },
+  {
+   "game": "One Piece",
+   "name": "The Dominance of God Booster Box",
+   "set": "The Dominance of God",
+   "market": 228.55,
+   "release": "2026-11-20",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/712901/one-piece-card-game-the-dominance-of-god-the-dominance-of-god-booster-box"
+  },
+  {
+   "game": "One Piece",
+   "name": "Extra Booster: One Piece Heroines Edition Vol.2 - Booster Box",
+   "set": "Extra Booster: One Piece Heroines Edition Vol. 2",
+   "market": 228.1,
+   "release": "2026-10-30",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/711385/one-piece-card-game-extra-booster-one-piece-heroines-edition-vol-2-extra-booster-one-piece-heroines-edition-vol2-booster-box"
+  },
+  {
+   "game": "Yu-Gi-Oh",
+   "name": "Magnificent Maestros Display",
+   "set": "Magnificent Maestros",
+   "market": 226.27,
+   "release": "2026-11-13",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/711214/yugioh-magnificent-maestros-magnificent-maestros-display"
+  },
+  {
+   "game": "Magic",
+   "name": "Marvel: Darkhold Destiny Commander Deck - Strange Academy (Collector's Edition)",
+   "set": "Commander: Marvel: Darkhold Destiny",
+   "market": 220.65,
+   "release": "2027-04-09",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/723296/magic-commander-marvel-darkhold-destiny-marvel-darkhold-destiny-commander-deck-strange-academy-collectors-edition"
+  },
+  {
+   "game": "Magic",
+   "name": "Marvel: Darkhold Destiny Commander Deck - Gods of Asgard (Collector's Edition)",
+   "set": "Commander: Marvel: Darkhold Destiny",
+   "market": 209.98,
+   "release": "2027-04-09",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/723297/magic-commander-marvel-darkhold-destiny-marvel-darkhold-destiny-commander-deck-gods-of-asgard-collectors-edition"
+  },
+  {
+   "game": "Magic",
+   "name": "Marvel: Darkhold Destiny - Arcanum Bundle",
+   "set": "Marvel: Darkhold Destiny",
+   "market": 199.98,
+   "release": "2027-04-09",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/723271/magic-marvel-darkhold-destiny-marvel-darkhold-destiny-arcanum-bundle"
+  },
+  {
+   "game": "Star Wars Unlimited",
+   "name": "Ashes of the Empire Carbonite Edition - Booster Display",
+   "set": "Ashes of the Empire",
+   "market": 194.39,
+   "release": "2026-07-17",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/693388/star-wars-unlimited-ashes-of-the-empire-ashes-of-the-empire-carbonite-edition-booster-display"
+  },
+  {
+   "game": "Magic",
+   "name": "Star Trek Commander Deck - We Are the Borg (Collector's Edition)",
+   "set": "Commander: Star Trek",
+   "market": 188.98,
+   "release": "2026-11-13",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/706173/magic-commander-star-trek-star-trek-commander-deck-we-are-the-borg-collectors-edition"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Attack of the Vine! Booster Box",
+   "set": "Attack of the Vine!",
+   "market": 180.8,
+   "release": "2026-07-24",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/690384/lorcana-tcg-attack-of-the-vine-disney-lorcana-attack-of-the-vine-booster-box"
+  },
+  {
+   "game": "Magic",
+   "name": "Marvel: Darkhold Destiny - Booster Display",
+   "set": "Marvel: Darkhold Destiny",
+   "market": 180.4,
+   "release": "2027-04-09",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/723263/magic-marvel-darkhold-destiny-marvel-darkhold-destiny-booster-display"
+  },
+  {
+   "game": "Star Wars Unlimited",
+   "name": "Homeworlds Carbonite Edition - Booster Display",
+   "set": "Homeworlds",
+   "market": 171.43,
+   "release": "2026-10-09",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/710968/star-wars-unlimited-homeworlds-homeworlds-carbonite-edition-booster-display"
+  },
+  {
+   "game": "Magic",
+   "name": "Star Trek Commander Deck - Federation Fleet (Collector's Edition)",
+   "set": "Commander: Star Trek",
+   "market": 164.5,
+   "release": "2026-11-13",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/706177/magic-commander-star-trek-star-trek-commander-deck-federation-fleet-collectors-edition"
+  },
+  {
+   "game": "Magic",
+   "name": "Star Trek - Beam Me Up Bundle",
+   "set": "Star Trek",
+   "market": 158.56,
+   "release": "2026-11-13",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/706154/magic-star-trek-star-trek-beam-me-up-bundle"
+  },
+  {
+   "game": "Star Wars Unlimited",
+   "name": "Ashes of the Empire - Spotlight Deck Display",
+   "set": "Ashes of the Empire",
+   "market": 156.61,
+   "release": "2026-07-17",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/702606/star-wars-unlimited-ashes-of-the-empire-ashes-of-the-empire-spotlight-deck-display"
+  },
+  {
+   "game": "Riftbound",
+   "name": "Legacy - Booster Display",
+   "set": "Legacy",
+   "market": 149.73,
+   "release": "2027-01-29",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/712806/riftbound-league-of-legends-trading-card-game-legacy-legacy-booster-display"
+  },
+  {
+   "game": "Magic",
+   "name": "Star Trek Commander Deck - Landing Party (Collector's Edition)",
+   "set": "Commander: Star Trek",
+   "market": 149.63,
+   "release": "2026-11-13",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/706175/magic-commander-star-trek-star-trek-commander-deck-landing-party-collectors-edition"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Hyperia City Booster Box",
+   "set": "Hyperia City",
+   "market": 128.95,
+   "release": "2026-10-23",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/706239/lorcana-tcg-hyperia-city-disney-lorcana-hyperia-city-booster-box"
+  },
+  {
+   "game": "Gundam",
+   "name": "Starter Deck 12: Raging Onslaught Display",
+   "set": "Starter Deck 12: Raging Onslaught",
+   "market": 126.32,
+   "release": "2026-09-25",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/710635/gundam-card-game-starter-deck-12-raging-onslaught-starter-deck-12-raging-onslaught-display"
+  },
+  {
+   "game": "Riftbound",
+   "name": "Vendetta - Booster Display",
+   "set": "Vendetta",
+   "market": 118.61,
+   "release": "2026-07-31",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/693380/riftbound-league-of-legends-trading-card-game-vendetta-vendetta-booster-display"
+  },
+  {
+   "game": "Digimon",
+   "name": "Ignition of X Booster Box",
+   "set": "Ignition of X",
+   "market": 117.86,
+   "release": "2026-12-11",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/714850/digimon-card-game-ignition-of-x-ignition-of-x-booster-box"
+  },
+  {
+   "game": "Star Wars Unlimited",
+   "name": "Icons 2027 Edition - Booster Display",
+   "set": "Icons 2027 Edition",
+   "market": 117.63,
+   "release": "2026-11-20",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/719671/star-wars-unlimited-icons-2027-edition-icons-2027-edition-booster-display"
+  },
+  {
+   "game": "Gundam",
+   "name": "Starter Deck 13: Silent Barrage Display",
+   "set": "Starter Deck 13: Silent Barrage",
+   "market": 110.94,
+   "release": "2026-09-25",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/710640/gundam-card-game-starter-deck-13-silent-barrage-starter-deck-13-silent-barrage-display"
+  },
+  {
+   "game": "Magic",
+   "name": "Star Trek - Play Booster Display",
+   "set": "Star Trek",
+   "market": 107.48,
+   "release": "2026-11-13",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/706138/magic-star-trek-star-trek-play-booster-display"
+  },
+  {
+   "game": "Riftbound",
+   "name": "Legacy - Vault Bundle",
+   "set": "Legacy",
+   "market": 103.06,
+   "release": "2027-01-29",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/712813/riftbound-league-of-legends-trading-card-game-legacy-legacy-vault-bundle"
+  },
+  {
+   "game": "Magic",
+   "name": "Marvel: Darkhold Destiny - Bundle",
+   "set": "Marvel: Darkhold Destiny",
+   "market": 99.63,
+   "release": "2027-04-09",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/723269/magic-marvel-darkhold-destiny-marvel-darkhold-destiny-bundle"
+  },
+  {
+   "game": "Digimon",
+   "name": "Chivalrous XIII - Booster Box",
+   "set": "Chivalrous XIII",
+   "market": 93.75,
+   "release": "2026-10-02",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/711381/digimon-card-game-chivalrous-xiii-chivalrous-xiii-booster-box"
+  },
+  {
+   "game": "Gundam",
+   "name": "Starter Deck 11: Aquatic Assault Display",
+   "set": "Starter Deck 11: Aquatic Assault",
+   "market": 93.44,
+   "release": "2026-09-25",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/710631/gundam-card-game-starter-deck-11-aquatic-assault-starter-deck-11-aquatic-assault-display"
+  },
+  {
+   "game": "Magic",
+   "name": "Marvel: Darkhold Destiny Commander Deck - Midnight Sons",
+   "set": "Commander: Marvel: Darkhold Destiny",
+   "market": 91.8,
+   "release": "2027-04-09",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/723293/magic-commander-marvel-darkhold-destiny-marvel-darkhold-destiny-commander-deck-midnight-sons"
+  },
+  {
+   "game": "Magic",
+   "name": "Marvel: Darkhold Destiny Commander Deck - Lords of Hel",
+   "set": "Commander: Marvel: Darkhold Destiny",
+   "market": 91.65,
+   "release": "2027-04-09",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/723294/magic-commander-marvel-darkhold-destiny-marvel-darkhold-destiny-commander-deck-lords-of-hel"
+  },
+  {
+   "game": "Yu-Gi-Oh",
+   "name": "Chaos Origins Booster Box [1st Edition]",
+   "set": "Chaos Origins",
+   "market": 90.65,
+   "release": "2026-07-03",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/691167/yugioh-chaos-origins-chaos-origins-booster-box-1st-edition"
+  },
+  {
+   "game": "Magic",
+   "name": "Marvel: Darkhold Destiny Commander Deck - Strange Academy",
+   "set": "Commander: Marvel: Darkhold Destiny",
+   "market": 90.5,
+   "release": "2027-04-09",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/723288/magic-commander-marvel-darkhold-destiny-marvel-darkhold-destiny-commander-deck-strange-academy"
+  },
+  {
+   "game": "Magic",
+   "name": "Star Trek Commander Deck - Klingon Fury (Collector's Edition)",
+   "set": "Commander: Star Trek",
+   "market": 90.5,
+   "release": "2026-11-13",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/706174/magic-commander-star-trek-star-trek-commander-deck-klingon-fury-collectors-edition"
+  },
+  {
+   "game": "Magic",
+   "name": "Marvel: Darkhold Destiny Commander Deck - Gods of Asgard",
+   "set": "Commander: Marvel: Darkhold Destiny",
+   "market": 83.31,
+   "release": "2027-04-09",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/723292/magic-commander-marvel-darkhold-destiny-marvel-darkhold-destiny-commander-deck-gods-of-asgard"
+  },
+  {
+   "game": "Yu-Gi-Oh",
+   "name": "Glorious Victors Booster Box [1st Edition]",
+   "set": "Glorious Victors",
+   "market": 77.59,
+   "release": "2026-12-04",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/713238/yugioh-glorious-victors-glorious-victors-booster-box-1st-edition"
+  },
+  {
+   "game": "Magic",
+   "name": "Star Trek Commander Deck - We Are the Borg",
+   "set": "Commander: Star Trek",
+   "market": 73.75,
+   "release": "2026-11-13",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/706171/magic-commander-star-trek-star-trek-commander-deck-we-are-the-borg"
+  },
+  {
+   "game": "Gundam",
+   "name": "Starter Deck 14: Heavy Dominion Display",
+   "set": "Starter Deck 14: Heavy Dominion",
+   "market": 73.02,
+   "release": "2026-09-25",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/710644/gundam-card-game-starter-deck-14-heavy-dominion-starter-deck-14-heavy-dominion-display"
+  },
+  {
+   "game": "Star Wars Unlimited",
+   "name": "Ashes of the Empire - Booster Display",
+   "set": "Ashes of the Empire",
+   "market": 71.05,
+   "release": "2026-07-17",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/693390/star-wars-unlimited-ashes-of-the-empire-ashes-of-the-empire-booster-display"
+  },
+  {
+   "game": "One Piece",
+   "name": "Double Pack Set Vol. 13",
+   "set": "The Dominance of God",
+   "market": 69.7,
+   "release": "2026-11-20",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/712907/one-piece-card-game-the-dominance-of-god-double-pack-set-vol-13"
+  },
+  {
+   "game": "Star Wars Unlimited",
+   "name": "Homeworlds - Booster Display",
+   "set": "Homeworlds",
+   "market": 62.14,
+   "release": "2026-10-09",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/710961/star-wars-unlimited-homeworlds-homeworlds-booster-display"
+  },
+  {
+   "game": "Magic",
+   "name": "Marvel: Darkhold Destiny - Collector Booster",
+   "set": "Marvel: Darkhold Destiny",
+   "market": 60.0,
+   "release": "2027-04-09",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/723265/magic-marvel-darkhold-destiny-marvel-darkhold-destiny-collector-booster"
+  },
+  {
+   "game": "Yu-Gi-Oh",
+   "name": "Beyond the Brave Booster Box [1st Edition]",
+   "set": "Beyond the Brave",
+   "market": 56.17,
+   "release": "2026-10-09",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/711263/yugioh-beyond-the-brave-beyond-the-brave-booster-box-1st-edition"
+  },
+  {
+   "game": "Magic",
+   "name": "Star Trek - Bundle",
+   "set": "Star Trek",
+   "market": 55.45,
+   "release": "2026-11-13",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/706150/magic-star-trek-star-trek-bundle"
+  },
+  {
+   "game": "Magic",
+   "name": "Star Trek - Collector Booster Pack",
+   "set": "Star Trek",
+   "market": 49.02,
+   "release": "2026-11-13",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/706141/magic-star-trek-star-trek-collector-booster-pack"
+  },
+  {
+   "game": "Magic",
+   "name": "Star Trek Commander Deck - Landing Party",
+   "set": "Commander: Star Trek",
+   "market": 48.12,
+   "release": "2026-11-13",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/706168/magic-commander-star-trek-star-trek-commander-deck-landing-party"
+  },
+  {
+   "game": "One Piece",
+   "name": "Double Pack Set Vol. 12",
+   "set": "The World's Strongest Warriors",
+   "market": 42.81,
+   "release": "2026-08-28",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/704757/one-piece-card-game-the-worlds-strongest-warriors-double-pack-set-vol-12"
+  },
+  {
+   "game": "Riftbound",
+   "name": "Vendetta - Showdown Decks: Zed vs Shen Display",
+   "set": "Vendetta",
+   "market": 42.74,
+   "release": "2026-07-31",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/706237/riftbound-league-of-legends-trading-card-game-vendetta-vendetta-showdown-decks-zed-vs-shen-display"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Attack of the Vine! Collection Starter Set - Rapunzel Edition",
+   "set": "Attack of the Vine!",
+   "market": 39.51,
+   "release": "2026-09-04",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/696136/lorcana-tcg-attack-of-the-vine-disney-lorcana-attack-of-the-vine-collection-starter-set-rapunzel-edition"
+  },
+  {
+   "game": "Magic",
+   "name": "Star Trek Commander Deck - Federation Fleet",
+   "set": "Commander: Star Trek",
+   "market": 38.12,
+   "release": "2026-11-13",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/706167/magic-commander-star-trek-star-trek-commander-deck-federation-fleet"
+  },
+  {
+   "game": "Riftbound",
+   "name": "Vendetta - Vault Bundle",
+   "set": "Vendetta",
+   "market": 35.47,
+   "release": "2026-07-31",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/697970/riftbound-league-of-legends-trading-card-game-vendetta-vendetta-vault-bundle"
+  },
+  {
+   "game": "Digimon",
+   "name": "Rubeusdramon Starter Deck",
+   "set": "Starter Deck 25: Rubeusdramon",
+   "market": 32.56,
+   "release": "2026-12-04",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/730029/digimon-card-game-starter-deck-25-rubeusdramon-rubeusdramon-starter-deck"
+  },
+  {
+   "game": "Digimon",
+   "name": "Yukinamon Starter Deck",
+   "set": "Starter Deck 26: Yukinamon",
+   "market": 32.3,
+   "release": "2026-12-04",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/730026/digimon-card-game-starter-deck-26-yukinamon-yukinamon-starter-deck"
+  },
+  {
+   "game": "Magic",
+   "name": "Secret Lair x MSCHF: The Zeta Set Booster Pack",
+   "set": "Secret Lair x MSCHF: The Zeta Set",
+   "market": 31.77,
+   "release": "2026-11-07",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/714891/magic-secret-lair-x-mschf-the-zeta-set-secret-lair-x-mschf-the-zeta-set-booster-pack"
+  },
+  {
+   "game": "Magic",
+   "name": "Star Trek Commander Deck - Klingon Fury",
+   "set": "Commander: Star Trek",
+   "market": 29.52,
+   "release": "2026-11-13",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/706169/magic-commander-star-trek-star-trek-commander-deck-klingon-fury"
+  },
+  {
+   "game": "Star Wars Unlimited",
+   "name": "Homeworlds Carbonite Edition - Booster Pack",
+   "set": "Homeworlds",
+   "market": 26.97,
+   "release": "2026-10-09",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/710969/star-wars-unlimited-homeworlds-homeworlds-carbonite-edition-booster-pack"
+  },
+  {
+   "game": "Magic",
+   "name": "Mystery Booster Commander Edition - Booster Pack",
+   "set": "Mystery Booster Commander Edition",
+   "market": 26.88,
+   "release": "2026-10-24",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/709720/magic-mystery-booster-commander-edition-mystery-booster-commander-edition-booster-pack"
+  },
+  {
+   "game": "One Piece",
+   "name": "The Dominance of God Booster Pack",
+   "set": "The Dominance of God",
+   "market": 24.25,
+   "release": "2026-11-20",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/712904/one-piece-card-game-the-dominance-of-god-the-dominance-of-god-booster-pack"
+  },
+  {
+   "game": "Star Wars Unlimited",
+   "name": "Ashes of the Empire Carbonite Edition - Booster Pack",
+   "set": "Ashes of the Empire",
+   "market": 23.88,
+   "release": "2026-07-17",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/693389/star-wars-unlimited-ashes-of-the-empire-ashes-of-the-empire-carbonite-edition-booster-pack"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Hyperia City 2-Player Starter Set",
+   "set": "Hyperia City",
+   "market": 21.57,
+   "release": "2026-10-23",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/717854/lorcana-tcg-hyperia-city-disney-lorcana-hyperia-city-2-player-starter-set"
+  },
+  {
+   "game": "Gundam",
+   "name": "Starter Deck 13: Silent Barrage",
+   "set": "Starter Deck 13: Silent Barrage",
+   "market": 17.92,
+   "release": "2026-09-25",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/710638/gundam-card-game-starter-deck-13-silent-barrage-starter-deck-13-silent-barrage"
+  },
+  {
+   "game": "Yu-Gi-Oh",
+   "name": "Magnificent Maestros Booster Pack",
+   "set": "Magnificent Maestros",
+   "market": 16.32,
+   "release": "2026-11-13",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/715297/yugioh-magnificent-maestros-magnificent-maestros-booster-pack"
+  },
+  {
+   "game": "Gundam",
+   "name": "Starter Deck 12: Raging Onslaught",
+   "set": "Starter Deck 12: Raging Onslaught",
+   "market": 15.84,
+   "release": "2026-09-25",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/710634/gundam-card-game-starter-deck-12-raging-onslaught-starter-deck-12-raging-onslaught"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Into the Inkdark Booster Pack",
+   "set": "Into the Inkdark",
+   "market": 12.5,
+   "release": "2027-02-12",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/723341/lorcana-tcg-into-the-inkdark-disney-lorcana-into-the-inkdark-booster-pack"
+  },
+  {
+   "game": "Gundam",
+   "name": "Starter Deck 14: Heavy Dominion",
+   "set": "Starter Deck 14: Heavy Dominion",
+   "market": 11.82,
+   "release": "2026-09-25",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/710643/gundam-card-game-starter-deck-14-heavy-dominion-starter-deck-14-heavy-dominion"
+  },
+  {
+   "game": "Gundam",
+   "name": "Starter Deck 11: Aquatic Assault",
+   "set": "Starter Deck 11: Aquatic Assault",
+   "market": 11.04,
+   "release": "2026-09-25",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/710628/gundam-card-game-starter-deck-11-aquatic-assault-starter-deck-11-aquatic-assault"
+  },
+  {
+   "game": "Yu-Gi-Oh",
+   "name": "Glorious Victors Booster Pack [1st Edition]",
+   "set": "Glorious Victors",
+   "market": 8.99,
+   "release": "2026-12-04",
+   "presale": true,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/713237/yugioh-glorious-victors-glorious-victors-booster-pack-1st-edition"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Attack of the Vine! Booster Pack",
+   "set": "Attack of the Vine!",
+   "market": 8.65,
+   "release": "2026-07-24",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/690386/lorcana-tcg-attack-of-the-vine-disney-lorcana-attack-of-the-vine-booster-pack"
+  },
+  {
+   "game": "One Piece",
+   "name": "The World's Strongest Warriors Booster Pack",
+   "set": "The World's Strongest Warriors",
+   "market": 8.63,
+   "release": "2026-08-28",
+   "presale": false,
+   "current": true,
+   "url": "https://www.tcgplayer.com/product/704756/one-piece-card-game-the-worlds-strongest-warriors-the-worlds-strongest-warriors-booster-pack"
+  },
+  {
+   "game": "Riftbound",
+   "name": "Riftbound: Worlds Bundle 2025",
+   "set": "Riftbound Worlds Bundle 2025",
+   "market": 1023.24,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/658333/riftbound-league-of-legends-trading-card-game-riftbound-worlds-bundle-2025-riftbound-worlds-bundle-2025"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Fabled Booster Box",
+   "set": "Fabled",
+   "market": 814.32,
+   "release": "2025-09-05",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/645298/lorcana-tcg-fabled-disney-lorcana-fabled-booster-box"
+  },
+  {
+   "game": "Gundam",
+   "name": "Starter Deck 09: Destiny Ignition Display",
+   "set": "Starter Deck 09: Destiny Ignition",
+   "market": 311.11,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/680469/gundam-card-game-starter-deck-09-destiny-ignition-starter-deck-09-destiny-ignition-display"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Winterspell Booster Box",
+   "set": "Winterspell",
+   "market": 235.72,
+   "release": "2026-02-20",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/664819/lorcana-tcg-winterspell-disney-lorcana-winterspell-booster-box"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Wilds Unknown Booster Box",
+   "set": "Wilds Unknown",
+   "market": 222.16,
+   "release": "2026-05-15",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/678165/lorcana-tcg-wilds-unknown-disney-lorcana-wilds-unknown-booster-box"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Whispers in the Well Booster Box",
+   "set": "Whispers in the Well",
+   "market": 210.81,
+   "release": "2025-11-14",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/652703/lorcana-tcg-whispers-in-the-well-disney-lorcana-whispers-in-the-well-booster-box"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Fabled Starter Deck Display",
+   "set": "Fabled",
+   "market": 202.29,
+   "release": "2025-09-05",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/645313/lorcana-tcg-fabled-disney-lorcana-fabled-starter-deck-display"
+  },
+  {
+   "game": "Gundam",
+   "name": "Freedom Ascension Booster Box",
+   "set": "Freedom Ascension",
+   "market": 173.64,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/693621/gundam-card-game-freedom-ascension-freedom-ascension-booster-box"
+  },
+  {
+   "game": "Riftbound",
+   "name": "Unleashed - Booster Display",
+   "set": "Unleashed",
+   "market": 172.74,
+   "release": "2026-05-08",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/678150/riftbound-league-of-legends-trading-card-game-unleashed-unleashed-booster-display"
+  },
+  {
+   "game": "Riftbound",
+   "name": "Spiritforged - Booster Display",
+   "set": "Spiritforged",
+   "market": 171.69,
+   "release": "2026-02-13",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/661934/riftbound-league-of-legends-trading-card-game-spiritforged-spiritforged-booster-display"
+  },
+  {
+   "game": "One Piece",
+   "name": "Starter Deck 31: RED Monkey.D.Luffy Display",
+   "set": "ST-31: Starter Deck 31 RED Monkey.D.Luffy",
+   "market": 170.96,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/704886/one-piece-card-game-st-31-starter-deck-31-red-monkeydluffy-starter-deck-31-red-monkeydluffy-display"
+  },
+  {
+   "game": "One Piece",
+   "name": "Starter Deck 32: GREEN Roronoa Zoro Display",
+   "set": "ST-32: Starter Deck 32 GREEN Roronoa Zoro",
+   "market": 170.38,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/704888/one-piece-card-game-st-32-starter-deck-32-green-roronoa-zoro-starter-deck-32-green-roronoa-zoro-display"
+  },
+  {
+   "game": "Star Wars Unlimited",
+   "name": "A Lawless Time Carbonite Edition - Booster Display",
+   "set": "A Lawless Time",
+   "market": 157.31,
+   "release": "2026-03-13",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/672289/star-wars-unlimited-a-lawless-time-a-lawless-time-carbonite-edition-booster-display"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Reign of Jafar Booster Box",
+   "set": "Reign of Jafar",
+   "market": 153.09,
+   "release": "2025-06-06",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/623064/lorcana-tcg-reign-of-jafar-disney-lorcana-reign-of-jafar-booster-box"
+  },
+  {
+   "game": "One Piece",
+   "name": "Starter Decks 31-36 [Set of 6]",
+   "set": "ST-31: Starter Deck 31 RED Monkey.D.Luffy",
+   "market": 152.98,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/712853/one-piece-card-game-st-31-starter-deck-31-red-monkeydluffy-starter-decks-31-36-set-of-6"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Archazia's Island Booster Box",
+   "set": "Archazia's Island",
+   "market": 144.86,
+   "release": "2025-03-21",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/607758/lorcana-tcg-archazias-island-disney-lorcana-archazias-island-booster-box"
+  },
+  {
+   "game": "One Piece",
+   "name": "Set Sail Deck Set Display",
+   "set": "Set Sail Deck Set",
+   "market": 143.92,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/694894/one-piece-card-game-set-sail-deck-set-set-sail-deck-set-display"
+  },
+  {
+   "game": "Gundam",
+   "name": "Starter Deck 10: Generation Pulse Display",
+   "set": "Starter Deck 10: Generation Pulse",
+   "market": 140.54,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/693100/gundam-card-game-starter-deck-10-generation-pulse-starter-deck-10-generation-pulse-display"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Azurite Sea Booster Box",
+   "set": "Azurite Sea",
+   "market": 119.89,
+   "release": "2024-11-25",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/578093/lorcana-tcg-azurite-sea-disney-lorcana-azurite-sea-booster-box"
+  },
+  {
+   "game": "One Piece",
+   "name": "Starter Deck 34: PURPLE Charlotte Katakuri Display",
+   "set": "ST-34: Starter Deck 34 PURPLE Charlotte Katakuri",
+   "market": 118.51,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/704892/one-piece-card-game-st-34-starter-deck-34-purple-charlotte-katakuri-starter-deck-34-purple-charlotte-katakuri-display"
+  },
+  {
+   "game": "Gundam",
+   "name": "Stardust Trails Booster Box",
+   "set": "Stardust Trails",
+   "market": 108.36,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/710652/gundam-card-game-stardust-trails-stardust-trails-booster-box"
+  },
+  {
+   "game": "Gundam",
+   "name": "Phantom Aria Booster Box",
+   "set": "Phantom Aria",
+   "market": 107.52,
+   "release": "2026-04-24",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/682302/gundam-card-game-phantom-aria-phantom-aria-booster-box"
+  },
+  {
+   "game": "Digimon",
+   "name": "Digital World Shambala Booster Box",
+   "set": "Digital World Shambala",
+   "market": 105.66,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/680510/digimon-card-game-digital-world-shambala-digital-world-shambala-booster-box"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Fabled Collection Starter Set",
+   "set": "Fabled",
+   "market": 102.48,
+   "release": "2025-10-03",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/646033/lorcana-tcg-fabled-disney-lorcana-fabled-collection-starter-set"
+  },
+  {
+   "game": "Riftbound",
+   "name": "Radiance - Booster Display",
+   "set": "Radiance",
+   "market": 101.12,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/711365/riftbound-league-of-legends-trading-card-game-radiance-radiance-booster-display"
+  },
+  {
+   "game": "Star Wars Unlimited",
+   "name": "Homeworlds - Spotlight Deck Display",
+   "set": "Homeworlds",
+   "market": 93.04,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/722197/star-wars-unlimited-homeworlds-homeworlds-spotlight-deck-display"
+  },
+  {
+   "game": "Star Wars Unlimited",
+   "name": "Twin Suns - 4 Deck Bundle",
+   "set": "Twin Suns",
+   "market": 91.43,
+   "release": "2026-05-08",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/692109/star-wars-unlimited-twin-suns-twin-suns-4-deck-bundle"
+  },
+  {
+   "game": "Riftbound",
+   "name": "Spiritforged - Champion Deck (Fiora) Display",
+   "set": "Spiritforged",
+   "market": 90.26,
+   "release": "2026-02-13",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/661949/riftbound-league-of-legends-trading-card-game-spiritforged-spiritforged-champion-deck-fiora-display"
+  },
+  {
+   "game": "Gundam",
+   "name": "Eternal Nexus Booster Box",
+   "set": "Eternal Nexus",
+   "market": 89.93,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/693103/gundam-card-game-eternal-nexus-eternal-nexus-booster-box"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Fabled Starter Deck [Set of 2]",
+   "set": "Fabled",
+   "market": 86.66,
+   "release": "2025-09-05",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/645307/lorcana-tcg-fabled-disney-lorcana-fabled-starter-deck-set-of-2"
+  },
+  {
+   "game": "One Piece",
+   "name": "Starter Deck 33: BLUE Kuzan Display",
+   "set": "ST-33: Starter Deck 33 BLUE Kuzan",
+   "market": 84.44,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/704891/one-piece-card-game-st-33-starter-deck-33-blue-kuzan-starter-deck-33-blue-kuzan-display"
+  },
+  {
+   "game": "Riftbound",
+   "name": "Radiance - Showdown Decks: Evelynn vs Seraphine Display",
+   "set": "Radiance",
+   "market": 82.87,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/711369/riftbound-league-of-legends-trading-card-game-radiance-radiance-showdown-decks-evelynn-vs-seraphine-display"
+  },
+  {
+   "game": "One Piece",
+   "name": "Starter Deck 36: YELLOW Eustass”Captain”Kid Display",
+   "set": "ST-36: Starter Deck 36 YELLOW Eustass\"Captain\"Kid",
+   "market": 81.61,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/704896/one-piece-card-game-st-36-starter-deck-36-yellow-eustasscaptainkid-starter-deck-36-yellow-eustass”captain”kid-display"
+  },
+  {
+   "game": "Riftbound",
+   "name": "Unleashed - Champion Deck (Vex) Display",
+   "set": "Unleashed",
+   "market": 72.34,
+   "release": "2026-05-08",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/678153/riftbound-league-of-legends-trading-card-game-unleashed-unleashed-champion-deck-vex-display"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Wilds Unknown Best Buddies Bundle",
+   "set": "Wilds Unknown",
+   "market": 72.0,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/719823/lorcana-tcg-wilds-unknown-disney-lorcana-wilds-unknown-best-buddies-bundle"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Whispers in the Well Starter Deck Display",
+   "set": "Whispers in the Well",
+   "market": 71.79,
+   "release": "2025-11-14",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/652708/lorcana-tcg-whispers-in-the-well-disney-lorcana-whispers-in-the-well-starter-deck-display"
+  },
+  {
+   "game": "Star Wars Unlimited",
+   "name": "A Lawless Time - Booster Display",
+   "set": "A Lawless Time",
+   "market": 71.27,
+   "release": "2026-03-13",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/672287/star-wars-unlimited-a-lawless-time-a-lawless-time-booster-display"
+  },
+  {
+   "game": "Star Wars Unlimited",
+   "name": "Ashes of the Empire - Costco Exclusive Bundle",
+   "set": "Ashes of the Empire",
+   "market": 71.17,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/719783/star-wars-unlimited-ashes-of-the-empire-ashes-of-the-empire-costco-exclusive-bundle"
+  },
+  {
+   "game": "One Piece",
+   "name": "Starter Deck 35: RED/BLACK Sabo Display",
+   "set": "ST-35: Starter Deck 35 RED/BLACK Sabo",
+   "market": 70.81,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/704895/one-piece-card-game-st-35-starter-deck-35-red-black-sabo-starter-deck-35-red-black-sabo-display"
+  },
+  {
+   "game": "Riftbound",
+   "name": "Unleashed - Vault Bundle",
+   "set": "Unleashed",
+   "market": 65.7,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/678162/riftbound-league-of-legends-trading-card-game-unleashed-unleashed-vault-bundle"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Wilds Unknown 2-Player Starter Set Display",
+   "set": "Wilds Unknown",
+   "market": 61.85,
+   "release": "2026-05-15",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/680711/lorcana-tcg-wilds-unknown-disney-lorcana-wilds-unknown-2-player-starter-set-display"
+  },
+  {
+   "game": "Gundam",
+   "name": "Starter Deck 09: Destiny Ignition",
+   "set": "Starter Deck 09: Destiny Ignition",
+   "market": 61.78,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/680468/gundam-card-game-starter-deck-09-destiny-ignition-starter-deck-09-destiny-ignition"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Reign of Jafar Starter Deck Display",
+   "set": "Reign of Jafar",
+   "market": 57.49,
+   "release": "2025-06-06",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/623060/lorcana-tcg-reign-of-jafar-disney-lorcana-reign-of-jafar-starter-deck-display"
+  },
+  {
+   "game": "Riftbound",
+   "name": "Spiritforged - Champion Deck (Rumble) Display",
+   "set": "Spiritforged",
+   "market": 53.83,
+   "release": "2026-02-13",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/661948/riftbound-league-of-legends-trading-card-game-spiritforged-spiritforged-champion-deck-rumble-display"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Fabled Starter Deck (Emerald & Ruby)",
+   "set": "Fabled",
+   "market": 52.75,
+   "release": "2025-09-05",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/645305/lorcana-tcg-fabled-disney-lorcana-fabled-starter-deck-emerald-and-ruby"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Azurite Sea Starter Deck Display",
+   "set": "Azurite Sea",
+   "market": 50.15,
+   "release": "2024-11-25",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/578128/lorcana-tcg-azurite-sea-disney-lorcana-azurite-sea-starter-deck-display"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Archazia's Island Starter Deck Display",
+   "set": "Archazia's Island",
+   "market": 49.76,
+   "release": "2025-03-21",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/607804/lorcana-tcg-archazias-island-disney-lorcana-archazias-island-starter-deck-display"
+  },
+  {
+   "game": "Riftbound",
+   "name": "Unleashed - Champion Deck (Vi) Display",
+   "set": "Unleashed",
+   "market": 42.54,
+   "release": "2026-05-08",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/678154/riftbound-league-of-legends-trading-card-game-unleashed-unleashed-champion-deck-vi-display"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Fabled Gift Set",
+   "set": "Fabled",
+   "market": 42.12,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/645308/lorcana-tcg-fabled-disney-lorcana-fabled-gift-set"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Fabled Starter Deck (Amber & Sapphire)",
+   "set": "Fabled",
+   "market": 39.27,
+   "release": "2025-09-05",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/645306/lorcana-tcg-fabled-disney-lorcana-fabled-starter-deck-amber-and-sapphire"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Winterspell Collection Starter Set - Stitch Edition",
+   "set": "Winterspell",
+   "market": 39.19,
+   "release": "2026-03-13",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/668330/lorcana-tcg-winterspell-disney-lorcana-winterspell-collection-starter-set-stitch-edition"
+  },
+  {
+   "game": "One Piece",
+   "name": "Starter Deck 32: GREEN Roronoa Zoro",
+   "set": "ST-32: Starter Deck 32 GREEN Roronoa Zoro",
+   "market": 31.71,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/704889/one-piece-card-game-st-32-starter-deck-32-green-roronoa-zoro-starter-deck-32-green-roronoa-zoro"
+  },
+  {
+   "game": "Riftbound",
+   "name": "Radiance - Vault Bundle",
+   "set": "Radiance",
+   "market": 31.55,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/711372/riftbound-league-of-legends-trading-card-game-radiance-radiance-vault-bundle"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Stitch Collector's Gift Set",
+   "set": "Azurite Sea",
+   "market": 30.99,
+   "release": "2024-11-25",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/578122/lorcana-tcg-azurite-sea-disney-lorcana-stitch-collectors-gift-set"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Whispers in the Well Starter Deck [Set of 2]",
+   "set": "Whispers in the Well",
+   "market": 30.65,
+   "release": "2025-11-14",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/655174/lorcana-tcg-whispers-in-the-well-disney-lorcana-whispers-in-the-well-starter-deck-set-of-2"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Fabled Booster Pack",
+   "set": "Fabled",
+   "market": 30.12,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/649927/lorcana-tcg-fabled-disney-lorcana-fabled-booster-pack"
+  },
+  {
+   "game": "Gundam",
+   "name": "Starter Deck: Destiny Ignition Bonus Pack",
+   "set": "Starter Deck 09: Destiny Ignition",
+   "market": 29.0,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/680471/gundam-card-game-starter-deck-09-destiny-ignition-starter-deck-destiny-ignition-bonus-pack"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Reign of Jafar Starter Deck [Set of 2]",
+   "set": "Reign of Jafar",
+   "market": 28.8,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/630012/lorcana-tcg-reign-of-jafar-disney-lorcana-reign-of-jafar-starter-deck-set-of-2"
+  },
+  {
+   "game": "One Piece",
+   "name": "Starter Deck 31: RED Monkey.D.Luffy",
+   "set": "ST-31: Starter Deck 31 RED Monkey.D.Luffy",
+   "market": 26.32,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/704885/one-piece-card-game-st-31-starter-deck-31-red-monkeydluffy-starter-deck-31-red-monkeydluffy"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Azurite Sea Starter Deck [Set of 2]",
+   "set": "Azurite Sea",
+   "market": 23.78,
+   "release": "2024-11-25",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/578125/lorcana-tcg-azurite-sea-disney-lorcana-azurite-sea-starter-deck-set-of-2"
+  },
+  {
+   "game": "Star Wars Unlimited",
+   "name": "A Lawless Time Carbonite Edition - Booster Pack",
+   "set": "A Lawless Time",
+   "market": 23.17,
+   "release": "2026-03-13",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/672290/star-wars-unlimited-a-lawless-time-a-lawless-time-carbonite-edition-booster-pack"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Archazia's Island Starter Deck [Set of 2]",
+   "set": "Archazia's Island",
+   "market": 22.41,
+   "release": "2025-03-21",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/614851/lorcana-tcg-archazias-island-disney-lorcana-archazias-island-starter-deck-set-of-2"
+  },
+  {
+   "game": "One Piece",
+   "name": "Starter Deck 34: PURPLE Charlotte Katakuri",
+   "set": "ST-34: Starter Deck 34 PURPLE Charlotte Katakuri",
+   "market": 21.48,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/704893/one-piece-card-game-st-34-starter-deck-34-purple-charlotte-katakuri-starter-deck-34-purple-charlotte-katakuri"
+  },
+  {
+   "game": "One Piece",
+   "name": "Starter Deck 33: BLUE Kuzan",
+   "set": "ST-33: Starter Deck 33 BLUE Kuzan",
+   "market": 17.85,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/704890/one-piece-card-game-st-33-starter-deck-33-blue-kuzan-starter-deck-33-blue-kuzan"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Reign of Jafar Starter Deck (Ruby & Steel)",
+   "set": "Reign of Jafar",
+   "market": 16.84,
+   "release": "2025-06-06",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/623059/lorcana-tcg-reign-of-jafar-disney-lorcana-reign-of-jafar-starter-deck-ruby-and-steel"
+  },
+  {
+   "game": "One Piece",
+   "name": "Starter Deck 36: YELLOW Eustass”Captain”Kid",
+   "set": "ST-36: Starter Deck 36 YELLOW Eustass\"Captain\"Kid",
+   "market": 15.57,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/704897/one-piece-card-game-st-36-starter-deck-36-yellow-eustasscaptainkid-starter-deck-36-yellow-eustass”captain”kid"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Whispers in the Well Starter Deck (Sapphire & Steel)",
+   "set": "Whispers in the Well",
+   "market": 15.48,
+   "release": "2025-11-14",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/652706/lorcana-tcg-whispers-in-the-well-disney-lorcana-whispers-in-the-well-starter-deck-sapphire-and-steel"
+  },
+  {
+   "game": "One Piece",
+   "name": "Starter Deck 35: RED/BLACK Sabo",
+   "set": "ST-35: Starter Deck 35 RED/BLACK Sabo",
+   "market": 14.3,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/704894/one-piece-card-game-st-35-starter-deck-35-red-black-sabo-starter-deck-35-red-black-sabo"
+  },
+  {
+   "game": "Gundam",
+   "name": "Starter Deck 10: Generation Pulse",
+   "set": "Starter Deck 10: Generation Pulse",
+   "market": 14.16,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/693099/gundam-card-game-starter-deck-10-generation-pulse-starter-deck-10-generation-pulse"
+  },
+  {
+   "game": "Yu-Gi-Oh",
+   "name": "Magnificent Monsters Booster Pack",
+   "set": "Magnificent Monsters",
+   "market": 13.77,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/715292/yugioh-magnificent-monsters-magnificent-monsters-booster-pack"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Whispers in the Well Starter Deck (Amber & Emerald)",
+   "set": "Whispers in the Well",
+   "market": 12.93,
+   "release": "2025-11-14",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/652707/lorcana-tcg-whispers-in-the-well-disney-lorcana-whispers-in-the-well-starter-deck-amber-and-emerald"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Azurite Sea Starter Deck (Amber & Ruby)",
+   "set": "Azurite Sea",
+   "market": 12.85,
+   "release": "2024-11-25",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/578123/lorcana-tcg-azurite-sea-disney-lorcana-azurite-sea-starter-deck-amber-and-ruby"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Whispers in the Well Booster Pack",
+   "set": "Whispers in the Well",
+   "market": 11.31,
+   "release": "2025-11-14",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/652701/lorcana-tcg-whispers-in-the-well-disney-lorcana-whispers-in-the-well-booster-pack"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Archazia's Island Starter Deck (Ruby & Sapphire)",
+   "set": "Archazia's Island",
+   "market": 11.22,
+   "release": "2025-03-21",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/607802/lorcana-tcg-archazias-island-disney-lorcana-archazias-island-starter-deck-ruby-and-sapphire"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Winterspell Booster Pack",
+   "set": "Winterspell",
+   "market": 10.64,
+   "release": "2026-02-20",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/664821/lorcana-tcg-winterspell-disney-lorcana-winterspell-booster-pack"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Archazia's Island Starter Deck (Amethyst & Steel)",
+   "set": "Archazia's Island",
+   "market": 9.92,
+   "release": "2025-03-21",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/607803/lorcana-tcg-archazias-island-disney-lorcana-archazias-island-starter-deck-amethyst-and-steel"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Azurite Sea Starter Deck (Emerald & Sapphire)",
+   "set": "Azurite Sea",
+   "market": 9.75,
+   "release": "2024-11-25",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/578124/lorcana-tcg-azurite-sea-disney-lorcana-azurite-sea-starter-deck-emerald-and-sapphire"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Wilds Unknown 2-Player Starter Set",
+   "set": "Wilds Unknown",
+   "market": 8.88,
+   "release": "2026-05-15",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/682038/lorcana-tcg-wilds-unknown-disney-lorcana-wilds-unknown-2-player-starter-set"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Reign of Jafar Starter Deck (Amber & Amethyst)",
+   "set": "Reign of Jafar",
+   "market": 8.72,
+   "release": "2025-06-06",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/623058/lorcana-tcg-reign-of-jafar-disney-lorcana-reign-of-jafar-starter-deck-amber-and-amethyst"
+  },
+  {
+   "game": "Gundam",
+   "name": "Stardust Trails Booster Pack",
+   "set": "Stardust Trails",
+   "market": 8.55,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/710651/gundam-card-game-stardust-trails-stardust-trails-booster-pack"
+  },
+  {
+   "game": "Lorcana",
+   "name": "Disney Lorcana: Wilds Unknown Booster Pack",
+   "set": "Wilds Unknown",
+   "market": 8.42,
+   "release": "2026-05-15",
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/678167/lorcana-tcg-wilds-unknown-disney-lorcana-wilds-unknown-booster-pack"
+  },
+  {
+   "game": "Gundam",
+   "name": "Freedom Ascension Booster Pack",
+   "set": "Freedom Ascension",
+   "market": 8.39,
+   "release": null,
+   "presale": false,
+   "current": false,
+   "url": "https://www.tcgplayer.com/product/693620/gundam-card-game-freedom-ascension-freedom-ascension-booster-pack"
+  }
+ ]
+}

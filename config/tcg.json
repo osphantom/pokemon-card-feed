@@ -1,0 +1,18 @@
+{
+  "recent_groups_per_game": 12,
+  "max_products": 500,
+  "current_days": 160,
+  "min_market": 8,
+  "games": [
+    {"id": 71, "label": "Lorcana"},
+    {"id": 68, "label": "One Piece"},
+    {"id": 79, "label": "Star Wars Unlimited"},
+    {"id": 86, "label": "Gundam"},
+    {"id": 89, "label": "Riftbound"},
+    {"id": 63, "label": "Digimon"},
+    {"id": 1, "label": "Magic"},
+    {"id": 2, "label": "Yu-Gi-Oh"}
+  ],
+  "sealed": "booster box|booster pack|booster bundle|\\bbundle\\b|starter deck|structure deck|\\bdisplay\\b|elite trainer|trainer box|\\bcollection\\b|\\btin\\b|commander deck|collector booster|gift set|double pack|\\bblister\\b|battle deck|starter set|two-?player|ultra-?premium|premium collection",
+  "exclude": "\\bcase\\b|playmat|sleeve|deck box|\\bbinder\\b|\\bdice\\b|\\btoken\\b|\\bpin\\b|\\bbook\\b|poster|\\bmat\\b|bundle of|lot of|\\bempty\\b"
+}
