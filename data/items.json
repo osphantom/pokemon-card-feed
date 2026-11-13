@@ -2065,22 +2065,6 @@
    "first_seen": "2026-11-08T17:32:32Z"
   },
   {
-   "title": "Pokémon's 30th Anniversary's UPC release: Target vs. Best Buy",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQ01lRWNOdTZqQWdBVXdBNHFoYWZpU3hZRVRfOFJPQUY0U2JUcG1odG9WcUtyZXdVUkFfTjROdmlJT0lyTDhtbU41cWZSbmtHQVZOM0VJMEM0c3NIX2htQzBQbTg4UlFld25Ua1VfNEtMWThfMjZjQ3NEVFRMM2twWDBadnVDNFBTM1hlckFyc1FiMEJ5c3NIbHI2SzVwVjNjZWFJ?oc=5",
-   "source": "Google News: restocks",
-   "source_id": "gn-restock",
-   "publisher": "Polygon.com",
-   "published": "2026-11-05T19:36:24Z",
-   "category": "releases",
-   "stores": [
-    "Target",
-    "Best Buy"
-   ],
-   "hot": false,
-   "id": "24b102c9f04202",
-   "first_seen": "2026-11-08T17:32:32Z"
-  },
-  {
    "title": "Disney Lorcana Announces Bans For Multiple Formats",
    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdnBsaXBoajdSNkJ5VVYyeUFZcmo0SFAwWlUzRlpKNWR4SFFnVjZHbEZTRktfUGY4MHg5WkdYTjVxOFdtRGpWXy1aQVNNMnhGVGRmOGo0d3Fvb0tOOVd6X3VEdlFVdV9jeVJvZzNhRDJUZjRCN2c3czdsUjBGMmw5WWY5ZVVZZ0xnbEhhNWtpUmlpMHVTaEE?oc=5",
    "source": "Google News: Lorcana",
@@ -2255,6 +2239,22 @@
    "stores": [],
    "hot": false,
    "id": "a8caad9199ab68",
+   "first_seen": "2026-11-08T17:32:32Z"
+  },
+  {
+   "title": "Pokémon's 30th Anniversary's UPC release: Target vs. Best Buy",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQ01lRWNOdTZqQWdBVXdBNHFoYWZpU3hZRVRfOFJPQUY0U2JUcG1odG9WcUtyZXdVUkFfTjROdmlJT0lyTDhtbU41cWZSbmtHQVZOM0VJMEM0c3NIX2htQzBQbTg4UlFld25Ua1VfNEtMWThfMjZjQ3NEVFRMM2twWDBadnVDNFBTM1hlckFyc1FiMEJ5c3NIbHI2SzVwVjNjZWFJ?oc=5",
+   "source": "Google News: restocks",
+   "source_id": "gn-restock",
+   "publisher": "Polygon.com",
+   "published": "2026-11-05T08:00:00Z",
+   "category": "releases",
+   "stores": [
+    "Target",
+    "Best Buy"
+   ],
+   "hot": false,
+   "id": "24b102c9f04202",
    "first_seen": "2026-11-08T17:32:32Z"
   },
   {
