@@ -106,6 +106,10 @@ def priced_tcg_signup(item: dict, tcg_products: list[dict], costs: dict) -> dict
     product = match_tcg(item["title"], tcg_products)
     if product is None:
         return None
+    # A buyable item can't resell for several times its price. More than 3x means a bad match
+    # (a case, a lot, the wrong set), not a flip — never flag it.
+    if product["market"] > 3 * price:
+        return None
     profit = estimate(product["market"], price, tcg_ship(product["name"]), costs)["profit"]
     store = item["stores"][0] if item.get("stores") else None
     return {

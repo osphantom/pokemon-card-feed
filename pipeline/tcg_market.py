@@ -29,7 +29,9 @@ GENERIC = {
     "and", "a", "an", "volume", "vol", "english", "new", "double", "elite", "trainer", "premium",
 }
 BOX_FORM = re.compile(r"booster box|booster display|\bdisplay\b|\bbox\b|elite trainer|trainer box|ultra-?premium")
-LISTING_BOX = re.compile(r"\bbox\b|display|\bcase\b|elite trainer|ultra-?premium|\bupc\b")
+LISTING_BOX = re.compile(r"\bbox\b|display|elite trainer|ultra-?premium|\bupc\b")
+# Bulk listings cost many times a single box, so they must never set the price of one.
+LISTING_BULK = re.compile(r"\bcase\b|\blot\b|\bbundle\b|sealed case|booster case|\bbreak\b|\d+\s*(?:boxes|displays)\b|\bx\s*\d+\b|\b\d+\s*x\b|\bqty\b")
 WORD = re.compile(r"[a-z0-9]+")
 
 
@@ -118,6 +120,8 @@ def believable_ask(name: str, listings: list[dict], min_price: float):
         title = fold(listing.get("title", ""))
         words = set(WORD.findall(title))
         if needed and not needed <= words:
+            continue
+        if LISTING_BULK.search(title):
             continue
         if want_box and not LISTING_BOX.search(title):
             continue
