@@ -973,7 +973,7 @@
   "pennsylvania",
   "virginia"
  ],
- "costco_checked_at": "2026-11-13T18:46:15Z",
+ "costco_checked_at": "2026-11-13T19:31:03Z",
  "promos_checked_at": "2026-11-13T15:43:01Z",
  "promo_markets": {
   "30th-celebration-mewtwo": 18.73,
@@ -996,7 +996,7 @@
   "PA",
   "VA"
  ],
- "sams_checked_at": "2026-11-13T18:46:15Z",
+ "sams_checked_at": "2026-11-13T19:31:03Z",
  "sams_status": {
   "990416407": {
    "6330": "order",
@@ -1052,7 +1052,7 @@
  },
  "costco_stamp": "2026-11-13T13:55:41Z",
  "costco_read_at": "2026-11-13T15:43:01Z",
- "upc_checked_at": "2026-11-13T18:46:15Z",
+ "upc_checked_at": "2026-11-13T19:31:03Z",
  "price_seen": {
   "704144": 254.93,
   "704191": 369.02,
