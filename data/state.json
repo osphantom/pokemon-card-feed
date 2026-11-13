@@ -34,7 +34,7 @@
   },
   "raffles": {
    "id": "1569386105378447482",
-   "hash": "6c15f430608b"
+   "hash": "7e477e0a40f2"
   },
   "sams-club-shipments": {
    "id": "1569917583694495748",
@@ -998,6 +998,8 @@
   "delta-reign-kyogre"
  ],
  "raffles_announced": [
+  "best-buy-30th-etb",
+  "best-buy-30th-upc",
   "best-buy-prismatic-etb"
  ],
  "costco_watched_states": [
