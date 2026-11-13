@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T20:01:37Z",
+ "generated_at": "2026-11-13T20:22:00Z",
  "ebay_used": true,
  "stopwords": [
   "pokemon",
@@ -82,11 +82,11 @@
     },
     {
      "date": "2026-11-13",
-     "price": 374.94,
+     "price": 363.94,
      "count": 3
     }
    ],
-   "market": 380.44,
+   "market": 374.94,
    "count": 3,
    "last_seen": "2026-11-13"
   },
@@ -304,11 +304,11 @@
     },
     {
      "date": "2026-11-13",
-     "price": 62.24,
+     "price": 57.98,
      "count": 3
     }
    ],
-   "market": 62.24,
+   "market": 60.11,
    "count": 3,
    "last_seen": "2026-11-13"
   },
@@ -368,6 +368,32 @@
    ],
    "market": 48.0,
    "count": 4,
+   "last_seen": "2026-11-13"
+  },
+  {
+   "key": "board|game|johto|monopoly",
+   "tokens": [
+    "monopoly",
+    "board",
+    "game",
+    "johto"
+   ],
+   "title": "Pokemon Monopoly Board Game Johto Edition Brand New",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 41.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-13",
+     "price": 41.99,
+     "count": 3
+    }
+   ],
+   "market": 41.99,
+   "count": 3,
    "last_seen": "2026-11-13"
   },
   {
@@ -575,27 +601,6 @@
     }
    ],
    "market": 49.99,
-   "count": 3,
-   "last_seen": "2026-11-12"
-  },
-  {
-   "key": "board|game|johto|monopoly",
-   "tokens": [
-    "monopoly",
-    "board",
-    "game",
-    "johto"
-   ],
-   "title": "Pokemon Monopoly Board Game Johto Edition Brand New",
-   "ship": "box",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 41.99,
-     "count": 3
-    }
-   ],
-   "market": 41.99,
    "count": 3,
    "last_seen": "2026-11-12"
   },

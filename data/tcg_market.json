@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T20:01:37Z",
+ "generated_at": "2026-11-13T20:22:00Z",
  "games": [
   "Lorcana",
   "One Piece",
@@ -41,7 +41,7 @@
    "game": "Magic",
    "name": "Star Trek - Collector Booster Display",
    "set": "Star Trek",
-   "market": 1634.99,
+   "market": 525.0,
    "release": "2026-11-13",
    "presale": false,
    "current": true,
@@ -61,7 +61,7 @@
    "url": "https://www.tcgplayer.com/product/704878/one-piece-card-game-the-worlds-strongest-warriors-double-pack-set-vol-12-display",
    "catalog": 361.8,
    "verified": false,
-   "count": 2
+   "count": 1
   },
   {
    "game": "Lorcana",
@@ -87,20 +87,20 @@
    "url": "https://www.tcgplayer.com/product/704752/one-piece-card-game-the-worlds-strongest-warriors-the-worlds-strongest-warriors-booster-box",
    "catalog": 286.09,
    "verified": true,
-   "count": 27
+   "count": 17
   },
   {
    "game": "Riftbound",
    "name": "Gift of the Rift Bundle",
    "set": "Gift of the Rift Bundle",
-   "market": 249.0,
+   "market": 280.54,
    "release": "2026-12-04",
    "presale": true,
    "current": true,
    "url": "https://www.tcgplayer.com/product/714486/riftbound-league-of-legends-trading-card-game-gift-of-the-rift-bundle-gift-of-the-rift-bundle",
    "catalog": 280.54,
-   "verified": true,
-   "count": 3
+   "verified": false,
+   "count": 0
   },
   {
    "game": "Magic",
@@ -119,14 +119,14 @@
    "game": "Yu-Gi-Oh",
    "name": "Magnificent Monsters Display",
    "set": "Magnificent Monsters",
-   "market": 250.0,
+   "market": 264.44,
    "release": "2026-09-04",
    "presale": false,
    "current": true,
    "url": "https://www.tcgplayer.com/product/694826/yugioh-magnificent-monsters-magnificent-monsters-display",
    "catalog": 233.41,
    "verified": true,
-   "count": 48
+   "count": 34
   },
   {
    "game": "One Piece",
@@ -152,7 +152,7 @@
    "url": "https://www.tcgplayer.com/product/712901/one-piece-card-game-the-dominance-of-god-the-dominance-of-god-booster-box",
    "catalog": 219.24,
    "verified": true,
-   "count": 30
+   "count": 15
   },
   {
    "game": "Magic",
@@ -171,14 +171,14 @@
    "game": "Yu-Gi-Oh",
    "name": "Magnificent Maestros Display",
    "set": "Magnificent Maestros",
-   "market": 220.0,
+   "market": 223.99,
    "release": "2026-11-13",
    "presale": false,
    "current": true,
    "url": "https://www.tcgplayer.com/product/711214/yugioh-magnificent-maestros-magnificent-maestros-display",
    "catalog": 214.21,
    "verified": true,
-   "count": 39
+   "count": 16
   },
   {
    "game": "Magic",
@@ -236,14 +236,14 @@
    "game": "Lorcana",
    "name": "Disney Lorcana: Attack of the Vine! Booster Box",
    "set": "Attack of the Vine!",
-   "market": 78.09,
+   "market": 81.99,
    "release": "2026-07-24",
    "presale": false,
    "current": true,
    "url": "https://www.tcgplayer.com/product/690384/lorcana-tcg-attack-of-the-vine-disney-lorcana-attack-of-the-vine-booster-box",
    "catalog": 180.44,
    "verified": true,
-   "count": 34
+   "count": 25
   },
   {
    "game": "Magic",
@@ -301,14 +301,14 @@
    "game": "Magic",
    "name": "Star Trek - Beam Me Up Bundle",
    "set": "Star Trek",
-   "market": 119.99,
+   "market": 153.99,
    "release": "2026-11-13",
    "presale": false,
    "current": true,
    "url": "https://www.tcgplayer.com/product/706154/magic-star-trek-star-trek-beam-me-up-bundle",
    "catalog": 153.99,
-   "verified": true,
-   "count": 22
+   "verified": false,
+   "count": 0
   },
   {
    "game": "Riftbound",
@@ -340,14 +340,14 @@
    "game": "Lorcana",
    "name": "Disney Lorcana: Hyperia City Booster Box",
    "set": "Hyperia City",
-   "market": 67.98,
+   "market": 69.95,
    "release": "2026-10-23",
    "presale": false,
    "current": true,
    "url": "https://www.tcgplayer.com/product/706239/lorcana-tcg-hyperia-city-disney-lorcana-hyperia-city-booster-box",
    "catalog": 130.66,
    "verified": true,
-   "count": 45
+   "count": 42
   },
   {
    "game": "Gundam",
@@ -373,7 +373,7 @@
    "url": "https://www.tcgplayer.com/product/714850/digimon-card-game-ignition-of-x-ignition-of-x-booster-box",
    "catalog": 117.81,
    "verified": false,
-   "count": 2
+   "count": 1
   },
   {
    "game": "Star Wars Unlimited",
@@ -386,7 +386,7 @@
    "url": "https://www.tcgplayer.com/product/719671/star-wars-unlimited-icons-2027-edition-icons-2027-edition-booster-display",
    "catalog": 117.69,
    "verified": false,
-   "count": 2
+   "count": 1
   },
   {
    "game": "Riftbound",
@@ -425,7 +425,7 @@
    "url": "https://www.tcgplayer.com/product/706138/magic-star-trek-star-trek-play-booster-display",
    "catalog": 103.91,
    "verified": true,
-   "count": 13
+   "count": 10
   },
   {
    "game": "Riftbound",
@@ -464,7 +464,7 @@
    "url": "https://www.tcgplayer.com/product/711381/digimon-card-game-chivalrous-xiii-chivalrous-xiii-booster-box",
    "catalog": 93.49,
    "verified": true,
-   "count": 5
+   "count": 4
   },
   {
    "game": "Gundam",
@@ -490,7 +490,7 @@
    "url": "https://www.tcgplayer.com/product/691167/yugioh-chaos-origins-chaos-origins-booster-box-1st-edition",
    "catalog": 91.85,
    "verified": true,
-   "count": 20
+   "count": 13
   },
   {
    "game": "Magic",
@@ -646,7 +646,7 @@
    "url": "https://www.tcgplayer.com/product/710961/star-wars-unlimited-homeworlds-homeworlds-booster-display",
    "catalog": 59.36,
    "verified": true,
-   "count": 7
+   "count": 5
   },
   {
    "game": "Yu-Gi-Oh",
@@ -659,7 +659,7 @@
    "url": "https://www.tcgplayer.com/product/711263/yugioh-beyond-the-brave-beyond-the-brave-booster-box-1st-edition",
    "catalog": 55.57,
    "verified": true,
-   "count": 36
+   "count": 30
   },
   {
    "game": "Magic",
@@ -685,7 +685,7 @@
    "url": "https://www.tcgplayer.com/product/706150/magic-star-trek-star-trek-bundle",
    "catalog": 45.22,
    "verified": true,
-   "count": 37
+   "count": 15
   },
   {
    "game": "One Piece",
@@ -698,7 +698,7 @@
    "url": "https://www.tcgplayer.com/product/704757/one-piece-card-game-the-worlds-strongest-warriors-double-pack-set-vol-12",
    "catalog": 42.92,
    "verified": true,
-   "count": 14
+   "count": 13
   },
   {
    "game": "Riftbound",
@@ -724,20 +724,20 @@
    "url": "https://www.tcgplayer.com/product/706141/magic-star-trek-star-trek-collector-booster-pack",
    "catalog": 41.28,
    "verified": true,
-   "count": 21
+   "count": 18
   },
   {
    "game": "Magic",
    "name": "Secret Lair x MSCHF: The Zeta Set Booster Pack",
    "set": "Secret Lair x MSCHF: The Zeta Set",
-   "market": 55.48,
+   "market": 63.44,
    "release": "2026-11-07",
    "presale": false,
    "current": true,
    "url": "https://www.tcgplayer.com/product/714891/magic-secret-lair-x-mschf-the-zeta-set-secret-lair-x-mschf-the-zeta-set-booster-pack",
    "catalog": 40.63,
    "verified": true,
-   "count": 6
+   "count": 4
   },
   {
    "game": "Magic",
@@ -756,27 +756,27 @@
    "game": "Lorcana",
    "name": "Disney Lorcana: Attack of the Vine! Collection Starter Set - Rapunzel Edition",
    "set": "Attack of the Vine!",
-   "market": 79.02,
+   "market": 39.17,
    "release": "2026-09-04",
    "presale": false,
    "current": true,
    "url": "https://www.tcgplayer.com/product/696136/lorcana-tcg-attack-of-the-vine-disney-lorcana-attack-of-the-vine-collection-starter-set-rapunzel-edition",
    "catalog": 39.17,
-   "verified": true,
-   "count": 3
+   "verified": false,
+   "count": 2
   },
   {
    "game": "Riftbound",
    "name": "Vendetta - Vault Bundle",
    "set": "Vendetta",
-   "market": 40.9,
+   "market": 35.55,
    "release": "2026-07-31",
    "presale": false,
    "current": true,
    "url": "https://www.tcgplayer.com/product/697970/riftbound-league-of-legends-trading-card-game-vendetta-vendetta-vault-bundle",
    "catalog": 35.55,
-   "verified": true,
-   "count": 25
+   "verified": false,
+   "count": 0
   },
   {
    "game": "Digimon",
@@ -841,7 +841,7 @@
    "url": "https://www.tcgplayer.com/product/709720/magic-mystery-booster-commander-edition-mystery-booster-commander-edition-booster-pack",
    "catalog": 26.16,
    "verified": false,
-   "count": 2
+   "count": 1
   },
   {
    "game": "One Piece",
@@ -893,7 +893,7 @@
    "url": "https://www.tcgplayer.com/product/710638/gundam-card-game-starter-deck-13-silent-barrage-starter-deck-13-silent-barrage",
    "catalog": 17.67,
    "verified": true,
-   "count": 45
+   "count": 42
   },
   {
    "game": "Yu-Gi-Oh",
@@ -919,7 +919,7 @@
    "url": "https://www.tcgplayer.com/product/710634/gundam-card-game-starter-deck-12-raging-onslaught-starter-deck-12-raging-onslaught",
    "catalog": 15.84,
    "verified": true,
-   "count": 49
+   "count": 45
   },
   {
    "game": "Lorcana",
@@ -945,7 +945,7 @@
    "url": "https://www.tcgplayer.com/product/710643/gundam-card-game-starter-deck-14-heavy-dominion-starter-deck-14-heavy-dominion",
    "catalog": 11.95,
    "verified": true,
-   "count": 32
+   "count": 28
   },
   {
    "game": "Gundam",
@@ -958,7 +958,7 @@
    "url": "https://www.tcgplayer.com/product/710628/gundam-card-game-starter-deck-11-aquatic-assault-starter-deck-11-aquatic-assault",
    "catalog": 11.34,
    "verified": true,
-   "count": 21
+   "count": 20
   },
   {
    "game": "Yu-Gi-Oh",
@@ -984,7 +984,7 @@
    "url": "https://www.tcgplayer.com/product/690386/lorcana-tcg-attack-of-the-vine-disney-lorcana-attack-of-the-vine-booster-pack",
    "catalog": 8.48,
    "verified": true,
-   "count": 42
+   "count": 24
   },
   {
    "game": "One Piece",
@@ -997,7 +997,7 @@
    "url": "https://www.tcgplayer.com/product/704756/one-piece-card-game-the-worlds-strongest-warriors-the-worlds-strongest-warriors-booster-pack",
    "catalog": 8.17,
    "verified": true,
-   "count": 41
+   "count": 35
   },
   {
    "game": "One Piece",
@@ -1010,33 +1010,33 @@
    "url": "https://www.tcgplayer.com/product/711383/one-piece-card-game-extra-booster-one-piece-heroines-edition-vol-2-extra-booster-one-piece-heroines-edition-vol2-booster-pack",
    "catalog": 8.08,
    "verified": false,
-   "count": 2
+   "count": 1
   },
   {
    "game": "Riftbound",
    "name": "Riftbound: Worlds Bundle 2025",
    "set": "Riftbound Worlds Bundle 2025",
-   "market": 300.0,
+   "market": 1005.2,
    "release": null,
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/658333/riftbound-league-of-legends-trading-card-game-riftbound-worlds-bundle-2025-riftbound-worlds-bundle-2025",
    "catalog": 1005.2,
-   "verified": true,
-   "count": 42
+   "verified": false,
+   "count": 0
   },
   {
    "game": "Lorcana",
    "name": "Disney Lorcana: Fabled Booster Box",
    "set": "Fabled",
-   "market": 54.99,
+   "market": 837.0,
    "release": "2025-09-05",
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/645298/lorcana-tcg-fabled-disney-lorcana-fabled-booster-box",
    "catalog": 813.52,
    "verified": true,
-   "count": 24
+   "count": 12
   },
   {
    "game": "Gundam",
@@ -1068,40 +1068,40 @@
    "game": "Lorcana",
    "name": "Disney Lorcana: Winterspell Booster Box",
    "set": "Winterspell",
-   "market": 88.98,
+   "market": 104.99,
    "release": "2026-02-20",
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/664819/lorcana-tcg-winterspell-disney-lorcana-winterspell-booster-box",
    "catalog": 236.17,
    "verified": true,
-   "count": 38
+   "count": 19
   },
   {
    "game": "Lorcana",
    "name": "Disney Lorcana: Wilds Unknown Booster Box",
    "set": "Wilds Unknown",
-   "market": 79.99,
+   "market": 142.95,
    "release": "2026-05-15",
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/678165/lorcana-tcg-wilds-unknown-disney-lorcana-wilds-unknown-booster-box",
    "catalog": 222.22,
    "verified": true,
-   "count": 26
+   "count": 17
   },
   {
    "game": "Lorcana",
    "name": "Disney Lorcana: Whispers in the Well Booster Box",
    "set": "Whispers in the Well",
-   "market": 219.5,
+   "market": 219.9,
    "release": "2025-11-14",
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/652703/lorcana-tcg-whispers-in-the-well-disney-lorcana-whispers-in-the-well-booster-box",
    "catalog": 210.21,
    "verified": true,
-   "count": 24
+   "count": 16
   },
   {
    "game": "Lorcana",
@@ -1127,7 +1127,7 @@
    "url": "https://www.tcgplayer.com/product/678150/riftbound-league-of-legends-trading-card-game-unleashed-unleashed-booster-display",
    "catalog": 172.27,
    "verified": true,
-   "count": 8
+   "count": 7
   },
   {
    "game": "One Piece",
@@ -1159,14 +1159,14 @@
    "game": "Riftbound",
    "name": "Spiritforged - Booster Display",
    "set": "Spiritforged",
-   "market": 210.0,
+   "market": 199.97,
    "release": "2026-02-13",
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/661934/riftbound-league-of-legends-trading-card-game-spiritforged-spiritforged-booster-display",
    "catalog": 170.34,
    "verified": true,
-   "count": 12
+   "count": 4
   },
   {
    "game": "Gundam",
@@ -1179,7 +1179,7 @@
    "url": "https://www.tcgplayer.com/product/693621/gundam-card-game-freedom-ascension-freedom-ascension-booster-box",
    "catalog": 165.22,
    "verified": true,
-   "count": 26
+   "count": 22
   },
   {
    "game": "Star Wars Unlimited",
@@ -1205,7 +1205,7 @@
    "url": "https://www.tcgplayer.com/product/623064/lorcana-tcg-reign-of-jafar-disney-lorcana-reign-of-jafar-booster-box",
    "catalog": 153.09,
    "verified": true,
-   "count": 18
+   "count": 10
   },
   {
    "game": "One Piece",
@@ -1231,7 +1231,7 @@
    "url": "https://www.tcgplayer.com/product/607758/lorcana-tcg-archazias-island-disney-lorcana-archazias-island-booster-box",
    "catalog": 144.24,
    "verified": true,
-   "count": 8
+   "count": 7
   },
   {
    "game": "Gundam",
@@ -1270,7 +1270,7 @@
    "url": "https://www.tcgplayer.com/product/578093/lorcana-tcg-azurite-sea-disney-lorcana-azurite-sea-booster-box",
    "catalog": 118.87,
    "verified": true,
-   "count": 21
+   "count": 18
   },
   {
    "game": "One Piece",
@@ -1289,14 +1289,14 @@
    "game": "Gundam",
    "name": "Phantom Aria Booster Box",
    "set": "Phantom Aria",
-   "market": 119.88,
+   "market": 129.99,
    "release": "2026-04-24",
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/682302/gundam-card-game-phantom-aria-phantom-aria-booster-box",
    "catalog": 107.11,
    "verified": true,
-   "count": 22
+   "count": 16
   },
   {
    "game": "Digimon",
@@ -1322,7 +1322,7 @@
    "url": "https://www.tcgplayer.com/product/710652/gundam-card-game-stardust-trails-stardust-trails-booster-box",
    "catalog": 105.44,
    "verified": true,
-   "count": 15
+   "count": 12
   },
   {
    "game": "Lorcana",
@@ -1335,7 +1335,7 @@
    "url": "https://www.tcgplayer.com/product/646033/lorcana-tcg-fabled-disney-lorcana-fabled-collection-starter-set",
    "catalog": 102.48,
    "verified": true,
-   "count": 30
+   "count": 24
   },
   {
    "game": "Riftbound",
@@ -1348,7 +1348,7 @@
    "url": "https://www.tcgplayer.com/product/711365/riftbound-league-of-legends-trading-card-game-radiance-radiance-booster-display",
    "catalog": 99.08,
    "verified": true,
-   "count": 41
+   "count": 35
   },
   {
    "game": "Star Wars Unlimited",
@@ -1374,7 +1374,7 @@
    "url": "https://www.tcgplayer.com/product/692109/star-wars-unlimited-twin-suns-twin-suns-4-deck-bundle",
    "catalog": 91.43,
    "verified": false,
-   "count": 1
+   "count": 0
   },
   {
    "game": "Riftbound",
@@ -1393,27 +1393,27 @@
    "game": "Gundam",
    "name": "Eternal Nexus Booster Box",
    "set": "Eternal Nexus",
-   "market": 99.88,
+   "market": 119.0,
    "release": null,
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/693103/gundam-card-game-eternal-nexus-eternal-nexus-booster-box",
    "catalog": 89.21,
    "verified": true,
-   "count": 21
+   "count": 17
   },
   {
    "game": "Lorcana",
    "name": "Disney Lorcana: Fabled Starter Deck [Set of 2]",
    "set": "Fabled",
-   "market": 174.49,
+   "market": 115.0,
    "release": "2025-09-05",
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/645307/lorcana-tcg-fabled-disney-lorcana-fabled-starter-deck-set-of-2",
    "catalog": 86.66,
    "verified": true,
-   "count": 4
+   "count": 3
   },
   {
    "game": "One Piece",
@@ -1471,14 +1471,14 @@
    "game": "Lorcana",
    "name": "Disney Lorcana: Wilds Unknown Best Buddies Bundle",
    "set": "Wilds Unknown",
-   "market": 57.8,
+   "market": 72.0,
    "release": null,
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/719823/lorcana-tcg-wilds-unknown-disney-lorcana-wilds-unknown-best-buddies-bundle",
    "catalog": 72.0,
-   "verified": true,
-   "count": 48
+   "verified": false,
+   "count": 1
   },
   {
    "game": "Lorcana",
@@ -1491,7 +1491,7 @@
    "url": "https://www.tcgplayer.com/product/652708/lorcana-tcg-whispers-in-the-well-disney-lorcana-whispers-in-the-well-starter-deck-display",
    "catalog": 71.79,
    "verified": false,
-   "count": 2
+   "count": 1
   },
   {
    "game": "Star Wars Unlimited",
@@ -1536,14 +1536,14 @@
    "game": "Riftbound",
    "name": "Unleashed - Vault Bundle",
    "set": "Unleashed",
-   "market": 34.99,
+   "market": 65.61,
    "release": null,
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/678162/riftbound-league-of-legends-trading-card-game-unleashed-unleashed-vault-bundle",
    "catalog": 65.61,
-   "verified": true,
-   "count": 4
+   "verified": false,
+   "count": 0
   },
   {
    "game": "Lorcana",
@@ -1582,7 +1582,7 @@
    "url": "https://www.tcgplayer.com/product/623060/lorcana-tcg-reign-of-jafar-disney-lorcana-reign-of-jafar-starter-deck-display",
    "catalog": 57.49,
    "verified": false,
-   "count": 2
+   "count": 1
   },
   {
    "game": "Riftbound",
@@ -1647,7 +1647,7 @@
    "url": "https://www.tcgplayer.com/product/645308/lorcana-tcg-fabled-disney-lorcana-fabled-gift-set",
    "catalog": 42.64,
    "verified": true,
-   "count": 8
+   "count": 6
   },
   {
    "game": "Riftbound",
@@ -1660,7 +1660,7 @@
    "url": "https://www.tcgplayer.com/product/678154/riftbound-league-of-legends-trading-card-game-unleashed-unleashed-champion-deck-vi-display",
    "catalog": 42.54,
    "verified": false,
-   "count": 2
+   "count": 0
   },
   {
    "game": "Lorcana",
@@ -1679,27 +1679,27 @@
    "game": "Lorcana",
    "name": "Disney Lorcana: Winterspell Collection Starter Set - Stitch Edition",
    "set": "Winterspell",
-   "market": 41.0,
+   "market": 44.99,
    "release": "2026-03-13",
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/668330/lorcana-tcg-winterspell-disney-lorcana-winterspell-collection-starter-set-stitch-edition",
    "catalog": 39.15,
    "verified": true,
-   "count": 23
+   "count": 16
   },
   {
    "game": "Riftbound",
    "name": "Radiance - Vault Bundle",
    "set": "Radiance",
-   "market": 42.95,
+   "market": 32.03,
    "release": null,
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/711372/riftbound-league-of-legends-trading-card-game-radiance-radiance-vault-bundle",
    "catalog": 32.03,
-   "verified": true,
-   "count": 20
+   "verified": false,
+   "count": 0
   },
   {
    "game": "One Piece",
@@ -1712,20 +1712,20 @@
    "url": "https://www.tcgplayer.com/product/704889/one-piece-card-game-st-32-starter-deck-32-green-roronoa-zoro-starter-deck-32-green-roronoa-zoro",
    "catalog": 31.99,
    "verified": true,
-   "count": 39
+   "count": 35
   },
   {
    "game": "Lorcana",
    "name": "Disney Lorcana: Stitch Collector's Gift Set",
    "set": "Azurite Sea",
-   "market": 45.0,
+   "market": 30.92,
    "release": "2024-11-25",
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/578122/lorcana-tcg-azurite-sea-disney-lorcana-stitch-collectors-gift-set",
    "catalog": 30.92,
-   "verified": true,
-   "count": 3
+   "verified": false,
+   "count": 2
   },
   {
    "game": "Lorcana",
@@ -1744,14 +1744,14 @@
    "game": "Lorcana",
    "name": "Disney Lorcana: Fabled Booster Pack",
    "set": "Fabled",
-   "market": 71.24,
+   "market": 86.98,
    "release": null,
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/649927/lorcana-tcg-fabled-disney-lorcana-fabled-booster-pack",
    "catalog": 30.04,
    "verified": true,
-   "count": 29
+   "count": 19
   },
   {
    "game": "Gundam",
@@ -1790,7 +1790,7 @@
    "url": "https://www.tcgplayer.com/product/704885/one-piece-card-game-st-31-starter-deck-31-red-monkeydluffy-starter-deck-31-red-monkeydluffy",
    "catalog": 25.73,
    "verified": true,
-   "count": 50
+   "count": 49
   },
   {
    "game": "Lorcana",
@@ -1855,7 +1855,7 @@
    "url": "https://www.tcgplayer.com/product/704890/one-piece-card-game-st-33-starter-deck-33-blue-kuzan-starter-deck-33-blue-kuzan",
    "catalog": 17.77,
    "verified": true,
-   "count": 47
+   "count": 46
   },
   {
    "game": "Lorcana",
@@ -1894,7 +1894,7 @@
    "url": "https://www.tcgplayer.com/product/704897/one-piece-card-game-st-36-starter-deck-36-yellow-eustasscaptainkid-starter-deck-36-yellow-eustass”captain”kid",
    "catalog": 15.41,
    "verified": true,
-   "count": 25
+   "count": 23
   },
   {
    "game": "Gundam",
@@ -1920,20 +1920,20 @@
    "url": "https://www.tcgplayer.com/product/704894/one-piece-card-game-st-35-starter-deck-35-red-black-sabo-starter-deck-35-red-black-sabo",
    "catalog": 14.3,
    "verified": true,
-   "count": 46
+   "count": 43
   },
   {
    "game": "Yu-Gi-Oh",
    "name": "Magnificent Monsters Booster Pack",
    "set": "Magnificent Monsters",
-   "market": 15.69,
+   "market": 11.99,
    "release": null,
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/715292/yugioh-magnificent-monsters-magnificent-monsters-booster-pack",
    "catalog": 13.77,
    "verified": true,
-   "count": 9
+   "count": 3
   },
   {
    "game": "Lorcana",
@@ -1972,7 +1972,7 @@
    "url": "https://www.tcgplayer.com/product/652701/lorcana-tcg-whispers-in-the-well-disney-lorcana-whispers-in-the-well-booster-pack",
    "catalog": 11.32,
    "verified": true,
-   "count": 15
+   "count": 8
   },
   {
    "game": "Lorcana",
@@ -1998,7 +1998,7 @@
    "url": "https://www.tcgplayer.com/product/664821/lorcana-tcg-winterspell-disney-lorcana-winterspell-booster-pack",
    "catalog": 10.64,
    "verified": true,
-   "count": 21
+   "count": 16
   },
   {
    "game": "Lorcana",
@@ -2037,7 +2037,7 @@
    "url": "https://www.tcgplayer.com/product/682038/lorcana-tcg-wilds-unknown-disney-lorcana-wilds-unknown-2-player-starter-set",
    "catalog": 8.88,
    "verified": false,
-   "count": 1
+   "count": 0
   },
   {
    "game": "Lorcana",
@@ -2063,7 +2063,7 @@
    "url": "https://www.tcgplayer.com/product/678167/lorcana-tcg-wilds-unknown-disney-lorcana-wilds-unknown-booster-pack",
    "catalog": 8.42,
    "verified": true,
-   "count": 46
+   "count": 25
   },
   {
    "game": "Gundam",
@@ -2076,7 +2076,7 @@
    "url": "https://www.tcgplayer.com/product/693620/gundam-card-game-freedom-ascension-freedom-ascension-booster-pack",
    "catalog": 8.36,
    "verified": true,
-   "count": 49
+   "count": 22
   },
   {
    "game": "Gundam",
@@ -2089,7 +2089,7 @@
    "url": "https://www.tcgplayer.com/product/710651/gundam-card-game-stardust-trails-stardust-trails-booster-pack",
    "catalog": 8.35,
    "verified": true,
-   "count": 24
+   "count": 14
   }
  ]
 }
