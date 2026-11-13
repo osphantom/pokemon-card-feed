@@ -85,8 +85,13 @@ class RoutingTests(unittest.TestCase):
     def test_store_news_goes_to_that_store(self):
         self.assertEqual(discord_post.channels_for(item("a", stores=["Walmart"])), ["walmart"])
 
-    def test_preorders_also_go_to_the_preorder_channel(self):
-        self.assertEqual(discord_post.channels_for(item("a", "preorders", ["Target"])), ["target", "preorders"])
+    def test_preorders_and_raffles_no_longer_flood_their_general_channel(self):
+        # Those two channels now show the priced boards instead of raw headlines; a store-tagged
+        # preorder or raffle still reaches its store channel.
+        self.assertEqual(discord_post.channels_for(item("a", "preorders", ["Target"])), ["target"])
+        self.assertEqual(discord_post.channels_for(item("a", "raffles", ["Walmart"])), ["walmart"])
+        self.assertNotIn("preorders", discord_post.GENERAL_CHANNEL)
+        self.assertNotIn("raffles", discord_post.GENERAL_CHANNEL)
 
     def test_smaller_stores_share_a_channel(self):
         self.assertEqual(discord_post.channels_for(item("a", stores=["Best Buy", "Amazon"])), ["other-stores"])

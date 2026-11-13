@@ -21,12 +21,14 @@ from .raffles import MIN_PROFIT as RAFFLE_MIN_PROFIT
 from .raffles import load_current as load_raffles
 from .raffles import worth_showing as raffle_worth_showing
 from .sams_stock import refresh_if_due as refresh_sams
+from . import signups as signups_module
 
 BUYING_CATEGORIES = {"raffles", "preorders", "restocks", "deals"}
+# Raffles and preorders no longer dump raw headlines into their own channels; those two channels
+# now show only the priced, profitable boards (raffles_board and preorders_board). Per-store
+# headlines still reach the store channels through channels_for.
 GENERAL_CHANNEL = {
-    "raffles": "raffles",
     "promos": "free-promos",
-    "preorders": "preorders",
     "deals": "deals",
     "releases": "new-products",
     "market": "market-prices",
@@ -676,6 +678,57 @@ def apply_raffles(client, state: dict, raffles: dict) -> None:
     state["raffles_announced"] = sorted(set(known or []) | {item["id"] for item in worth})
 
 
+PREORDERS_SHOWN = 12
+
+
+def signup_line(signup: dict) -> str:
+    return (
+        f"**+{money(signup['profit'])}** · {signup['store']} · list {money(signup['msrp'])}, "
+        f"sells about {money(signup['market'])} · [{clip(signup['product'], 60)}]({signup['link']})"
+    )
+
+
+def preorders_board(signups: list[dict]) -> dict:
+    shown = signups[:PREORDERS_SHOWN]
+    empty = f"Nothing preordering right now clears {money(RAFFLE_MIN_PROFIT)} at list price. You'll get a ping when that changes."
+    return {
+        "embeds": [{
+            "title": "📝 Preorders worth grabbing",
+            "color": COLORS["preorders"],
+            "description": (
+                "Preorders that would make money at the normal list price, after eBay fees, shipping, and tax. "
+                f"Only ones that clear {money(RAFFLE_MIN_PROFIT)} are listed. A markup above list cuts into this."
+            ),
+            "fields": [{"name": "🟢 Worth preordering at list price", "value": whole_lines([signup_line(s) for s in shown], 1024) or empty}],
+            "footer": {"text": "These sell out fast. Check eBay sold listings before you buy."},
+        }]
+    }
+
+
+def preorder_ping(fresh: list[dict]) -> dict:
+    return with_ping({
+        "embeds": [{
+            "title": "📝 New preorder worth grabbing",
+            "color": COLORS["ping"],
+            "description": whole_lines([signup_line(s) for s in fresh], 3500),
+        }]
+    })
+
+
+def signup_key(signup: dict) -> str:
+    return f"{signup['store']}:{signup['product']}"
+
+
+def apply_preorders(client, state: dict, preorders: list[dict]) -> None:
+    """Keep the preorders board current and ping newly profitable ones. The first run only records them."""
+    update_board(client, state, "preorders", preorders_board(preorders))
+    known = state.get("preorders_announced")
+    fresh = [s for s in preorders if known is not None and signup_key(s) not in known]
+    if fresh:
+        client.send(PING_CHANNEL, preorder_ping(fresh))
+    state["preorders_announced"] = sorted(set(known or []) | {signup_key(s) for s in preorders})
+
+
 # A tracked item has to move at least this much, both ways, before it's worth a post.
 PRICE_MOVE_PCT = 0.12
 PRICE_MOVE_DOLLARS = 12.0
@@ -803,7 +856,7 @@ def update_board(client, state: dict, channel: str, payload: dict, key: str | No
     boards[name] = {"id": client.upsert(channel, payload, entry.get("id")), "hash": digest}
 
 
-def run(now, client, items, windows, events, undated, products, state, costco=None, promos=None, raffles=None, sams=None, upc=None) -> None:
+def run(now, client, items, windows, events, undated, products, state, costco=None, promos=None, raffles=None, sams=None, upc=None, preorders=None) -> None:
     """Decide what to post and record it."""
     first_run = not state.get("initialized")
     posted = set(state.get("posted_items", []))
@@ -835,6 +888,8 @@ def run(now, client, items, windows, events, undated, products, state, costco=No
             apply_promos(client, state, promos)
         if raffles is not None:
             apply_raffles(client, state, raffles)
+        if preorders is not None:
+            apply_preorders(client, state, preorders)
 
         for channel, item, ping in posts:
             payload = item_payload(item, "ping" if ping else None)
@@ -959,8 +1014,17 @@ def main() -> int:
         sams = refresh_sams(now, state)
         upc = refresh_upc(now, state)
         promos = refresh_promos(now, state)
-        raffles = load_raffles(now, market.get("products", []))
-        run(now, WebhookClient(api, webhooks), items, windows, events, calendar["undated"], market.get("products", []), state, costco, promos, raffles, sams, upc)
+        products = market.get("products", [])
+        raffles = load_raffles(now, products)
+        # Price the raffle and preorder news into profitable sign-ups: raffle ones join the raffles
+        # board, preorder ones get their own board.
+        found = signups_module.collect(items, products, raffles["programs"], now)
+        open_already = {(o["store"], o["title"].lower()) for o in raffles["open"]}
+        for shaped in signups_module.as_open_raffles(found):
+            if (shaped["store"], shaped["title"].lower()) not in open_already:
+                raffles["open"].append(shaped)
+        preorders = signups_module.preorder_signups(found)
+        run(now, WebhookClient(api, webhooks), items, windows, events, calendar["undated"], products, state, costco, promos, raffles, sams, upc, preorders)
     except DiscordError as error:
         print(f"Discord posting stopped: {error}")
         return 1
