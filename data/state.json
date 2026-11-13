@@ -30,7 +30,7 @@
   },
   "free-promos": {
    "id": "1569375425384161463",
-   "hash": "e9068345b6d7"
+   "hash": "d1b28815930c"
   },
   "raffles": {
    "id": "1569386105378447482",
@@ -951,10 +951,10 @@
   "virginia"
  ],
  "costco_checked_at": "2026-11-13T00:01:02Z",
- "promos_checked_at": "2026-11-12T18:01:04Z",
+ "promos_checked_at": "2026-11-13T00:16:04Z",
  "promo_markets": {
-  "30th-celebration-mewtwo": 19.07,
-  "delta-reign-kyogre": 9.33
+  "30th-celebration-mewtwo": 18.73,
+  "delta-reign-kyogre": 8.5
  },
  "promos_announced": [
   "30th-celebration-mewtwo",
