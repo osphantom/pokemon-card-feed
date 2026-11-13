@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T15:35:30Z",
+ "generated_at": "2026-11-13T20:01:37Z",
  "ebay_used": true,
  "stopwords": [
   "pokemon",
@@ -226,6 +226,37 @@
    "last_seen": "2026-11-13"
   },
   {
+   "key": "197u|controller|hori|horipad|nsx|purple|switch|turbo|wireless",
+   "tokens": [
+    "hori",
+    "wireless",
+    "horipad",
+    "turbo",
+    "purple",
+    "switch",
+    "controller",
+    "nsx",
+    "197u"
+   ],
+   "title": "Pokemon HORI Wireless HORIPAD Turbo Purple Switch Controller w/ Turbo NSX-197U",
+   "ship": "bundle",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 79.95,
+     "count": 3
+    },
+    {
+     "date": "2026-11-13",
+     "price": 79.95,
+     "count": 3
+    }
+   ],
+   "market": 79.95,
+   "count": 3,
+   "last_seen": "2026-11-13"
+  },
+  {
    "key": "gogh|museum|pikachu|plush|van",
    "tokens": [
     "van",
@@ -340,6 +371,35 @@
    "last_seen": "2026-11-13"
   },
   {
+   "key": "expert|game|guess|pro|ready|trainer|ultra",
+   "tokens": [
+    "trainer",
+    "expert",
+    "game",
+    "ready",
+    "guess",
+    "ultra",
+    "pro"
+   ],
+   "title": "Pokemon Trainer Expert Game. Ready Set Guess.  Ultra Pro. Brand New",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 30.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-13",
+     "price": 30.0,
+     "count": 3
+    }
+   ],
+   "market": 30.0,
+   "count": 3,
+   "last_seen": "2026-11-13"
+  },
+  {
    "key": "gaming|grande|large|mouse|mousepad|pad|snorlax",
    "tokens": [
     "snorlax",
@@ -389,12 +449,12 @@
     },
     {
      "date": "2026-11-13",
-     "price": 18.24,
-     "count": 4
+     "price": 17.99,
+     "count": 3
     }
    ],
-   "market": 18.24,
-   "count": 4,
+   "market": 18.11,
+   "count": 3,
    "last_seen": "2026-11-13"
   },
   {
@@ -419,11 +479,11 @@
     {
      "date": "2026-11-13",
      "price": 18.0,
-     "count": 5
+     "count": 6
     }
    ],
    "market": 18.0,
-   "count": 5,
+   "count": 6,
    "last_seen": "2026-11-13"
   },
   {
@@ -467,32 +527,6 @@
     }
    ],
    "market": 94.99,
-   "count": 3,
-   "last_seen": "2026-11-12"
-  },
-  {
-   "key": "197u|controller|hori|horipad|nsx|purple|switch|turbo|wireless",
-   "tokens": [
-    "hori",
-    "wireless",
-    "horipad",
-    "turbo",
-    "purple",
-    "switch",
-    "controller",
-    "nsx",
-    "197u"
-   ],
-   "title": "Pokemon HORI Wireless HORIPAD Turbo Purple Switch Controller w/ Turbo NSX-197U",
-   "ship": "bundle",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 79.95,
-     "count": 3
-    }
-   ],
-   "market": 79.95,
    "count": 3,
    "last_seen": "2026-11-12"
   },
@@ -563,30 +597,6 @@
    ],
    "market": 41.99,
    "count": 3,
-   "last_seen": "2026-11-12"
-  },
-  {
-   "key": "expert|game|guess|pro|ready|trainer|ultra",
-   "tokens": [
-    "trainer",
-    "expert",
-    "game",
-    "ready",
-    "guess",
-    "ultra",
-    "pro"
-   ],
-   "title": "Pokemon Trainer Expert Game. Ready Set Guess.  Ultra Pro. Brand New",
-   "ship": "box",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 30.0,
-     "count": 4
-    }
-   ],
-   "market": 30.0,
-   "count": 4,
    "last_seen": "2026-11-12"
   },
   {
