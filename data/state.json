@@ -2,7 +2,7 @@
  "boards": {
   "next-drops": {
    "id": "1569124781813665805",
-   "hash": "d5ab7c969da8"
+   "hash": "5ced9077e90e"
   },
   "release-calendar": {
    "id": "1569124785269768347",
@@ -18,7 +18,7 @@
   },
   "costco": {
    "id": "1569155125014954136",
-   "hash": "009ddd5c99a6"
+   "hash": "a174740a2fbc"
   },
   "walmart": {
    "id": "1569157229586944012",
@@ -141,6 +141,7 @@
   "7a78b30ff6012c",
   "7b36c5ec2fe09e",
   "7b5e4443a7a6d7",
+  "7c9802542e97c2",
   "7d6758747f0bab",
   "7f1f3fc4a902df",
   "8045f4db6ed8b6",
@@ -150,6 +151,7 @@
   "877564f83740e9",
   "88bb9211785d4b",
   "89959e5bf5c711",
+  "89e8d603c4eeab",
   "89ef8aac6b24cb",
   "8ada658baaf712",
   "8b3d1aba086df5",
@@ -163,6 +165,7 @@
   "9cf896792dd0bc",
   "9db8d5e64139b3",
   "9dfd8e2446d1d3",
+  "9dff9df7822d1c",
   "9f1a2913d04303",
   "a3107833be2bf9",
   "a354e8fd1783b8",
@@ -216,6 +219,7 @@
   "cf8086da550d2e",
   "cfdc9424cf1c60",
   "d2759bcaa28a00",
+  "d2a4ccbf29f030",
   "d3877608cb76ef",
   "d439a3cffa47d5",
   "d49f9c183f5036",
@@ -255,6 +259,7 @@
   "morning:2026-11-10",
   "morning:2026-11-11",
   "morning:2026-11-12",
+  "morning:2026-11-13",
   "raffle-ping:Target:2026-11-09",
   "raffle-ping:Walmart:2026-11-10",
   "raffle-ping:Walmart:2026-11-12",
@@ -955,8 +960,8 @@
   "pennsylvania",
   "virginia"
  ],
- "costco_checked_at": "2026-11-13T07:20:14Z",
- "promos_checked_at": "2026-11-13T07:20:14Z",
+ "costco_checked_at": "2026-11-13T15:43:01Z",
+ "promos_checked_at": "2026-11-13T15:43:01Z",
  "promo_markets": {
   "30th-celebration-mewtwo": 18.73,
   "delta-reign-kyogre": 8.5
@@ -978,7 +983,7 @@
   "PA",
   "VA"
  ],
- "sams_checked_at": "2026-11-13T07:20:14Z",
+ "sams_checked_at": "2026-11-13T15:43:01Z",
  "sams_status": {
   "990416407": {
    "6330": "order",
@@ -1032,9 +1037,9 @@
    "4729": "order"
   }
  },
- "costco_stamp": "2026-11-11T14:02:17Z",
- "costco_read_at": "2026-11-13T07:20:14Z",
- "upc_checked_at": "2026-11-13T07:20:14Z",
+ "costco_stamp": "2026-11-13T13:55:41Z",
+ "costco_read_at": "2026-11-13T15:43:01Z",
+ "upc_checked_at": "2026-11-13T15:43:01Z",
  "price_seen": {
   "704144": 254.93,
   "704191": 369.02,
