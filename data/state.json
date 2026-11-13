@@ -39,6 +39,10 @@
   "sams-club-shipments": {
    "id": "1569917583694495748",
    "hash": "29663afed284"
+  },
+  "preorders": {
+   "id": "1570879955104039124",
+   "hash": "f03be00d35a1"
   }
  },
  "initialized": true,
@@ -1115,5 +1119,8 @@
   "712094": 187.23,
   "684444": 183.96,
   "692939": 173.83
- }
+ },
+ "preorders_announced": [
+  "Amazon:30th Celebration Ultra-Premium Collection [Day]"
+ ]
 }
