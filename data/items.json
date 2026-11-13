@@ -1,6 +1,19 @@
 {
  "items": [
   {
+   "title": "2027 Pokémon TCG LAIC Power Rankings",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBhSERZN1Uwc3E3WkVYMnFneTNlUjBhR2gzTjhzbjB4eTBhaXhrZkVUQWFabmxna00zR3hIbWFXZ1czdFJ1a2NmVERUU1dkeHlHb1ZVNzJWd3owSDRKQkF3bGYtSXRBamJwaXA2eFBMX0VwOUdxbF9Fd0ZqWTQ?oc=5",
+   "source": "Pokemon.com",
+   "source_id": "gn-official",
+   "publisher": "Pokemon.com",
+   "published": "2026-11-13T16:12:29Z",
+   "category": "releases",
+   "stores": [],
+   "hot": false,
+   "id": "6882b3ac648036",
+   "first_seen": "2026-11-13T16:19:53Z"
+  },
+  {
    "title": "The Pokémon TCG 30th Celebration Elite Trainer Box is live at Amazon: Shop for under market price",
    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWU90a3FvT1daOG93TVBka0tEYlRrQW55OWRNazFGeWhFYVk5X29Gejdtc2tpU3hNc2xhNHNBd0E2NExZV3AyUFlIcmR4SGllMTFtZXBIQjM2WUl3bFpUbm84dUEzczE3bGZLREV0VzhMbGtrSXA2Q2VpQldpRUx0Uk1WTVg4SnRtU2xvbA?oc=5",
    "source": "Google News: preorders",
@@ -735,19 +748,6 @@
    "first_seen": "2026-11-09T23:15:35Z"
   },
   {
-   "title": "Pokemon TCG Prices Could Drop by 80%, Expert Says",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNjR1SUxHTW1MQUlmSG1Eb2k1NUJxVmZPdGRZMFhnLXNFUTA1NzgzODdEejRkdzV1TUU5ZEZEanZ4THc3OExlN2RheWg3Nk9DWUlrN1BuMEw4aUR1NmF5UGpScnVNUU51ZWtqRVI1dWh4X3F4bzluUzZVTjRUcVFTeFk1ZWZjdkd6?oc=5",
-   "source": "Google News: market",
-   "source_id": "gn-market",
-   "publisher": "OpenCritic",
-   "published": "2026-11-09T20:00:14Z",
-   "category": "restocks",
-   "stores": [],
-   "hot": false,
-   "id": "c17e75f4b7e107",
-   "first_seen": "2026-11-09T20:15:33Z"
-  },
-  {
    "title": "Pokémon Center is finally processing 30th Celebration products for UK pre-orders",
    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5NOUtXRkhkSTlaZ3R5ZUdhRGYtMXNLZzRKWEtUUkkyajBKTUR2OGEwOVF2cldCVi1fVnlyZFRoUlRqOWExdzNoaFhhdmZRSUl2Rk9CVEN1cXpWUzAzaVI0bVFON3N4MnJ5Uks5dWF5Vy0zbFRXNkNEVUZSbDE?oc=5",
    "source": "Google News: preorders",
@@ -965,6 +965,19 @@
    "hot": true,
    "id": "6d11100759f6fe",
    "first_seen": "2026-11-11T16:27:37Z"
+  },
+  {
+   "title": "Pokemon TCG Prices Could Drop by 80%, Expert Says",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNjR1SUxHTW1MQUlmSG1Eb2k1NUJxVmZPdGRZMFhnLXNFUTA1NzgzODdEejRkdzV1TUU5ZEZEanZ4THc3OExlN2RheWg3Nk9DWUlrN1BuMEw4aUR1NmF5UGpScnVNUU51ZWtqRVI1dWh4X3F4bzluUzZVTjRUcVFTeFk1ZWZjdkd6?oc=5",
+   "source": "Google News: market",
+   "source_id": "gn-market",
+   "publisher": "OpenCritic",
+   "published": "2026-11-09T08:00:00Z",
+   "category": "restocks",
+   "stores": [],
+   "hot": false,
+   "id": "c17e75f4b7e107",
+   "first_seen": "2026-11-09T20:15:33Z"
   },
   {
    "title": "Costco Pokémon 30th Celebration ETB + Booster Bundle",
