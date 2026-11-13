@@ -38,6 +38,7 @@
         {"key": "preorders", "name": "📝-preorders", "topic": "Preorders from every store.", "post": true},
         {"key": "deals", "name": "💸-deals", "topic": "Sealed card deals. Compare the price with the store price first.", "post": true},
         {"key": "accessories", "name": "🧸-accessories", "topic": "Flippable Pokémon accessories — plush, peripherals, toys — priced off recent eBay sales. The watcher pings these too.", "static": "accessories.md"},
+        {"key": "other-flips", "name": "💰-other-flips", "topic": "Where to sign up for non-card flips — sneakers (SNKRS), LEGO Insiders, Pop Mart, Funko, sports cards. Check eBay sold prices yourself.", "static": "flips.md"},
         {"key": "ebay-tips", "name": "🚚-ebay-tips", "topic": "Fees, shipping, and rules for selling on eBay.", "static": "ebay-tips.md"}
       ]
     },
