@@ -698,7 +698,8 @@ def tcg_line(product: dict) -> str:
 
 
 def tcg_board(data: dict) -> dict:
-    products = sorted((p for p in data.get("products", []) if p.get("current")), key=lambda p: -p["market"])
+    # Only eBay-confirmed resale, so a thin catalog price can never show here as a real number.
+    products = sorted((p for p in data.get("products", []) if p.get("current") and p.get("verified")), key=lambda p: -p["market"])
     shown = products[:TCG_SHOWN]
     return {
         "embeds": [{

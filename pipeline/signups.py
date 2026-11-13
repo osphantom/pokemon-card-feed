@@ -85,7 +85,8 @@ def match_tcg(title: str, tcg_products: list[dict]) -> dict | None:
     folded = fold(title)
     by_set: dict = {}
     for product in tcg_products:
-        if product.get("market"):
+        # Only prices eBay actually confirmed — never an unverified catalog price.
+        if product.get("market") and product.get("verified"):
             by_set.setdefault(product["set"], []).append(product)
     best, best_len = None, 0
     for set_name, products in by_set.items():

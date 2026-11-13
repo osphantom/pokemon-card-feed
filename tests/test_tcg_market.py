@@ -61,5 +61,64 @@ class SingleTests(unittest.TestCase):
         self.assertFalse(tcg_market.is_single(product(1, "x")))
 
 
+def listing(title, price, ship=None):
+    out = {"title": title, "price": {"value": str(price)}}
+    if ship is not None:
+        out["shippingOptions"] = [{"shippingCost": {"value": str(ship)}}]
+    return out
+
+
+class BelievableAskTests(unittest.TestCase):
+    def test_median_of_cheapest_believable_box_listings(self):
+        listings = [
+            listing("One Piece The Dominance of God Booster Box Sealed", 120),
+            listing("One Piece Dominance of God Booster Box New", 110),
+            listing("One Piece Dominance of God Booster Box", 130),
+            listing("One Piece Dominance of God single booster pack", 15),   # not a box
+            listing("One Piece Some Other Set Booster Box", 50),             # wrong set
+        ]
+        ask, count = tcg_market.believable_ask("The Dominance of God Booster Box", listings, min_price=8)
+        self.assertEqual(count, 3)
+        self.assertEqual(ask, 120.0)
+
+    def test_too_few_listings_is_unconfirmed(self):
+        listings = [listing("Dominance of God Booster Box", 120)]
+        self.assertEqual(tcg_market.believable_ask("The Dominance of God Booster Box", listings, 8), (None, 1))
+
+    def test_no_keys_marks_everything_unverified(self):
+        rows = [{"market": 424.0, "name": "Star Trek - Collector Booster Display"}]
+        tcg_market.ground_with_ebay(rows, None, {"ebay_lookups": 200, "min_market": 8, "min_ebay_count": 3})
+        self.assertFalse(rows[0]["verified"])
+        self.assertEqual(rows[0]["catalog"], 424.0)
+
+
+class CapTests(unittest.TestCase):
+    ASSUMPTIONS = {"fee_rate": 0.1325, "fee_cap": 7500, "over_rate": 0.0235, "per_order_small": 0.30,
+                   "per_order_large": 0.40, "per_order_cutoff": 10, "top_rated": False, "buyer_tax": 0.07,
+                   "your_tax": 0.07, "retail_discount": 0, "sell_pct": 1, "supplies": 1, "shipping": {"box": 12}}
+
+    def row(self, market, ask, count):
+        return {"market": market, "ebay_ask": ask, "ebay_count": count, "msrp": 115, "ship": "box", "profit": 999, "roi": 9}
+
+    def test_inflated_catalog_is_capped_to_ebay(self):
+        from pipeline import market
+        rows = [self.row(424.0, 120.0, 10)]
+        market.cap_by_ebay(rows, self.ASSUMPTIONS)
+        self.assertEqual(rows[0]["market"], 120.0)
+        self.assertLess(rows[0]["profit"], 20)  # recomputed, no longer a fake winner
+
+    def test_reasonable_catalog_is_left_alone(self):
+        from pipeline import market
+        rows = [self.row(100.0, 110.0, 5)]
+        market.cap_by_ebay(rows, self.ASSUMPTIONS)
+        self.assertEqual(rows[0]["market"], 100.0)
+
+    def test_thin_ebay_data_does_not_cap(self):
+        from pipeline import market
+        rows = [self.row(300.0, 120.0, 2)]
+        market.cap_by_ebay(rows, self.ASSUMPTIONS)
+        self.assertEqual(rows[0]["market"], 300.0)
+
+
 if __name__ == "__main__":
     unittest.main()

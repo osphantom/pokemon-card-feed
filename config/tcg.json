@@ -3,6 +3,8 @@
   "max_products": 500,
   "current_days": 160,
   "min_market": 8,
+  "ebay_lookups": 200,
+  "min_ebay_count": 3,
   "games": [
     {"id": 71, "label": "Lorcana"},
     {"id": 68, "label": "One Piece"},

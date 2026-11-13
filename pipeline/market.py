@@ -252,8 +252,30 @@ def build_market(now: datetime, session=None) -> dict:
 
     rows.sort(key=lambda row: (row["current"], row["profit"]), reverse=True)
     used_ebay = add_ebay_asks(rows, session)
+    if used_ebay:
+        cap_by_ebay(rows, assumptions)
+        rows.sort(key=lambda row: (row["current"], row["profit"]), reverse=True)
     presale.sort(key=lambda item: (item["release"], item["name"]))
     return {"generated_at": iso(now), "ebay_used": used_ebay, "products": rows, "presale": presale}
+
+
+# How far above eBay's real asking price a catalog price has to sit before it's treated as unreliable.
+EBAY_CAP_RATIO = 1.5
+
+
+def cap_by_ebay(rows: list[dict], assumptions: dict) -> None:
+    """Catalog prices for thin or just-listed products can run far above what the item sells for.
+    When eBay's real asks say so, trust eBay and recompute the profit — a retail-available item
+    can't resell for several times its price."""
+    for row in rows:
+        ask = row.get("ebay_ask")
+        if not ask or row.get("ebay_count", 0) < 3:
+            continue
+        if row["market"] > EBAY_CAP_RATIO * ask:
+            row["market"] = round(ask, 2)
+            result = estimate(ask, row["msrp"], row["ship"], assumptions)
+            row["profit"] = result["profit"]
+            row["roi"] = result["roi"]
 
 
 def refresh_if_due(now: datetime, session=None, force: bool = False) -> dict:
