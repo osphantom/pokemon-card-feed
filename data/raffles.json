@@ -47,33 +47,5 @@
       "sources": [{"label": "HotDropStock", "url": "https://hotdropstock.com/guides/pokemon-center-queue-invite-only/"}]
     }
   ],
-  "open": [
-    {
-      "id": "best-buy-30th-upc",
-      "store": "Best Buy",
-      "title": "30th Celebration Ultra-Premium Collection (invite)",
-      "price": 179.99,
-      "match": "30th Celebration Ultra-Premium Collection [Day]",
-      "closes": "2026-11-16",
-      "link": "https://www.bestbuy.com/product/pokemon-trading-card-game-30th-celebration-ultra-premium-collection-day-or-night-1-ultra-premium-collection-per-order-styles-may-vary/JJG2TL8254"
-    },
-    {
-      "id": "best-buy-30th-etb",
-      "store": "Best Buy",
-      "title": "30th Celebration Elite Trainer Box (invite)",
-      "price": 49.99,
-      "match": "30th Celebration Elite Trainer Box",
-      "closes": "2026-11-16",
-      "link": "https://www.bestbuy.com/product/pokemon-trading-card-game-30th-celebration-elite-trainer-box/JJG2TL8XCJ"
-    },
-    {
-      "id": "best-buy-prismatic-etb",
-      "store": "Best Buy",
-      "title": "Prismatic Evolutions Elite Trainer Box (invite)",
-      "price": 49.99,
-      "match": "Prismatic Evolutions Elite Trainer Box",
-      "closes": "",
-      "link": "https://www.bestbuy.com/product/pokemon-trading-card-game-scarlet-violet-prismatic-evolutions-elite-trainer-box/JJG2TLCW3L"
-    }
-  ]
+  "open": []
 }
