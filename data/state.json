@@ -42,7 +42,11 @@
   },
   "preorders": {
    "id": "1570879955104039124",
-   "hash": "f03be00d35a1"
+   "hash": "47646fa4ec0d"
+  },
+  "preorders-tcg": {
+   "id": "1570887541622575277",
+   "hash": "8563a77ff1ab"
   }
  },
  "initialized": true,
@@ -57,6 +61,7 @@
   "0835caf24c5b92",
   "08aac65ba8435f",
   "0a1104146fd7d1",
+  "0bbba2c089b266",
   "0eada0d5210707",
   "100e5c711e2459",
   "108968ef374229",
@@ -170,6 +175,7 @@
   "9a0c35393cd2bd",
   "9c595192d9f401",
   "9c839b2bf7c0ad",
+  "9ce0c58722be15",
   "9cf896792dd0bc",
   "9db8d5e64139b3",
   "9dfd8e2446d1d3",
@@ -188,10 +194,12 @@
   "aa4cd1d1ae9941",
   "aa6322cc8d2d89",
   "aaa329a1060511",
+  "ab9db61aaa4c3c",
   "abbd515acfedb9",
   "ae56fb57af9c10",
   "aed726088d0ef5",
   "aeed41df7704c5",
+  "af70954da6a1fd",
   "afa0b17db260a8",
   "b04f0fba820311",
   "b0c3e3e4887b8f",
@@ -219,6 +227,7 @@
   "c4fb9a4271eaf1",
   "c77c5daac82b93",
   "c7b420fda97a56",
+  "c7d32309da86ee",
   "c89eb5d7b6a6d8",
   "ca701ee9627917",
   "ccb75f24edd9db",
@@ -239,6 +248,7 @@
   "dd0e4849a86c57",
   "df4a79ed553a74",
   "dfbf3e79ccf688",
+  "e14efb88bd0fc8",
   "e20b8befbb585d",
   "e3752a1abb5913",
   "e4c3bdf7c84917",
@@ -249,6 +259,7 @@
   "ea572e8854b89e",
   "ea881bdf6592d3",
   "eb20c086faba18",
+  "ec84ddf51bc1ef",
   "edbf8ad390a946",
   "effd6a2c510c53",
   "f06c91ae201127",
@@ -1121,6 +1132,7 @@
   "692939": 173.83
  },
  "preorders_announced": [
-  "Amazon:30th Celebration Ultra-Premium Collection [Day]"
+  "Amazon:30th Celebration Ultra-Premium Collection [Day]",
+  "Amazon:Magic: Star Trek - Collector Booster Display"
  ]
 }
