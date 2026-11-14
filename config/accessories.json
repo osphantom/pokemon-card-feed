@@ -39,6 +39,11 @@
     "pin": "small",
     "jibbitz": "small",
     "keychain": "small",
+    "needoh": "small",
+    "squishmallow": "pack",
+    "jellycat": "pack",
+    "labubu": "small",
+    "sonny": "small",
     "default": "pack"
   },
   "exclude": [
@@ -80,6 +85,13 @@
     {"query": "pokemon crocs", "ship": "pack"},
     {"query": "pokemon lunch box", "ship": "pack"},
     {"query": "pokemon water bottle", "ship": "pack"},
-    {"query": "pokemon mug", "ship": "pack"}
+    {"query": "pokemon mug", "ship": "pack"},
+    {"query": "schylling needoh seasonal", "ship": "small"},
+    {"query": "needoh special edition sensory", "ship": "small"},
+    {"query": "needoh exclusive squeeze toy", "ship": "small"},
+    {"query": "jellycat retired", "ship": "pack"},
+    {"query": "jellycat amuseable large", "ship": "bundle"},
+    {"query": "squishmallow exclusive", "ship": "pack"},
+    {"query": "sonny angel", "ship": "small"}
   ]
 }
