@@ -1,6 +1,19 @@
 {
  "items": [
   {
+   "title": "What Pokémon restocked this week (Nov 7 to Nov 14, 2026)",
+   "link": "https://pokerestockapp.com/pokemon/this-week/",
+   "source": "PokeRestock",
+   "source_id": "pokerestock-news",
+   "publisher": "",
+   "published": "2026-11-14T13:26:53Z",
+   "category": "restocks",
+   "stores": [],
+   "hot": false,
+   "id": "a5d91a647e1bbf",
+   "first_seen": "2026-11-14T14:00:32Z"
+  },
+  {
    "title": "'They're Getting Insider Information From Costco Employees': Inside the Pokemon Card Line Where Resellers Buy Executive Memberships",
    "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQLWdnWTdQZWVScjJ2NWNBU3BtcGhxOU9pWmh2bXozRklmQmlkbXhkWS1BQTZlSnRrZ2M4Z1lBOTdJN0JRcnl5T1JpYkRxR1BpR1k4eGk0cTdsTnpGTkpqaERlVU9HRUpsdTljc2lPYmt1cjYtdkg0ckZmSDFzTTNjMVpUUVhXZzN5RDA1SUJROWw0U3dJekxmLU41ajBCWGlBR0o2V0Q1SDRlR3lNOXNkRzd5SjRUTXpPWlhFeTBBYU1JZ1NHemFIZ2VnZXFvSFUtT2JTQ1RSNFRCTEpKanpEZWVfX0RIdHFiSG1vRDhTanpNOVNWMlU3SUlyemRSZUQ5VTZ1U1RkV2c1QQ?oc=5",
    "source": "Google News: Costco and Sam's Club",
@@ -27,6 +40,19 @@
    "hot": false,
    "id": "a604e3584017ab",
    "first_seen": "2026-11-14T13:45:32Z"
+  },
+  {
+   "title": "Pokémon TCG Mega Greninja ex League Battle Deck launches with Mega Starmie ex",
+   "link": "https://pokemonblog.com/2026/11/13/pokemon-tcg-mega-greninja-ex-league-battle-deck-launches-with-mega-starmie-ex/",
+   "source": "PokeRestock",
+   "source_id": "pokerestock-news",
+   "publisher": "",
+   "published": "2026-11-14T03:57:57Z",
+   "category": "releases",
+   "stores": [],
+   "hot": false,
+   "id": "ffc07f9c867e71",
+   "first_seen": "2026-11-14T14:00:32Z"
   },
   {
    "title": "Magic: The Gathering Announces Nauctis: The Sunken Realm, Releasing February 5, 2027",
