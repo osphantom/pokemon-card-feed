@@ -47,6 +47,13 @@ def main() -> None:
     print(f"Accessories priced: {len(accessory_list.get('items', []))}.")
     print(f"Other-TCG sealed priced: {len(tcg_list.get('products', []))}.")
 
+    # Regenerate the shareable flip sheet from the fresh prices. Never let it break the run.
+    try:
+        from tools import flip_sheet
+        flip_sheet.main()
+    except Exception as error:
+        print(f"Flip sheet skipped: {type(error).__name__}")
+
 
 if __name__ == "__main__":
     main()
