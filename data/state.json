@@ -6,7 +6,7 @@
   },
   "release-calendar": {
    "id": "1569124785269768347",
-   "hash": "9a531e61bb9b"
+   "hash": "8b8c8845a423"
   },
   "what-to-buy": {
    "id": "1569124788478148641",
@@ -30,7 +30,7 @@
   },
   "free-promos": {
    "id": "1569375425384161463",
-   "hash": "e0d21212bad7"
+   "hash": "feec93cc7fa7"
   },
   "raffles": {
    "id": "1569386105378447482",
@@ -331,7 +331,8 @@
   "valentines-box-2027": "fedaa4d1a2ff",
   "flowing-fists-prerelease": "434e6385876f",
   "flowing-fists": "cdc9563946b5",
-  "mega-rayquaza-tournament": "9a7c89084262"
+  "mega-rayquaza-tournament": "9a7c89084262",
+  "unova-heavy-hitters": "4503934efe16"
  },
  "known_products": [
   193436,
@@ -1013,11 +1014,11 @@
   "pennsylvania",
   "virginia"
  ],
- "costco_checked_at": "2026-11-14T21:46:11Z",
- "promos_checked_at": "2026-11-14T16:16:06Z",
+ "costco_checked_at": "2026-11-14T22:31:09Z",
+ "promos_checked_at": "2026-11-14T22:31:09Z",
  "promo_markets": {
-  "30th-celebration-mewtwo": 17.43,
-  "delta-reign-kyogre": 7.91
+  "30th-celebration-mewtwo": 16.68,
+  "delta-reign-kyogre": 8.08
  },
  "promos_announced": [
   "30th-celebration-mewtwo",
@@ -1038,7 +1039,7 @@
   "PA",
   "VA"
  ],
- "sams_checked_at": "2026-11-14T21:46:11Z",
+ "sams_checked_at": "2026-11-14T22:31:09Z",
  "sams_status": {
   "990416407": {
    "6330": "order",
@@ -1094,7 +1095,7 @@
  },
  "costco_stamp": "2026-11-13T13:55:41Z",
  "costco_read_at": "2026-11-14T17:01:05Z",
- "upc_checked_at": "2026-11-14T21:46:11Z",
+ "upc_checked_at": "2026-11-14T22:31:09Z",
  "price_seen": {
   "704144": 254.13,
   "704191": 365.19,
