@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T20:22:00Z",
+ "generated_at": "2026-11-14T07:30:33Z",
  "ebay_used": true,
  "stopwords": [
   "pokemon",
@@ -84,11 +84,578 @@
      "date": "2026-11-13",
      "price": 363.94,
      "count": 3
+    },
+    {
+     "date": "2026-11-14",
+     "price": 363.94,
+     "count": 3
     }
    ],
-   "market": 374.94,
+   "market": 363.94,
    "count": 3,
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
+  },
+  {
+   "key": "included|lamp|lava|needoh|pink|schylling|target",
+   "tokens": [
+    "schylling",
+    "lava",
+    "lamp",
+    "needoh",
+    "included",
+    "target",
+    "pink"
+   ],
+   "title": "\"Target Exclusive\" Schylling Lava Lamp NeeDoh 1 of 3 NeeDoh Included (PINK)",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 255.82,
+     "count": 5
+    }
+   ],
+   "market": 255.82,
+   "count": 5,
+   "last_seen": "2026-11-14"
+  },
+  {
+   "key": "espeon|gaming|headset|kraken|limited|razer|umbreon|v4",
+   "tokens": [
+    "razer",
+    "kraken",
+    "v4",
+    "espeon",
+    "umbreon",
+    "gaming",
+    "headset",
+    "limited"
+   ],
+   "title": "Razer Kraken X V4 Pokemon Espeon Umbreon Gaming Headset Limited Edition New",
+   "ship": "bundle",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 132.95,
+     "count": 3
+    },
+    {
+     "date": "2026-11-13",
+     "price": 132.95,
+     "count": 3
+    },
+    {
+     "date": "2026-11-14",
+     "price": 132.95,
+     "count": 3
+    }
+   ],
+   "market": 132.95,
+   "count": 3,
+   "last_seen": "2026-11-14"
+  },
+  {
+   "key": "amuseable|blue|christmas|jellycat|large|retired|spruce|tree",
+   "tokens": [
+    "jellycat",
+    "large",
+    "amuseable",
+    "blue",
+    "spruce",
+    "christmas",
+    "tree",
+    "retired"
+   ],
+   "title": "Jellycat LARGE Amuseable Blue Spruce Christmas Tree 18\"-Retired",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 120.0,
+     "count": 3
+    }
+   ],
+   "market": 120.0,
+   "count": 3,
+   "last_seen": "2026-11-14"
+  },
+  {
+   "key": "advent|calendar|days|needoh|schylling|squishmas",
+   "tokens": [
+    "needoh",
+    "squishmas",
+    "advent",
+    "calendar",
+    "days",
+    "schylling"
+   ],
+   "title": "NeeDoh Squishmas Advent Calendar NEW SEALED 24 Days Schylling 2026 Gift",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 115.9,
+     "count": 4
+    }
+   ],
+   "market": 115.9,
+   "count": 4,
+   "last_seen": "2026-11-14"
+  },
+  {
+   "key": "advent|calendar|christmas|needoh|schylling",
+   "tokens": [
+    "schylling",
+    "needoh",
+    "advent",
+    "calendar",
+    "christmas"
+   ],
+   "title": "Schylling NeeDoh Advent Calendar Christmas",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 95.0,
+     "count": 4
+    }
+   ],
+   "market": 95.0,
+   "count": 4,
+   "last_seen": "2026-11-14"
+  },
+  {
+   "key": "gaming|gengar|headset|kitty|kraken|razer|v2",
+   "tokens": [
+    "razer",
+    "kraken",
+    "kitty",
+    "v2",
+    "gengar",
+    "gaming",
+    "headset"
+   ],
+   "title": "Razer Kraken Kitty V2 Pokemon Gengar Edition Gaming Headset",
+   "ship": "bundle",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 88.99,
+     "count": 5
+    },
+    {
+     "date": "2026-11-13",
+     "price": 88.99,
+     "count": 5
+    },
+    {
+     "date": "2026-11-14",
+     "price": 88.99,
+     "count": 5
+    }
+   ],
+   "market": 88.99,
+   "count": 5,
+   "last_seen": "2026-11-14"
+  },
+  {
+   "key": "cube|doh|nee|nice|orange|squeeze|squishy|stack|tactile",
+   "tokens": [
+    "nee",
+    "doh",
+    "nice",
+    "cube",
+    "stack",
+    "orange",
+    "tactile",
+    "squishy",
+    "squeeze"
+   ],
+   "title": "Nee Doh Nice Cube Stack Pack Orange Tactile Squishy Squeeze Toy Set Exclusive",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 87.9,
+     "count": 7
+    }
+   ],
+   "market": 87.9,
+   "count": 7,
+   "last_seen": "2026-11-14"
+  },
+  {
+   "key": "artisan|batch|craft|from|keycaps|unmounted|unused",
+   "tokens": [
+    "craft",
+    "artisan",
+    "keycaps",
+    "from",
+    "batch",
+    "unused",
+    "unmounted"
+   ],
+   "title": "S-Craft Artisan Pokemon Keycaps from Batch 8 (2023) - New/Unused/Unmounted",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 84.0,
+     "count": 7
+    },
+    {
+     "date": "2026-11-13",
+     "price": 84.0,
+     "count": 7
+    },
+    {
+     "date": "2026-11-14",
+     "price": 84.0,
+     "count": 7
+    }
+   ],
+   "market": 84.0,
+   "count": 7,
+   "last_seen": "2026-11-14"
+  },
+  {
+   "key": "gogh|museum|pikachu|plush|van",
+   "tokens": [
+    "van",
+    "gogh",
+    "museum",
+    "pikachu",
+    "plush"
+   ],
+   "title": "Van Gogh Museum Pikachu Plush",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 69.99,
+     "count": 27
+    },
+    {
+     "date": "2026-11-13",
+     "price": 69.99,
+     "count": 27
+    },
+    {
+     "date": "2026-11-14",
+     "price": 69.99,
+     "count": 27
+    }
+   ],
+   "market": 69.99,
+   "count": 27,
+   "last_seen": "2026-11-14"
+  },
+  {
+   "key": "center|gengar|mug|nidorino|opening|oz|retro|scene",
+   "tokens": [
+    "opening",
+    "scene",
+    "mug",
+    "oz",
+    "gengar",
+    "nidorino",
+    "retro",
+    "center"
+   ],
+   "title": "Official Pokémon Center Opening Scene Mug | 15 oz Gengar Nidorino Retro New",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 58.33,
+     "count": 4
+    },
+    {
+     "date": "2026-11-13",
+     "price": 57.67,
+     "count": 3
+    },
+    {
+     "date": "2026-11-14",
+     "price": 58.33,
+     "count": 4
+    }
+   ],
+   "market": 58.33,
+   "count": 4,
+   "last_seen": "2026-11-14"
+  },
+  {
+   "key": "championships|francisco|puzzle|san|world|xp",
+   "tokens": [
+    "world",
+    "championships",
+    "xp",
+    "puzzle",
+    "san",
+    "francisco"
+   ],
+   "title": "Pokemon World Championships &  XP 2026 Puzzle 1000 PCs San Francisco Exclusive",
+   "ship": "bundle",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 48.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-13",
+     "price": 48.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-14",
+     "price": 48.0,
+     "count": 4
+    }
+   ],
+   "market": 48.0,
+   "count": 4,
+   "last_seen": "2026-11-14"
+  },
+  {
+   "key": "board|game|johto|monopoly",
+   "tokens": [
+    "monopoly",
+    "board",
+    "game",
+    "johto"
+   ],
+   "title": "Pokemon Monopoly Board Game Johto Edition Brand New",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 41.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-13",
+     "price": 41.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-14",
+     "price": 41.99,
+     "count": 3
+    }
+   ],
+   "market": 41.99,
+   "count": 3,
+   "last_seen": "2026-11-14"
+  },
+  {
+   "key": "calendar|countdown|needoh|or|squeeze|squish|target|ween",
+   "tokens": [
+    "needoh",
+    "squish",
+    "or",
+    "squeeze",
+    "ween",
+    "countdown",
+    "calendar",
+    "target"
+   ],
+   "title": "Needoh Squish or Squeeze Squish-O-Ween Countdown Calendar Target Exclusive",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 31.49,
+     "count": 4
+    }
+   ],
+   "market": 31.49,
+   "count": 4,
+   "last_seen": "2026-11-14"
+  },
+  {
+   "key": "expert|game|guess|pro|ready|trainer|ultra",
+   "tokens": [
+    "trainer",
+    "expert",
+    "game",
+    "ready",
+    "guess",
+    "ultra",
+    "pro"
+   ],
+   "title": "Pokemon Trainer Expert Game. Ready Set Guess.  Ultra Pro. Brand New",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 30.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-13",
+     "price": 30.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-14",
+     "price": 30.0,
+     "count": 3
+    }
+   ],
+   "market": 30.0,
+   "count": 3,
+   "last_seen": "2026-11-14"
+  },
+  {
+   "key": "angel|blind|box|cat|confirmed|life|mini|series|sonny",
+   "tokens": [
+    "sonny",
+    "angel",
+    "cat",
+    "life",
+    "series",
+    "mini",
+    "confirmed",
+    "blind",
+    "box"
+   ],
+   "title": "Sonny Angel Cat Life Series Mini Figures - Confirmed Blind Box Figure",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 23.44,
+     "count": 4
+    }
+   ],
+   "market": 23.44,
+   "count": 4,
+   "last_seen": "2026-11-14"
+  },
+  {
+   "key": "bunny|cobblehop|jellycat|leopard",
+   "tokens": [
+    "jellycat",
+    "cobblehop",
+    "leopard",
+    "bunny"
+   ],
+   "title": "Jellycat Cobblehop Leopard Bunny.",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 21.99,
+     "count": 3
+    }
+   ],
+   "market": 21.99,
+   "count": 3,
+   "last_seen": "2026-11-14"
+  },
+  {
+   "key": "gaming|grande|large|mouse|mousepad|pad|snorlax",
+   "tokens": [
+    "snorlax",
+    "grande",
+    "mousepad",
+    "large",
+    "gaming",
+    "mouse",
+    "pad"
+   ],
+   "title": "Pokemon Snorlax Grande Mousepad Large Gaming Mouse Pad",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 20.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-13",
+     "price": 20.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-14",
+     "price": 20.0,
+     "count": 4
+    }
+   ],
+   "market": 20.0,
+   "count": 4,
+   "last_seen": "2026-11-14"
+  },
+  {
+   "key": "30th|anniversary|bottle|mystery|target|type|water",
+   "tokens": [
+    "target",
+    "mystery",
+    "water",
+    "type",
+    "bottle",
+    "30th",
+    "anniversary"
+   ],
+   "title": "Pokemon X Target Mystery Water Type Pokemon Bottle 30th Anniversary - Sealed",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 18.24,
+     "count": 4
+    },
+    {
+     "date": "2026-11-13",
+     "price": 17.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-14",
+     "price": 18.24,
+     "count": 4
+    }
+   ],
+   "market": 18.24,
+   "count": 4,
+   "last_seen": "2026-11-14"
+  },
+  {
+   "key": "gaming|gengar|grande|large|mouse|mousepad|pad",
+   "tokens": [
+    "gengar",
+    "grande",
+    "mousepad",
+    "large",
+    "gaming",
+    "mouse",
+    "pad"
+   ],
+   "title": "P-Pokemon-Gengar Grande Mousepad Large Gaming Mouse Pad",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 18.0,
+     "count": 5
+    },
+    {
+     "date": "2026-11-13",
+     "price": 18.0,
+     "count": 6
+    },
+    {
+     "date": "2026-11-14",
+     "price": 18.0,
+     "count": 6
+    }
+   ],
+   "market": 18.0,
+   "count": 6,
+   "last_seen": "2026-11-14"
   },
   {
    "key": "board|game|master|trainer",
@@ -117,36 +684,6 @@
    "last_seen": "2026-11-13"
   },
   {
-   "key": "espeon|gaming|headset|kraken|limited|razer|umbreon|v4",
-   "tokens": [
-    "razer",
-    "kraken",
-    "v4",
-    "espeon",
-    "umbreon",
-    "gaming",
-    "headset",
-    "limited"
-   ],
-   "title": "Razer Kraken X V4 Pokemon Espeon Umbreon Gaming Headset Limited Edition New",
-   "ship": "bundle",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 132.95,
-     "count": 3
-    },
-    {
-     "date": "2026-11-13",
-     "price": 132.95,
-     "count": 3
-    }
-   ],
-   "market": 132.95,
-   "count": 3,
-   "last_seen": "2026-11-13"
-  },
-  {
    "key": "backpack|loungefly|mini|sylveon",
    "tokens": [
     "loungefly",
@@ -165,64 +702,6 @@
    ],
    "market": 99.49,
    "count": 3,
-   "last_seen": "2026-11-13"
-  },
-  {
-   "key": "gaming|gengar|headset|kitty|kraken|razer|v2",
-   "tokens": [
-    "razer",
-    "kraken",
-    "kitty",
-    "v2",
-    "gengar",
-    "gaming",
-    "headset"
-   ],
-   "title": "Razer Kraken Kitty V2 Pokemon Gengar Edition Gaming Headset",
-   "ship": "bundle",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 88.99,
-     "count": 5
-    },
-    {
-     "date": "2026-11-13",
-     "price": 88.99,
-     "count": 5
-    }
-   ],
-   "market": 88.99,
-   "count": 5,
-   "last_seen": "2026-11-13"
-  },
-  {
-   "key": "artisan|batch|craft|from|keycaps|unmounted|unused",
-   "tokens": [
-    "craft",
-    "artisan",
-    "keycaps",
-    "from",
-    "batch",
-    "unused",
-    "unmounted"
-   ],
-   "title": "S-Craft Artisan Pokemon Keycaps from Batch 8 (2023) - New/Unused/Unmounted",
-   "ship": "box",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 84.0,
-     "count": 7
-    },
-    {
-     "date": "2026-11-13",
-     "price": 84.0,
-     "count": 7
-    }
-   ],
-   "market": 84.0,
-   "count": 7,
    "last_seen": "2026-11-13"
   },
   {
@@ -257,33 +736,6 @@
    "last_seen": "2026-11-13"
   },
   {
-   "key": "gogh|museum|pikachu|plush|van",
-   "tokens": [
-    "van",
-    "gogh",
-    "museum",
-    "pikachu",
-    "plush"
-   ],
-   "title": "Van Gogh Museum Pikachu Plush",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 69.99,
-     "count": 27
-    },
-    {
-     "date": "2026-11-13",
-     "price": 69.99,
-     "count": 27
-    }
-   ],
-   "market": 69.99,
-   "count": 27,
-   "last_seen": "2026-11-13"
-  },
-  {
    "key": "90h|classic|clog|crocs|mens|nwb|starters",
    "tokens": [
     "crocs",
@@ -310,206 +762,6 @@
    ],
    "market": 60.11,
    "count": 3,
-   "last_seen": "2026-11-13"
-  },
-  {
-   "key": "center|gengar|mug|nidorino|opening|oz|retro|scene",
-   "tokens": [
-    "opening",
-    "scene",
-    "mug",
-    "oz",
-    "gengar",
-    "nidorino",
-    "retro",
-    "center"
-   ],
-   "title": "Pokemon Opening Scene Mug 15 oz Gengar Nidorino Retro Pokemon Center Brand New",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 58.33,
-     "count": 4
-    },
-    {
-     "date": "2026-11-13",
-     "price": 57.67,
-     "count": 3
-    }
-   ],
-   "market": 58.0,
-   "count": 3,
-   "last_seen": "2026-11-13"
-  },
-  {
-   "key": "championships|francisco|puzzle|san|world|xp",
-   "tokens": [
-    "world",
-    "championships",
-    "xp",
-    "puzzle",
-    "san",
-    "francisco"
-   ],
-   "title": "Pokemon World Championships &  XP 2026 Puzzle 1000 PCs San Francisco Exclusive",
-   "ship": "bundle",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 48.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-13",
-     "price": 48.0,
-     "count": 4
-    }
-   ],
-   "market": 48.0,
-   "count": 4,
-   "last_seen": "2026-11-13"
-  },
-  {
-   "key": "board|game|johto|monopoly",
-   "tokens": [
-    "monopoly",
-    "board",
-    "game",
-    "johto"
-   ],
-   "title": "Pokemon Monopoly Board Game Johto Edition Brand New",
-   "ship": "box",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 41.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-13",
-     "price": 41.99,
-     "count": 3
-    }
-   ],
-   "market": 41.99,
-   "count": 3,
-   "last_seen": "2026-11-13"
-  },
-  {
-   "key": "expert|game|guess|pro|ready|trainer|ultra",
-   "tokens": [
-    "trainer",
-    "expert",
-    "game",
-    "ready",
-    "guess",
-    "ultra",
-    "pro"
-   ],
-   "title": "Pokemon Trainer Expert Game. Ready Set Guess.  Ultra Pro. Brand New",
-   "ship": "box",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 30.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-13",
-     "price": 30.0,
-     "count": 3
-    }
-   ],
-   "market": 30.0,
-   "count": 3,
-   "last_seen": "2026-11-13"
-  },
-  {
-   "key": "gaming|grande|large|mouse|mousepad|pad|snorlax",
-   "tokens": [
-    "snorlax",
-    "grande",
-    "mousepad",
-    "large",
-    "gaming",
-    "mouse",
-    "pad"
-   ],
-   "title": "Pokemon Snorlax Grande Mousepad Large Gaming Mouse Pad",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 20.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-13",
-     "price": 20.0,
-     "count": 4
-    }
-   ],
-   "market": 20.0,
-   "count": 4,
-   "last_seen": "2026-11-13"
-  },
-  {
-   "key": "30th|anniversary|bottle|mystery|target|type|water",
-   "tokens": [
-    "target",
-    "mystery",
-    "water",
-    "type",
-    "bottle",
-    "30th",
-    "anniversary"
-   ],
-   "title": "Pokemon X Target Mystery Water Type Pokemon Bottle 30th Anniversary - Sealed",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 18.24,
-     "count": 4
-    },
-    {
-     "date": "2026-11-13",
-     "price": 17.99,
-     "count": 3
-    }
-   ],
-   "market": 18.11,
-   "count": 3,
-   "last_seen": "2026-11-13"
-  },
-  {
-   "key": "gaming|gengar|grande|large|mouse|mousepad|pad",
-   "tokens": [
-    "gengar",
-    "grande",
-    "mousepad",
-    "large",
-    "gaming",
-    "mouse",
-    "pad"
-   ],
-   "title": "P-Pokemon-Gengar Grande Mousepad Large Gaming Mouse Pad",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 18.0,
-     "count": 5
-    },
-    {
-     "date": "2026-11-13",
-     "price": 18.0,
-     "count": 6
-    }
-   ],
-   "market": 18.0,
-   "count": 6,
    "last_seen": "2026-11-13"
   },
   {
