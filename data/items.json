@@ -255,21 +255,6 @@
    "first_seen": "2026-11-14T10:15:30Z"
   },
   {
-   "title": "The Pokémon TCG 30th Celebration Elite Trainer Box is live at Amazon: Shop for under market price",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWU90a3FvT1daOG93TVBka0tEYlRrQW55OWRNazFGeWhFYVk5X29Gejdtc2tpU3hNc2xhNHNBd0E2NExZV3AyUFlIcmR4SGllMTFtZXBIQjM2WUl3bFpUbm84dUEzczE3bGZLREV0VzhMbGtrSXA2Q2VpQldpRUx0Uk1WTVg4SnRtU2xvbA?oc=5",
-   "source": "Google News: preorders",
-   "source_id": "gn-preorder",
-   "publisher": "Mashable",
-   "published": "2026-11-13T14:46:27Z",
-   "category": "restocks",
-   "stores": [
-    "Amazon"
-   ],
-   "hot": true,
-   "id": "89e8d603c4eeab",
-   "first_seen": "2026-11-13T15:35:30Z"
-  },
-  {
    "title": "What Pokémon restocked this week (Nov 6 to Nov 13, 2026)",
    "link": "https://pokerestockapp.com/pokemon/this-week/",
    "source": "PokeRestock",
@@ -293,6 +278,21 @@
    "stores": [],
    "hot": false,
    "id": "d2a4ccbf29f030",
+   "first_seen": "2026-11-13T15:35:30Z"
+  },
+  {
+   "title": "The Pokémon TCG 30th Celebration Elite Trainer Box is live at Amazon: Shop for under market price",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWU90a3FvT1daOG93TVBka0tEYlRrQW55OWRNazFGeWhFYVk5X29Gejdtc2tpU3hNc2xhNHNBd0E2NExZV3AyUFlIcmR4SGllMTFtZXBIQjM2WUl3bFpUbm84dUEzczE3bGZLREV0VzhMbGtrSXA2Q2VpQldpRUx0Uk1WTVg4SnRtU2xvbA?oc=5",
+   "source": "Google News: preorders",
+   "source_id": "gn-preorder",
+   "publisher": "Mashable",
+   "published": "2026-11-13T11:05:33Z",
+   "category": "restocks",
+   "stores": [
+    "Amazon"
+   ],
+   "hot": true,
+   "id": "89e8d603c4eeab",
    "first_seen": "2026-11-13T15:35:30Z"
   },
   {
