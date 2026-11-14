@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T07:30:33Z",
+ "generated_at": "2026-11-14T18:45:30Z",
  "games": [
   "Lorcana",
   "One Piece",
@@ -178,7 +178,7 @@
    "url": "https://www.tcgplayer.com/product/711214/yugioh-magnificent-maestros-magnificent-maestros-display",
    "catalog": 214.21,
    "verified": true,
-   "count": 15
+   "count": 14
   },
   {
    "game": "Magic",
@@ -347,7 +347,7 @@
    "url": "https://www.tcgplayer.com/product/706239/lorcana-tcg-hyperia-city-disney-lorcana-hyperia-city-booster-box",
    "catalog": 130.66,
    "verified": true,
-   "count": 43
+   "count": 42
   },
   {
    "game": "Gundam",
@@ -392,7 +392,7 @@
    "game": "Riftbound",
    "name": "Vendetta - Booster Display",
    "set": "Vendetta",
-   "market": 145.0,
+   "market": 139.99,
    "release": "2026-07-31",
    "presale": false,
    "current": true,
@@ -613,14 +613,14 @@
    "game": "Magic",
    "name": "Star Trek Commander Deck - We Are the Borg",
    "set": "Commander: Star Trek",
-   "market": 199.88,
+   "market": 139.98,
    "release": "2026-11-13",
    "presale": false,
    "current": true,
    "url": "https://www.tcgplayer.com/product/706171/magic-commander-star-trek-star-trek-commander-deck-we-are-the-borg",
    "catalog": 61.82,
    "verified": true,
-   "count": 8
+   "count": 9
   },
   {
    "game": "Magic",
@@ -639,7 +639,7 @@
    "game": "Star Wars Unlimited",
    "name": "Homeworlds - Booster Display",
    "set": "Homeworlds",
-   "market": 80.0,
+   "market": 74.98,
    "release": "2026-10-09",
    "presale": false,
    "current": true,
@@ -724,7 +724,7 @@
    "url": "https://www.tcgplayer.com/product/706141/magic-star-trek-star-trek-collector-booster-pack",
    "catalog": 41.28,
    "verified": true,
-   "count": 17
+   "count": 16
   },
   {
    "game": "Magic",
@@ -808,14 +808,14 @@
    "game": "Magic",
    "name": "Star Trek Commander Deck - Klingon Fury",
    "set": "Commander: Star Trek",
-   "market": 64.99,
+   "market": 74.88,
    "release": "2026-11-13",
    "presale": false,
    "current": true,
    "url": "https://www.tcgplayer.com/product/706169/magic-commander-star-trek-star-trek-commander-deck-klingon-fury",
    "catalog": 27.38,
    "verified": true,
-   "count": 8
+   "count": 7
   },
   {
    "game": "Star Wars Unlimited",
@@ -997,7 +997,7 @@
    "url": "https://www.tcgplayer.com/product/704756/one-piece-card-game-the-worlds-strongest-warriors-the-worlds-strongest-warriors-booster-pack",
    "catalog": 8.17,
    "verified": true,
-   "count": 36
+   "count": 37
   },
   {
    "game": "One Piece",
@@ -1029,14 +1029,14 @@
    "game": "Lorcana",
    "name": "Disney Lorcana: Fabled Booster Box",
    "set": "Fabled",
-   "market": 837.0,
+   "market": 832.0,
    "release": "2025-09-05",
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/645298/lorcana-tcg-fabled-disney-lorcana-fabled-booster-box",
    "catalog": 813.52,
    "verified": true,
-   "count": 12
+   "count": 13
   },
   {
    "game": "Gundam",
@@ -1068,14 +1068,14 @@
    "game": "Lorcana",
    "name": "Disney Lorcana: Winterspell Booster Box",
    "set": "Winterspell",
-   "market": 101.98,
+   "market": 104.99,
    "release": "2026-02-20",
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/664819/lorcana-tcg-winterspell-disney-lorcana-winterspell-booster-box",
    "catalog": 236.17,
    "verified": true,
-   "count": 19
+   "count": 18
   },
   {
    "game": "Lorcana",
@@ -1088,7 +1088,7 @@
    "url": "https://www.tcgplayer.com/product/678165/lorcana-tcg-wilds-unknown-disney-lorcana-wilds-unknown-booster-box",
    "catalog": 222.22,
    "verified": true,
-   "count": 18
+   "count": 17
   },
   {
    "game": "Lorcana",
@@ -1315,14 +1315,14 @@
    "game": "Gundam",
    "name": "Stardust Trails Booster Box",
    "set": "Stardust Trails",
-   "market": 109.99,
+   "market": 104.99,
    "release": null,
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/710652/gundam-card-game-stardust-trails-stardust-trails-booster-box",
    "catalog": 105.44,
    "verified": true,
-   "count": 10
+   "count": 12
   },
   {
    "game": "Lorcana",
@@ -1790,7 +1790,7 @@
    "url": "https://www.tcgplayer.com/product/704885/one-piece-card-game-st-31-starter-deck-31-red-monkeydluffy-starter-deck-31-red-monkeydluffy",
    "catalog": 25.73,
    "verified": true,
-   "count": 47
+   "count": 48
   },
   {
    "game": "Lorcana",
@@ -2089,7 +2089,7 @@
    "url": "https://www.tcgplayer.com/product/710651/gundam-card-game-stardust-trails-stardust-trails-booster-pack",
    "catalog": 8.35,
    "verified": true,
-   "count": 13
+   "count": 14
   }
  ]
 }

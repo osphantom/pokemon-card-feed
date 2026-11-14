@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T07:30:33Z",
+ "generated_at": "2026-11-14T18:45:30Z",
  "ebay_used": true,
  "stopwords": [
   "pokemon",
@@ -106,7 +106,7 @@
     "target",
     "pink"
    ],
-   "title": "\"Target Exclusive\" Schylling Lava Lamp NeeDoh 1 of 3 NeeDoh Included (PINK)",
+   "title": "Schylling Lava Lamp NeeDoh 1 of 3 NeeDoh included Target exclusive PINK lava",
    "ship": "box",
    "history": [
     {
@@ -117,6 +117,30 @@
    ],
    "market": 255.82,
    "count": 5,
+   "last_seen": "2026-11-14"
+  },
+  {
+   "key": "angel|blind|box|random|series|sonny|valentines",
+   "tokens": [
+    "sonny",
+    "angel",
+    "valentines",
+    "series",
+    "random",
+    "blind",
+    "box"
+   ],
+   "title": "Sonny Angel 🌈Authentic Valentines 2019 series Figure [ 1 Random Blind Box ]",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 139.99,
+     "count": 3
+    }
+   ],
+   "market": 139.99,
+   "count": 3,
    "last_seen": "2026-11-14"
   },
   {
@@ -146,12 +170,12 @@
     },
     {
      "date": "2026-11-14",
-     "price": 132.95,
-     "count": 3
+     "price": 133.97,
+     "count": 4
     }
    ],
    "market": 132.95,
-   "count": 3,
+   "count": 4,
    "last_seen": "2026-11-14"
   },
   {
@@ -207,21 +231,47 @@
    "tokens": [
     "schylling",
     "needoh",
+    "christmas",
     "advent",
-    "calendar",
-    "christmas"
+    "calendar"
    ],
-   "title": "Schylling NeeDoh Advent Calendar Christmas",
+   "title": "100% Authentic Schylling Needoh Christmas Advent Calendar 2026 SEALED",
    "ship": "small",
    "history": [
     {
      "date": "2026-11-14",
-     "price": 95.0,
-     "count": 4
+     "price": 105.0,
+     "count": 5
     }
    ],
-   "market": 95.0,
-   "count": 4,
+   "market": 105.0,
+   "count": 5,
+   "last_seen": "2026-11-14"
+  },
+  {
+   "key": "cube|doh|nee|nice|orange|squeeze|squishy|stack|tactile",
+   "tokens": [
+    "nee",
+    "doh",
+    "nice",
+    "cube",
+    "stack",
+    "orange",
+    "tactile",
+    "squishy",
+    "squeeze"
+   ],
+   "title": "Nee Doh Nice Cube Stack Pack Orange Tactile Squishy Squeeze Toy Set Exclusive",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 89.99,
+     "count": 5
+    }
+   ],
+   "market": 89.99,
+   "count": 5,
    "last_seen": "2026-11-14"
   },
   {
@@ -256,32 +306,6 @@
    ],
    "market": 88.99,
    "count": 5,
-   "last_seen": "2026-11-14"
-  },
-  {
-   "key": "cube|doh|nee|nice|orange|squeeze|squishy|stack|tactile",
-   "tokens": [
-    "nee",
-    "doh",
-    "nice",
-    "cube",
-    "stack",
-    "orange",
-    "tactile",
-    "squishy",
-    "squeeze"
-   ],
-   "title": "Nee Doh Nice Cube Stack Pack Orange Tactile Squishy Squeeze Toy Set Exclusive",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-14",
-     "price": 87.9,
-     "count": 7
-    }
-   ],
-   "market": 87.9,
-   "count": 7,
    "last_seen": "2026-11-14"
   },
   {
@@ -386,6 +410,34 @@
    "last_seen": "2026-11-14"
   },
   {
+   "key": "classic|clog|crocs|mens|starters|womens",
+   "tokens": [
+    "crocs",
+    "starters",
+    "classic",
+    "clog",
+    "mens",
+    "womens"
+   ],
+   "title": "Crocs x Pokemon \"Pokemon Starters\" Classic Clog Men’s Size 8 Women's Size 10",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 49.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-14",
+     "price": 49.99,
+     "count": 3
+    }
+   ],
+   "market": 49.99,
+   "count": 3,
+   "last_seen": "2026-11-14"
+  },
+  {
    "key": "championships|francisco|puzzle|san|world|xp",
    "tokens": [
     "world",
@@ -419,6 +471,25 @@
    "last_seen": "2026-11-14"
   },
   {
+   "key": "eevee|lego",
+   "tokens": [
+    "lego",
+    "eevee"
+   ],
+   "title": "LEGO Pokemon Eevee 72151 NEW SEALED",
+   "ship": "bundle",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 44.98,
+     "count": 3
+    }
+   ],
+   "market": 44.98,
+   "count": 3,
+   "last_seen": "2026-11-14"
+  },
+  {
    "key": "board|game|johto|monopoly",
    "tokens": [
     "monopoly",
@@ -426,7 +497,7 @@
     "game",
     "johto"
    ],
-   "title": "Pokemon Monopoly Board Game Johto Edition Brand New",
+   "title": "Sealed Monopoly Pokémon Johto Edition Board Game",
    "ship": "box",
    "history": [
     {
@@ -441,12 +512,12 @@
     },
     {
      "date": "2026-11-14",
-     "price": 41.99,
-     "count": 3
+     "price": 46.45,
+     "count": 4
     }
    ],
    "market": 41.99,
-   "count": 3,
+   "count": 4,
    "last_seen": "2026-11-14"
   },
   {
@@ -466,12 +537,12 @@
    "history": [
     {
      "date": "2026-11-14",
-     "price": 31.49,
-     "count": 4
+     "price": 38.0,
+     "count": 5
     }
    ],
-   "market": 31.49,
-   "count": 4,
+   "market": 38.0,
+   "count": 5,
    "last_seen": "2026-11-14"
   },
   {
@@ -509,29 +580,32 @@
    "last_seen": "2026-11-14"
   },
   {
-   "key": "angel|blind|box|cat|confirmed|life|mini|series|sonny",
+   "key": "6pcs|angel|blind|box|day|love|mini|rainy|random|series|sonny|toys",
    "tokens": [
+    "random",
+    "6pcs",
     "sonny",
     "angel",
-    "cat",
-    "life",
+    "love",
+    "rainy",
+    "day",
     "series",
-    "mini",
-    "confirmed",
     "blind",
-    "box"
+    "box",
+    "mini",
+    "toys"
    ],
-   "title": "Sonny Angel Cat Life Series Mini Figures - Confirmed Blind Box Figure",
+   "title": "random 6pcs Sonny Angel I Love Rainy Day Series Blind Box Mini Figure Toys USA",
    "ship": "small",
    "history": [
     {
      "date": "2026-11-14",
-     "price": 23.44,
-     "count": 4
+     "price": 29.98,
+     "count": 3
     }
    ],
-   "market": 23.44,
-   "count": 4,
+   "market": 29.98,
+   "count": 3,
    "last_seen": "2026-11-14"
   },
   {
@@ -547,11 +621,11 @@
    "history": [
     {
      "date": "2026-11-14",
-     "price": 21.99,
+     "price": 22.99,
      "count": 3
     }
    ],
-   "market": 21.99,
+   "market": 22.99,
    "count": 3,
    "last_seen": "2026-11-14"
   },
@@ -582,45 +656,11 @@
     {
      "date": "2026-11-14",
      "price": 20.0,
-     "count": 4
+     "count": 3
     }
    ],
    "market": 20.0,
-   "count": 4,
-   "last_seen": "2026-11-14"
-  },
-  {
-   "key": "30th|anniversary|bottle|mystery|target|type|water",
-   "tokens": [
-    "target",
-    "mystery",
-    "water",
-    "type",
-    "bottle",
-    "30th",
-    "anniversary"
-   ],
-   "title": "Pokemon X Target Mystery Water Type Pokemon Bottle 30th Anniversary - Sealed",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 18.24,
-     "count": 4
-    },
-    {
-     "date": "2026-11-13",
-     "price": 17.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-14",
-     "price": 18.24,
-     "count": 4
-    }
-   ],
-   "market": 18.24,
-   "count": 4,
+   "count": 3,
    "last_seen": "2026-11-14"
   },
   {
@@ -650,11 +690,71 @@
     {
      "date": "2026-11-14",
      "price": 18.0,
-     "count": 6
+     "count": 4
     }
    ],
    "market": 18.0,
-   "count": 6,
+   "count": 4,
+   "last_seen": "2026-11-14"
+  },
+  {
+   "key": "30th|anniversary|bottle|mystery|target|type|water",
+   "tokens": [
+    "target",
+    "mystery",
+    "water",
+    "type",
+    "bottle",
+    "30th",
+    "anniversary"
+   ],
+   "title": "Pokemon X Target Mystery Water Type Pokemon Bottle 30th Anniversary - Sealed",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 18.24,
+     "count": 4
+    },
+    {
+     "date": "2026-11-13",
+     "price": 17.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-14",
+     "price": 17.88,
+     "count": 4
+    }
+   ],
+   "market": 17.99,
+   "count": 4,
+   "last_seen": "2026-11-14"
+  },
+  {
+   "key": "angel|blind|box|cat|confirmed|life|mini|series|sonny",
+   "tokens": [
+    "sonny",
+    "angel",
+    "cat",
+    "life",
+    "series",
+    "mini",
+    "confirmed",
+    "blind",
+    "box"
+   ],
+   "title": "Sonny Angel Cat Life Series Mini Figures - Confirmed Blind Box Figure",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 16.12,
+     "count": 2
+    }
+   ],
+   "market": 16.12,
+   "count": 2,
    "last_seen": "2026-11-14"
   },
   {
@@ -805,29 +905,6 @@
     }
    ],
    "market": 94.99,
-   "count": 3,
-   "last_seen": "2026-11-12"
-  },
-  {
-   "key": "classic|clog|crocs|mens|starters|womens",
-   "tokens": [
-    "crocs",
-    "starters",
-    "classic",
-    "clog",
-    "mens",
-    "womens"
-   ],
-   "title": "Crocs x Pokemon \"Pokemon Starters\" Classic Clog Men’s Size 8 Women's Size 10",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 49.99,
-     "count": 3
-    }
-   ],
-   "market": 49.99,
    "count": 3,
    "last_seen": "2026-11-12"
   },
