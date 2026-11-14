@@ -12,20 +12,6 @@
       "sources": [{"label": "Dexerto", "url": "https://www.dexerto.com/food/mcdonalds-announces-pokemon-happy-meal-return-with-15-toys-and-trading-cards-3422744/"}]
     },
     {
-      "id": "greninja-league-deck",
-      "title": "Mega Greninja ex League Battle Deck street date",
-      "date": "2026-11-13",
-      "kind": "release",
-      "status": "reported",
-      "msrp": 29.99,
-      "note": "Most trackers list November 13. ICv2 lists November 11.",
-      "covers": ["Mega Greninja ex League Battle Deck"],
-      "sources": [
-        {"label": "LV1 Gaming", "url": "https://lv1gaming.com/upcoming-pokemon-tcg-releases-2026-2027/"},
-        {"label": "ICv2", "url": "https://icv2.com/articles/news/view/63295/new-pokemon-tcg-league-battle-deck-incoming"}
-      ]
-    },
-    {
       "id": "pc-delta-reign-ship",
       "title": "Pokémon Center Delta Reign preorders ship",
       "date": "2026-11-16",
@@ -60,6 +46,16 @@
         {"label": "LV1 Gaming", "url": "https://lv1gaming.com/upcoming-pokemon-tcg-releases-2026-2027/"},
         {"label": "Celadon", "url": "https://celadoninfo.com/us/releases"}
       ]
+    },
+    {
+      "id": "unova-heavy-hitters",
+      "title": "Unova Heavy Hitters Premium Collection street date",
+      "date": "2026-12-04",
+      "kind": "release",
+      "status": "reported",
+      "note": "ICv2 reports a December 4 retail release (Legendary and Mythical Unova Pokémon). No official MSRP yet — asking prices floating around are for the older Black Bolt/White Flare version, so check the Flip List before buying.",
+      "covers": ["Unova Heavy Hitters Premium Collection"],
+      "sources": [{"label": "ICv2", "url": "https://icv2.com/articles/news/view/63405/pokemon-tcg-unova-heavy-hitters-premium-collection-incoming"}]
     },
     {
       "id": "flowing-fists-pc-preorder",
