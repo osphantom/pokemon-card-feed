@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T17:33:43Z",
+ "generated_at": "2026-11-15T21:41:27Z",
  "ebay_used": true,
  "stopwords": [
   "pokemon",
@@ -92,23 +92,23 @@
     },
     {
      "date": "2026-11-15",
-     "price": 352.94,
-     "count": 3
+     "price": 476.45,
+     "count": 2
     }
    ],
-   "market": 363.94,
-   "count": 3,
+   "market": 374.94,
+   "count": 2,
    "last_seen": "2026-11-15"
   },
   {
    "key": "included|lamp|lava|needoh|pink|schylling|target",
    "tokens": [
-    "target",
     "schylling",
     "lava",
     "lamp",
     "needoh",
     "included",
+    "target",
     "pink"
    ],
    "title": "\"Target Exclusive\" Schylling Lava Lamp NeeDoh 1 of 3 NeeDoh Included (PINK)",
@@ -121,11 +121,11 @@
     },
     {
      "date": "2026-11-15",
-     "price": 215.0,
+     "price": 234.98,
      "count": 6
     }
    ],
-   "market": 235.41,
+   "market": 245.4,
    "count": 6,
    "last_seen": "2026-11-15"
   },
@@ -200,6 +200,30 @@
    "last_seen": "2026-11-15"
   },
   {
+   "key": "angel|code|day|mini|series|sonny|valentines",
+   "tokens": [
+    "sonny",
+    "angel",
+    "valentines",
+    "day",
+    "series",
+    "mini",
+    "code"
+   ],
+   "title": "Sonny Angel New ✔️AUTHENTIC Valentines Day 2017 Series Mini Figure Code 399",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 119.99,
+     "count": 3
+    }
+   ],
+   "market": 119.99,
+   "count": 3,
+   "last_seen": "2026-11-15"
+  },
+  {
    "key": "backpack|loungefly|mini|sylveon",
    "tokens": [
     "loungefly",
@@ -246,11 +270,11 @@
     {
      "date": "2026-11-15",
      "price": 70.99,
-     "count": 3
+     "count": 5
     }
    ],
    "market": 93.44,
-   "count": 3,
+   "count": 5,
    "last_seen": "2026-11-15"
   },
   {
@@ -285,11 +309,11 @@
     {
      "date": "2026-11-15",
      "price": 88.99,
-     "count": 5
+     "count": 3
     }
    ],
    "market": 88.99,
-   "count": 5,
+   "count": 3,
    "last_seen": "2026-11-15"
   },
   {
@@ -536,6 +560,31 @@
    "last_seen": "2026-11-15"
   },
   {
+   "key": "angel|blind|box|decorative|hippers|limited|mini|sonny",
+   "tokens": [
+    "sonny",
+    "angel",
+    "hippers",
+    "limited",
+    "blind",
+    "box",
+    "decorative",
+    "mini"
+   ],
+   "title": "Sonny Angel Hippers Limited Edition Blind Box Decorative Mini Figure Sealed Gift",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 47.33,
+     "count": 2
+    }
+   ],
+   "market": 47.33,
+   "count": 2,
+   "last_seen": "2026-11-15"
+  },
+  {
    "key": "50cm|black|dragon|gifts|jellycat|onyx|plush|retired|tags",
    "tokens": [
     "jellycat",
@@ -614,6 +663,40 @@
    ],
    "market": 38.0,
    "count": 5,
+   "last_seen": "2026-11-15"
+  },
+  {
+   "key": "6pcs|angel|blind|box|day|love|mini|rainy|random|series|sonny|toys",
+   "tokens": [
+    "random",
+    "6pcs",
+    "sonny",
+    "angel",
+    "love",
+    "rainy",
+    "day",
+    "series",
+    "blind",
+    "box",
+    "mini",
+    "toys"
+   ],
+   "title": "random 6pcs Sonny Angel I Love Rainy Day Series Blind Box Mini Figure Toys USA",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 29.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-15",
+     "price": 36.95,
+     "count": 3
+    }
+   ],
+   "market": 33.47,
+   "count": 3,
    "last_seen": "2026-11-15"
   },
   {
@@ -765,6 +848,33 @@
    "last_seen": "2026-11-15"
   },
   {
+   "key": "blind|box|have|labubu|mart|monsters|plush|pop|seat|vinyl",
+   "tokens": [
+    "pop",
+    "mart",
+    "labubu",
+    "monsters",
+    "have",
+    "seat",
+    "vinyl",
+    "plush",
+    "blind",
+    "box"
+   ],
+   "title": "POP MART Labubu The Monsters Have a Seat Vinyl Plush Sealed Blind Box",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 19.99,
+     "count": 3
+    }
+   ],
+   "market": 19.99,
+   "count": 3,
+   "last_seen": "2026-11-15"
+  },
+  {
    "key": "gaming|gengar|grande|large|mouse|mousepad|pad",
    "tokens": [
     "gengar",
@@ -840,6 +950,58 @@
    ],
    "market": 17.99,
    "count": 5,
+   "last_seen": "2026-11-15"
+  },
+  {
+   "key": "big|confirmed|energy|happiness|into|labubu|mart|pop",
+   "tokens": [
+    "pop",
+    "mart",
+    "labubu",
+    "big",
+    "into",
+    "energy",
+    "happiness",
+    "confirmed"
+   ],
+   "title": "Pop Mart Labubu Big Into Energy Happiness Sealed Confirmed",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 17.99,
+     "count": 4
+    }
+   ],
+   "market": 17.99,
+   "count": 4,
+   "last_seen": "2026-11-15"
+  },
+  {
+   "key": "blind|box|confirmed|doll|mart|mega|molly|pop|series|space",
+   "tokens": [
+    "pop",
+    "mart",
+    "mega",
+    "space",
+    "molly",
+    "series",
+    "blind",
+    "box",
+    "confirmed",
+    "doll"
+   ],
+   "title": "POP MART 100% Mega Space Molly Series 4 Blind Box Confirmed Figure Toy Doll",
+   "ship": "bundle",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 14.98,
+     "count": 3
+    }
+   ],
+   "market": 14.98,
+   "count": 3,
    "last_seen": "2026-11-15"
   },
   {
@@ -997,35 +1159,6 @@
     }
    ],
    "market": 30.0,
-   "count": 3,
-   "last_seen": "2026-11-14"
-  },
-  {
-   "key": "6pcs|angel|blind|box|day|love|mini|rainy|random|series|sonny|toys",
-   "tokens": [
-    "random",
-    "6pcs",
-    "sonny",
-    "angel",
-    "love",
-    "rainy",
-    "day",
-    "series",
-    "blind",
-    "box",
-    "mini",
-    "toys"
-   ],
-   "title": "random 6pcs Sonny Angel I Love Rainy Day Series Blind Box Mini Figure Toys USA",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-14",
-     "price": 29.98,
-     "count": 3
-    }
-   ],
-   "market": 29.98,
    "count": 3,
    "last_seen": "2026-11-14"
   },
