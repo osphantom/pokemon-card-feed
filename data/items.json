@@ -6,7 +6,7 @@
    "source": "PokeBeach",
    "source_id": "gn-pokebeach",
    "publisher": "PokeBeach",
-   "published": "2026-11-14T23:18:03Z",
+   "published": "2026-11-14T23:17:29Z",
    "category": "news",
    "stores": [],
    "hot": false,
@@ -2065,19 +2065,6 @@
    "first_seen": "2026-11-08T17:32:32Z"
   },
   {
-   "title": "The Pokémon TCG: Mega Evolution—Delta Reign Expansion Is Available Now",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOTBaUW5STWYzd1dzMzkySDFpRXRtT0wyVEdoNndOamxnejhwcGM2Tnpxc3VxMEdSQkwzLTB4aWlrNXk3ajRvNWdhVktXRHFaa0h1S195VzdIdV9xUlpLSlpIQ2Nsb0FlUmJNM1c4R09nWWFsLXVPWEFRU21KN2F4ejZ1NVVtbFpIamZudXEyVW9qb013V3Q1YVJJTkVuakRnWVlR?oc=5",
-   "source": "Pokemon.com",
-   "source_id": "gn-official",
-   "publisher": "Pokemon.com",
-   "published": "2026-11-06T14:08:45Z",
-   "category": "releases",
-   "stores": [],
-   "hot": false,
-   "id": "df4a79ed553a74",
-   "first_seen": "2026-11-08T17:32:32Z"
-  },
-  {
    "title": "Pokémon TCG November 2026 release lineup: Where to buy 30th Celebration, Delta Reign, and more",
    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBYTUVEOThxa2ltaUtHTy03RVRTSmhXN29BYmNfakROM3g1SEI4U1hoNVplR0pYWjdnQWYwbjV1MDBQRVZKNy1yb0h1RkZWR1FtX2lPTmNDeGpPMlFkck5CU0VLWHpwLU5KSGFhcHhrUldNckRvRW9BMjNHd0U4UQ?oc=5",
    "source": "Google News: preorders",
@@ -2274,6 +2261,19 @@
    "stores": [],
    "hot": false,
    "id": "e20b8befbb585d",
+   "first_seen": "2026-11-08T17:32:32Z"
+  },
+  {
+   "title": "The Pokémon TCG: Mega Evolution—Delta Reign Expansion Is Available Now",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOTBaUW5STWYzd1dzMzkySDFpRXRtT0wyVEdoNndOamxnejhwcGM2Tnpxc3VxMEdSQkwzLTB4aWlrNXk3ajRvNWdhVktXRHFaa0h1S195VzdIdV9xUlpLSlpIQ2Nsb0FlUmJNM1c4R09nWWFsLXVPWEFRU21KN2F4ejZ1NVVtbFpIamZudXEyVW9qb013V3Q1YVJJTkVuakRnWVlR?oc=5",
+   "source": "Pokemon.com",
+   "source_id": "gn-official",
+   "publisher": "Pokemon.com",
+   "published": "2026-11-06T08:00:00Z",
+   "category": "releases",
+   "stores": [],
+   "hot": false,
+   "id": "df4a79ed553a74",
    "first_seen": "2026-11-08T17:32:32Z"
   },
   {
