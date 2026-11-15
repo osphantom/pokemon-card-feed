@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T18:45:30Z",
+ "generated_at": "2026-11-15T05:45:32Z",
  "ebay_used": true,
  "stopwords": [
   "pokemon",
@@ -89,11 +89,16 @@
      "date": "2026-11-14",
      "price": 363.94,
      "count": 3
+    },
+    {
+     "date": "2026-11-15",
+     "price": 352.94,
+     "count": 3
     }
    ],
    "market": 363.94,
    "count": 3,
-   "last_seen": "2026-11-14"
+   "last_seen": "2026-11-15"
   },
   {
    "key": "included|lamp|lava|needoh|pink|schylling|target",
@@ -106,42 +111,23 @@
     "target",
     "pink"
    ],
-   "title": "Schylling Lava Lamp NeeDoh 1 of 3 NeeDoh included Target exclusive PINK lava",
+   "title": "\"Target Exclusive\" Schylling Lava Lamp NeeDoh 1 of 3 NeeDoh Included (PINK)",
    "ship": "box",
    "history": [
     {
      "date": "2026-11-14",
      "price": 255.82,
      "count": 5
-    }
-   ],
-   "market": 255.82,
-   "count": 5,
-   "last_seen": "2026-11-14"
-  },
-  {
-   "key": "angel|blind|box|random|series|sonny|valentines",
-   "tokens": [
-    "sonny",
-    "angel",
-    "valentines",
-    "series",
-    "random",
-    "blind",
-    "box"
-   ],
-   "title": "Sonny Angel 🌈Authentic Valentines 2019 series Figure [ 1 Random Blind Box ]",
-   "ship": "small",
-   "history": [
+    },
     {
-     "date": "2026-11-14",
-     "price": 139.99,
-     "count": 3
+     "date": "2026-11-15",
+     "price": 215.0,
+     "count": 6
     }
    ],
-   "market": 139.99,
-   "count": 3,
-   "last_seen": "2026-11-14"
+   "market": 235.41,
+   "count": 6,
+   "last_seen": "2026-11-15"
   },
   {
    "key": "espeon|gaming|headset|kraken|limited|razer|umbreon|v4",
@@ -172,11 +158,16 @@
      "date": "2026-11-14",
      "price": 133.97,
      "count": 4
+    },
+    {
+     "date": "2026-11-15",
+     "price": 133.97,
+     "count": 4
     }
    ],
-   "market": 132.95,
+   "market": 133.46,
    "count": 4,
-   "last_seen": "2026-11-14"
+   "last_seen": "2026-11-15"
   },
   {
    "key": "amuseable|blue|christmas|jellycat|large|retired|spruce|tree",
@@ -197,11 +188,42 @@
      "date": "2026-11-14",
      "price": 120.0,
      "count": 3
+    },
+    {
+     "date": "2026-11-15",
+     "price": 120.0,
+     "count": 3
     }
    ],
    "market": 120.0,
    "count": 3,
-   "last_seen": "2026-11-14"
+   "last_seen": "2026-11-15"
+  },
+  {
+   "key": "backpack|loungefly|mini|sylveon",
+   "tokens": [
+    "loungefly",
+    "sylveon",
+    "mini",
+    "backpack"
+   ],
+   "title": "Loungefly Pokemon Sylveon Mini Backpack",
+   "ship": "bundle",
+   "history": [
+    {
+     "date": "2026-11-13",
+     "price": 99.49,
+     "count": 3
+    },
+    {
+     "date": "2026-11-15",
+     "price": 99.49,
+     "count": 3
+    }
+   ],
+   "market": 99.49,
+   "count": 3,
+   "last_seen": "2026-11-15"
   },
   {
    "key": "advent|calendar|days|needoh|schylling|squishmas",
@@ -220,59 +242,16 @@
      "date": "2026-11-14",
      "price": 115.9,
      "count": 4
-    }
-   ],
-   "market": 115.9,
-   "count": 4,
-   "last_seen": "2026-11-14"
-  },
-  {
-   "key": "advent|calendar|christmas|needoh|schylling",
-   "tokens": [
-    "schylling",
-    "needoh",
-    "christmas",
-    "advent",
-    "calendar"
-   ],
-   "title": "100% Authentic Schylling Needoh Christmas Advent Calendar 2026 SEALED",
-   "ship": "small",
-   "history": [
+    },
     {
-     "date": "2026-11-14",
-     "price": 105.0,
-     "count": 5
+     "date": "2026-11-15",
+     "price": 70.99,
+     "count": 3
     }
    ],
-   "market": 105.0,
-   "count": 5,
-   "last_seen": "2026-11-14"
-  },
-  {
-   "key": "cube|doh|nee|nice|orange|squeeze|squishy|stack|tactile",
-   "tokens": [
-    "nee",
-    "doh",
-    "nice",
-    "cube",
-    "stack",
-    "orange",
-    "tactile",
-    "squishy",
-    "squeeze"
-   ],
-   "title": "Nee Doh Nice Cube Stack Pack Orange Tactile Squishy Squeeze Toy Set Exclusive",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-14",
-     "price": 89.99,
-     "count": 5
-    }
-   ],
-   "market": 89.99,
-   "count": 5,
-   "last_seen": "2026-11-14"
+   "market": 93.44,
+   "count": 3,
+   "last_seen": "2026-11-15"
   },
   {
    "key": "gaming|gengar|headset|kitty|kraken|razer|v2",
@@ -302,11 +281,47 @@
      "date": "2026-11-14",
      "price": 88.99,
      "count": 5
+    },
+    {
+     "date": "2026-11-15",
+     "price": 88.99,
+     "count": 5
     }
    ],
    "market": 88.99,
    "count": 5,
-   "last_seen": "2026-11-14"
+   "last_seen": "2026-11-15"
+  },
+  {
+   "key": "cube|doh|nee|nice|orange|squeeze|squishy|stack|tactile",
+   "tokens": [
+    "nee",
+    "doh",
+    "nice",
+    "cube",
+    "stack",
+    "orange",
+    "tactile",
+    "squishy",
+    "squeeze"
+   ],
+   "title": "Nee Doh Nice Cube Stack Pack Orange Tactile Squishy Squeeze Toy Set Exclusive",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 89.99,
+     "count": 5
+    },
+    {
+     "date": "2026-11-15",
+     "price": 79.0,
+     "count": 4
+    }
+   ],
+   "market": 84.5,
+   "count": 4,
+   "last_seen": "2026-11-15"
   },
   {
    "key": "artisan|batch|craft|from|keycaps|unmounted|unused",
@@ -336,11 +351,16 @@
      "date": "2026-11-14",
      "price": 84.0,
      "count": 7
+    },
+    {
+     "date": "2026-11-15",
+     "price": 84.0,
+     "count": 7
     }
    ],
    "market": 84.0,
    "count": 7,
-   "last_seen": "2026-11-14"
+   "last_seen": "2026-11-15"
   },
   {
    "key": "gogh|museum|pikachu|plush|van",
@@ -368,11 +388,50 @@
      "date": "2026-11-14",
      "price": 69.99,
      "count": 27
+    },
+    {
+     "date": "2026-11-15",
+     "price": 69.99,
+     "count": 27
     }
    ],
    "market": 69.99,
    "count": 27,
-   "last_seen": "2026-11-14"
+   "last_seen": "2026-11-15"
+  },
+  {
+   "key": "90h|classic|clog|crocs|mens|nwb|starters",
+   "tokens": [
+    "crocs",
+    "starters",
+    "classic",
+    "clog",
+    "90h",
+    "mens",
+    "nwb"
+   ],
+   "title": "Crocs x Pokemon \"Pokemon Starters\" Classic Clog 211343-90H Men’s Size 9 NWB",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 62.24,
+     "count": 3
+    },
+    {
+     "date": "2026-11-13",
+     "price": 57.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-15",
+     "price": 62.24,
+     "count": 3
+    }
+   ],
+   "market": 62.24,
+   "count": 3,
+   "last_seen": "2026-11-15"
   },
   {
    "key": "center|gengar|mug|nidorino|opening|oz|retro|scene",
@@ -403,39 +462,16 @@
      "date": "2026-11-14",
      "price": 58.33,
      "count": 4
-    }
-   ],
-   "market": 58.33,
-   "count": 4,
-   "last_seen": "2026-11-14"
-  },
-  {
-   "key": "classic|clog|crocs|mens|starters|womens",
-   "tokens": [
-    "crocs",
-    "starters",
-    "classic",
-    "clog",
-    "mens",
-    "womens"
-   ],
-   "title": "Crocs x Pokemon \"Pokemon Starters\" Classic Clog Men’s Size 8 Women's Size 10",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 49.99,
-     "count": 3
     },
     {
-     "date": "2026-11-14",
-     "price": 49.99,
+     "date": "2026-11-15",
+     "price": 57.67,
      "count": 3
     }
    ],
-   "market": 49.99,
+   "market": 58.0,
    "count": 3,
-   "last_seen": "2026-11-14"
+   "last_seen": "2026-11-15"
   },
   {
    "key": "championships|francisco|puzzle|san|world|xp",
@@ -464,10 +500,318 @@
      "date": "2026-11-14",
      "price": 48.0,
      "count": 4
+    },
+    {
+     "date": "2026-11-15",
+     "price": 48.0,
+     "count": 4
     }
    ],
    "market": 48.0,
    "count": 4,
+   "last_seen": "2026-11-15"
+  },
+  {
+   "key": "50cm|black|dragon|gifts|jellycat|onyx|plush|retired|tags",
+   "tokens": [
+    "jellycat",
+    "onyx",
+    "dragon",
+    "plush",
+    "black",
+    "retired",
+    "50cm",
+    "tags",
+    "gifts"
+   ],
+   "title": "Jellycat Onyx Dragon Plush – Black - RETIRED RARE 50cm - NEW WITH TAGS Gifts",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 42.99,
+     "count": 3
+    }
+   ],
+   "market": 42.99,
+   "count": 3,
+   "last_seen": "2026-11-15"
+  },
+  {
+   "key": "calendar|countdown|needoh|or|squeeze|squish|target|ween",
+   "tokens": [
+    "needoh",
+    "squish",
+    "or",
+    "squeeze",
+    "ween",
+    "countdown",
+    "calendar",
+    "target"
+   ],
+   "title": "Needoh Squish or Squeeze Squish-O-Ween Countdown Calendar Target Exclusive",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 38.0,
+     "count": 5
+    },
+    {
+     "date": "2026-11-15",
+     "price": 38.0,
+     "count": 5
+    }
+   ],
+   "market": 38.0,
+   "count": 5,
+   "last_seen": "2026-11-15"
+  },
+  {
+   "key": "angel|blind|box|cat|christmas|series|single|sonny",
+   "tokens": [
+    "sonny",
+    "angel",
+    "cat",
+    "christmas",
+    "series",
+    "single",
+    "blind",
+    "box"
+   ],
+   "title": "Sonny Angel Cat Christmas Series Single Blind Box Sealed-New 2026",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 29.99,
+     "count": 3
+    }
+   ],
+   "market": 29.99,
+   "count": 3,
+   "last_seen": "2026-11-15"
+  },
+  {
+   "key": "angel|blind|box|cat|confirmed|life|mini|series|sonny",
+   "tokens": [
+    "sonny",
+    "angel",
+    "cat",
+    "life",
+    "series",
+    "mini",
+    "confirmed",
+    "blind",
+    "box"
+   ],
+   "title": "Sonny Angel Cat Life Series Mini Figures - Confirmed Blind Box Figure",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 16.12,
+     "count": 2
+    },
+    {
+     "date": "2026-11-15",
+     "price": 27.5,
+     "count": 1
+    }
+   ],
+   "market": 21.81,
+   "count": 1,
+   "last_seen": "2026-11-15"
+  },
+  {
+   "key": "gaming|grande|large|mouse|mousepad|pad|snorlax",
+   "tokens": [
+    "snorlax",
+    "grande",
+    "mousepad",
+    "large",
+    "gaming",
+    "mouse",
+    "pad"
+   ],
+   "title": "Pokemon Snorlax Grande Mousepad Large Gaming Mouse Pad",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 20.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-13",
+     "price": 20.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-14",
+     "price": 20.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-15",
+     "price": 20.0,
+     "count": 3
+    }
+   ],
+   "market": 20.0,
+   "count": 3,
+   "last_seen": "2026-11-15"
+  },
+  {
+   "key": "gaming|gengar|grande|large|mouse|mousepad|pad",
+   "tokens": [
+    "gengar",
+    "grande",
+    "mousepad",
+    "large",
+    "gaming",
+    "mouse",
+    "pad"
+   ],
+   "title": "P-Pokemon-Gengar Grande Mousepad Large Gaming Mouse Pad",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 18.0,
+     "count": 5
+    },
+    {
+     "date": "2026-11-13",
+     "price": 18.0,
+     "count": 6
+    },
+    {
+     "date": "2026-11-14",
+     "price": 18.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-15",
+     "price": 18.0,
+     "count": 6
+    }
+   ],
+   "market": 18.0,
+   "count": 6,
+   "last_seen": "2026-11-15"
+  },
+  {
+   "key": "30th|anniversary|bottle|mystery|target|type|water",
+   "tokens": [
+    "target",
+    "mystery",
+    "water",
+    "type",
+    "bottle",
+    "30th",
+    "anniversary"
+   ],
+   "title": "Pokemon X Target Mystery Water Type Pokemon Bottle 30th Anniversary",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 18.24,
+     "count": 4
+    },
+    {
+     "date": "2026-11-13",
+     "price": 17.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-14",
+     "price": 17.88,
+     "count": 4
+    },
+    {
+     "date": "2026-11-15",
+     "price": 17.99,
+     "count": 5
+    }
+   ],
+   "market": 17.99,
+   "count": 5,
+   "last_seen": "2026-11-15"
+  },
+  {
+   "key": "angel|blind|box|random|series|sonny|valentines",
+   "tokens": [
+    "sonny",
+    "angel",
+    "valentines",
+    "series",
+    "random",
+    "blind",
+    "box"
+   ],
+   "title": "Sonny Angel 🌈Authentic Valentines 2019 series Figure [ 1 Random Blind Box ]",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 139.99,
+     "count": 3
+    }
+   ],
+   "market": 139.99,
+   "count": 3,
+   "last_seen": "2026-11-14"
+  },
+  {
+   "key": "advent|calendar|christmas|needoh|schylling",
+   "tokens": [
+    "schylling",
+    "needoh",
+    "christmas",
+    "advent",
+    "calendar"
+   ],
+   "title": "100% Authentic Schylling Needoh Christmas Advent Calendar 2026 SEALED",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 105.0,
+     "count": 5
+    }
+   ],
+   "market": 105.0,
+   "count": 5,
+   "last_seen": "2026-11-14"
+  },
+  {
+   "key": "classic|clog|crocs|mens|starters|womens",
+   "tokens": [
+    "crocs",
+    "starters",
+    "classic",
+    "clog",
+    "mens",
+    "womens"
+   ],
+   "title": "Crocs x Pokemon \"Pokemon Starters\" Classic Clog Men’s Size 8 Women's Size 10",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 49.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-14",
+     "price": 49.99,
+     "count": 3
+    }
+   ],
+   "market": 49.99,
+   "count": 3,
    "last_seen": "2026-11-14"
   },
   {
@@ -518,31 +862,6 @@
    ],
    "market": 41.99,
    "count": 4,
-   "last_seen": "2026-11-14"
-  },
-  {
-   "key": "calendar|countdown|needoh|or|squeeze|squish|target|ween",
-   "tokens": [
-    "needoh",
-    "squish",
-    "or",
-    "squeeze",
-    "ween",
-    "countdown",
-    "calendar",
-    "target"
-   ],
-   "title": "Needoh Squish or Squeeze Squish-O-Ween Countdown Calendar Target Exclusive",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-14",
-     "price": 38.0,
-     "count": 5
-    }
-   ],
-   "market": 38.0,
-   "count": 5,
    "last_seen": "2026-11-14"
   },
   {
@@ -630,134 +949,6 @@
    "last_seen": "2026-11-14"
   },
   {
-   "key": "gaming|grande|large|mouse|mousepad|pad|snorlax",
-   "tokens": [
-    "snorlax",
-    "grande",
-    "mousepad",
-    "large",
-    "gaming",
-    "mouse",
-    "pad"
-   ],
-   "title": "Pokemon Snorlax Grande Mousepad Large Gaming Mouse Pad",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 20.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-13",
-     "price": 20.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-14",
-     "price": 20.0,
-     "count": 3
-    }
-   ],
-   "market": 20.0,
-   "count": 3,
-   "last_seen": "2026-11-14"
-  },
-  {
-   "key": "gaming|gengar|grande|large|mouse|mousepad|pad",
-   "tokens": [
-    "gengar",
-    "grande",
-    "mousepad",
-    "large",
-    "gaming",
-    "mouse",
-    "pad"
-   ],
-   "title": "P-Pokemon-Gengar Grande Mousepad Large Gaming Mouse Pad",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 18.0,
-     "count": 5
-    },
-    {
-     "date": "2026-11-13",
-     "price": 18.0,
-     "count": 6
-    },
-    {
-     "date": "2026-11-14",
-     "price": 18.0,
-     "count": 4
-    }
-   ],
-   "market": 18.0,
-   "count": 4,
-   "last_seen": "2026-11-14"
-  },
-  {
-   "key": "30th|anniversary|bottle|mystery|target|type|water",
-   "tokens": [
-    "target",
-    "mystery",
-    "water",
-    "type",
-    "bottle",
-    "30th",
-    "anniversary"
-   ],
-   "title": "Pokemon X Target Mystery Water Type Pokemon Bottle 30th Anniversary - Sealed",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 18.24,
-     "count": 4
-    },
-    {
-     "date": "2026-11-13",
-     "price": 17.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-14",
-     "price": 17.88,
-     "count": 4
-    }
-   ],
-   "market": 17.99,
-   "count": 4,
-   "last_seen": "2026-11-14"
-  },
-  {
-   "key": "angel|blind|box|cat|confirmed|life|mini|series|sonny",
-   "tokens": [
-    "sonny",
-    "angel",
-    "cat",
-    "life",
-    "series",
-    "mini",
-    "confirmed",
-    "blind",
-    "box"
-   ],
-   "title": "Sonny Angel Cat Life Series Mini Figures - Confirmed Blind Box Figure",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-14",
-     "price": 16.12,
-     "count": 2
-    }
-   ],
-   "market": 16.12,
-   "count": 2,
-   "last_seen": "2026-11-14"
-  },
-  {
    "key": "board|game|master|trainer",
    "tokens": [
     "master",
@@ -780,27 +971,6 @@
     }
    ],
    "market": 229.99,
-   "count": 3,
-   "last_seen": "2026-11-13"
-  },
-  {
-   "key": "backpack|loungefly|mini|sylveon",
-   "tokens": [
-    "loungefly",
-    "sylveon",
-    "mini",
-    "backpack"
-   ],
-   "title": "Loungefly Pokemon Sylveon Mini Backpack",
-   "ship": "bundle",
-   "history": [
-    {
-     "date": "2026-11-13",
-     "price": 99.49,
-     "count": 3
-    }
-   ],
-   "market": 99.49,
    "count": 3,
    "last_seen": "2026-11-13"
   },
@@ -832,35 +1002,6 @@
     }
    ],
    "market": 79.95,
-   "count": 3,
-   "last_seen": "2026-11-13"
-  },
-  {
-   "key": "90h|classic|clog|crocs|mens|nwb|starters",
-   "tokens": [
-    "crocs",
-    "starters",
-    "classic",
-    "clog",
-    "90h",
-    "mens",
-    "nwb"
-   ],
-   "title": "Crocs x Pokemon \"Pokemon Starters\" Classic Clog 211343-90H Men’s Size 9 NWB",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 62.24,
-     "count": 3
-    },
-    {
-     "date": "2026-11-13",
-     "price": 57.98,
-     "count": 3
-    }
-   ],
-   "market": 60.11,
    "count": 3,
    "last_seen": "2026-11-13"
   },
