@@ -44,6 +44,13 @@
     "jellycat": "pack",
     "labubu": "small",
     "sonny": "small",
+    "smiski": "small",
+    "skullpanda": "small",
+    "crybaby": "small",
+    "dimoo": "small",
+    "hirono": "small",
+    "molly": "small",
+    "bearbrick": "box",
     "default": "pack"
   },
   "exclude": [
@@ -92,6 +99,18 @@
     {"query": "jellycat retired", "ship": "pack"},
     {"query": "jellycat amuseable large", "ship": "bundle"},
     {"query": "squishmallow exclusive", "ship": "pack"},
-    {"query": "sonny angel", "ship": "small"}
+    {"query": "sonny angel", "ship": "small"},
+    {"query": "sonny angel hippers", "ship": "small"},
+    {"query": "pop mart labubu the monsters", "ship": "small"},
+    {"query": "labubu exciting macaron", "ship": "small"},
+    {"query": "labubu big into energy", "ship": "small"},
+    {"query": "pop mart labubu have a seat", "ship": "small"},
+    {"query": "pop mart skullpanda", "ship": "small"},
+    {"query": "pop mart crybaby", "ship": "small"},
+    {"query": "pop mart molly", "ship": "small"},
+    {"query": "pop mart dimoo", "ship": "small"},
+    {"query": "pop mart hirono", "ship": "small"},
+    {"query": "smiski series figure", "ship": "small"},
+    {"query": "bearbrick 400", "ship": "box"}
   ]
 }
