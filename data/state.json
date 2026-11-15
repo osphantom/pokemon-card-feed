@@ -30,7 +30,7 @@
   },
   "free-promos": {
    "id": "1569375425384161463",
-   "hash": "feec93cc7fa7"
+   "hash": "1f1a62b7abe7"
   },
   "raffles": {
    "id": "1569386105378447482",
@@ -1041,11 +1041,11 @@
   "pennsylvania",
   "virginia"
  ],
- "costco_checked_at": "2026-11-15T23:01:11Z",
- "promos_checked_at": "2026-11-15T17:43:16Z",
+ "costco_checked_at": "2026-11-15T23:46:05Z",
+ "promos_checked_at": "2026-11-15T23:46:05Z",
  "promo_markets": {
-  "30th-celebration-mewtwo": 16.68,
-  "delta-reign-kyogre": 8.08
+  "30th-celebration-mewtwo": 16.38,
+  "delta-reign-kyogre": 7.55
  },
  "promos_announced": [
   "30th-celebration-mewtwo",
@@ -1066,7 +1066,7 @@
   "PA",
   "VA"
  ],
- "sams_checked_at": "2026-11-15T23:01:11Z",
+ "sams_checked_at": "2026-11-15T23:46:05Z",
  "sams_status": {
   "990416407": {
    "6330": "order",
@@ -1121,8 +1121,8 @@
   }
  },
  "costco_stamp": "2026-11-13T13:55:41Z",
- "costco_read_at": "2026-11-15T17:43:16Z",
- "upc_checked_at": "2026-11-15T23:01:11Z",
+ "costco_read_at": "2026-11-15T23:46:05Z",
+ "upc_checked_at": "2026-11-15T23:46:05Z",
  "price_seen": {
   "704144": 257.29,
   "704191": 371.78,
