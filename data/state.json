@@ -328,6 +328,16 @@
   "raffle-ping:Walmart:2026-11-12",
   "raffle-ping:any:2026-11-10",
   "raffle-ping:any:2026-11-13",
+  "restockd:2026-11-12:0857da441c",
+  "restockd:2026-11-12:43e60fa864",
+  "restockd:2026-11-12:a8ef4058f2",
+  "restockd:2026-11-12:c303a715ba",
+  "restockd:2026-11-13:28a3dc1a8d",
+  "restockd:2026-11-13:a6e6978feb",
+  "restockd:2026-11-13:ae690389c1",
+  "restockd:2026-11-13:f8ace62c69",
+  "restockd:2026-11-14:63551c6529",
+  "restockd:2026-11-14:b5f1b80bad",
   "window:target-overnight:2026-11-13",
   "window:walmart-drawing:2026-11-11"
  ],
@@ -1181,5 +1191,7 @@
   "Amazon:30th Celebration Ultra-Premium Collection [Day]",
   "Amazon:Magic: Star Trek - Collector Booster Display",
   "See the article:30th Celebration Ultra-Premium Collection [Day]"
- ]
+ ],
+ "restockd_checked_at": "2026-11-15T21:31:05Z",
+ "restockd_seen": true
 }
