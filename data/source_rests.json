@@ -1,1 +1,78 @@
-{}
+{
+ "reddit-deals": {
+  "failures": 1,
+  "until": "2026-11-15T21:51:45Z"
+ },
+ "gn-restockd": {
+  "failures": 1,
+  "until": "2026-11-15T21:51:45Z"
+ },
+ "gn-pokebeach": {
+  "failures": 1,
+  "until": "2026-11-15T21:51:45Z"
+ },
+ "gn-pokeguardian": {
+  "failures": 1,
+  "until": "2026-11-15T21:51:45Z"
+ },
+ "gn-official": {
+  "failures": 1,
+  "until": "2026-11-15T21:51:45Z"
+ },
+ "gn-preorder": {
+  "failures": 1,
+  "until": "2026-11-15T21:51:45Z"
+ },
+ "gn-restock": {
+  "failures": 1,
+  "until": "2026-11-15T21:51:45Z"
+ },
+ "gn-pokemon-center": {
+  "failures": 1,
+  "until": "2026-11-15T21:51:45Z"
+ },
+ "gn-drawings": {
+  "failures": 1,
+  "until": "2026-11-15T21:51:45Z"
+ },
+ "gn-clubs": {
+  "failures": 1,
+  "until": "2026-11-15T21:51:45Z"
+ },
+ "gn-release": {
+  "failures": 1,
+  "until": "2026-11-15T21:51:45Z"
+ },
+ "gn-market": {
+  "failures": 1,
+  "until": "2026-11-15T21:51:45Z"
+ },
+ "gn-raffles": {
+  "failures": 1,
+  "until": "2026-11-15T21:51:45Z"
+ },
+ "gn-promos": {
+  "failures": 1,
+  "until": "2026-11-15T21:51:45Z"
+ },
+ "gn-promo-stores": {
+  "failures": 1,
+  "until": "2026-11-15T21:51:45Z"
+ },
+ "gn-lorcana": {
+  "failures": 1,
+  "until": "2026-11-15T21:51:45Z"
+ },
+ "gn-onepiece": {
+  "failures": 1,
+  "until": "2026-11-15T21:51:45Z"
+ },
+ "gn-mtg": {
+  "failures": 1,
+  "until": "2026-11-15T21:51:45Z"
+ },
+ "gn-swu": {
+  "failures": 1,
+  "until": "2026-11-15T21:51:45Z"
+ }
+}
