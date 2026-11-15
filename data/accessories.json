@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T05:45:32Z",
+ "generated_at": "2026-11-15T17:33:43Z",
  "ebay_used": true,
  "stopwords": [
   "pokemon",
@@ -103,12 +103,12 @@
   {
    "key": "included|lamp|lava|needoh|pink|schylling|target",
    "tokens": [
+    "target",
     "schylling",
     "lava",
     "lamp",
     "needoh",
     "included",
-    "target",
     "pink"
    ],
    "title": "\"Target Exclusive\" Schylling Lava Lamp NeeDoh 1 of 3 NeeDoh Included (PINK)",
@@ -315,12 +315,12 @@
     },
     {
      "date": "2026-11-15",
-     "price": 79.0,
-     "count": 4
+     "price": 78.0,
+     "count": 3
     }
    ],
-   "market": 84.5,
-   "count": 4,
+   "market": 84.0,
+   "count": 3,
    "last_seen": "2026-11-15"
   },
   {
@@ -334,7 +334,7 @@
     "unused",
     "unmounted"
    ],
-   "title": "S-Craft Artisan Pokemon Keycaps from Batch 8 (2023) - New/Unused/Unmounted",
+   "title": "S-Craft Artisan Pokemon Keycaps from Batch 9 (2023) - New/Unused/Unmounted",
    "ship": "box",
    "history": [
     {
@@ -360,6 +360,30 @@
    ],
    "market": 84.0,
    "count": 7,
+   "last_seen": "2026-11-15"
+  },
+  {
+   "key": "advent|calendar|christmas|days|needoh|schylling|squish",
+   "tokens": [
+    "schylling",
+    "needoh",
+    "days",
+    "squish",
+    "christmas",
+    "advent",
+    "calendar"
+   ],
+   "title": "Schylling  NeeDOH 24 Days Of Squish Christmas Advent Calendar 100% Authentic",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 77.0,
+     "count": 3
+    }
+   ],
+   "market": 77.0,
+   "count": 3,
    "last_seen": "2026-11-15"
   },
   {
@@ -465,12 +489,12 @@
     },
     {
      "date": "2026-11-15",
-     "price": 57.67,
-     "count": 3
+     "price": 53.84,
+     "count": 4
     }
    ],
    "market": 58.0,
-   "count": 3,
+   "count": 4,
    "last_seen": "2026-11-15"
   },
   {
@@ -538,6 +562,31 @@
    "last_seen": "2026-11-15"
   },
   {
+   "key": "16oz|bottle|eevee|evolution|freesip|luxury|owala|water",
+   "tokens": [
+    "luxury",
+    "owala",
+    "16oz",
+    "eevee",
+    "evolution",
+    "freesip",
+    "water",
+    "bottle"
+   ],
+   "title": "LUXURY NEW 2026 Pokémon x Owala 16oz & Eevee Evolution FreeSip Water Bottle",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 39.99,
+     "count": 3
+    }
+   ],
+   "market": 39.99,
+   "count": 3,
+   "last_seen": "2026-11-15"
+  },
+  {
    "key": "calendar|countdown|needoh|or|squeeze|squish|target|ween",
    "tokens": [
     "needoh",
@@ -568,6 +617,33 @@
    "last_seen": "2026-11-15"
   },
   {
+   "key": "angel|blind|box|day|love|mini|rainy|series|sonny|toys",
+   "tokens": [
+    "sonny",
+    "angel",
+    "love",
+    "rainy",
+    "day",
+    "series",
+    "blind",
+    "box",
+    "mini",
+    "toys"
+   ],
+   "title": "Sonny Angel I Love Rainy Day Series Blind Box Mini Figure Toys USA",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 31.99,
+     "count": 1
+    }
+   ],
+   "market": 31.99,
+   "count": 1,
+   "last_seen": "2026-11-15"
+  },
+  {
    "key": "angel|blind|box|cat|christmas|series|single|sonny",
    "tokens": [
     "sonny",
@@ -589,6 +665,32 @@
     }
    ],
    "market": 29.99,
+   "count": 3,
+   "last_seen": "2026-11-15"
+  },
+  {
+   "key": "bunny|cobblehop|jellycat|leopard",
+   "tokens": [
+    "jellycat",
+    "cobblehop",
+    "leopard",
+    "bunny"
+   ],
+   "title": "Jellycat Cobblehop Leopard Bunny.",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 22.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-15",
+     "price": 22.99,
+     "count": 3
+    }
+   ],
+   "market": 22.99,
    "count": 3,
    "last_seen": "2026-11-15"
   },
@@ -694,11 +796,11 @@
     {
      "date": "2026-11-15",
      "price": 18.0,
-     "count": 6
+     "count": 5
     }
    ],
    "market": 18.0,
-   "count": 6,
+   "count": 5,
    "last_seen": "2026-11-15"
   },
   {
@@ -924,27 +1026,6 @@
     }
    ],
    "market": 29.98,
-   "count": 3,
-   "last_seen": "2026-11-14"
-  },
-  {
-   "key": "bunny|cobblehop|jellycat|leopard",
-   "tokens": [
-    "jellycat",
-    "cobblehop",
-    "leopard",
-    "bunny"
-   ],
-   "title": "Jellycat Cobblehop Leopard Bunny.",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-14",
-     "price": 22.99,
-     "count": 3
-    }
-   ],
-   "market": 22.99,
    "count": 3,
    "last_seen": "2026-11-14"
   },

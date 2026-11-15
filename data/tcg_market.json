@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T05:45:32Z",
+ "generated_at": "2026-11-15T17:33:43Z",
  "games": [
   "Lorcana",
   "One Piece",
@@ -87,7 +87,7 @@
    "url": "https://www.tcgplayer.com/product/704752/one-piece-card-game-the-worlds-strongest-warriors-the-worlds-strongest-warriors-booster-box",
    "catalog": 280.13,
    "verified": true,
-   "count": 16
+   "count": 17
   },
   {
    "game": "Riftbound",
@@ -152,7 +152,7 @@
    "url": "https://www.tcgplayer.com/product/712901/one-piece-card-game-the-dominance-of-god-the-dominance-of-god-booster-box",
    "catalog": 218.79,
    "verified": true,
-   "count": 16
+   "count": 15
   },
   {
    "game": "Magic",
@@ -184,7 +184,7 @@
    "game": "Yu-Gi-Oh",
    "name": "Magnificent Maestros Display",
    "set": "Magnificent Maestros",
-   "market": 220.0,
+   "market": 219.99,
    "release": "2026-11-13",
    "presale": false,
    "current": true,
@@ -340,7 +340,7 @@
    "game": "Lorcana",
    "name": "Disney Lorcana: Hyperia City Booster Box",
    "set": "Hyperia City",
-   "market": 69.95,
+   "market": 67.98,
    "release": "2026-10-23",
    "presale": false,
    "current": true,
@@ -600,14 +600,14 @@
    "game": "Magic",
    "name": "Star Trek Commander Deck - We Are the Borg",
    "set": "Commander: Star Trek",
-   "market": 139.98,
+   "market": 76.88,
    "release": "2026-11-13",
    "presale": false,
    "current": true,
    "url": "https://www.tcgplayer.com/product/706171/magic-commander-star-trek-star-trek-commander-deck-we-are-the-borg",
    "catalog": 70.22,
    "verified": true,
-   "count": 9
+   "count": 10
   },
   {
    "game": "One Piece",
@@ -678,7 +678,7 @@
    "game": "Magic",
    "name": "Star Trek - Bundle",
    "set": "Star Trek",
-   "market": 11.0,
+   "market": 11.24,
    "release": "2026-11-13",
    "presale": false,
    "current": true,
@@ -691,14 +691,14 @@
    "game": "Magic",
    "name": "Star Trek Commander Deck - Federation Fleet",
    "set": "Commander: Star Trek",
-   "market": 60.92,
+   "market": 64.99,
    "release": "2026-11-13",
    "presale": false,
    "current": true,
    "url": "https://www.tcgplayer.com/product/706167/magic-commander-star-trek-star-trek-commander-deck-federation-fleet",
    "catalog": 43.37,
    "verified": true,
-   "count": 8
+   "count": 7
   },
   {
    "game": "One Piece",
@@ -750,7 +750,7 @@
    "url": "https://www.tcgplayer.com/product/714891/magic-secret-lair-x-mschf-the-zeta-set-secret-lair-x-mschf-the-zeta-set-booster-pack",
    "catalog": 38.27,
    "verified": true,
-   "count": 6
+   "count": 7
   },
   {
    "game": "Lorcana",
@@ -880,7 +880,7 @@
    "url": "https://www.tcgplayer.com/product/717854/lorcana-tcg-hyperia-city-disney-lorcana-hyperia-city-2-player-starter-set",
    "catalog": 22.04,
    "verified": true,
-   "count": 6
+   "count": 7
   },
   {
    "game": "Gundam",
@@ -1010,7 +1010,7 @@
    "url": "https://www.tcgplayer.com/product/711383/one-piece-card-game-extra-booster-one-piece-heroines-edition-vol-2-extra-booster-one-piece-heroines-edition-vol2-booster-pack",
    "catalog": 8.04,
    "verified": false,
-   "count": 2
+   "count": 1
   },
   {
    "game": "Riftbound",
@@ -1068,14 +1068,14 @@
    "game": "Lorcana",
    "name": "Disney Lorcana: Winterspell Booster Box",
    "set": "Winterspell",
-   "market": 109.99,
+   "market": 101.98,
    "release": "2026-02-20",
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/664819/lorcana-tcg-winterspell-disney-lorcana-winterspell-booster-box",
    "catalog": 236.17,
    "verified": true,
-   "count": 17
+   "count": 18
   },
   {
    "game": "Lorcana",
@@ -1101,7 +1101,7 @@
    "url": "https://www.tcgplayer.com/product/652703/lorcana-tcg-whispers-in-the-well-disney-lorcana-whispers-in-the-well-booster-box",
    "catalog": 209.94,
    "verified": true,
-   "count": 16
+   "count": 17
   },
   {
    "game": "Lorcana",
@@ -1302,14 +1302,14 @@
    "game": "Gundam",
    "name": "Stardust Trails Booster Box",
    "set": "Stardust Trails",
-   "market": 104.45,
+   "market": 104.99,
    "release": null,
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/710652/gundam-card-game-stardust-trails-stardust-trails-booster-box",
    "catalog": 104.23,
    "verified": true,
-   "count": 14
+   "count": 13
   },
   {
    "game": "Lorcana",
@@ -1328,7 +1328,7 @@
    "game": "Riftbound",
    "name": "Radiance - Booster Display",
    "set": "Radiance",
-   "market": 119.9,
+   "market": 119.94,
    "release": null,
    "presale": false,
    "current": false,
@@ -1380,14 +1380,14 @@
    "game": "Gundam",
    "name": "Eternal Nexus Booster Box",
    "set": "Eternal Nexus",
-   "market": 119.0,
+   "market": 120.0,
    "release": null,
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/693103/gundam-card-game-eternal-nexus-eternal-nexus-booster-box",
    "catalog": 89.21,
    "verified": true,
-   "count": 17
+   "count": 16
   },
   {
    "game": "Lorcana",
@@ -1959,7 +1959,7 @@
    "url": "https://www.tcgplayer.com/product/652701/lorcana-tcg-whispers-in-the-well-disney-lorcana-whispers-in-the-well-booster-pack",
    "catalog": 11.32,
    "verified": true,
-   "count": 8
+   "count": 9
   },
   {
    "game": "Lorcana",
@@ -1985,7 +1985,7 @@
    "url": "https://www.tcgplayer.com/product/664821/lorcana-tcg-winterspell-disney-lorcana-winterspell-booster-pack",
    "catalog": 10.6,
    "verified": true,
-   "count": 16
+   "count": 17
   },
   {
    "game": "Lorcana",
@@ -2069,14 +2069,14 @@
    "game": "Gundam",
    "name": "Stardust Trails Booster Pack",
    "set": "Stardust Trails",
-   "market": 12.0,
+   "market": 14.0,
    "release": null,
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/710651/gundam-card-game-stardust-trails-stardust-trails-booster-pack",
    "catalog": 8.1,
    "verified": true,
-   "count": 16
+   "count": 15
   }
  ]
 }
