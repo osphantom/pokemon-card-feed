@@ -21,6 +21,7 @@ from .raffles import MIN_PROFIT as RAFFLE_MIN_PROFIT
 from .raffles import load_current as load_raffles
 from .raffles import worth_showing as raffle_worth_showing
 from .sams_stock import refresh_if_due as refresh_sams
+from .restockd import refresh_if_due as refresh_restockd
 from . import signups as signups_module
 
 BUYING_CATEGORIES = {"raffles", "preorders", "restocks", "deals"}
@@ -390,6 +391,52 @@ def apply_costco(client, state: dict, data: dict, keys: set) -> None:
     state["costco_status"] = {**(previous or {}), **current}
     if watched is not None:
         state["costco_watched_states"] = list(watched)
+
+
+def restockd_payload(item: dict) -> dict:
+    """One Restockd drop-news item as a store-channel embed."""
+    lines = []
+    if item["body"]:
+        lines.append(item["body"])
+    for url in item["links"][:4]:
+        if url not in (item["body"] or ""):
+            lines.append(url)
+    text = f"{item['headline']} {item['body']}".lower()
+    if item["store"] == "costco" and any(w in text for w in ("queue", "transit", "could drop", "going up", " is up")):
+        lines.append("\n_Costco usually goes live the next morning once stock is confirmed in transit._")
+    return {
+        "embeds": [{
+            "title": clip(f"🗞️ {item['headline']}", 256),
+            "color": COLORS["restocks"],
+            "description": clip("\n".join(lines) or item["headline"], 1200),
+            "footer": {"text": f"From Restockd · {item['date']}"},
+        }]
+    }
+
+
+def apply_restockd(client, state: dict, news: list, keys: set) -> None:
+    """Post new Restockd drop-news to its store channel. The first check only records what's there,
+    so old news isn't dumped in. Routes by store; a live/imminent Costco queue also pings."""
+    first_run = not state.get("initialized")
+    # Oldest first, so each channel reads in order.
+    for item in sorted(news, key=lambda entry: entry["iso"]):
+        digest = hashlib.md5(item["headline"].encode("utf-8")).hexdigest()[:10]
+        key = f"restockd:{item['iso'][:10]}:{digest}"
+        if key in keys:
+            continue
+        keys.add(key)
+        if first_run:
+            continue
+        client.send(item["store"], restockd_payload(item))
+        text = f"{item['headline']} {item['body']}".lower()
+        if item["store"] == "costco" and any(w in text for w in ("queue", "could drop", "going up", " is up", "live")):
+            client.send(PING_CHANNEL, with_ping({
+                "embeds": [{
+                    "title": clip(f"🔔 {item['headline']}", 256),
+                    "color": COLORS["ping"],
+                    "description": "Details in the Costco channel. Costco usually goes live the next morning once stock is confirmed in transit.",
+                }]
+            }))
 
 
 def apply_upc(client, state: dict, posted: bool) -> None:
@@ -883,7 +930,7 @@ def update_board(client, state: dict, channel: str, payload: dict, key: str | No
     boards[name] = {"id": client.upsert(channel, payload, entry.get("id")), "hash": digest}
 
 
-def run(now, client, items, windows, events, undated, products, state, costco=None, promos=None, raffles=None, sams=None, upc=None, preorders=None, tcg=None) -> None:
+def run(now, client, items, windows, events, undated, products, state, costco=None, promos=None, raffles=None, sams=None, upc=None, preorders=None, tcg=None, restockd=None) -> None:
     """Decide what to post and record it."""
     first_run = not state.get("initialized")
     posted = set(state.get("posted_items", []))
@@ -909,6 +956,8 @@ def run(now, client, items, windows, events, undated, products, state, costco=No
         update_board(client, state, "target", spotted_board("Target", "target-free"))
         if costco:
             apply_costco(client, state, costco, keys)
+        if restockd:
+            apply_restockd(client, state, restockd, keys)
         if upc:
             apply_upc(client, state, upc)
         if promos is not None:
@@ -1041,6 +1090,7 @@ def main() -> int:
             return 0
         costco = refresh_costco(now, state)
         sams = refresh_sams(now, state)
+        restockd_news = refresh_restockd(now, state)
         upc = refresh_upc(now, state)
         promos = refresh_promos(now, state)
         products = market.get("products", [])
@@ -1055,7 +1105,7 @@ def main() -> int:
             if (shaped["store"], shaped["title"].lower()) not in open_already:
                 raffles["open"].append(shaped)
         preorders = signups_module.preorder_signups(found)
-        run(now, WebhookClient(api, webhooks), items, windows, events, calendar["undated"], products, state, costco, promos, raffles, sams, upc, preorders, tcg)
+        run(now, WebhookClient(api, webhooks), items, windows, events, calendar["undated"], products, state, costco, promos, raffles, sams, upc, preorders, tcg, restockd_news)
     except DiscordError as error:
         print(f"Discord posting stopped: {error}")
         return 1
