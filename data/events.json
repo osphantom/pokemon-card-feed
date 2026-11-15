@@ -1,5 +1,5 @@
 {
-  "verified": "2026-11-14",
+  "verified": "2026-11-15",
   "events": [
     {
       "id": "mcdonalds-2026",
@@ -22,6 +22,34 @@
       "sources": [
         {"label": "Pokémon Center", "url": "https://support.pokemoncenter.com/hc/en-us/articles/4407702295572-Estimated-Preorder-Release-Dates"},
         {"label": "Wargamer", "url": "https://www.wargamer.com/pokemon-trading-card-game/delta-reign-preorders-delay"}
+      ]
+    },
+    {
+      "id": "op18-dominance-of-god",
+      "title": "One Piece OP-18 \"The Dominance of God\" street date",
+      "date": "2026-11-20",
+      "kind": "release",
+      "status": "official",
+      "msrp": 4.99,
+      "note": "English booster set, $4.99/pack on Bandai's official page. Tournament legal Nov 27. Lands the same day as the Heroines Gift Collection — busy One Piece week.",
+      "covers": ["One Piece OP-18", "The Dominance of God"],
+      "sources": [
+        {"label": "One Piece Card Game (official)", "url": "https://en.onepiece-cardgame.com/products/boosters/op18.html"},
+        {"label": "TCGTalk", "url": "https://tcgtalk.com/guides/op18-release-date-products"}
+      ]
+    },
+    {
+      "id": "op-heroines-gift-collection",
+      "title": "One Piece Heroines Gift Collection street date",
+      "date": "2026-11-20",
+      "kind": "release",
+      "status": "reported",
+      "msrp": 44.99,
+      "note": "GC-2026. $44.99 MSRP: 2 EB-05 Heroines vol.2 packs, 70 sleeves, 10 promo cards. Same day as OP-18; expect heavy demand.",
+      "covers": ["One Piece Heroines Gift Collection"],
+      "sources": [
+        {"label": "Shonen TCG", "url": "https://www.shonentcg.com/blog/one-piece-heroines-gift-collection-gc-2026-guide"},
+        {"label": "Miniature Market", "url": "https://www.miniaturemarket.com/One-Piece-TCG-Heroines-Gift-Collection-Preorder/BAN2873816"}
       ]
     },
     {
@@ -105,6 +133,19 @@
       "msrp": 49.99,
       "note": "Pokémon's product page gives the date. The $49.99 price comes from reporting, because the page doesn't list one.",
       "sources": [{"label": "Pokemon.com", "url": "https://www.pokemon.com/us/pokemon-tcg/product-gallery/mega-rayquaza-ex-premium-tournament-collection"}]
+    },
+    {
+      "id": "lorcana-into-the-inkdark",
+      "title": "Lorcana \"Into the Inkdark\" (set 15) street date",
+      "date": "2027-02-12",
+      "kind": "release",
+      "status": "reported",
+      "note": "Prerelease Feb 5. Lorcana's first Collector Boosters debut here (new serialized \"Illustrious\" rarity) — reseller interest. Collector Boosters are LIMITED: Ravensburger Play Hub stores, Ravensburger online, and select Disney locations only. Reported Collector Booster box ~$420 / packs ~$35.",
+      "covers": ["Into the Inkdark"],
+      "sources": [
+        {"label": "ICv2", "url": "https://icv2.com/articles/news/view/63708/"},
+        {"label": "Resell Calendar", "url": "https://resellcalendar.com/news/news/lorcana-into-the-inkdark-price-msrp-release-date-reseller/"}
+      ]
     }
   ],
   "undated": [
