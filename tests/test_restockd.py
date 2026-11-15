@@ -60,7 +60,7 @@ class ApplyTests(unittest.TestCase):
         self.assertEqual(len(keys), 2)  # both recorded so they never post as "new" later
 
     def test_posts_new_items_to_store_channels(self):
-        client, state, keys = FakeClient(), {"initialized": True}, set()
+        client, state, keys = FakeClient(), {"restockd_seen": True}, set()
         discord_post.apply_restockd(client, state, self.news, keys)
         channels = [channel for channel, _ in client.sent]
         self.assertIn("costco", channels)
@@ -69,14 +69,14 @@ class ApplyTests(unittest.TestCase):
         self.assertIn("drop-pings", channels)
 
     def test_dedupes_on_second_pass(self):
-        client, state, keys = FakeClient(), {"initialized": True}, set()
+        client, state, keys = FakeClient(), {"restockd_seen": True}, set()
         discord_post.apply_restockd(client, state, self.news, keys)
         before = len(client.sent)
         discord_post.apply_restockd(client, state, self.news, keys)
         self.assertEqual(len(client.sent), before)  # nothing re-posted
 
     def test_costco_ping_has_next_morning_note(self):
-        client, state, keys = FakeClient(), {"initialized": True}, set()
+        client, state, keys = FakeClient(), {"restockd_seen": True}, set()
         discord_post.apply_restockd(client, state, self.news, keys)
         pings = [p for c, p in client.sent if c == "drop-pings"]
         self.assertTrue(pings)

@@ -415,9 +415,11 @@ def restockd_payload(item: dict) -> dict:
 
 
 def apply_restockd(client, state: dict, news: list, keys: set) -> None:
-    """Post new Restockd drop-news to its store channel. The first check only records what's there,
-    so old news isn't dumped in. Routes by store; a live/imminent Costco queue also pings."""
-    first_run = not state.get("initialized")
+    """Post new Restockd drop-news to its store channel. The first Restockd pass only records what's
+    already there, so the back-catalogue isn't dumped in even on a long-running server. Routes by
+    store; a live/imminent Costco queue also pings."""
+    seeding = not state.get("restockd_seen")
+    state["restockd_seen"] = True
     # Oldest first, so each channel reads in order.
     for item in sorted(news, key=lambda entry: entry["iso"]):
         digest = hashlib.md5(item["headline"].encode("utf-8")).hexdigest()[:10]
@@ -425,7 +427,7 @@ def apply_restockd(client, state: dict, news: list, keys: set) -> None:
         if key in keys:
             continue
         keys.add(key)
-        if first_run:
+        if seeding:
             continue
         client.send(item["store"], restockd_payload(item))
         text = f"{item['headline']} {item['body']}".lower()
