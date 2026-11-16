@@ -1,6 +1,22 @@
 {
  "reddit-deals": {
+  "failures": 2,
+  "until": "2026-11-16T20:15:41Z"
+ },
+ "gn-pokebeach": {
   "failures": 1,
-  "until": "2026-11-16T19:30:54Z"
+  "until": "2026-11-16T19:45:41Z"
+ },
+ "gn-pokemon-center": {
+  "failures": 1,
+  "until": "2026-11-16T19:45:41Z"
+ },
+ "gn-release": {
+  "failures": 1,
+  "until": "2026-11-16T19:45:41Z"
+ },
+ "gn-mtg": {
+  "failures": 1,
+  "until": "2026-11-16T19:45:41Z"
  }
 }
