@@ -1,6 +1,185 @@
 {
  "items": [
   {
+   "title": "A Bull Market for Pokémon Cards, Fueled by Pikachu and Nostalgia",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9rRVR0bnJUbGtadVhfQWVtT3JCazVMYXd6ZmM2djRpai0ta0pncmhUUmRpYU5oNTBYSHl6Mk5iUXJLVmNMam9Bcnc0RDZkUl9aYS1zZWtKY3JmUjlzMWhneTg5RDJuNWdvZ3BGWm9lZmk3V1ZxSzBSZmtjWjc?oc=5",
+   "source": "Google News: market",
+   "source_id": "gn-market",
+   "publisher": "The New York Times",
+   "published": "2026-11-16T16:12:32Z",
+   "category": "market",
+   "stores": [],
+   "hot": false,
+   "id": "c05c5cc8c3b67b",
+   "first_seen": "2026-11-16T17:45:27Z"
+  },
+  {
+   "title": "Pokémon Happy Meals Return to US McDonald's With Two TCG Promo Cards Each, Through Dec. 14, 2026",
+   "link": "https://pokerestockapp.com/pokemon/news/mcdonalds-pokemon-happy-meal-tcg-cards-through-dec-14/",
+   "source": "PokeRestock",
+   "source_id": "pokerestock-news",
+   "publisher": "",
+   "published": "2026-11-16T14:25:00Z",
+   "category": "promos",
+   "stores": [
+    "McDonald's"
+   ],
+   "hot": false,
+   "id": "b7ebe679d2f570",
+   "first_seen": "2026-11-16T17:45:27Z"
+  },
+  {
+   "title": "Pokémon Center Delta Reign Pre-Orders Hit a Last-Minute Delay",
+   "link": "https://pokerestockapp.com/pokemon/news/pokemon-center-delta-reign-preorders-delayed/",
+   "source": "PokeRestock",
+   "source_id": "pokerestock-news",
+   "publisher": "",
+   "published": "2026-11-16T14:25:00Z",
+   "category": "preorders",
+   "stores": [
+    "Pokémon Center"
+   ],
+   "hot": true,
+   "id": "930264c628f881",
+   "first_seen": "2026-11-16T17:45:27Z"
+  },
+  {
+   "title": "Japanese Pokémon TCG Booster Packs Will Cost 15% More From May 2027. What It Means for US Prices",
+   "link": "https://pokerestockapp.com/pokemon/news/japanese-booster-pack-price-increase-may-2027/",
+   "source": "PokeRestock",
+   "source_id": "pokerestock-news",
+   "publisher": "",
+   "published": "2026-11-16T14:25:00Z",
+   "category": "market",
+   "stores": [],
+   "hot": false,
+   "id": "5bf148b8493eca",
+   "first_seen": "2026-11-16T17:45:27Z"
+  },
+  {
+   "title": "Delta Reign Build & Battle hits stores Friday — tournament-legal the same day",
+   "link": "https://buttondown.com/tcgdropradar/archive/delta-reign-build-battle-hits-stores-friday/",
+   "source": "TCG Drop Radar newsletter",
+   "source_id": "dropradar-newsletter",
+   "publisher": "",
+   "published": "2026-11-16T14:18:15Z",
+   "category": "restocks",
+   "stores": [],
+   "hot": false,
+   "id": "3f5b356c2ff730",
+   "first_seen": "2026-11-16T17:45:27Z"
+  },
+  {
+   "title": "Walmart Starts Black Friday Pokémon TCG Doorbusters and Runs a Nov. 12 Drawing for the 30th Celebration UPC",
+   "link": "https://pokerestockapp.com/pokemon/news/walmart-black-friday-30th-celebration-in-store-drawing-nov-12/",
+   "source": "PokeRestock",
+   "source_id": "pokerestock-news",
+   "publisher": "",
+   "published": "2026-11-16T14:10:00Z",
+   "category": "raffles",
+   "stores": [
+    "Walmart"
+   ],
+   "hot": true,
+   "id": "14a2000f7b0fd4",
+   "first_seen": "2026-11-16T17:45:27Z"
+  },
+  {
+   "title": "Wizards of the Coast Reveals Product Line Deets for 'Magic: The Gathering - Nauctis: The Sunken Realm'",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOME1HVWZlQ2pFWW5EcURTbUluZDFoRVA1SHZmWWZfRmdoWnVxcTdZZFNqcXJVeUtDTTBlZkdrdTF6c2hmSlhPRWFwZWNsMzBvcTRJT1FVa2Z2aTZ5aXdvZWlTRGhTWHA4Y1owd1IxNTJDQ1ZsRlZveXg1blJUeVJESUtTbzFBc3hUZVRYNGxVM25oZUxrWDZTQ1NzVzNRSUtfbW14Q1N6WFNseS1ON0I0azZGZERfZFhHQzJ4d0U5MGhjc29veEE?oc=5",
+   "source": "Google News: Magic TCG",
+   "source_id": "gn-mtg",
+   "publisher": "ICv2",
+   "published": "2026-11-16T13:36:13Z",
+   "category": "releases",
+   "stores": [],
+   "hot": false,
+   "id": "f90ec786322dbf",
+   "first_seen": "2026-11-16T17:45:27Z"
+  },
+  {
+   "title": "Best Magic: The Gathering deal: You can preorder 30 packs of Marvel Darkhold Destiny at an Amazon discount",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUFZ0cmZjODBXSjdJNEFndlRza25pSkN3NHlQZjJFcThnRDlMQVE5NUU4Z1RkV0FrdmdrbG9tYm5UeDlteTFKWEkzdk14aXZicEZENFdPSi1yMDRaNm9rTm9WWUhSaDFtT3lMcllyZV9MU2RCZkhHZFZ3QktMYjVZRUZFejNtMzBRUjVjT3RrQXhkYkRILXZELW8tbnN3RUVFMkI4?oc=5",
+   "source": "Google News: Magic TCG",
+   "source_id": "gn-mtg",
+   "publisher": "Mashable",
+   "published": "2026-11-16T13:17:24Z",
+   "category": "preorders",
+   "stores": [
+    "Amazon"
+   ],
+   "hot": false,
+   "id": "56861aeb43d085",
+   "first_seen": "2026-11-16T17:45:27Z"
+  },
+  {
+   "title": "Rare Pokémon Cards Worth Up to €180,000 Head to Auction in Monaco",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZi1ySm9KRnJfS1lQLUVfQlJxa0p5RHFBRXFrY19qT2twV0hpVC1wTnhfd0w3V0hQN1U2TUc1dmhfS19RSTAxQV9vLVlDUUxJTnlOaEI4WkhSQjZzbVpnV0o3d1BmNkQ0QWx1SnVFU3pFMnhTZW4ybXZkeUtQeXNHT2xYYjBLbnE5Q211cmE0TDVINzJ0bjRET0NfRkxZeGMyNWxnRXh5WmMwWGdOczlF?oc=5",
+   "source": "Google News: market",
+   "source_id": "gn-market",
+   "publisher": "Nice-Matin",
+   "published": "2026-11-16T13:00:05Z",
+   "category": "market",
+   "stores": [],
+   "hot": false,
+   "id": "14e0570d86b177",
+   "first_seen": "2026-11-16T17:45:27Z"
+  },
+  {
+   "title": "Add More Pokemon Cards to Your Collection With These Early Black Friday Deals",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nSDRucDdpNC1tc3BfM0o3WlpRMVBEbkhOM2hvZ3p4MUxYNXowWkRadXhGbS0yTkpCNlAxU1EyYklBUEZSWEQ5NEdCLTh0UldkYTdQd2hLMGU5blZlTGRBVVhlaHBXZVpzRzRSY2lnekltZ2JMTWVmM1VFOFpGRzA?oc=5",
+   "source": "Google News: store drawings",
+   "source_id": "gn-drawings",
+   "publisher": "CNET",
+   "published": "2026-11-16T12:16:00Z",
+   "category": "deals",
+   "stores": [],
+   "hot": false,
+   "id": "981307ac0a1a82",
+   "first_seen": "2026-11-16T17:45:27Z"
+  },
+  {
+   "title": "The Pokémon TCG 30th Celebration Elite Trainer Box is live at Amazon: Shop for under market price",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWU90a3FvT1daOG93TVBka0tEYlRrQW55OWRNazFGeWhFYVk5X29Gejdtc2tpU3hNc2xhNHNBd0E2NExZV3AyUFlIcmR4SGllMTFtZXBIQjM2WUl3bFpUbm84dUEzczE3bGZLREV0VzhMbGtrSXA2Q2VpQldpRUx0Uk1WTVg4SnRtU2xvbA?oc=5",
+   "source": "Google News: preorders",
+   "source_id": "gn-preorder",
+   "publisher": "Mashable",
+   "published": "2026-11-16T11:08:39Z",
+   "category": "restocks",
+   "stores": [
+    "Amazon"
+   ],
+   "hot": true,
+   "id": "1ad0c1b409c59d",
+   "first_seen": "2026-11-16T17:45:27Z"
+  },
+  {
+   "title": "Wonderful Waters Mini Tin Collection Revealed",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZHp2WE5LUV9IbmpBU1VVN29GRHJXTmNQWjRHWnN2QzRiMFB4aHBwdklCS2xJb05SSDVkRm9XUDZ2MUFlVk1lTG1wR1B3TXVZNUpIOWJYbDIwTjFzQzhJVkQzeS1RMkUwNHJXUS1SQzJ0Ri1RM3VtSGFfT01JYTd3SllNMXBUcnVEZ0E?oc=5",
+   "source": "PokeGuardian",
+   "source_id": "gn-pokeguardian",
+   "publisher": "PokeGuardian",
+   "published": "2026-11-16T11:00:15Z",
+   "category": "releases",
+   "stores": [],
+   "hot": false,
+   "id": "8c83d5d61b6308",
+   "first_seen": "2026-11-16T17:45:27Z"
+  },
+  {
+   "title": "\"Wonderful Waters\" Mini Tins Revealed for January!",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMEpraTNBRDJ1dWR3TDM1dml6RzJLRk5xbVpCX0JGZnVDa0xYU3hHX1FhcnBrNlZaY3NOVHduMXhJZUV6S3RqUkdENmpiRnJtbHdlV09sSWdJVGFjc25jTWFjR1Jrek5SWUctRlk3QUNjel94YW5HNTFxeFM0QjlPMGJRTWhUWlVI?oc=5",
+   "source": "PokeBeach",
+   "source_id": "gn-pokebeach",
+   "publisher": "PokeBeach",
+   "published": "2026-11-16T10:55:03Z",
+   "category": "releases",
+   "stores": [],
+   "hot": false,
+   "id": "746b69abdfbef8",
+   "first_seen": "2026-11-16T17:45:27Z"
+  },
+  {
    "title": "What Pokémon restocked this week (Nov 9 to Nov 16, 2026)",
    "link": "https://pokerestockapp.com/pokemon/this-week/",
    "source": "PokeRestock",
@@ -911,21 +1090,6 @@
    "first_seen": "2026-11-12T18:30:35Z"
   },
   {
-   "title": "Pokémon Happy Meals Return to US McDonald's With Two TCG Promo Cards Each, Through Dec. 14, 2026",
-   "link": "https://pokerestockapp.com/pokemon/news/mcdonalds-pokemon-happy-meal-tcg-cards-through-dec-14/",
-   "source": "PokeRestock",
-   "source_id": "pokerestock-news",
-   "publisher": "",
-   "published": "2026-11-11T15:09:00Z",
-   "category": "promos",
-   "stores": [
-    "McDonald's"
-   ],
-   "hot": false,
-   "id": "238a4a778db090",
-   "first_seen": "2026-11-11T16:27:37Z"
-  },
-  {
    "title": "Price Trends: Pokémon Cards Climbing in Price - 11/11/2026",
    "link": "https://seller.tcgplayer.com/blog/price-trends-pok%C3%A9mon-cards-climbing-in-price-11-11-2026",
    "source": "TCGplayer Seller Blog",
@@ -1034,6 +1198,19 @@
    "first_seen": "2026-11-15T04:15:31Z"
   },
   {
+   "title": "Best Pokemon Card Rips for 2026: Top Pokemon Card Rips Sites",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jT0R3SHVTUDBYTmF3dW5XX3dmYW9Hc1Y1czM3U25zYzRpdlNYWl9xV2ZLZURwbVRRV09rLWc5ang1R2pUcEpNOHNmR3d0UGI4VVVvWjZn?oc=5",
+   "source": "Google News: market",
+   "source_id": "gn-market",
+   "publisher": "TheLines.com",
+   "published": "2026-11-11T08:00:00Z",
+   "category": "market",
+   "stores": [],
+   "hot": false,
+   "id": "d2d2d381d4901d",
+   "first_seen": "2026-11-16T17:45:27Z"
+  },
+  {
    "title": "Pokémon Center Delta Reign Pre-Orders Hit a Last-Minute Delay",
    "link": "https://pokerestockapp.com/pokemon/news/pokemon-center-delta-reign-preorders-delayed/",
    "source": "PokeRestock",
@@ -1046,19 +1223,6 @@
    ],
    "hot": true,
    "id": "9cf896792dd0bc",
-   "first_seen": "2026-11-11T08:24:34Z"
-  },
-  {
-   "title": "Japanese Pokémon TCG Booster Packs Will Cost 15% More From May 2027. What It Means for US Prices",
-   "link": "https://pokerestockapp.com/pokemon/news/japanese-booster-pack-price-increase-may-2027/",
-   "source": "PokeRestock",
-   "source_id": "pokerestock-news",
-   "publisher": "",
-   "published": "2026-11-11T06:11:00Z",
-   "category": "market",
-   "stores": [],
-   "hot": false,
-   "id": "84407649e2dd8c",
    "first_seen": "2026-11-11T08:24:34Z"
   },
   {
@@ -1155,6 +1319,21 @@
    "hot": false,
    "id": "672645b528f109",
    "first_seen": "2026-11-11T08:24:34Z"
+  },
+  {
+   "title": "Pokémon Happy Meals Return to US McDonald's With Two TCG Promo Cards Each, Through Dec. 14, 2026",
+   "link": "https://pokerestockapp.com/pokemon/news/mcdonalds-pokemon-happy-meal-tcg-cards-through-dec-14/",
+   "source": "PokeRestock",
+   "source_id": "pokerestock-news",
+   "publisher": "",
+   "published": "2026-11-10T23:05:40Z",
+   "category": "promos",
+   "stores": [
+    "McDonald's"
+   ],
+   "hot": false,
+   "id": "238a4a778db090",
+   "first_seen": "2026-11-11T16:27:37Z"
   },
   {
    "title": "2026 McDonald’s Pokémon Happy Meal is My Favorite in Years",
@@ -1402,6 +1581,19 @@
    "hot": false,
    "id": "e4c3bdf7c84917",
    "first_seen": "2026-11-09T19:30:37Z"
+  },
+  {
+   "title": "Japanese Pokémon TCG Booster Packs Will Cost 15% More From May 2027. What It Means for US Prices",
+   "link": "https://pokerestockapp.com/pokemon/news/japanese-booster-pack-price-increase-may-2027/",
+   "source": "PokeRestock",
+   "source_id": "pokerestock-news",
+   "publisher": "",
+   "published": "2026-11-09T19:14:49Z",
+   "category": "market",
+   "stores": [],
+   "hot": false,
+   "id": "84407649e2dd8c",
+   "first_seen": "2026-11-11T08:24:34Z"
   },
   {
    "title": "A major 2027 Pokémon TCG change could be bad news for fans everywhere",

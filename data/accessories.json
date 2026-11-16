@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T21:41:27Z",
+ "generated_at": "2026-11-16T17:45:27Z",
  "ebay_used": true,
  "stopwords": [
   "pokemon",
@@ -94,11 +94,16 @@
      "date": "2026-11-15",
      "price": 476.45,
      "count": 2
+    },
+    {
+     "date": "2026-11-16",
+     "price": 476.45,
+     "count": 2
     }
    ],
-   "market": 374.94,
+   "market": 385.94,
    "count": 2,
-   "last_seen": "2026-11-15"
+   "last_seen": "2026-11-16"
   },
   {
    "key": "included|lamp|lava|needoh|pink|schylling|target",
@@ -123,11 +128,16 @@
      "date": "2026-11-15",
      "price": 234.98,
      "count": 6
+    },
+    {
+     "date": "2026-11-16",
+     "price": 257.91,
+     "count": 4
     }
    ],
-   "market": 245.4,
-   "count": 6,
-   "last_seen": "2026-11-15"
+   "market": 255.82,
+   "count": 4,
+   "last_seen": "2026-11-16"
   },
   {
    "key": "espeon|gaming|headset|kraken|limited|razer|umbreon|v4",
@@ -163,11 +173,16 @@
      "date": "2026-11-15",
      "price": 133.97,
      "count": 4
+    },
+    {
+     "date": "2026-11-16",
+     "price": 133.97,
+     "count": 4
     }
    ],
-   "market": 133.46,
+   "market": 133.97,
    "count": 4,
-   "last_seen": "2026-11-15"
+   "last_seen": "2026-11-16"
   },
   {
    "key": "amuseable|blue|christmas|jellycat|large|retired|spruce|tree",
@@ -193,11 +208,923 @@
      "date": "2026-11-15",
      "price": 120.0,
      "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 120.0,
+     "count": 3
     }
    ],
    "market": 120.0,
    "count": 3,
-   "last_seen": "2026-11-15"
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "hand|keyboard|target|wireless",
+   "tokens": [
+    "target",
+    "wireless",
+    "keyboard",
+    "hand"
+   ],
+   "title": "Pokémon x Target - Wireless Keyboard - IN HAND",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-16",
+     "price": 89.99,
+     "count": 3
+    }
+   ],
+   "market": 89.99,
+   "count": 3,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "arcanine|lego",
+   "tokens": [
+    "lego",
+    "arcanine"
+   ],
+   "title": "LEGO Pokemon: Arcanine (72160)",
+   "ship": "bundle",
+   "history": [
+    {
+     "date": "2026-11-16",
+     "price": 89.49,
+     "count": 3
+    }
+   ],
+   "market": 89.49,
+   "count": 3,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "advent|calendar|days|needoh|schylling|squishmas",
+   "tokens": [
+    "needoh",
+    "squishmas",
+    "advent",
+    "calendar",
+    "days",
+    "schylling"
+   ],
+   "title": "NeeDoh Squishmas Advent Calendar NEW SEALED 24 Days Schylling 2026 Gift",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 115.9,
+     "count": 4
+    },
+    {
+     "date": "2026-11-15",
+     "price": 70.99,
+     "count": 5
+    },
+    {
+     "date": "2026-11-16",
+     "price": 87.48,
+     "count": 7
+    }
+   ],
+   "market": 87.48,
+   "count": 7,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "artisan|batch|craft|from|keycaps|unmounted|unused",
+   "tokens": [
+    "craft",
+    "artisan",
+    "keycaps",
+    "from",
+    "batch",
+    "unused",
+    "unmounted"
+   ],
+   "title": "S-Craft Artisan Pokemon Keycaps from Batch 7 (2023) - New/Unused/Unmounted",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 84.0,
+     "count": 7
+    },
+    {
+     "date": "2026-11-13",
+     "price": 84.0,
+     "count": 7
+    },
+    {
+     "date": "2026-11-14",
+     "price": 84.0,
+     "count": 7
+    },
+    {
+     "date": "2026-11-15",
+     "price": 84.0,
+     "count": 7
+    },
+    {
+     "date": "2026-11-16",
+     "price": 84.0,
+     "count": 7
+    }
+   ],
+   "market": 84.0,
+   "count": 7,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "cube|doh|nee|nice|orange|squeeze|squishy|stack|tactile",
+   "tokens": [
+    "nee",
+    "doh",
+    "nice",
+    "cube",
+    "stack",
+    "orange",
+    "tactile",
+    "squishy",
+    "squeeze"
+   ],
+   "title": "Nee Doh Nice Cube Stack Pack Orange Tactile Squishy Squeeze Toy Set Exclusive",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 89.99,
+     "count": 5
+    },
+    {
+     "date": "2026-11-15",
+     "price": 78.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 74.99,
+     "count": 3
+    }
+   ],
+   "market": 78.0,
+   "count": 3,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "gogh|museum|pikachu|plush|van",
+   "tokens": [
+    "van",
+    "gogh",
+    "museum",
+    "pikachu",
+    "plush"
+   ],
+   "title": "Van Gogh Museum Pikachu Plush",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 69.99,
+     "count": 27
+    },
+    {
+     "date": "2026-11-13",
+     "price": 69.99,
+     "count": 27
+    },
+    {
+     "date": "2026-11-14",
+     "price": 69.99,
+     "count": 27
+    },
+    {
+     "date": "2026-11-15",
+     "price": 69.99,
+     "count": 27
+    },
+    {
+     "date": "2026-11-16",
+     "price": 69.99,
+     "count": 28
+    }
+   ],
+   "market": 69.99,
+   "count": 28,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "90h|classic|clog|crocs|mens|nwb|starters",
+   "tokens": [
+    "crocs",
+    "starters",
+    "classic",
+    "clog",
+    "90h",
+    "mens",
+    "nwb"
+   ],
+   "title": "Crocs x Pokemon \"Pokemon Starters\" Classic Clog 211343-90H Men’s Size 9 NWB",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 62.24,
+     "count": 3
+    },
+    {
+     "date": "2026-11-13",
+     "price": 57.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-15",
+     "price": 62.24,
+     "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 62.24,
+     "count": 3
+    }
+   ],
+   "market": 62.24,
+   "count": 3,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "center|gengar|mug|nidorino|opening|oz|retro|scene",
+   "tokens": [
+    "opening",
+    "scene",
+    "mug",
+    "oz",
+    "gengar",
+    "nidorino",
+    "retro",
+    "center"
+   ],
+   "title": "Official Pokémon Center Opening Scene Mug | 15 oz Gengar Nidorino Retro New",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 58.33,
+     "count": 4
+    },
+    {
+     "date": "2026-11-13",
+     "price": 57.67,
+     "count": 3
+    },
+    {
+     "date": "2026-11-14",
+     "price": 58.33,
+     "count": 4
+    },
+    {
+     "date": "2026-11-15",
+     "price": 53.84,
+     "count": 4
+    },
+    {
+     "date": "2026-11-16",
+     "price": 53.84,
+     "count": 4
+    }
+   ],
+   "market": 57.67,
+   "count": 4,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "championships|francisco|puzzle|san|world|xp",
+   "tokens": [
+    "world",
+    "championships",
+    "xp",
+    "puzzle",
+    "san",
+    "francisco"
+   ],
+   "title": "Pokemon World Championships &  XP 2026 Puzzle 1000 PCs San Francisco Exclusive",
+   "ship": "bundle",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 48.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-13",
+     "price": 48.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-14",
+     "price": 48.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-15",
+     "price": 48.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-16",
+     "price": 48.0,
+     "count": 4
+    }
+   ],
+   "market": 48.0,
+   "count": 4,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "angel|blind|box|decorative|hippers|limited|mini|sonny",
+   "tokens": [
+    "sonny",
+    "angel",
+    "hippers",
+    "limited",
+    "blind",
+    "box",
+    "decorative",
+    "mini"
+   ],
+   "title": "Sonny Angel Hippers Limited Edition Blind Box Decorative Mini Figure Sealed Gift",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 47.33,
+     "count": 2
+    },
+    {
+     "date": "2026-11-16",
+     "price": 47.33,
+     "count": 2
+    }
+   ],
+   "market": 47.33,
+   "count": 2,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "blind|box|exciting|face|labubu|macaron|mart|monsters|pop|vinyl",
+   "tokens": [
+    "pop",
+    "mart",
+    "labubu",
+    "monsters",
+    "exciting",
+    "macaron",
+    "vinyl",
+    "face",
+    "blind",
+    "box"
+   ],
+   "title": "*USA* AUTHENTIC POP MART LABUBU MONSTERS EXCITING MACARON (VINYL FACE BLIND BOX)",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-16",
+     "price": 45.0,
+     "count": 3
+    }
+   ],
+   "market": 45.0,
+   "count": 3,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "board|game|johto|monopoly",
+   "tokens": [
+    "monopoly",
+    "board",
+    "game",
+    "johto"
+   ],
+   "title": "Pokemon Monopoly Board Game Johto Edition Brand New",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 41.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-13",
+     "price": 41.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-14",
+     "price": 46.45,
+     "count": 4
+    },
+    {
+     "date": "2026-11-16",
+     "price": 41.99,
+     "count": 3
+    }
+   ],
+   "market": 41.99,
+   "count": 3,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "calendar|countdown|needoh|or|squeeze|squish|target|ween",
+   "tokens": [
+    "needoh",
+    "squish",
+    "or",
+    "squeeze",
+    "ween",
+    "countdown",
+    "calendar",
+    "target"
+   ],
+   "title": "Needoh Squish or Squeeze Squish-O-Ween Countdown Calendar Target Exclusive",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 38.0,
+     "count": 5
+    },
+    {
+     "date": "2026-11-15",
+     "price": 38.0,
+     "count": 5
+    },
+    {
+     "date": "2026-11-16",
+     "price": 38.0,
+     "count": 5
+    }
+   ],
+   "market": 38.0,
+   "count": 5,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "angel|blind|box|day|love|mini|rainy|series|sonny|toys",
+   "tokens": [
+    "sonny",
+    "angel",
+    "love",
+    "rainy",
+    "day",
+    "series",
+    "blind",
+    "box",
+    "mini",
+    "toys"
+   ],
+   "title": "Sonny Angel I Love Rainy Day Series Blind Box Mini Figure Toys",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 31.99,
+     "count": 1
+    },
+    {
+     "date": "2026-11-16",
+     "price": 31.99,
+     "count": 1
+    }
+   ],
+   "market": 31.99,
+   "count": 1,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "expert|game|guess|pro|ready|trainer|ultra",
+   "tokens": [
+    "trainer",
+    "expert",
+    "game",
+    "ready",
+    "guess",
+    "ultra",
+    "pro"
+   ],
+   "title": "Pokemon Trainer Expert Game. Ready Set Guess.  Ultra Pro. Brand New",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 30.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-13",
+     "price": 30.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-14",
+     "price": 30.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 27.5,
+     "count": 3
+    }
+   ],
+   "market": 30.0,
+   "count": 3,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "angel|blind|box|cat|christmas|series|single|sonny",
+   "tokens": [
+    "sonny",
+    "angel",
+    "cat",
+    "christmas",
+    "series",
+    "single",
+    "blind",
+    "box"
+   ],
+   "title": "Sonny Angel Cat Christmas Series Single Blind Box Sealed-New 2026",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 29.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 29.99,
+     "count": 3
+    }
+   ],
+   "market": 29.99,
+   "count": 3,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "6pcs|angel|blind|box|day|love|mini|rainy|random|series|sonny|toys",
+   "tokens": [
+    "random",
+    "6pcs",
+    "sonny",
+    "angel",
+    "love",
+    "rainy",
+    "day",
+    "series",
+    "blind",
+    "box",
+    "mini",
+    "toys"
+   ],
+   "title": "Random 6pcs Sonny Angel I Love Rainy Day Series Blind Box Mini Figure Toys",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 29.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-15",
+     "price": 36.95,
+     "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 29.98,
+     "count": 3
+    }
+   ],
+   "market": 29.98,
+   "count": 3,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "angel|blind|box|cat|confirmed|life|mini|series|sonny",
+   "tokens": [
+    "sonny",
+    "angel",
+    "cat",
+    "life",
+    "series",
+    "mini",
+    "confirmed",
+    "blind",
+    "box"
+   ],
+   "title": "Sonny Angel Cat Life Series Mini Figures - Confirmed Blind Box Figure",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 16.12,
+     "count": 2
+    },
+    {
+     "date": "2026-11-15",
+     "price": 27.5,
+     "count": 1
+    },
+    {
+     "date": "2026-11-16",
+     "price": 33.72,
+     "count": 2
+    }
+   ],
+   "market": 27.5,
+   "count": 2,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "board|by|characters|game|hasbro|monopoly",
+   "tokens": [
+    "monopoly",
+    "board",
+    "game",
+    "characters",
+    "by",
+    "hasbro"
+   ],
+   "title": "Monopoly Pokemon Board Game with Characters 2025 by Hasbro - NEW",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 24.9,
+     "count": 1
+    },
+    {
+     "date": "2026-11-16",
+     "price": 24.9,
+     "count": 1
+    }
+   ],
+   "market": 24.9,
+   "count": 1,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "blind|box|have|labubu|mart|monsters|plush|pop|seat|vinyl",
+   "tokens": [
+    "pop",
+    "mart",
+    "labubu",
+    "monsters",
+    "have",
+    "seat",
+    "vinyl",
+    "plush",
+    "blind",
+    "box"
+   ],
+   "title": "POP MART LABUBU The Monsters Have A Seat Vinyl Plush Blind Box US AUTHENTIC",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 19.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 22.49,
+     "count": 4
+    }
+   ],
+   "market": 21.24,
+   "count": 4,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "gaming|grande|large|mouse|mousepad|pad|snorlax",
+   "tokens": [
+    "snorlax",
+    "grande",
+    "mousepad",
+    "large",
+    "gaming",
+    "mouse",
+    "pad"
+   ],
+   "title": "Pokemon Snorlax Grande Mousepad Large Gaming Mouse Pad",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 20.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-13",
+     "price": 20.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-14",
+     "price": 20.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-15",
+     "price": 20.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 20.0,
+     "count": 3
+    }
+   ],
+   "market": 20.0,
+   "count": 3,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "big|confirmed|energy|happiness|into|labubu|mart|pop",
+   "tokens": [
+    "pop",
+    "mart",
+    "labubu",
+    "big",
+    "into",
+    "energy",
+    "happiness",
+    "confirmed"
+   ],
+   "title": "Pop Mart Labubu Big Into Energy Happiness Sealed Confirmed",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 17.99,
+     "count": 4
+    },
+    {
+     "date": "2026-11-16",
+     "price": 21.99,
+     "count": 4
+    }
+   ],
+   "market": 19.99,
+   "count": 4,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "gaming|gengar|grande|large|mouse|mousepad|pad",
+   "tokens": [
+    "gengar",
+    "grande",
+    "mousepad",
+    "large",
+    "gaming",
+    "mouse",
+    "pad"
+   ],
+   "title": "P-Pokemon-Gengar Grande Mousepad Large Gaming Mouse Pad",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 18.0,
+     "count": 5
+    },
+    {
+     "date": "2026-11-13",
+     "price": 18.0,
+     "count": 6
+    },
+    {
+     "date": "2026-11-14",
+     "price": 18.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-15",
+     "price": 18.0,
+     "count": 5
+    },
+    {
+     "date": "2026-11-16",
+     "price": 18.0,
+     "count": 6
+    }
+   ],
+   "market": 18.0,
+   "count": 6,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "30th|anniversary|bottle|mystery|target|type|water",
+   "tokens": [
+    "target",
+    "mystery",
+    "water",
+    "type",
+    "bottle",
+    "30th",
+    "anniversary"
+   ],
+   "title": "Pokemon X Target Mystery Water Type Pokemon Bottle 30th Anniversary",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 18.24,
+     "count": 4
+    },
+    {
+     "date": "2026-11-13",
+     "price": 17.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-14",
+     "price": 17.88,
+     "count": 4
+    },
+    {
+     "date": "2026-11-15",
+     "price": 17.99,
+     "count": 5
+    },
+    {
+     "date": "2026-11-16",
+     "price": 17.99,
+     "count": 7
+    }
+   ],
+   "market": 17.99,
+   "count": 7,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "blind|box|confirmed|doll|mart|mega|molly|pop|series|space",
+   "tokens": [
+    "pop",
+    "mart",
+    "mega",
+    "space",
+    "molly",
+    "series",
+    "blind",
+    "box",
+    "confirmed",
+    "doll"
+   ],
+   "title": "POP MART 100% Mega Space Molly Series 4 Blind Box Confirmed Figure Toy Doll",
+   "ship": "bundle",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 14.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 17.98,
+     "count": 3
+    }
+   ],
+   "market": 16.48,
+   "count": 3,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "angel|blind|blossom|box|case|cherry|full|hippers|series|sonny",
+   "tokens": [
+    "sonny",
+    "angel",
+    "hippers",
+    "cherry",
+    "blossom",
+    "series",
+    "blind",
+    "box",
+    "full",
+    "case"
+   ],
+   "title": "Sonny Angel HIPPERS Cherry Blossom Series Blind Box Full Case",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-16",
+     "price": 15.58,
+     "count": 2
+    }
+   ],
+   "market": 15.58,
+   "count": 2,
+   "last_seen": "2026-11-16"
   },
   {
    "key": "angel|code|day|mini|series|sonny|valentines",
@@ -250,34 +1177,6 @@
    "last_seen": "2026-11-15"
   },
   {
-   "key": "advent|calendar|days|needoh|schylling|squishmas",
-   "tokens": [
-    "needoh",
-    "squishmas",
-    "advent",
-    "calendar",
-    "days",
-    "schylling"
-   ],
-   "title": "NeeDoh Squishmas Advent Calendar NEW SEALED 24 Days Schylling 2026 Gift",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-14",
-     "price": 115.9,
-     "count": 4
-    },
-    {
-     "date": "2026-11-15",
-     "price": 70.99,
-     "count": 5
-    }
-   ],
-   "market": 93.44,
-   "count": 5,
-   "last_seen": "2026-11-15"
-  },
-  {
    "key": "gaming|gengar|headset|kitty|kraken|razer|v2",
    "tokens": [
     "razer",
@@ -317,76 +1216,6 @@
    "last_seen": "2026-11-15"
   },
   {
-   "key": "cube|doh|nee|nice|orange|squeeze|squishy|stack|tactile",
-   "tokens": [
-    "nee",
-    "doh",
-    "nice",
-    "cube",
-    "stack",
-    "orange",
-    "tactile",
-    "squishy",
-    "squeeze"
-   ],
-   "title": "Nee Doh Nice Cube Stack Pack Orange Tactile Squishy Squeeze Toy Set Exclusive",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-14",
-     "price": 89.99,
-     "count": 5
-    },
-    {
-     "date": "2026-11-15",
-     "price": 78.0,
-     "count": 3
-    }
-   ],
-   "market": 84.0,
-   "count": 3,
-   "last_seen": "2026-11-15"
-  },
-  {
-   "key": "artisan|batch|craft|from|keycaps|unmounted|unused",
-   "tokens": [
-    "craft",
-    "artisan",
-    "keycaps",
-    "from",
-    "batch",
-    "unused",
-    "unmounted"
-   ],
-   "title": "S-Craft Artisan Pokemon Keycaps from Batch 9 (2023) - New/Unused/Unmounted",
-   "ship": "box",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 84.0,
-     "count": 7
-    },
-    {
-     "date": "2026-11-13",
-     "price": 84.0,
-     "count": 7
-    },
-    {
-     "date": "2026-11-14",
-     "price": 84.0,
-     "count": 7
-    },
-    {
-     "date": "2026-11-15",
-     "price": 84.0,
-     "count": 7
-    }
-   ],
-   "market": 84.0,
-   "count": 7,
-   "last_seen": "2026-11-15"
-  },
-  {
    "key": "advent|calendar|christmas|days|needoh|schylling|squish",
    "tokens": [
     "schylling",
@@ -408,180 +1237,6 @@
    ],
    "market": 77.0,
    "count": 3,
-   "last_seen": "2026-11-15"
-  },
-  {
-   "key": "gogh|museum|pikachu|plush|van",
-   "tokens": [
-    "van",
-    "gogh",
-    "museum",
-    "pikachu",
-    "plush"
-   ],
-   "title": "Van Gogh Museum Pikachu Plush",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 69.99,
-     "count": 27
-    },
-    {
-     "date": "2026-11-13",
-     "price": 69.99,
-     "count": 27
-    },
-    {
-     "date": "2026-11-14",
-     "price": 69.99,
-     "count": 27
-    },
-    {
-     "date": "2026-11-15",
-     "price": 69.99,
-     "count": 27
-    }
-   ],
-   "market": 69.99,
-   "count": 27,
-   "last_seen": "2026-11-15"
-  },
-  {
-   "key": "90h|classic|clog|crocs|mens|nwb|starters",
-   "tokens": [
-    "crocs",
-    "starters",
-    "classic",
-    "clog",
-    "90h",
-    "mens",
-    "nwb"
-   ],
-   "title": "Crocs x Pokemon \"Pokemon Starters\" Classic Clog 211343-90H Men’s Size 9 NWB",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 62.24,
-     "count": 3
-    },
-    {
-     "date": "2026-11-13",
-     "price": 57.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-15",
-     "price": 62.24,
-     "count": 3
-    }
-   ],
-   "market": 62.24,
-   "count": 3,
-   "last_seen": "2026-11-15"
-  },
-  {
-   "key": "center|gengar|mug|nidorino|opening|oz|retro|scene",
-   "tokens": [
-    "opening",
-    "scene",
-    "mug",
-    "oz",
-    "gengar",
-    "nidorino",
-    "retro",
-    "center"
-   ],
-   "title": "Official Pokémon Center Opening Scene Mug | 15 oz Gengar Nidorino Retro New",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 58.33,
-     "count": 4
-    },
-    {
-     "date": "2026-11-13",
-     "price": 57.67,
-     "count": 3
-    },
-    {
-     "date": "2026-11-14",
-     "price": 58.33,
-     "count": 4
-    },
-    {
-     "date": "2026-11-15",
-     "price": 53.84,
-     "count": 4
-    }
-   ],
-   "market": 58.0,
-   "count": 4,
-   "last_seen": "2026-11-15"
-  },
-  {
-   "key": "championships|francisco|puzzle|san|world|xp",
-   "tokens": [
-    "world",
-    "championships",
-    "xp",
-    "puzzle",
-    "san",
-    "francisco"
-   ],
-   "title": "Pokemon World Championships &  XP 2026 Puzzle 1000 PCs San Francisco Exclusive",
-   "ship": "bundle",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 48.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-13",
-     "price": 48.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-14",
-     "price": 48.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-15",
-     "price": 48.0,
-     "count": 4
-    }
-   ],
-   "market": 48.0,
-   "count": 4,
-   "last_seen": "2026-11-15"
-  },
-  {
-   "key": "angel|blind|box|decorative|hippers|limited|mini|sonny",
-   "tokens": [
-    "sonny",
-    "angel",
-    "hippers",
-    "limited",
-    "blind",
-    "box",
-    "decorative",
-    "mini"
-   ],
-   "title": "Sonny Angel Hippers Limited Edition Blind Box Decorative Mini Figure Sealed Gift",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-15",
-     "price": 47.33,
-     "count": 2
-    }
-   ],
-   "market": 47.33,
-   "count": 2,
    "last_seen": "2026-11-15"
   },
   {
@@ -636,122 +1291,6 @@
    "last_seen": "2026-11-15"
   },
   {
-   "key": "calendar|countdown|needoh|or|squeeze|squish|target|ween",
-   "tokens": [
-    "needoh",
-    "squish",
-    "or",
-    "squeeze",
-    "ween",
-    "countdown",
-    "calendar",
-    "target"
-   ],
-   "title": "Needoh Squish or Squeeze Squish-O-Ween Countdown Calendar Target Exclusive",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-14",
-     "price": 38.0,
-     "count": 5
-    },
-    {
-     "date": "2026-11-15",
-     "price": 38.0,
-     "count": 5
-    }
-   ],
-   "market": 38.0,
-   "count": 5,
-   "last_seen": "2026-11-15"
-  },
-  {
-   "key": "6pcs|angel|blind|box|day|love|mini|rainy|random|series|sonny|toys",
-   "tokens": [
-    "random",
-    "6pcs",
-    "sonny",
-    "angel",
-    "love",
-    "rainy",
-    "day",
-    "series",
-    "blind",
-    "box",
-    "mini",
-    "toys"
-   ],
-   "title": "random 6pcs Sonny Angel I Love Rainy Day Series Blind Box Mini Figure Toys USA",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-14",
-     "price": 29.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-15",
-     "price": 36.95,
-     "count": 3
-    }
-   ],
-   "market": 33.47,
-   "count": 3,
-   "last_seen": "2026-11-15"
-  },
-  {
-   "key": "angel|blind|box|day|love|mini|rainy|series|sonny|toys",
-   "tokens": [
-    "sonny",
-    "angel",
-    "love",
-    "rainy",
-    "day",
-    "series",
-    "blind",
-    "box",
-    "mini",
-    "toys"
-   ],
-   "title": "Sonny Angel I Love Rainy Day Series Blind Box Mini Figure Toys USA",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-15",
-     "price": 31.99,
-     "count": 1
-    }
-   ],
-   "market": 31.99,
-   "count": 1,
-   "last_seen": "2026-11-15"
-  },
-  {
-   "key": "angel|blind|box|cat|christmas|series|single|sonny",
-   "tokens": [
-    "sonny",
-    "angel",
-    "cat",
-    "christmas",
-    "series",
-    "single",
-    "blind",
-    "box"
-   ],
-   "title": "Sonny Angel Cat Christmas Series Single Blind Box Sealed-New 2026",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-15",
-     "price": 29.99,
-     "count": 3
-    }
-   ],
-   "market": 29.99,
-   "count": 3,
-   "last_seen": "2026-11-15"
-  },
-  {
    "key": "bunny|cobblehop|jellycat|leopard",
    "tokens": [
     "jellycat",
@@ -774,233 +1313,6 @@
     }
    ],
    "market": 22.99,
-   "count": 3,
-   "last_seen": "2026-11-15"
-  },
-  {
-   "key": "angel|blind|box|cat|confirmed|life|mini|series|sonny",
-   "tokens": [
-    "sonny",
-    "angel",
-    "cat",
-    "life",
-    "series",
-    "mini",
-    "confirmed",
-    "blind",
-    "box"
-   ],
-   "title": "Sonny Angel Cat Life Series Mini Figures - Confirmed Blind Box Figure",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-14",
-     "price": 16.12,
-     "count": 2
-    },
-    {
-     "date": "2026-11-15",
-     "price": 27.5,
-     "count": 1
-    }
-   ],
-   "market": 21.81,
-   "count": 1,
-   "last_seen": "2026-11-15"
-  },
-  {
-   "key": "gaming|grande|large|mouse|mousepad|pad|snorlax",
-   "tokens": [
-    "snorlax",
-    "grande",
-    "mousepad",
-    "large",
-    "gaming",
-    "mouse",
-    "pad"
-   ],
-   "title": "Pokemon Snorlax Grande Mousepad Large Gaming Mouse Pad",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 20.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-13",
-     "price": 20.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-14",
-     "price": 20.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-15",
-     "price": 20.0,
-     "count": 3
-    }
-   ],
-   "market": 20.0,
-   "count": 3,
-   "last_seen": "2026-11-15"
-  },
-  {
-   "key": "blind|box|have|labubu|mart|monsters|plush|pop|seat|vinyl",
-   "tokens": [
-    "pop",
-    "mart",
-    "labubu",
-    "monsters",
-    "have",
-    "seat",
-    "vinyl",
-    "plush",
-    "blind",
-    "box"
-   ],
-   "title": "POP MART Labubu The Monsters Have a Seat Vinyl Plush Sealed Blind Box",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-15",
-     "price": 19.99,
-     "count": 3
-    }
-   ],
-   "market": 19.99,
-   "count": 3,
-   "last_seen": "2026-11-15"
-  },
-  {
-   "key": "gaming|gengar|grande|large|mouse|mousepad|pad",
-   "tokens": [
-    "gengar",
-    "grande",
-    "mousepad",
-    "large",
-    "gaming",
-    "mouse",
-    "pad"
-   ],
-   "title": "P-Pokemon-Gengar Grande Mousepad Large Gaming Mouse Pad",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 18.0,
-     "count": 5
-    },
-    {
-     "date": "2026-11-13",
-     "price": 18.0,
-     "count": 6
-    },
-    {
-     "date": "2026-11-14",
-     "price": 18.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-15",
-     "price": 18.0,
-     "count": 5
-    }
-   ],
-   "market": 18.0,
-   "count": 5,
-   "last_seen": "2026-11-15"
-  },
-  {
-   "key": "30th|anniversary|bottle|mystery|target|type|water",
-   "tokens": [
-    "target",
-    "mystery",
-    "water",
-    "type",
-    "bottle",
-    "30th",
-    "anniversary"
-   ],
-   "title": "Pokemon X Target Mystery Water Type Pokemon Bottle 30th Anniversary",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 18.24,
-     "count": 4
-    },
-    {
-     "date": "2026-11-13",
-     "price": 17.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-14",
-     "price": 17.88,
-     "count": 4
-    },
-    {
-     "date": "2026-11-15",
-     "price": 17.99,
-     "count": 5
-    }
-   ],
-   "market": 17.99,
-   "count": 5,
-   "last_seen": "2026-11-15"
-  },
-  {
-   "key": "big|confirmed|energy|happiness|into|labubu|mart|pop",
-   "tokens": [
-    "pop",
-    "mart",
-    "labubu",
-    "big",
-    "into",
-    "energy",
-    "happiness",
-    "confirmed"
-   ],
-   "title": "Pop Mart Labubu Big Into Energy Happiness Sealed Confirmed",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-15",
-     "price": 17.99,
-     "count": 4
-    }
-   ],
-   "market": 17.99,
-   "count": 4,
-   "last_seen": "2026-11-15"
-  },
-  {
-   "key": "blind|box|confirmed|doll|mart|mega|molly|pop|series|space",
-   "tokens": [
-    "pop",
-    "mart",
-    "mega",
-    "space",
-    "molly",
-    "series",
-    "blind",
-    "box",
-    "confirmed",
-    "doll"
-   ],
-   "title": "POP MART 100% Mega Space Molly Series 4 Blind Box Confirmed Figure Toy Doll",
-   "ship": "bundle",
-   "history": [
-    {
-     "date": "2026-11-15",
-     "price": 14.98,
-     "count": 3
-    }
-   ],
-   "market": 14.98,
    "count": 3,
    "last_seen": "2026-11-15"
   },
@@ -1094,71 +1406,6 @@
     }
    ],
    "market": 44.98,
-   "count": 3,
-   "last_seen": "2026-11-14"
-  },
-  {
-   "key": "board|game|johto|monopoly",
-   "tokens": [
-    "monopoly",
-    "board",
-    "game",
-    "johto"
-   ],
-   "title": "Sealed Monopoly Pokémon Johto Edition Board Game",
-   "ship": "box",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 41.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-13",
-     "price": 41.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-14",
-     "price": 46.45,
-     "count": 4
-    }
-   ],
-   "market": 41.99,
-   "count": 4,
-   "last_seen": "2026-11-14"
-  },
-  {
-   "key": "expert|game|guess|pro|ready|trainer|ultra",
-   "tokens": [
-    "trainer",
-    "expert",
-    "game",
-    "ready",
-    "guess",
-    "ultra",
-    "pro"
-   ],
-   "title": "Pokemon Trainer Expert Game. Ready Set Guess.  Ultra Pro. Brand New",
-   "ship": "box",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 30.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-13",
-     "price": 30.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-14",
-     "price": 30.0,
-     "count": 3
-    }
-   ],
-   "market": 30.0,
    "count": 3,
    "last_seen": "2026-11-14"
   },
@@ -1311,29 +1558,6 @@
    ],
    "market": 28.98,
    "count": 4,
-   "last_seen": "2026-11-12"
-  },
-  {
-   "key": "board|by|characters|game|hasbro|monopoly",
-   "tokens": [
-    "monopoly",
-    "board",
-    "game",
-    "characters",
-    "by",
-    "hasbro"
-   ],
-   "title": "Monopoly Pokemon Board Game with Characters 2025 by Hasbro - NEW",
-   "ship": "box",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 24.9,
-     "count": 1
-    }
-   ],
-   "market": 24.9,
-   "count": 1,
    "last_seen": "2026-11-12"
   }
  ]
