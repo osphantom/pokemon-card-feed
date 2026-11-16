@@ -11,24 +11,24 @@
   "failures": 3,
   "until": "2026-11-17T00:30:44Z"
  },
- "gn-raffles": {
-  "failures": 2,
-  "until": "2026-11-16T23:15:33Z"
- },
- "gn-promos": {
-  "failures": 2,
-  "until": "2026-11-16T23:15:33Z"
- },
  "gn-lorcana": {
-  "failures": 2,
-  "until": "2026-11-16T23:15:33Z"
+  "failures": 3,
+  "until": "2026-11-17T01:30:36Z"
  },
  "gn-onepiece": {
   "failures": 2,
   "until": "2026-11-16T23:45:32Z"
  },
- "gn-release": {
+ "gn-restockd": {
   "failures": 1,
-  "until": "2026-11-16T23:15:32Z"
+  "until": "2026-11-16T23:30:36Z"
+ },
+ "gn-pokebeach": {
+  "failures": 1,
+  "until": "2026-11-16T23:30:36Z"
+ },
+ "gn-mtg": {
+  "failures": 1,
+  "until": "2026-11-16T23:30:36Z"
  }
 }
