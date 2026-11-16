@@ -16,19 +16,19 @@
   "until": "2026-11-17T01:30:36Z"
  },
  "gn-onepiece": {
-  "failures": 2,
-  "until": "2026-11-16T23:45:32Z"
+  "failures": 3,
+  "until": "2026-11-17T01:45:41Z"
  },
- "gn-restockd": {
+ "gn-official": {
   "failures": 1,
-  "until": "2026-11-16T23:30:36Z"
+  "until": "2026-11-16T23:45:41Z"
  },
- "gn-pokebeach": {
+ "gn-release": {
   "failures": 1,
-  "until": "2026-11-16T23:30:36Z"
+  "until": "2026-11-16T23:45:41Z"
  },
- "gn-mtg": {
+ "gn-swu": {
   "failures": 1,
-  "until": "2026-11-16T23:30:36Z"
+  "until": "2026-11-16T23:45:41Z"
  }
 }
