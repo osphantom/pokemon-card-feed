@@ -11,12 +11,12 @@
   "failures": 2,
   "until": "2026-11-16T22:30:34Z"
  },
- "gn-promos": {
+ "gn-restockd": {
   "failures": 1,
-  "until": "2026-11-16T22:00:34Z"
+  "until": "2026-11-16T22:15:41Z"
  },
- "gn-lorcana": {
+ "gn-pokebeach": {
   "failures": 1,
-  "until": "2026-11-16T22:00:34Z"
+  "until": "2026-11-16T22:15:41Z"
  }
 }
