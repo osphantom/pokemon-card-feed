@@ -1,18 +1,6 @@
 {
- "gn-release": {
-  "failures": 2,
-  "until": "2026-11-16T21:15:32Z"
- },
- "gn-restockd": {
+ "gn-market": {
   "failures": 1,
-  "until": "2026-11-16T21:00:32Z"
- },
- "gn-official": {
-  "failures": 1,
-  "until": "2026-11-16T21:00:32Z"
- },
- "gn-pokemon-center": {
-  "failures": 1,
-  "until": "2026-11-16T21:00:32Z"
+  "until": "2026-11-16T21:15:34Z"
  }
 }
