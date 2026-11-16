@@ -11,10 +11,6 @@
   "failures": 3,
   "until": "2026-11-17T00:30:44Z"
  },
- "gn-pokebeach": {
-  "failures": 2,
-  "until": "2026-11-16T23:00:44Z"
- },
  "gn-raffles": {
   "failures": 2,
   "until": "2026-11-16T23:15:33Z"
@@ -28,11 +24,11 @@
   "until": "2026-11-16T23:15:33Z"
  },
  "gn-onepiece": {
-  "failures": 1,
-  "until": "2026-11-16T23:00:32Z"
+  "failures": 2,
+  "until": "2026-11-16T23:45:32Z"
  },
- "gn-mtg": {
+ "gn-release": {
   "failures": 1,
-  "until": "2026-11-16T23:00:32Z"
+  "until": "2026-11-16T23:15:32Z"
  }
 }
