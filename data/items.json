@@ -1,6 +1,19 @@
 {
  "items": [
   {
+   "title": "What Pokémon restocked this week (Nov 9 to Nov 16, 2026)",
+   "link": "https://pokerestockapp.com/pokemon/this-week/",
+   "source": "PokeRestock",
+   "source_id": "pokerestock-news",
+   "publisher": "",
+   "published": "2026-11-16T05:50:18Z",
+   "category": "restocks",
+   "stores": [],
+   "hot": false,
+   "id": "1966cf2103e4f9",
+   "first_seen": "2026-11-16T08:36:58Z"
+  },
+  {
    "title": "Magic: The Gathering Players Can Win a $400 Booster Box, But You’ll Need to Act Fast",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOUpGOWY0QzEzNXBqSV9hajM5aHdOXzQ1SVlaTzB5dlY3eUxsdEs4akh2MHIzMU9BbXZXeGVhMHBkZnVtYlYzZ0wyUXFhcVpUVzFFeUhuMUNPbnQtRVBfOE1NM1JmcC12MkJDaFBET1gxU2FjcGJPSWlTXzdlcG9DXzZPOFlDSkxyZWNGOHd4N3JISms0MV8zRGFZRUF5WFFpOU9CcDVHU2VsZ0NzN1hqdExFU2cyZw?oc=5",
    "source": "Google News: Magic TCG",
