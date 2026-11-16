@@ -3,12 +3,12 @@
   "failures": 2,
   "until": "2026-11-16T22:00:33Z"
  },
- "gn-preorder": {
+ "gn-pokeguardian": {
   "failures": 1,
-  "until": "2026-11-16T21:30:33Z"
+  "until": "2026-11-16T21:45:50Z"
  },
- "gn-swu": {
+ "gn-pokemon-center": {
   "failures": 1,
-  "until": "2026-11-16T21:30:33Z"
+  "until": "2026-11-16T21:45:50Z"
  }
 }
