@@ -4,23 +4,11 @@
   "until": "2026-11-16T20:45:37Z"
  },
  "gn-release": {
-  "failures": 1,
-  "until": "2026-11-16T20:30:33Z"
+  "failures": 2,
+  "until": "2026-11-16T21:15:32Z"
  },
- "gn-market": {
+ "gn-pokeguardian": {
   "failures": 1,
-  "until": "2026-11-16T20:30:33Z"
- },
- "gn-promo-stores": {
-  "failures": 1,
-  "until": "2026-11-16T20:30:33Z"
- },
- "gn-lorcana": {
-  "failures": 1,
-  "until": "2026-11-16T20:30:33Z"
- },
- "gn-mtg": {
-  "failures": 1,
-  "until": "2026-11-16T20:30:33Z"
+  "until": "2026-11-16T20:45:32Z"
  }
 }
