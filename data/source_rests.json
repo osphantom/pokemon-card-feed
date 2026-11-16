@@ -15,32 +15,20 @@
   "failures": 2,
   "until": "2026-11-16T23:00:44Z"
  },
- "gn-release": {
-  "failures": 1,
-  "until": "2026-11-16T22:30:44Z"
- },
  "gn-raffles": {
-  "failures": 1,
-  "until": "2026-11-16T22:30:44Z"
+  "failures": 2,
+  "until": "2026-11-16T23:15:33Z"
  },
  "gn-promos": {
-  "failures": 1,
-  "until": "2026-11-16T22:30:44Z"
- },
- "gn-promo-stores": {
-  "failures": 1,
-  "until": "2026-11-16T22:30:44Z"
+  "failures": 2,
+  "until": "2026-11-16T23:15:33Z"
  },
  "gn-lorcana": {
-  "failures": 1,
-  "until": "2026-11-16T22:30:44Z"
+  "failures": 2,
+  "until": "2026-11-16T23:15:33Z"
  },
- "gn-onepiece": {
+ "gn-official": {
   "failures": 1,
-  "until": "2026-11-16T22:30:44Z"
- },
- "gn-mtg": {
-  "failures": 1,
-  "until": "2026-11-16T22:30:44Z"
+  "until": "2026-11-16T22:45:33Z"
  }
 }
