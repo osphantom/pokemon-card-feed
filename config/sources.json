@@ -84,31 +84,10 @@
       "google_news": true
     },
     {
-      "id": "gn-restock",
-      "name": "Google News: restocks",
-      "url": "https://news.google.com/rss/search?q=%22Pok%C3%A9mon+TCG%22+restock+when:7d&hl=en-US&gl=US&ceid=US:en",
-      "default": "restocks",
-      "google_news": true
-    },
-    {
       "id": "gn-pokemon-center",
       "name": "Google News: Pokémon Center",
       "url": "https://news.google.com/rss/search?q=%22Pok%C3%A9mon+Center%22+cards+preorder+OR+queue+OR+%22early+access%22+when:7d&hl=en-US&gl=US&ceid=US:en",
       "default": "preorders",
-      "google_news": true
-    },
-    {
-      "id": "gn-drawings",
-      "name": "Google News: store drawings",
-      "url": "https://news.google.com/rss/search?q=Pok%C3%A9mon+cards+Walmart+OR+Target+drawing+OR+lottery+when:7d&hl=en-US&gl=US&ceid=US:en",
-      "default": "restocks",
-      "google_news": true
-    },
-    {
-      "id": "gn-clubs",
-      "name": "Google News: Costco and Sam's Club",
-      "url": "https://news.google.com/rss/search?q=Pok%C3%A9mon+cards+Costco+OR+%22Sam%27s+Club%22+when:7d&hl=en-US&gl=US&ceid=US:en",
-      "default": "restocks",
       "google_news": true
     },
     {

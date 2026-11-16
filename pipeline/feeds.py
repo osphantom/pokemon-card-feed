@@ -14,7 +14,11 @@ import requests
 from .classify import classify
 from .common import USER_AGENT, fold, iso, parse_iso
 
-MAX_ENTRY_AGE = timedelta(days=21)
+# News ages out fast: a drop/drawing article more than a few days old is dead on arrival.
+# Forward-looking release/preorder dates are caught fresh by the 15-minute polling and then
+# live in the calendar, so they don't need a long age window either. Live drops come from the
+# watcher and the Restockd feed, not from RSS.
+MAX_ENTRY_AGE = timedelta(days=3)
 KEEP_FOR = timedelta(days=30)
 MAX_ITEMS = 1000
 # A source that keeps failing rests longer each time (after the 2nd miss in a row, the 3rd, then every
