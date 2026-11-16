@@ -1,6 +1,14 @@
 {
  "gn-market": {
+  "failures": 2,
+  "until": "2026-11-16T22:00:33Z"
+ },
+ "gn-preorder": {
   "failures": 1,
-  "until": "2026-11-16T21:15:34Z"
+  "until": "2026-11-16T21:30:33Z"
+ },
+ "gn-swu": {
+  "failures": 1,
+  "until": "2026-11-16T21:30:33Z"
  }
 }
