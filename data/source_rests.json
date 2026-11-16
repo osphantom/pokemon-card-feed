@@ -1,14 +1,22 @@
 {
  "gn-market": {
-  "failures": 2,
-  "until": "2026-11-16T22:00:33Z"
+  "failures": 3,
+  "until": "2026-11-17T00:00:34Z"
  },
  "gn-pokeguardian": {
-  "failures": 1,
-  "until": "2026-11-16T21:45:50Z"
+  "failures": 2,
+  "until": "2026-11-16T22:30:34Z"
  },
  "gn-pokemon-center": {
+  "failures": 2,
+  "until": "2026-11-16T22:30:34Z"
+ },
+ "gn-promos": {
   "failures": 1,
-  "until": "2026-11-16T21:45:50Z"
+  "until": "2026-11-16T22:00:34Z"
+ },
+ "gn-lorcana": {
+  "failures": 1,
+  "until": "2026-11-16T22:00:34Z"
  }
 }
