@@ -1,18 +1,26 @@
 {
- "reddit-deals": {
-  "failures": 2,
-  "until": "2026-11-16T20:15:41Z"
- },
  "gn-preorder": {
   "failures": 2,
   "until": "2026-11-16T20:45:37Z"
  },
- "gn-pokebeach": {
+ "gn-release": {
   "failures": 1,
-  "until": "2026-11-16T20:15:37Z"
+  "until": "2026-11-16T20:30:33Z"
  },
- "gn-official": {
+ "gn-market": {
   "failures": 1,
-  "until": "2026-11-16T20:15:37Z"
+  "until": "2026-11-16T20:30:33Z"
+ },
+ "gn-promo-stores": {
+  "failures": 1,
+  "until": "2026-11-16T20:30:33Z"
+ },
+ "gn-lorcana": {
+  "failures": 1,
+  "until": "2026-11-16T20:30:33Z"
+ },
+ "gn-mtg": {
+  "failures": 1,
+  "until": "2026-11-16T20:30:33Z"
  }
 }
