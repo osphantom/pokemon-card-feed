@@ -3,32 +3,16 @@
   "failures": 2,
   "until": "2026-11-16T20:15:41Z"
  },
- "gn-restockd": {
-  "failures": 1,
-  "until": "2026-11-16T20:00:34Z"
- },
- "gn-pokeguardian": {
-  "failures": 1,
-  "until": "2026-11-16T20:00:34Z"
- },
  "gn-preorder": {
-  "failures": 1,
-  "until": "2026-11-16T20:00:34Z"
+  "failures": 2,
+  "until": "2026-11-16T20:45:37Z"
  },
- "gn-promo-stores": {
+ "gn-pokebeach": {
   "failures": 1,
-  "until": "2026-11-16T20:00:34Z"
+  "until": "2026-11-16T20:15:37Z"
  },
- "gn-lorcana": {
+ "gn-official": {
   "failures": 1,
-  "until": "2026-11-16T20:00:34Z"
- },
- "gn-onepiece": {
-  "failures": 1,
-  "until": "2026-11-16T20:00:34Z"
- },
- "gn-swu": {
-  "failures": 1,
-  "until": "2026-11-16T20:00:34Z"
+  "until": "2026-11-16T20:15:37Z"
  }
 }
