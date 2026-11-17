@@ -1,8 +1,4 @@
 {
- "gn-market": {
-  "failures": 3,
-  "until": "2026-11-17T00:00:34Z"
- },
  "gn-pokeguardian": {
   "failures": 3,
   "until": "2026-11-17T00:30:44Z"
@@ -23,8 +19,16 @@
   "failures": 2,
   "until": "2026-11-17T00:30:33Z"
  },
- "gn-promos": {
+ "gn-pokebeach": {
   "failures": 1,
-  "until": "2026-11-17T00:00:33Z"
+  "until": "2026-11-17T00:15:34Z"
+ },
+ "gn-raffles": {
+  "failures": 1,
+  "until": "2026-11-17T00:15:34Z"
+ },
+ "gn-swu": {
+  "failures": 1,
+  "until": "2026-11-17T00:15:34Z"
  }
 }
