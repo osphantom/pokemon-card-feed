@@ -7,20 +7,20 @@
   "failures": 4,
   "until": "2026-11-17T08:45:33Z"
  },
- "gn-lorcana": {
-  "failures": 2,
-  "until": "2026-11-17T06:00:32Z"
- },
- "gn-market": {
+ "gn-preorder": {
   "failures": 1,
-  "until": "2026-11-17T05:45:36Z"
+  "until": "2026-11-17T06:00:35Z"
  },
- "gn-promos": {
+ "gn-pokemon-center": {
   "failures": 1,
-  "until": "2026-11-17T05:45:36Z"
+  "until": "2026-11-17T06:00:35Z"
  },
- "gn-promo-stores": {
+ "gn-onepiece": {
   "failures": 1,
-  "until": "2026-11-17T05:45:36Z"
+  "until": "2026-11-17T06:00:35Z"
+ },
+ "gn-swu": {
+  "failures": 1,
+  "until": "2026-11-17T06:00:35Z"
  }
 }

@@ -65,6 +65,7 @@
   "0835caf24c5b92",
   "08aac65ba8435f",
   "0a1104146fd7d1",
+  "0b2fa1f204981e",
   "0bbba2c089b266",
   "0eada0d5210707",
   "100e5c711e2459",
@@ -1070,8 +1071,8 @@
   "pennsylvania",
   "virginia"
  ],
- "costco_checked_at": "2026-11-17T05:30:58Z",
- "promos_checked_at": "2026-11-17T00:00:57Z",
+ "costco_checked_at": "2026-11-17T06:01:03Z",
+ "promos_checked_at": "2026-11-17T06:01:03Z",
  "promo_markets": {
   "30th-celebration-mewtwo": 16.86,
   "delta-reign-kyogre": 7.15
@@ -1095,7 +1096,7 @@
   "PA",
   "VA"
  ],
- "sams_checked_at": "2026-11-17T05:30:58Z",
+ "sams_checked_at": "2026-11-17T06:01:03Z",
  "sams_status": {
   "990416407": {
    "6330": "order",
@@ -1203,7 +1204,7 @@
  },
  "costco_stamp": "2026-11-16T13:56:59Z",
  "costco_read_at": "2026-11-17T00:31:12Z",
- "upc_checked_at": "2026-11-17T05:30:58Z",
+ "upc_checked_at": "2026-11-17T06:01:03Z",
  "price_seen": {
   "704144": 255.15,
   "704191": 370.99,
