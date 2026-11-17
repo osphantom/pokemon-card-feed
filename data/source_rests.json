@@ -3,10 +3,6 @@
   "failures": 4,
   "until": "2026-11-17T06:30:44Z"
  },
- "gn-lorcana": {
-  "failures": 3,
-  "until": "2026-11-17T01:30:36Z"
- },
  "gn-onepiece": {
   "failures": 3,
   "until": "2026-11-17T01:45:41Z"
@@ -15,12 +11,12 @@
   "failures": 3,
   "until": "2026-11-17T02:30:44Z"
  },
- "gn-restockd": {
-  "failures": 2,
-  "until": "2026-11-17T01:45:34Z"
+ "gn-promos": {
+  "failures": 1,
+  "until": "2026-11-17T01:45:35Z"
  },
- "gn-market": {
-  "failures": 2,
-  "until": "2026-11-17T01:45:34Z"
+ "gn-swu": {
+  "failures": 1,
+  "until": "2026-11-17T01:45:35Z"
  }
 }
