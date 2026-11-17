@@ -4,11 +4,7 @@
   "until": "2026-11-17T06:30:44Z"
  },
  "gn-official": {
-  "failures": 3,
-  "until": "2026-11-17T02:30:44Z"
- },
- "gn-mtg": {
-  "failures": 2,
-  "until": "2026-11-17T02:45:31Z"
+  "failures": 4,
+  "until": "2026-11-17T08:45:33Z"
  }
 }
