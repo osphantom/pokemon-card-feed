@@ -10,13 +10,5 @@
  "gn-mtg": {
   "failures": 2,
   "until": "2026-11-17T02:45:31Z"
- },
- "gn-release": {
-  "failures": 1,
-  "until": "2026-11-17T02:18:34Z"
- },
- "gn-raffles": {
-  "failures": 1,
-  "until": "2026-11-17T02:18:34Z"
  }
 }
