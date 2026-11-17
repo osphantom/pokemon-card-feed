@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T17:45:27Z",
+ "generated_at": "2026-11-17T04:45:32Z",
  "ebay_used": true,
  "stopwords": [
   "pokemon",
@@ -97,12 +97,35 @@
     },
     {
      "date": "2026-11-16",
-     "price": 476.45,
-     "count": 2
+     "price": 342.94,
+     "count": 1
     }
    ],
-   "market": 385.94,
-   "count": 2,
+   "market": 363.94,
+   "count": 1,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "ball|iconic|lego|moments|poke|trainer",
+   "tokens": [
+    "lego",
+    "iconic",
+    "trainer",
+    "moments",
+    "poke",
+    "ball"
+   ],
+   "title": "LEGO Pokémon Iconic Trainer Moments Poké Ball 72154",
+   "ship": "bundle",
+   "history": [
+    {
+     "date": "2026-11-16",
+     "price": 256.0,
+     "count": 3
+    }
+   ],
+   "market": 256.0,
+   "count": 3,
    "last_seen": "2026-11-16"
   },
   {
@@ -136,6 +159,27 @@
     }
    ],
    "market": 255.82,
+   "count": 4,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "ball|lego|pikachu|poke",
+   "tokens": [
+    "lego",
+    "pikachu",
+    "poke",
+    "ball"
+   ],
+   "title": "LEGO POKEMON 72152 PIKACHU AND POKE BALL, SEALED",
+   "ship": "bundle",
+   "history": [
+    {
+     "date": "2026-11-16",
+     "price": 153.75,
+     "count": 4
+    }
+   ],
+   "market": 153.75,
    "count": 4,
    "last_seen": "2026-11-16"
   },
@@ -220,27 +264,6 @@
    "last_seen": "2026-11-16"
   },
   {
-   "key": "hand|keyboard|target|wireless",
-   "tokens": [
-    "target",
-    "wireless",
-    "keyboard",
-    "hand"
-   ],
-   "title": "Pokémon x Target - Wireless Keyboard - IN HAND",
-   "ship": "box",
-   "history": [
-    {
-     "date": "2026-11-16",
-     "price": 89.99,
-     "count": 3
-    }
-   ],
-   "market": 89.99,
-   "count": 3,
-   "last_seen": "2026-11-16"
-  },
-  {
    "key": "arcanine|lego",
    "tokens": [
     "lego",
@@ -260,36 +283,24 @@
    "last_seen": "2026-11-16"
   },
   {
-   "key": "advent|calendar|days|needoh|schylling|squishmas",
+   "key": "hand|keyboard|target|wireless",
    "tokens": [
-    "needoh",
-    "squishmas",
-    "advent",
-    "calendar",
-    "days",
-    "schylling"
+    "target",
+    "wireless",
+    "keyboard",
+    "hand"
    ],
-   "title": "NeeDoh Squishmas Advent Calendar NEW SEALED 24 Days Schylling 2026 Gift",
-   "ship": "small",
+   "title": "Pokémon x Target - Wireless Keyboard - IN HAND",
+   "ship": "box",
    "history": [
     {
-     "date": "2026-11-14",
-     "price": 115.9,
-     "count": 4
-    },
-    {
-     "date": "2026-11-15",
-     "price": 70.99,
-     "count": 5
-    },
-    {
      "date": "2026-11-16",
-     "price": 87.48,
-     "count": 7
+     "price": 85.0,
+     "count": 4
     }
    ],
-   "market": 87.48,
-   "count": 7,
+   "market": 85.0,
+   "count": 4,
    "last_seen": "2026-11-16"
   },
   {
@@ -370,6 +381,64 @@
    ],
    "market": 78.0,
    "count": 3,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "gaming|headset|kanto|kraken|razer|starters|v4|wired",
+   "tokens": [
+    "razer",
+    "kraken",
+    "v4",
+    "wired",
+    "gaming",
+    "headset",
+    "kanto",
+    "starters"
+   ],
+   "title": "Razer Kraken V4 X Wired Gaming Headset Pokemon Kanto Starters Edition",
+   "ship": "bundle",
+   "history": [
+    {
+     "date": "2026-11-16",
+     "price": 75.0,
+     "count": 3
+    }
+   ],
+   "market": 75.0,
+   "count": 3,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "advent|calendar|days|needoh|schylling|squishmas",
+   "tokens": [
+    "needoh",
+    "squishmas",
+    "advent",
+    "calendar",
+    "days",
+    "schylling"
+   ],
+   "title": "Authentic NeeDoh Schylling Squishmas 24 Days Advent Calendar 2026",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 115.9,
+     "count": 4
+    },
+    {
+     "date": "2026-11-15",
+     "price": 70.99,
+     "count": 5
+    },
+    {
+     "date": "2026-11-16",
+     "price": 48.99,
+     "count": 9
+    }
+   ],
+   "market": 70.99,
+   "count": 9,
    "last_seen": "2026-11-16"
   },
   {
@@ -670,6 +739,31 @@
    "last_seen": "2026-11-16"
   },
   {
+   "key": "city|mart|night|pop|puppet|series|singer|skullpanda",
+   "tokens": [
+    "pop",
+    "mart",
+    "skullpanda",
+    "city",
+    "night",
+    "series",
+    "puppet",
+    "singer"
+   ],
+   "title": "POP MART ✔️AUTHENTIC Skullpanda City Of Night Series Figure [ Puppet Singer ]",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-16",
+     "price": 37.99,
+     "count": 3
+    }
+   ],
+   "market": 37.99,
+   "count": 3,
+   "last_seen": "2026-11-16"
+  },
+  {
    "key": "angel|blind|box|day|love|mini|rainy|series|sonny|toys",
    "tokens": [
     "sonny",
@@ -874,38 +968,6 @@
    "last_seen": "2026-11-16"
   },
   {
-   "key": "blind|box|have|labubu|mart|monsters|plush|pop|seat|vinyl",
-   "tokens": [
-    "pop",
-    "mart",
-    "labubu",
-    "monsters",
-    "have",
-    "seat",
-    "vinyl",
-    "plush",
-    "blind",
-    "box"
-   ],
-   "title": "POP MART LABUBU The Monsters Have A Seat Vinyl Plush Blind Box US AUTHENTIC",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-15",
-     "price": 19.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-16",
-     "price": 22.49,
-     "count": 4
-    }
-   ],
-   "market": 21.24,
-   "count": 4,
-   "last_seen": "2026-11-16"
-  },
-  {
    "key": "gaming|grande|large|mouse|mousepad|pad|snorlax",
    "tokens": [
     "snorlax",
@@ -980,6 +1042,38 @@
    "last_seen": "2026-11-16"
   },
   {
+   "key": "blind|box|have|labubu|mart|monsters|plush|pop|seat|vinyl",
+   "tokens": [
+    "pop",
+    "mart",
+    "labubu",
+    "monsters",
+    "have",
+    "seat",
+    "vinyl",
+    "plush",
+    "blind",
+    "box"
+   ],
+   "title": "POP MART THE MONSTERS LABUBU Have a Seat Vinyl Plush Blind Box 2024",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 19.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 18.0,
+     "count": 7
+    }
+   ],
+   "market": 18.99,
+   "count": 7,
+   "last_seen": "2026-11-16"
+  },
+  {
    "key": "gaming|gengar|grande|large|mouse|mousepad|pad",
    "tokens": [
     "gengar",
@@ -1024,6 +1118,31 @@
    "last_seen": "2026-11-16"
   },
   {
+   "key": "big|blind|box|energy|into|labubu|mart|pop",
+   "tokens": [
+    "pop",
+    "mart",
+    "labubu",
+    "big",
+    "into",
+    "energy",
+    "blind",
+    "box"
+   ],
+   "title": "Authentic POP MART-LABUBU: Big Into Energy Blind Box New!",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-16",
+     "price": 18.0,
+     "count": 3
+    }
+   ],
+   "market": 18.0,
+   "count": 3,
+   "last_seen": "2026-11-16"
+  },
+  {
    "key": "30th|anniversary|bottle|mystery|target|type|water",
    "tokens": [
     "target",
@@ -1060,11 +1179,38 @@
     {
      "date": "2026-11-16",
      "price": 17.99,
-     "count": 7
+     "count": 6
     }
    ],
    "market": 17.99,
-   "count": 7,
+   "count": 6,
+   "last_seen": "2026-11-16"
+  },
+  {
+   "key": "angel|blind|blossom|box|case|cherry|full|hippers|series|sonny",
+   "tokens": [
+    "sonny",
+    "angel",
+    "hippers",
+    "cherry",
+    "blossom",
+    "series",
+    "blind",
+    "box",
+    "full",
+    "case"
+   ],
+   "title": "Sonny Angel HIPPERS Cherry Blossom Series Blind Box Full Case",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-16",
+     "price": 15.33,
+     "count": 2
+    }
+   ],
+   "market": 15.33,
+   "count": 2,
    "last_seen": "2026-11-16"
   },
   {
@@ -1091,39 +1237,12 @@
     },
     {
      "date": "2026-11-16",
-     "price": 17.98,
+     "price": 14.98,
      "count": 3
     }
    ],
-   "market": 16.48,
+   "market": 14.98,
    "count": 3,
-   "last_seen": "2026-11-16"
-  },
-  {
-   "key": "angel|blind|blossom|box|case|cherry|full|hippers|series|sonny",
-   "tokens": [
-    "sonny",
-    "angel",
-    "hippers",
-    "cherry",
-    "blossom",
-    "series",
-    "blind",
-    "box",
-    "full",
-    "case"
-   ],
-   "title": "Sonny Angel HIPPERS Cherry Blossom Series Blind Box Full Case",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-16",
-     "price": 15.58,
-     "count": 2
-    }
-   ],
-   "market": 15.58,
-   "count": 2,
    "last_seen": "2026-11-16"
   },
   {
