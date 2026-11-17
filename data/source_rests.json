@@ -11,13 +11,9 @@
   "failures": 3,
   "until": "2026-11-17T10:00:32Z"
  },
- "gn-pokemon-center": {
-  "failures": 2,
-  "until": "2026-11-17T08:00:33Z"
- },
  "gn-mtg": {
-  "failures": 2,
-  "until": "2026-11-17T08:00:33Z"
+  "failures": 3,
+  "until": "2026-11-17T10:15:32Z"
  },
  "gn-restockd": {
   "failures": 2,
@@ -30,17 +26,5 @@
  "gn-market": {
   "failures": 2,
   "until": "2026-11-17T08:15:38Z"
- },
- "gn-preorder": {
-  "failures": 1,
-  "until": "2026-11-17T08:00:32Z"
- },
- "gn-release": {
-  "failures": 1,
-  "until": "2026-11-17T08:00:32Z"
- },
- "gn-swu": {
-  "failures": 1,
-  "until": "2026-11-17T08:00:32Z"
  }
 }
