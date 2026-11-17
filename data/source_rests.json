@@ -26,5 +26,9 @@
  "gn-swu": {
   "failures": 2,
   "until": "2026-11-17T04:45:35Z"
+ },
+ "gn-market": {
+  "failures": 1,
+  "until": "2026-11-17T04:30:35Z"
  }
 }
