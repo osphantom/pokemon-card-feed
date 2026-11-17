@@ -1,6 +1,77 @@
 {
  "items": [
   {
+   "title": "What Pokémon restocked this week (Nov 10 to Nov 17, 2026)",
+   "link": "https://pokerestockapp.com/pokemon/this-week/",
+   "source": "PokeRestock",
+   "source_id": "pokerestock-news",
+   "publisher": "",
+   "published": "2026-11-17T14:22:26Z",
+   "category": "restocks",
+   "stores": [],
+   "hot": false,
+   "id": "06b33be61b5449",
+   "first_seen": "2026-11-17T15:27:57Z"
+  },
+  {
+   "title": "Walmart's Nov. 18 Drawing Lists Seven Pokémon TCG Products, Led by Ascended Heroes Mini Tins",
+   "link": "https://pokerestockapp.com/pokemon/news/walmart-drawing-nov-18-perfect-order-etb-charizard-ex-pitch-black/",
+   "source": "PokeRestock",
+   "source_id": "pokerestock-news",
+   "publisher": "",
+   "published": "2026-11-17T14:10:00Z",
+   "category": "raffles",
+   "stores": [
+    "Walmart"
+   ],
+   "hot": true,
+   "id": "ef98e48f87e7f2",
+   "first_seen": "2026-11-17T15:27:57Z"
+  },
+  {
+   "title": "The Pokémon TCG 30th Celebration Booster Bundle is back at Amazon: Buy now for close to market price",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbzNrS2tvYldtWGZkTl9QUzRtQzFpaThVa2lmOGFnT1VpU0gxZVZHZk44RDFyeFlIMDd0RVdMdVd5dGZoWnA0Ym05VDhfSUJCbmVPMk5YVjBsOFpyUElhSWc5TUVwQXQ5RE1JNDVmYUJ4bVBfZVFCTzFucnFDejdYZXZRY3J3RTNzakxTOA?oc=5",
+   "source": "Google News: raffles and invites",
+   "source_id": "gn-raffles",
+   "publisher": "Mashable",
+   "published": "2026-11-17T13:35:57Z",
+   "category": "market",
+   "stores": [
+    "Amazon"
+   ],
+   "hot": false,
+   "id": "ff3a95529a14d2",
+   "first_seen": "2026-11-17T15:27:57Z"
+  },
+  {
+   "title": "Best Pokémon TCG deal: Delta Reign Elite Trainer Box now under $100 on Amazon",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOREQ4NFZRZ01EMm14M1FMQTA0ajBndDdkdnRnNWpPUGhTcXg1YlloVGF1SXdReVBoXzBsWF9zSGt6akljdkpfRmp5UTlXaHBwVF9qczRtcE1QdU5PZlJVSXcxVEZrNnVBMDVJRFJrWHJkazNNd3V4Q1lTbnhLWF9rd0FoMTdObXlFb1FqSg?oc=5",
+   "source": "Google News: raffles and invites",
+   "source_id": "gn-raffles",
+   "publisher": "Mashable",
+   "published": "2026-11-17T12:07:45Z",
+   "category": "deals",
+   "stores": [
+    "Amazon"
+   ],
+   "hot": false,
+   "id": "1286596034c99c",
+   "first_seen": "2026-11-17T15:27:57Z"
+  },
+  {
+   "title": "The Pokémon TCG Delta Reign Booster Bundle gets a wild early Black Friday price drop — shop for under market price",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdkRmVkh0ZE9IcTBHT0pFamF5UEYwaUhoU2RGQUFqUmRnd21yZlUwYU5BUDNybTdhV2ZLajZVLV9RNlN3LXYxUVR5SzBXSThLYUZ0VVJCSEFYVU9hdnV2bzNzczRudVNjQ2VxZjllTlJjVFVxa1JiQk04U0w4N0ZJYmpn?oc=5",
+   "source": "Google News: market",
+   "source_id": "gn-market",
+   "publisher": "Mashable",
+   "published": "2026-11-17T11:59:13Z",
+   "category": "restocks",
+   "stores": [],
+   "hot": false,
+   "id": "47989db7176889",
+   "first_seen": "2026-11-17T15:27:57Z"
+  },
+  {
    "title": "Pokémon's New Flowing Fists TCG Set Is In People’s Hands Already",
    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVXlzc1BWRzJYckU2TDFiZUFmbExUaExfM05XR19HU2NZUV9OVVdmMi0yd1VMZUZCYmVFcEJQZXVVa1MtcTd2NDEtNmFvZEQ4TTI0WU9sMllZem5LOXRYNmtULXgwRW1QNDVfdmQzSjhnVXFidjljVXJiVUNKYTFQUHJ2a0Vzc3M?oc=5",
    "source": "Google News: releases",
@@ -177,6 +248,21 @@
    "hot": true,
    "id": "9accdc8eeabfba",
    "first_seen": "2026-11-16T21:00:32Z"
+  },
+  {
+   "title": "Pokémon TCG 30th Anniversary Ultra-Premium Collection is live on Amazon: Buy at market price",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcWo1dGtyelpPSnNXNGt3d01xa2VfNmFvV2ljN1djU2dubDhpNTU4cFZJWHExMi1MZ254RUt4djBTRzZaNXc2dnZmWjdSZTJiclp1SDIwbWNaUGtfQUFuTE5Ia0xoSnZuaVBqd2hzQ0ZNenZLVHN0aV84VThhakZoRE1fRnlaS283RmU3cw?oc=5",
+   "source": "Google News: raffles and invites",
+   "source_id": "gn-raffles",
+   "publisher": "Mashable",
+   "published": "2026-11-16T18:50:56Z",
+   "category": "restocks",
+   "stores": [
+    "Amazon"
+   ],
+   "hot": true,
+   "id": "9a959ab12d3095",
+   "first_seen": "2026-11-17T15:27:57Z"
   },
   {
    "title": "Play! Pokémon Stores Add Mega Rayquaza Playmat and Stamped Cinderace, Lunatone and Mega Signal Promos Dec. 1",
