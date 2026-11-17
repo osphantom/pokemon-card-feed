@@ -20,15 +20,11 @@
   "until": "2026-11-17T01:45:41Z"
  },
  "gn-official": {
-  "failures": 1,
-  "until": "2026-11-16T23:45:41Z"
+  "failures": 2,
+  "until": "2026-11-17T00:30:33Z"
  },
- "gn-release": {
+ "gn-promos": {
   "failures": 1,
-  "until": "2026-11-16T23:45:41Z"
- },
- "gn-swu": {
-  "failures": 1,
-  "until": "2026-11-16T23:45:41Z"
+  "until": "2026-11-17T00:00:33Z"
  }
 }
