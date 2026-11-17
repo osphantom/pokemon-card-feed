@@ -1,7 +1,7 @@
 {
  "gn-pokeguardian": {
-  "failures": 4,
-  "until": "2026-11-17T06:30:44Z"
+  "failures": 5,
+  "until": "2026-11-17T12:45:39Z"
  },
  "gn-official": {
   "failures": 4,
@@ -11,12 +11,28 @@
   "failures": 2,
   "until": "2026-11-17T07:00:37Z"
  },
- "gn-preorder": {
-  "failures": 1,
-  "until": "2026-11-17T06:30:37Z"
- },
  "gn-promos": {
+  "failures": 2,
+  "until": "2026-11-17T07:15:39Z"
+ },
+ "gn-pokemon-center": {
   "failures": 1,
-  "until": "2026-11-17T06:30:37Z"
+  "until": "2026-11-17T06:45:39Z"
+ },
+ "gn-market": {
+  "failures": 1,
+  "until": "2026-11-17T06:45:39Z"
+ },
+ "gn-promo-stores": {
+  "failures": 1,
+  "until": "2026-11-17T06:45:39Z"
+ },
+ "gn-onepiece": {
+  "failures": 1,
+  "until": "2026-11-17T06:45:39Z"
+ },
+ "gn-mtg": {
+  "failures": 1,
+  "until": "2026-11-17T06:45:39Z"
  }
 }
