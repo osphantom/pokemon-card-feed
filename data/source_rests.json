@@ -1,1 +1,22 @@
-{}
+{
+ "reddit-deals": {
+  "failures": 1,
+  "until": "2026-11-17T18:00:50Z"
+ },
+ "gn-preorder": {
+  "failures": 1,
+  "until": "2026-11-17T18:00:50Z"
+ },
+ "gn-market": {
+  "failures": 1,
+  "until": "2026-11-17T18:00:50Z"
+ },
+ "gn-promos": {
+  "failures": 1,
+  "until": "2026-11-17T18:00:50Z"
+ },
+ "gn-lorcana": {
+  "failures": 1,
+  "until": "2026-11-17T18:00:50Z"
+ }
+}
