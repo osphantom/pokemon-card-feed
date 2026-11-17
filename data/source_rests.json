@@ -3,10 +3,6 @@
   "failures": 5,
   "until": "2026-11-17T12:45:39Z"
  },
- "gn-official": {
-  "failures": 4,
-  "until": "2026-11-17T08:45:33Z"
- },
  "gn-lorcana": {
   "failures": 3,
   "until": "2026-11-17T10:00:32Z"
