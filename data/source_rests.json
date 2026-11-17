@@ -28,19 +28,19 @@
   "until": "2026-11-17T01:15:36Z"
  },
  "gn-restockd": {
-  "failures": 1,
-  "until": "2026-11-17T01:00:46Z"
- },
- "gn-release": {
-  "failures": 1,
-  "until": "2026-11-17T01:00:46Z"
+  "failures": 2,
+  "until": "2026-11-17T01:45:34Z"
  },
  "gn-market": {
-  "failures": 1,
-  "until": "2026-11-17T01:00:46Z"
+  "failures": 2,
+  "until": "2026-11-17T01:45:34Z"
  },
- "gn-mtg": {
+ "gn-raffles": {
   "failures": 1,
-  "until": "2026-11-17T01:00:46Z"
+  "until": "2026-11-17T01:15:34Z"
+ },
+ "gn-swu": {
+  "failures": 1,
+  "until": "2026-11-17T01:15:34Z"
  }
 }
