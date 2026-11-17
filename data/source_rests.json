@@ -7,20 +7,20 @@
   "failures": 4,
   "until": "2026-11-17T08:45:33Z"
  },
- "gn-release": {
-  "failures": 2,
-  "until": "2026-11-17T07:00:37Z"
- },
- "gn-promos": {
-  "failures": 2,
-  "until": "2026-11-17T07:15:39Z"
- },
- "gn-restockd": {
-  "failures": 1,
-  "until": "2026-11-17T07:00:34Z"
- },
  "gn-lorcana": {
+  "failures": 2,
+  "until": "2026-11-17T07:45:46Z"
+ },
+ "gn-preorder": {
   "failures": 1,
-  "until": "2026-11-17T07:00:34Z"
+  "until": "2026-11-17T07:15:46Z"
+ },
+ "gn-pokemon-center": {
+  "failures": 1,
+  "until": "2026-11-17T07:15:46Z"
+ },
+ "gn-mtg": {
+  "failures": 1,
+  "until": "2026-11-17T07:15:46Z"
  }
 }
