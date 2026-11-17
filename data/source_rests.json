@@ -1,22 +1,6 @@
 {
- "gn-pokeguardian": {
+ "gn-swu": {
   "failures": 1,
-  "until": "2026-11-17T16:00:33Z"
- },
- "gn-preorder": {
-  "failures": 1,
-  "until": "2026-11-17T16:00:33Z"
- },
- "gn-pokemon-center": {
-  "failures": 1,
-  "until": "2026-11-17T16:00:33Z"
- },
- "gn-promo-stores": {
-  "failures": 1,
-  "until": "2026-11-17T16:00:33Z"
- },
- "gn-onepiece": {
-  "failures": 1,
-  "until": "2026-11-17T16:00:33Z"
+  "until": "2026-11-17T16:15:35Z"
  }
 }
