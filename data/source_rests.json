@@ -11,16 +11,12 @@
   "failures": 2,
   "until": "2026-11-17T02:45:31Z"
  },
- "gn-restockd": {
+ "gn-release": {
   "failures": 1,
-  "until": "2026-11-17T02:15:31Z"
+  "until": "2026-11-17T02:18:34Z"
  },
- "gn-pokebeach": {
+ "gn-raffles": {
   "failures": 1,
-  "until": "2026-11-17T02:15:31Z"
- },
- "gn-preorder": {
-  "failures": 1,
-  "until": "2026-11-17T02:15:31Z"
+  "until": "2026-11-17T02:18:34Z"
  }
 }
