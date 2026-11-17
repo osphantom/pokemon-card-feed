@@ -15,24 +15,12 @@
   "failures": 2,
   "until": "2026-11-17T07:15:39Z"
  },
- "gn-pokemon-center": {
+ "gn-restockd": {
   "failures": 1,
-  "until": "2026-11-17T06:45:39Z"
+  "until": "2026-11-17T07:00:34Z"
  },
- "gn-market": {
+ "gn-lorcana": {
   "failures": 1,
-  "until": "2026-11-17T06:45:39Z"
- },
- "gn-promo-stores": {
-  "failures": 1,
-  "until": "2026-11-17T06:45:39Z"
- },
- "gn-onepiece": {
-  "failures": 1,
-  "until": "2026-11-17T06:45:39Z"
- },
- "gn-mtg": {
-  "failures": 1,
-  "until": "2026-11-17T06:45:39Z"
+  "until": "2026-11-17T07:00:34Z"
  }
 }

@@ -226,6 +226,7 @@
   "9dfd8e2446d1d3",
   "9dff9df7822d1c",
   "9f1a2913d04303",
+  "9f5c16d5c30877",
   "a3107833be2bf9",
   "a354e8fd1783b8",
   "a43aa5adae7900",
@@ -373,6 +374,7 @@
   "restockd:2026-11-14:63551c6529",
   "restockd:2026-11-14:b5f1b80bad",
   "restockd:2026-11-15:32d29295a5",
+  "restockd:2026-11-17:874159d3f2",
   "window:target-overnight:2026-11-13",
   "window:walmart-drawing:2026-11-11"
  ],
@@ -1279,6 +1281,6 @@
   "Amazon:Magic: Star Trek - Collector Booster Display",
   "See the article:30th Celebration Ultra-Premium Collection [Day]"
  ],
- "restockd_checked_at": "2026-11-16T19:46:10Z",
+ "restockd_checked_at": "2026-11-17T07:00:59Z",
  "restockd_seen": true
 }
