@@ -16,15 +16,15 @@
   "until": "2026-11-17T02:30:44Z"
  },
  "gn-preorder": {
-  "failures": 1,
-  "until": "2026-11-17T00:30:44Z"
+  "failures": 2,
+  "until": "2026-11-17T01:15:36Z"
  },
  "gn-promos": {
-  "failures": 1,
-  "until": "2026-11-17T00:30:44Z"
+  "failures": 2,
+  "until": "2026-11-17T01:15:36Z"
  },
  "gn-promo-stores": {
-  "failures": 1,
-  "until": "2026-11-17T00:30:44Z"
+  "failures": 2,
+  "until": "2026-11-17T01:15:36Z"
  }
 }
