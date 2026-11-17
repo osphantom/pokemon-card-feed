@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T04:45:32Z",
+ "generated_at": "2026-11-17T15:45:34Z",
  "games": [
   "Lorcana",
   "One Piece",
@@ -204,7 +204,7 @@
    "url": "https://www.tcgplayer.com/product/711214/yugioh-magnificent-maestros-magnificent-maestros-display",
    "catalog": 196.45,
    "verified": true,
-   "count": 17
+   "count": 16
   },
   {
    "game": "Star Wars Unlimited",
@@ -334,7 +334,7 @@
    "url": "https://www.tcgplayer.com/product/706239/lorcana-tcg-hyperia-city-disney-lorcana-hyperia-city-booster-box",
    "catalog": 132.74,
    "verified": true,
-   "count": 42
+   "count": 41
   },
   {
    "game": "Gundam",
@@ -704,14 +704,14 @@
    "game": "Magic",
    "name": "Star Trek Commander Deck - Federation Fleet",
    "set": "Commander: Star Trek",
-   "market": 54.99,
+   "market": 64.99,
    "release": "2026-11-13",
    "presale": false,
    "current": true,
    "url": "https://www.tcgplayer.com/product/706167/magic-commander-star-trek-star-trek-commander-deck-federation-fleet",
    "catalog": 43.17,
    "verified": true,
-   "count": 10
+   "count": 8
   },
   {
    "game": "One Piece",
@@ -750,7 +750,7 @@
    "url": "https://www.tcgplayer.com/product/706141/magic-star-trek-star-trek-collector-booster-pack",
    "catalog": 40.9,
    "verified": true,
-   "count": 20
+   "count": 22
   },
   {
    "game": "Magic",
@@ -828,7 +828,7 @@
    "url": "https://www.tcgplayer.com/product/714891/magic-secret-lair-x-mschf-the-zeta-set-secret-lair-x-mschf-the-zeta-set-booster-pack",
    "catalog": 31.2,
    "verified": true,
-   "count": 10
+   "count": 11
   },
   {
    "game": "Magic",
@@ -899,7 +899,7 @@
    "game": "Gundam",
    "name": "Starter Deck 13: Silent Barrage",
    "set": "Starter Deck 13: Silent Barrage",
-   "market": 19.91,
+   "market": 18.0,
    "release": "2026-09-25",
    "presale": false,
    "current": true,
@@ -932,7 +932,7 @@
    "url": "https://www.tcgplayer.com/product/715297/yugioh-magnificent-maestros-magnificent-maestros-booster-pack",
    "catalog": 14.9,
    "verified": false,
-   "count": 1
+   "count": 0
   },
   {
    "game": "Gundam",
@@ -1081,7 +1081,7 @@
    "game": "Lorcana",
    "name": "Disney Lorcana: Wilds Unknown Booster Box",
    "set": "Wilds Unknown",
-   "market": 89.95,
+   "market": 142.95,
    "release": "2026-05-15",
    "presale": false,
    "current": false,
@@ -1276,7 +1276,7 @@
    "game": "Gundam",
    "name": "Phantom Aria Booster Box",
    "set": "Phantom Aria",
-   "market": 114.88,
+   "market": 117.88,
    "release": "2026-04-24",
    "presale": false,
    "current": false,
@@ -1322,20 +1322,20 @@
    "url": "https://www.tcgplayer.com/product/710652/gundam-card-game-stardust-trails-stardust-trails-booster-box",
    "catalog": 99.71,
    "verified": true,
-   "count": 15
+   "count": 16
   },
   {
    "game": "Riftbound",
    "name": "Radiance - Booster Display",
    "set": "Radiance",
-   "market": 109.99,
+   "market": 110.0,
    "release": null,
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/711365/riftbound-league-of-legends-trading-card-game-radiance-radiance-booster-display",
    "catalog": 97.51,
    "verified": true,
-   "count": 36
+   "count": 35
   },
   {
    "game": "Star Wars Unlimited",
@@ -2076,7 +2076,7 @@
    "url": "https://www.tcgplayer.com/product/623063/lorcana-tcg-reign-of-jafar-disney-lorcana-reign-of-jafar-booster-pack",
    "catalog": 8.05,
    "verified": true,
-   "count": 17
+   "count": 16
   }
  ]
 }

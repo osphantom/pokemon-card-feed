@@ -1,6 +1,14 @@
 {
- "gn-onepiece": {
+ "gn-raffles": {
   "failures": 1,
-  "until": "2026-11-17T15:30:34Z"
+  "until": "2026-11-17T15:45:34Z"
+ },
+ "gn-promos": {
+  "failures": 1,
+  "until": "2026-11-17T15:45:34Z"
+ },
+ "gn-mtg": {
+  "failures": 1,
+  "until": "2026-11-17T15:45:34Z"
  }
 }
