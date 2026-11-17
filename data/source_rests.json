@@ -14,17 +14,5 @@
  "gn-mtg": {
   "failures": 3,
   "until": "2026-11-17T10:15:32Z"
- },
- "gn-restockd": {
-  "failures": 2,
-  "until": "2026-11-17T08:15:38Z"
- },
- "gn-pokebeach": {
-  "failures": 2,
-  "until": "2026-11-17T08:15:38Z"
- },
- "gn-market": {
-  "failures": 2,
-  "until": "2026-11-17T08:15:38Z"
  }
 }
