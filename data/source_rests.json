@@ -7,24 +7,12 @@
   "failures": 4,
   "until": "2026-11-17T08:45:33Z"
  },
- "gn-raffles": {
-  "failures": 1,
-  "until": "2026-11-17T05:15:33Z"
- },
- "gn-promos": {
-  "failures": 1,
-  "until": "2026-11-17T05:15:33Z"
- },
  "gn-lorcana": {
-  "failures": 1,
-  "until": "2026-11-17T05:15:33Z"
+  "failures": 2,
+  "until": "2026-11-17T06:00:32Z"
  },
- "gn-onepiece": {
+ "gn-preorder": {
   "failures": 1,
-  "until": "2026-11-17T05:15:33Z"
- },
- "gn-mtg": {
-  "failures": 1,
-  "until": "2026-11-17T05:15:33Z"
+  "until": "2026-11-17T05:30:32Z"
  }
 }
