@@ -26,5 +26,21 @@
  "gn-promo-stores": {
   "failures": 2,
   "until": "2026-11-17T01:15:36Z"
+ },
+ "gn-restockd": {
+  "failures": 1,
+  "until": "2026-11-17T01:00:46Z"
+ },
+ "gn-release": {
+  "failures": 1,
+  "until": "2026-11-17T01:00:46Z"
+ },
+ "gn-market": {
+  "failures": 1,
+  "until": "2026-11-17T01:00:46Z"
+ },
+ "gn-mtg": {
+  "failures": 1,
+  "until": "2026-11-17T01:00:46Z"
  }
 }
