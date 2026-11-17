@@ -8,8 +8,8 @@
   "until": "2026-11-17T08:45:33Z"
  },
  "gn-lorcana": {
-  "failures": 2,
-  "until": "2026-11-17T07:45:46Z"
+  "failures": 3,
+  "until": "2026-11-17T10:00:32Z"
  },
  "gn-pokemon-center": {
   "failures": 2,
@@ -31,8 +31,16 @@
   "failures": 2,
   "until": "2026-11-17T08:15:38Z"
  },
- "gn-promo-stores": {
+ "gn-preorder": {
   "failures": 1,
-  "until": "2026-11-17T07:45:38Z"
+  "until": "2026-11-17T08:00:32Z"
+ },
+ "gn-release": {
+  "failures": 1,
+  "until": "2026-11-17T08:00:32Z"
+ },
+ "gn-swu": {
+  "failures": 1,
+  "until": "2026-11-17T08:00:32Z"
  }
 }
