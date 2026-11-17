@@ -7,20 +7,12 @@
   "failures": 4,
   "until": "2026-11-17T08:45:33Z"
  },
- "gn-preorder": {
+ "gn-restockd": {
   "failures": 1,
-  "until": "2026-11-17T06:00:35Z"
+  "until": "2026-11-17T06:15:32Z"
  },
- "gn-pokemon-center": {
+ "gn-release": {
   "failures": 1,
-  "until": "2026-11-17T06:00:35Z"
- },
- "gn-onepiece": {
-  "failures": 1,
-  "until": "2026-11-17T06:00:35Z"
- },
- "gn-swu": {
-  "failures": 1,
-  "until": "2026-11-17T06:00:35Z"
+  "until": "2026-11-17T06:15:32Z"
  }
 }

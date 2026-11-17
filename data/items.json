@@ -1,21 +1,6 @@
 {
  "items": [
   {
-   "title": "McDonald’s Pokémon Cards 2026: Full 15-Card List",
-   "link": "https://cardlines.com/mcdonalds-pokemon-cards-2026-full-15-card-list/",
-   "source": "Cardlines",
-   "source_id": "cardlines",
-   "publisher": "",
-   "published": "2026-11-17T05:41:50Z",
-   "category": "promos",
-   "stores": [
-    "McDonald's"
-   ],
-   "hot": false,
-   "id": "8cde7d6bcea026",
-   "first_seen": "2026-11-17T05:45:36Z"
-  },
-  {
    "title": "McDonald's Pokémon Cards 2026: Full List & 7 Holos",
    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE03ejF1TVBCTF9lamc5blFOa2xzcnBNSVF6UTNobnF6QTRHbTE0U09lT1ZqMmJLMXNBWlpvZmkxT0dQMGlyT0daVDJRdjhZZmMyak9SSElKYnVRZERtVUJxaWFSQW5WajVMNVlhX2VaNEtITWNRbVFUWQ?oc=5",
    "source": "Google News: market",
@@ -55,6 +40,21 @@
    "hot": false,
    "id": "855436dddb32d7",
    "first_seen": "2026-11-17T05:15:33Z"
+  },
+  {
+   "title": "McDonald’s Pokémon Cards 2026: Full 15-Card List",
+   "link": "https://cardlines.com/mcdonalds-pokemon-cards-2026-full-15-card-list/",
+   "source": "Cardlines",
+   "source_id": "cardlines",
+   "publisher": "",
+   "published": "2026-11-17T03:41:00Z",
+   "category": "promos",
+   "stores": [
+    "McDonald's"
+   ],
+   "hot": false,
+   "id": "8cde7d6bcea026",
+   "first_seen": "2026-11-17T05:45:36Z"
   },
   {
    "title": "Flowing Fist found in stores before card release.",
