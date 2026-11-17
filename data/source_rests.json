@@ -7,12 +7,16 @@
   "failures": 4,
   "until": "2026-11-17T08:45:33Z"
  },
- "gn-restockd": {
-  "failures": 1,
-  "until": "2026-11-17T06:15:32Z"
- },
  "gn-release": {
+  "failures": 2,
+  "until": "2026-11-17T07:00:37Z"
+ },
+ "gn-preorder": {
   "failures": 1,
-  "until": "2026-11-17T06:15:32Z"
+  "until": "2026-11-17T06:30:37Z"
+ },
+ "gn-promos": {
+  "failures": 1,
+  "until": "2026-11-17T06:30:37Z"
  }
 }
