@@ -1,6 +1,32 @@
 {
  "items": [
   {
+   "title": "Man the Fort – Mega Kangaskhan / Bouffalant Builds the Wall",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTDl0c3kyZVVTelFQYXBmeHdYbHpQV2lQaTFBd0VuS1BWOXN5cDJXWEhYcWtOcWYwRWtqZGNVcmxZc0tPd0dWUk1BSnQ5aS10eU1QT0lfMTlhWTJSV0sxZng4ZkZzTFpIWWVZU1dkckZxY1lscjQ1ZFQzYVRYeFZaMTVaQzAteFFnNUVka01JbnFQQ0U?oc=5",
+   "source": "PokeBeach",
+   "source_id": "gn-pokebeach",
+   "publisher": "PokeBeach",
+   "published": "2026-11-18T17:04:23Z",
+   "category": "news",
+   "stores": [],
+   "hot": false,
+   "id": "019ec313582fbe",
+   "first_seen": "2026-11-18T18:03:01Z"
+  },
+  {
+   "title": "What Pokémon restocked this week (Nov 11 to Nov 18, 2026)",
+   "link": "https://pokerestockapp.com/pokemon/this-week/",
+   "source": "PokeRestock",
+   "source_id": "pokerestock-news",
+   "publisher": "",
+   "published": "2026-11-18T14:27:15Z",
+   "category": "restocks",
+   "stores": [],
+   "hot": false,
+   "id": "1b2fba4485fa54",
+   "first_seen": "2026-11-18T18:03:01Z"
+  },
+  {
    "title": "Ultimate Pokémon TCG Christmas Gift Guide 2026",
    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOR2dhb1B3VDNldTFJdWxtWGJUU3RMT2l4b09zUm5HbjF1dGE5UUFNWmJWeW9MYmFxMXJQMGk3OGlKdTNGRElJSEt2RF8yZGNRZzJ1NWVobER6UTZfNndENEtlLUV2ZEZtQ2I3VWNOLW9pSFF4WElzVWpjdE5YOWZFNXFINGNUNlE?oc=5",
    "source": "Google News: market",
@@ -27,6 +53,21 @@
    "hot": false,
    "id": "59d87e1207258f",
    "first_seen": "2026-11-17T21:00:33Z"
+  },
+  {
+   "title": "Target Sets a Pokémon TCG Drop for Nov. 28 With 30th Celebration Tins, Booster Bundles, Battle Decks and Figure Boxes",
+   "link": "https://pokerestockapp.com/pokemon/news/target-black-friday-pokemon-tcg-drop-nov-28-30th-celebration/",
+   "source": "PokeRestock",
+   "source_id": "pokerestock-news",
+   "publisher": "",
+   "published": "2026-11-17T20:47:30Z",
+   "category": "restocks",
+   "stores": [
+    "Target"
+   ],
+   "hot": false,
+   "id": "0beb20e790a69c",
+   "first_seen": "2026-11-18T18:03:01Z"
   },
   {
    "title": "New 'Pokémon' TCG Lucario Set Leaks In Stores Months Before Official Release",
@@ -154,6 +195,19 @@
    "hot": false,
    "id": "6fa5efad4c7404",
    "first_seen": "2026-11-18T01:16:01Z"
+  },
+  {
+   "title": "Pokémon Cards: An auction takes place this Tuesday in Monaco",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQ2doNmpja3Vlbk1LQ3dTSXo3TktxX0tFUkNET2F3UVNTV0NzTHpydUJKUkFXQ3FOUHlNMW1MbVNHdThjNndwRUdRWG1MTlpzem1RNGkyY3dUMlZvN1lHYTVPLXAwcnpYNndtd1NCRHJqT1VOLS1TWjZKMkRlaXdna0xwcVNZUDZGM3hiZEEzamw5LVk?oc=5",
+   "source": "Google News: market",
+   "source_id": "gn-market",
+   "publisher": "www.nice-premium.com",
+   "published": "2026-11-17T10:52:04Z",
+   "category": "market",
+   "stores": [],
+   "hot": false,
+   "id": "6699c6faa1def3",
+   "first_seen": "2026-11-18T18:03:01Z"
   },
   {
    "title": "Pokémon's New Flowing Fists TCG Set Is In People’s Hands Already",
@@ -373,6 +427,19 @@
    "hot": false,
    "id": "2ff9bc10bd3267",
    "first_seen": "2026-11-16T23:00:32Z"
+  },
+  {
+   "title": "All Disney Lorcana sets in order of release",
+   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE44NVk2VExNTURaWU41VjZOcExWOEpEc0hHMlZJTGdaaHQxb1ZGd0pBcDJFTU5ESmJZc01NVUlCclVGd1dNaUVWa1ByaWIwWURUZXA3TE9WSQ?oc=5",
+   "source": "Google News: Lorcana",
+   "source_id": "gn-lorcana",
+   "publisher": "Wargamer",
+   "published": "2026-11-16T15:41:42Z",
+   "category": "releases",
+   "stores": [],
+   "hot": false,
+   "id": "75933c29ab1bcf",
+   "first_seen": "2026-11-18T18:03:01Z"
   },
   {
    "title": "Pokémon Happy Meals Return to US McDonald's With Two TCG Promo Cards Each, Through Dec. 14, 2026",
@@ -595,6 +662,21 @@
    "hot": false,
    "id": "735be43da178e7",
    "first_seen": "2026-11-16T17:57:06Z"
+  },
+  {
+   "title": "Costco Pokémon 30th Celebration ETB + Booster Bundle",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ZR0lfV2ROQmpsclpWRG0yRmVVNHZBWDdpUlM3SVJJTWVzZi0tTG5uZFVvSE1DYTdDTXY1MFJENElWQUM5RkV4N3BMUDZXbUJjRy1oOG9jQXJqLUFRLUNzOUJGd0RSX2FJcTdQcg?oc=5",
+   "source": "Restockd",
+   "source_id": "gn-restockd",
+   "publisher": "Restockd",
+   "published": "2026-11-16T08:00:00Z",
+   "category": "restocks",
+   "stores": [
+    "Costco"
+   ],
+   "hot": true,
+   "id": "8c41e9ba8896ec",
+   "first_seen": "2026-11-18T18:03:01Z"
   },
   {
    "title": "What Pokémon restocked this week (Nov 9 to Nov 16, 2026)",
@@ -3717,21 +3799,6 @@
    ],
    "hot": true,
    "id": "2761e92d834f98",
-   "first_seen": "2026-11-08T17:32:32Z"
-  },
-  {
-   "title": "PRISMATIC ETB LOTTERY FROM BESTBUY, LIVE NOW",
-   "link": "https://www.reddit.com/r/PKMNTCGDeals/comments/1xa0qhi/prismatic_etb_lottery_from_bestbuy_live_now/",
-   "source": "r/PKMNTCGDeals",
-   "source_id": "reddit-deals",
-   "publisher": "",
-   "published": "2026-10-19T15:57:56Z",
-   "category": "raffles",
-   "stores": [
-    "Best Buy"
-   ],
-   "hot": true,
-   "id": "effd6a2c510c53",
    "first_seen": "2026-11-08T17:32:32Z"
   }
  ]
