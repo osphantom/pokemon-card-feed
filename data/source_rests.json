@@ -6,21 +6,5 @@
  "gn-mtg": {
   "failures": 2,
   "until": "2026-11-18T21:30:35Z"
- },
- "gn-promos": {
-  "failures": 1,
-  "until": "2026-11-18T21:00:35Z"
- },
- "gn-promo-stores": {
-  "failures": 1,
-  "until": "2026-11-18T21:00:35Z"
- },
- "gn-lorcana": {
-  "failures": 1,
-  "until": "2026-11-18T21:00:35Z"
- },
- "gn-swu": {
-  "failures": 1,
-  "until": "2026-11-18T21:00:35Z"
  }
 }
