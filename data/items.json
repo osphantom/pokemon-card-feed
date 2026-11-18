@@ -42,19 +42,6 @@
    "first_seen": "2026-11-17T18:30:33Z"
   },
   {
-   "title": "The best early Black Friday Pokémon deals: Shop live deals on 30th Celebration, Delta Reign, and more",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1KZjhJVl9tMmFELWdXV2xPZ1E0a1VYLUpsTFRwMzgtS1liMHk3TjJZT1ROS280NERaZmp3WGowbFB3VEtCbmY4UzdXN2tlcUZCQ3V5TGRDUE1NRkI0Q3RBQUpKYjFfbFlEcE9fNGJ5V0ZKU1lNa08wbUhlMDNCQQ?oc=5",
-   "source": "Google News: raffles and invites",
-   "source_id": "gn-raffles",
-   "publisher": "Mashable",
-   "published": "2026-11-17T17:14:36Z",
-   "category": "deals",
-   "stores": [],
-   "hot": false,
-   "id": "6fa5efad4c7404",
-   "first_seen": "2026-11-18T01:16:01Z"
-  },
-  {
    "title": "The Pokémon TCG Delta Reign Booster Display Box hits best-ever price at Amazon — save $15",
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPamkxa1Jfc05BcjY0R3hDQ3BLQ2RUajFLVnRYcmUwbklBWW9tMGZpWngyc1lDbUdzNTM0SnZyeTV1ZlNJcERDT3ZzZ1N5cTU1Q3pIVU8waU9UZTVjYjRQeGU1bHpMR09jMFJzNWlFNTVLNmxzMmVGNFF6RWtnQ0VWbkNxSnVaWW4tZHFqSUw2bVdtc3RSckFISG9pQjlZQUw5?oc=5",
    "source": "Google News: preorders",
@@ -154,6 +141,19 @@
    "hot": false,
    "id": "47989db7176889",
    "first_seen": "2026-11-17T15:27:57Z"
+  },
+  {
+   "title": "The best early Black Friday Pokémon deals: Shop live deals on 30th Celebration, Delta Reign, and more",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1KZjhJVl9tMmFELWdXV2xPZ1E0a1VYLUpsTFRwMzgtS1liMHk3TjJZT1ROS280NERaZmp3WGowbFB3VEtCbmY4UzdXN2tlcUZCQ3V5TGRDUE1NRkI0Q3RBQUpKYjFfbFlEcE9fNGJ5V0ZKU1lNa08wbUhlMDNCQQ?oc=5",
+   "source": "Google News: raffles and invites",
+   "source_id": "gn-raffles",
+   "publisher": "Mashable",
+   "published": "2026-11-17T11:14:45Z",
+   "category": "deals",
+   "stores": [],
+   "hot": false,
+   "id": "6fa5efad4c7404",
+   "first_seen": "2026-11-18T01:16:01Z"
   },
   {
    "title": "Pokémon's New Flowing Fists TCG Set Is In People’s Hands Already",
@@ -565,6 +565,23 @@
    "hot": true,
    "id": "9ac19426dd29d2",
    "first_seen": "2026-11-16T22:15:41Z"
+  },
+  {
+   "title": "Pokémon TCG 30th Celebration Ultra-Premium Collections: Live restock updates at Amazon, Walmart, and Target (Nov. 16)",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTkZHMTc3d0pjVVl5dzJBVGtocXBfeHZXUzg5cThBa1Y3a0VYNjhuYU9WeTByR2JLVWRuZjVZLW13c3RjVVdtTmswekdwWFFOeWlLd0dOYmR1eEVvLUNfWHFJYXl1WHUwcVFkdDljeTZhU3hoZ28zS0wwZk5ndk9fbWV3UmYwQVJrOWNSMnlJbzVObDlP?oc=5",
+   "source": "Google News: market",
+   "source_id": "gn-market",
+   "publisher": "Yahoo",
+   "published": "2026-11-16T09:53:40Z",
+   "category": "restocks",
+   "stores": [
+    "Walmart",
+    "Target",
+    "Amazon"
+   ],
+   "hot": true,
+   "id": "08271712eee695",
+   "first_seen": "2026-11-18T09:12:32Z"
   },
   {
    "title": "The best early Black Friday trading card deals: Save on Pokémon, Magic: The Gathering, and Yu-Gi-Oh!",
