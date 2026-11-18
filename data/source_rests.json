@@ -2,5 +2,9 @@
  "reddit-deals": {
   "failures": 6,
   "until": "2026-11-19T00:03:01Z"
+ },
+ "gn-raffles": {
+  "failures": 1,
+  "until": "2026-11-18T23:30:35Z"
  }
 }
