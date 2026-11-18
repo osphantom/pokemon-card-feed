@@ -3,12 +3,8 @@
   "failures": 6,
   "until": "2026-11-19T00:03:01Z"
  },
- "gn-mtg": {
+ "gn-promos": {
   "failures": 1,
-  "until": "2026-11-18T22:00:35Z"
- },
- "gn-swu": {
-  "failures": 1,
-  "until": "2026-11-18T22:00:35Z"
+  "until": "2026-11-18T22:15:46Z"
  }
 }
