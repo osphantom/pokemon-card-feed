@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T15:45:34Z",
+ "generated_at": "2026-11-18T02:45:35Z",
  "ebay_used": true,
  "stopwords": [
   "pokemon",
@@ -102,7 +102,7 @@
     },
     {
      "date": "2026-11-17",
-     "price": 342.94,
+     "price": 332.94,
      "count": 1
     }
    ],
@@ -197,6 +197,31 @@
     }
    ],
    "market": 120.0,
+   "count": 3,
+   "last_seen": "2026-11-17"
+  },
+  {
+   "key": "advent|calendar|days|needoh|schylling|ships|squishmas|today",
+   "tokens": [
+    "needoh",
+    "schylling",
+    "squishmas",
+    "days",
+    "advent",
+    "calendar",
+    "ships",
+    "today"
+   ],
+   "title": "Authentic NeeDoh Schylling Squishmas 24 Days Advent Calendar 2026 - SHIPS TODAY",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-17",
+     "price": 89.95,
+     "count": 3
+    }
+   ],
+   "market": 89.95,
    "count": 3,
    "last_seen": "2026-11-17"
   },
@@ -429,12 +454,35 @@
     },
     {
      "date": "2026-11-17",
-     "price": 69.99,
-     "count": 28
+     "price": 70.0,
+     "count": 27
     }
    ],
    "market": 69.99,
-   "count": 28,
+   "count": 27,
+   "last_seen": "2026-11-17"
+  },
+  {
+   "key": "cobra|espeon|mouse|razer|umbreon|wired",
+   "tokens": [
+    "razer",
+    "cobra",
+    "wired",
+    "mouse",
+    "espeon",
+    "umbreon"
+   ],
+   "title": "New - Pokemon Razer 2026 Cobra Wired Mouse Espeon & Umbreon Edition",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-17",
+     "price": 65.98,
+     "count": 3
+    }
+   ],
+   "market": 65.98,
+   "count": 3,
    "last_seen": "2026-11-17"
   },
   {
@@ -447,7 +495,7 @@
     "days",
     "schylling"
    ],
-   "title": "NeeDoh Squishmas Advent Calendar NEW SEALED 24 Days Schylling",
+   "title": "NeeDoh Squishmas Advent Calendar NEW SEALED 24 Days Schylling 2026 Gift",
    "ship": "small",
    "history": [
     {
@@ -468,11 +516,11 @@
     {
      "date": "2026-11-17",
      "price": 52.99,
-     "count": 6
+     "count": 8
     }
    ],
    "market": 61.99,
-   "count": 6,
+   "count": 8,
    "last_seen": "2026-11-17"
   },
   {
@@ -486,17 +534,17 @@
     "series",
     "code"
    ],
-   "title": "Sonny Angel New 🌈Authentic Figurine Dog Life Series Collection Code 2191",
+   "title": "Sonny Angel New 🌈Authentic Figurine Dog Life Series Collection Code 2194",
    "ship": "small",
    "history": [
     {
      "date": "2026-11-17",
      "price": 59.99,
-     "count": 4
+     "count": 7
     }
    ],
    "market": 59.99,
-   "count": 4,
+   "count": 7,
    "last_seen": "2026-11-17"
   },
   {
@@ -598,6 +646,33 @@
    "last_seen": "2026-11-17"
   },
   {
+   "key": "amazon|color|dream|drop|needoh|schylling|splash|swirl|vibes|violet",
+   "tokens": [
+    "needoh",
+    "color",
+    "splash",
+    "dream",
+    "drop",
+    "swirl",
+    "violet",
+    "vibes",
+    "amazon",
+    "schylling"
+   ],
+   "title": "NeeDoh Color Splash Dream Drop Swirl Violet Vibes Amazon Exclusive Schylling",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-17",
+     "price": 44.7,
+     "count": 3
+    }
+   ],
+   "market": 44.7,
+   "count": 3,
+   "last_seen": "2026-11-17"
+  },
+  {
    "key": "controller|garden|nano|pikachu|powera|switch|wireless",
    "tokens": [
     "powera",
@@ -653,12 +728,12 @@
     },
     {
      "date": "2026-11-17",
-     "price": 38.0,
-     "count": 5
+     "price": 38.25,
+     "count": 4
     }
    ],
    "market": 38.0,
-   "count": 5,
+   "count": 4,
    "last_seen": "2026-11-17"
   },
   {
@@ -696,6 +771,47 @@
    ],
    "market": 31.99,
    "count": 1,
+   "last_seen": "2026-11-17"
+  },
+  {
+   "key": "angel|blind|box|cat|confirmed|life|mini|series|sonny",
+   "tokens": [
+    "sonny",
+    "angel",
+    "cat",
+    "life",
+    "series",
+    "mini",
+    "confirmed",
+    "blind",
+    "box"
+   ],
+   "title": "Sonny Angel Cat Life Series Mini Figures - Confirmed Blind Box Figure",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 16.12,
+     "count": 2
+    },
+    {
+     "date": "2026-11-15",
+     "price": 27.5,
+     "count": 1
+    },
+    {
+     "date": "2026-11-16",
+     "price": 33.72,
+     "count": 2
+    },
+    {
+     "date": "2026-11-17",
+     "price": 33.72,
+     "count": 2
+    }
+   ],
+   "market": 30.61,
+   "count": 2,
    "last_seen": "2026-11-17"
   },
   {
@@ -787,47 +903,6 @@
    "last_seen": "2026-11-17"
   },
   {
-   "key": "angel|blind|box|cat|confirmed|life|mini|series|sonny",
-   "tokens": [
-    "sonny",
-    "angel",
-    "cat",
-    "life",
-    "series",
-    "mini",
-    "confirmed",
-    "blind",
-    "box"
-   ],
-   "title": "Sonny Angel Cat Life Series Mini Figures - Confirmed Blind Box Figure",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-14",
-     "price": 16.12,
-     "count": 2
-    },
-    {
-     "date": "2026-11-15",
-     "price": 27.5,
-     "count": 1
-    },
-    {
-     "date": "2026-11-16",
-     "price": 33.72,
-     "count": 2
-    },
-    {
-     "date": "2026-11-17",
-     "price": 21.09,
-     "count": 2
-    }
-   ],
-   "market": 24.3,
-   "count": 2,
-   "last_seen": "2026-11-17"
-  },
-  {
    "key": "gaming|grande|large|mouse|mousepad|pad|snorlax",
    "tokens": [
     "snorlax",
@@ -890,7 +965,7 @@
     "blind",
     "box"
    ],
-   "title": "POP MART THE MONSTERS Labubu Have a Seat Blind Box Vinyl Plush Figure",
+   "title": "POP MART LABUBU The Monsters Have A Seat Vinyl Plush Blind Box US AUTHENTIC",
    "ship": "small",
    "history": [
     {
@@ -905,12 +980,12 @@
     },
     {
      "date": "2026-11-17",
-     "price": 19.99,
-     "count": 5
+     "price": 18.99,
+     "count": 4
     }
    ],
-   "market": 19.99,
-   "count": 5,
+   "market": 18.99,
+   "count": 4,
    "last_seen": "2026-11-17"
   },
   {
@@ -955,11 +1030,11 @@
     {
      "date": "2026-11-17",
      "price": 18.0,
-     "count": 5
+     "count": 6
     }
    ],
    "market": 18.0,
-   "count": 5,
+   "count": 6,
    "last_seen": "2026-11-17"
   },
   {
