@@ -2,17 +2,5 @@
  "reddit-deals": {
   "failures": 4,
   "until": "2026-11-18T03:15:42Z"
- },
- "gn-onepiece": {
-  "failures": 2,
-  "until": "2026-11-17T22:00:33Z"
- },
- "gn-mtg": {
-  "failures": 2,
-  "until": "2026-11-17T22:00:33Z"
- },
- "gn-swu": {
-  "failures": 2,
-  "until": "2026-11-17T22:00:33Z"
  }
 }
