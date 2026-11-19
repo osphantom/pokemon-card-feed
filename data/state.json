@@ -2,7 +2,7 @@
  "boards": {
   "next-drops": {
    "id": "1569124781813665805",
-   "hash": "59877f4f9663"
+   "hash": "76da6d354eea"
   },
   "release-calendar": {
    "id": "1569124785269768347",
@@ -178,6 +178,7 @@
   "67b79624fae3a0",
   "67d052bfe08008",
   "6882b3ac648036",
+  "689273c45c1382",
   "69d4818fcc9d60",
   "6b05a6e66deeac",
   "6ba9e51f41aba2",
@@ -186,6 +187,7 @@
   "6fa5efad4c7404",
   "6fb80ed33199d7",
   "708b12f0a62ffb",
+  "70e575b2c9f370",
   "71c3d4d31e79f3",
   "73277eb2134e2e",
   "735be43da178e7",
@@ -195,6 +197,7 @@
   "7512b7323e2b08",
   "75933c29ab1bcf",
   "75a4ef865c7872",
+  "7611045b69a601",
   "7725d7b737e208",
   "78096de6cd4fb9",
   "78847bab6dc800",
@@ -202,6 +205,7 @@
   "7a2be356a6482c",
   "7a614415342799",
   "7a78b30ff6012c",
+  "7b14652ec61afc",
   "7b36c5ec2fe09e",
   "7b5e4443a7a6d7",
   "7c9802542e97c2",
@@ -249,11 +253,14 @@
   "9dff9df7822d1c",
   "9f1a2913d04303",
   "9f5c16d5c30877",
+  "a0cf47e0953095",
   "a3107833be2bf9",
   "a354e8fd1783b8",
+  "a36790ed6c55f2",
   "a43aa5adae7900",
   "a55749d78b954f",
   "a5a97123dcc217",
+  "a5ce71eeb6e832",
   "a5d91a647e1bbf",
   "a600e702c8b9d9",
   "a604e3584017ab",
@@ -267,10 +274,13 @@
   "aaa329a1060511",
   "ab9db61aaa4c3c",
   "abbd515acfedb9",
+  "abda9352abfd2f",
   "ac96594b68b880",
   "ad883f7fbe7fc1",
+  "ae2bacd6aeb1e8",
   "ae56fb57af9c10",
   "aed726088d0ef5",
+  "aedf4bd9835cbe",
   "aeed41df7704c5",
   "af70954da6a1fd",
   "afa0b17db260a8",
@@ -306,6 +316,7 @@
   "c3c5128447fa70",
   "c4fb9a4271eaf1",
   "c68d527457d611",
+  "c71d6b5b4e09ca",
   "c76d327cf07a63",
   "c77c5daac82b93",
   "c7b420fda97a56",
@@ -330,6 +341,7 @@
   "d439a3cffa47d5",
   "d49f9c183f5036",
   "d4c9065cc0c086",
+  "d4fe25431de6e2",
   "d6c0cc705cf509",
   "d74f21408cfff6",
   "dae0def6b2d083",
@@ -360,6 +372,7 @@
   "f06c91ae201127",
   "f0cf0778aa3ffe",
   "f1b91f989634b4",
+  "f4dc773ab727c0",
   "f518e6b442751a",
   "f58447a93c6c59",
   "f77af37db63395",
@@ -389,6 +402,7 @@
   "morning:2026-11-16",
   "morning:2026-11-17",
   "morning:2026-11-18",
+  "morning:2026-11-19",
   "raffle-ping:Target:2026-11-09",
   "raffle-ping:Target:2026-11-18",
   "raffle-ping:Walmart:2026-11-10",
@@ -1117,8 +1131,8 @@
   "pennsylvania",
   "virginia"
  ],
- "costco_checked_at": "2026-11-19T07:33:47Z",
- "promos_checked_at": "2026-11-19T07:33:47Z",
+ "costco_checked_at": "2026-11-19T16:42:39Z",
+ "promos_checked_at": "2026-11-19T16:42:39Z",
  "promo_markets": {
   "30th-celebration-mewtwo": 17.02,
   "delta-reign-kyogre": 6.34
@@ -1142,7 +1156,7 @@
   "PA",
   "VA"
  ],
- "sams_checked_at": "2026-11-19T07:33:47Z",
+ "sams_checked_at": "2026-11-19T16:42:39Z",
  "sams_status": {
   "990416407": {
    "6330": "order",
@@ -1249,8 +1263,8 @@
   }
  },
  "costco_stamp": "2026-11-17T14:01:05Z",
- "costco_read_at": "2026-11-19T07:33:47Z",
- "upc_checked_at": "2026-11-19T07:33:47Z",
+ "costco_read_at": "2026-11-19T16:42:39Z",
+ "upc_checked_at": "2026-11-19T16:42:39Z",
  "price_seen": {
   "704144": 249.55,
   "704191": 356.53,
