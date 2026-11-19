@@ -2,17 +2,5 @@
  "reddit-deals": {
   "failures": 9,
   "until": "2026-11-19T22:42:10Z"
- },
- "gn-pokebeach": {
-  "failures": 1,
-  "until": "2026-11-19T22:00:33Z"
- },
- "gn-pokeguardian": {
-  "failures": 1,
-  "until": "2026-11-19T22:00:33Z"
- },
- "gn-official": {
-  "failures": 1,
-  "until": "2026-11-19T22:00:33Z"
  }
 }
