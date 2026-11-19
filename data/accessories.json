@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T07:24:14Z",
+ "generated_at": "2026-11-19T18:30:35Z",
  "ebay_used": true,
  "stopwords": [
   "pokemon",
@@ -181,6 +181,89 @@
    "last_seen": "2026-11-19"
   },
   {
+   "key": "battle|charizard|jolteon|lego|play|smart|ultimate|vs",
+   "tokens": [
+    "lego",
+    "smart",
+    "play",
+    "charizard",
+    "vs",
+    "jolteon",
+    "ultimate",
+    "battle"
+   ],
+   "title": "LEGO Pokémon Smart Play 72167 Charizard vs Jolteon Ultimate Battle 751 pcs",
+   "ship": "bundle",
+   "history": [
+    {
+     "date": "2026-11-19",
+     "price": 108.0,
+     "count": 3
+    }
+   ],
+   "market": 108.0,
+   "count": 3,
+   "last_seen": "2026-11-19"
+  },
+  {
+   "key": "advent|calendar|days|needoh|schylling|ships|squishmas|today",
+   "tokens": [
+    "needoh",
+    "schylling",
+    "squishmas",
+    "days",
+    "advent",
+    "calendar",
+    "ships",
+    "today"
+   ],
+   "title": "Authentic NeeDoh Schylling Squishmas 24 Days Advent Calendar 2026 - SHIPS TODAY",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-17",
+     "price": 89.95,
+     "count": 3
+    },
+    {
+     "date": "2026-11-18",
+     "price": 89.95,
+     "count": 3
+    },
+    {
+     "date": "2026-11-19",
+     "price": 89.95,
+     "count": 3
+    }
+   ],
+   "market": 89.95,
+   "count": 3,
+   "last_seen": "2026-11-19"
+  },
+  {
+   "key": "advent|christmas|countdown|needoh|schylling|squishmas",
+   "tokens": [
+    "schylling",
+    "needoh",
+    "advent",
+    "countdown",
+    "squishmas",
+    "christmas"
+   ],
+   "title": "Schylling NeeDoh Advent Countdown To Squishmas-2026 Christmas gift",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-19",
+     "price": 84.96,
+     "count": 3
+    }
+   ],
+   "market": 84.96,
+   "count": 3,
+   "last_seen": "2026-11-19"
+  },
+  {
    "key": "artisan|batch|craft|from|keycaps|unmounted|unused",
    "tokens": [
     "craft",
@@ -316,6 +399,57 @@
    "last_seen": "2026-11-19"
   },
   {
+   "key": "cube|doh|nee|nice|orange|squeeze|squishy|stack|tactile",
+   "tokens": [
+    "nee",
+    "doh",
+    "nice",
+    "cube",
+    "stack",
+    "orange",
+    "tactile",
+    "squishy",
+    "squeeze"
+   ],
+   "title": "Nee Doh Nice Cube Stack Pack Orange Tactile Squishy Squeeze Toy Set Exclusive",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 89.99,
+     "count": 5
+    },
+    {
+     "date": "2026-11-15",
+     "price": 78.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 74.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-17",
+     "price": 74.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-18",
+     "price": 71.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-19",
+     "price": 74.99,
+     "count": 4
+    }
+   ],
+   "market": 74.99,
+   "count": 4,
+   "last_seen": "2026-11-19"
+  },
+  {
    "key": "gogh|museum|pikachu|plush|van",
    "tokens": [
     "van",
@@ -401,14 +535,58 @@
    "last_seen": "2026-11-19"
   },
   {
+   "key": "90h|classic|clog|crocs|mens|nwb|starters",
+   "tokens": [
+    "crocs",
+    "starters",
+    "classic",
+    "clog",
+    "90h",
+    "mens",
+    "nwb"
+   ],
+   "title": "Crocs x Pokemon \"Pokemon Starters\" Classic Clog 211343-90H Men’s Size 9 NWB",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 62.24,
+     "count": 3
+    },
+    {
+     "date": "2026-11-13",
+     "price": 57.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-15",
+     "price": 62.24,
+     "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 62.24,
+     "count": 3
+    },
+    {
+     "date": "2026-11-19",
+     "price": 57.98,
+     "count": 3
+    }
+   ],
+   "market": 62.24,
+   "count": 3,
+   "last_seen": "2026-11-19"
+  },
+  {
    "key": "advent|calendar|days|needoh|schylling|squishmas",
    "tokens": [
     "schylling",
     "needoh",
+    "squishmas",
     "advent",
     "calendar",
-    "days",
-    "squishmas"
+    "days"
    ],
    "title": "🎄🎁 Authentic 2026 Schylling NeeDoh Squishmas Advent Calendar 24 Days NEW🎄🫶",
    "ship": "small",
@@ -440,12 +618,31 @@
     },
     {
      "date": "2026-11-19",
-     "price": 89.9,
-     "count": 7
+     "price": 94.99,
+     "count": 3
     }
    ],
    "market": 61.99,
-   "count": 7,
+   "count": 3,
+   "last_seen": "2026-11-19"
+  },
+  {
+   "key": "lego|munchlax",
+   "tokens": [
+    "lego",
+    "munchlax"
+   ],
+   "title": "LEGO Pokemon Munchlax 72150",
+   "ship": "bundle",
+   "history": [
+    {
+     "date": "2026-11-19",
+     "price": 56.11,
+     "count": 3
+    }
+   ],
+   "market": 56.11,
+   "count": 3,
    "last_seen": "2026-11-19"
   },
   {
@@ -509,6 +706,37 @@
    "last_seen": "2026-11-19"
   },
   {
+   "key": "50cm|black|dragon|gifts|jellycat|onyx|plush|retired|tags",
+   "tokens": [
+    "jellycat",
+    "onyx",
+    "dragon",
+    "plush",
+    "black",
+    "retired",
+    "50cm",
+    "tags",
+    "gifts"
+   ],
+   "title": "Jellycat Onyx Dragon Plush – Black - RETIRED RARE 50cm - NEW WITH TAGS Gifts.",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 42.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-19",
+     "price": 55.99,
+     "count": 3
+    }
+   ],
+   "market": 49.49,
+   "count": 3,
+   "last_seen": "2026-11-19"
+  },
+  {
    "key": "championships|francisco|puzzle|san|world|xp",
    "tokens": [
     "world",
@@ -558,12 +786,38 @@
     },
     {
      "date": "2026-11-19",
-     "price": 48.0,
-     "count": 4
+     "price": 49.99,
+     "count": 3
     }
    ],
    "market": 48.0,
-   "count": 4,
+   "count": 3,
+   "last_seen": "2026-11-19"
+  },
+  {
+   "key": "bag|dust|gifts|jellycat|mitzi|plush|reindeer|retired|tag",
+   "tokens": [
+    "jellycat",
+    "mitzi",
+    "reindeer",
+    "plush",
+    "retired",
+    "tag",
+    "dust",
+    "bag",
+    "gifts"
+   ],
+   "title": "Jellycat Mitzi Reindeer Plush Toy Retired Collectible w/ Tag Dust Bag Gifts",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-19",
+     "price": 42.98,
+     "count": 3
+    }
+   ],
+   "market": 42.98,
+   "count": 3,
    "last_seen": "2026-11-19"
   },
   {
@@ -590,11 +844,11 @@
     },
     {
      "date": "2026-11-19",
-     "price": 44.7,
+     "price": 40.0,
      "count": 3
     }
    ],
-   "market": 44.7,
+   "market": 42.35,
    "count": 3,
    "last_seen": "2026-11-19"
   },
@@ -716,11 +970,62 @@
     {
      "date": "2026-11-19",
      "price": 29.0,
-     "count": 7
+     "count": 5
     }
    ],
    "market": 38.0,
-   "count": 7,
+   "count": 5,
+   "last_seen": "2026-11-19"
+  },
+  {
+   "key": "angel|blind|box|cat|confirmed|life|mini|series|sonny",
+   "tokens": [
+    "sonny",
+    "angel",
+    "cat",
+    "life",
+    "series",
+    "mini",
+    "confirmed",
+    "blind",
+    "box"
+   ],
+   "title": "Sonny Angel Cat Life Series Mini Figures - Confirmed Blind Box Figure",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 16.12,
+     "count": 2
+    },
+    {
+     "date": "2026-11-15",
+     "price": 27.5,
+     "count": 1
+    },
+    {
+     "date": "2026-11-16",
+     "price": 33.72,
+     "count": 2
+    },
+    {
+     "date": "2026-11-17",
+     "price": 33.72,
+     "count": 2
+    },
+    {
+     "date": "2026-11-18",
+     "price": 33.72,
+     "count": 2
+    },
+    {
+     "date": "2026-11-19",
+     "price": 37.45,
+     "count": 3
+    }
+   ],
+   "market": 33.72,
+   "count": 3,
    "last_seen": "2026-11-19"
   },
   {
@@ -883,6 +1188,53 @@
    "last_seen": "2026-11-19"
   },
   {
+   "key": "blind|box|confirmed|doll|mart|mega|molly|pop|series|space",
+   "tokens": [
+    "pop",
+    "mart",
+    "mega",
+    "space",
+    "molly",
+    "series",
+    "blind",
+    "box",
+    "confirmed",
+    "doll"
+   ],
+   "title": "POP MART 100% Mega Space Molly Series 4 Blind Box Confirmed Figure Toy Doll",
+   "ship": "bundle",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 14.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 14.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-17",
+     "price": 23.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-18",
+     "price": 23.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-19",
+     "price": 22.98,
+     "count": 3
+    }
+   ],
+   "market": 22.98,
+   "count": 3,
+   "last_seen": "2026-11-19"
+  },
+  {
    "key": "gaming|grande|large|mouse|mousepad|pad|snorlax",
    "tokens": [
     "snorlax",
@@ -981,11 +1333,11 @@
     {
      "date": "2026-11-19",
      "price": 19.99,
-     "count": 6
+     "count": 5
     }
    ],
    "market": 19.99,
-   "count": 6,
+   "count": 5,
    "last_seen": "2026-11-19"
   },
   {
@@ -1040,11 +1392,11 @@
     {
      "date": "2026-11-19",
      "price": 18.0,
-     "count": 6
+     "count": 4
     }
    ],
    "market": 18.0,
-   "count": 6,
+   "count": 4,
    "last_seen": "2026-11-19"
   },
   {
@@ -1059,7 +1411,7 @@
     "blind",
     "box"
    ],
-   "title": "Authentic POP MART-LABUBU: Big Into Energy Blind Box New!",
+   "title": "Authentic POP MART Labubu Big Into Energy Blind Box",
    "ship": "small",
    "history": [
     {
@@ -1079,12 +1431,12 @@
     },
     {
      "date": "2026-11-19",
-     "price": 18.0,
-     "count": 3
+     "price": 18.98,
+     "count": 4
     }
    ],
    "market": 18.0,
-   "count": 3,
+   "count": 4,
    "last_seen": "2026-11-19"
   },
   {
@@ -1098,7 +1450,7 @@
     "30th",
     "anniversary"
    ],
-   "title": "Pokemon X Target Mystery Water Type Pokemon Bottle 30th Anniversary - Sealed",
+   "title": "Pokemon X Target Mystery Water Type Pokemon Bottle 30th Anniversary Rare",
    "ship": "pack",
    "history": [
     {
@@ -1139,58 +1491,11 @@
     {
      "date": "2026-11-19",
      "price": 17.99,
-     "count": 7
+     "count": 8
     }
    ],
    "market": 17.99,
-   "count": 7,
-   "last_seen": "2026-11-19"
-  },
-  {
-   "key": "blind|box|confirmed|doll|mart|mega|molly|pop|series|space",
-   "tokens": [
-    "pop",
-    "mart",
-    "mega",
-    "space",
-    "molly",
-    "series",
-    "blind",
-    "box",
-    "confirmed",
-    "doll"
-   ],
-   "title": "POP MART 100% Mega Space Molly Series 4 Blind Box Confirmed Figure Toy Doll",
-   "ship": "bundle",
-   "history": [
-    {
-     "date": "2026-11-15",
-     "price": 14.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-16",
-     "price": 14.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-17",
-     "price": 23.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-18",
-     "price": 23.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-19",
-     "price": 16.99,
-     "count": 3
-    }
-   ],
-   "market": 16.99,
-   "count": 3,
+   "count": 8,
    "last_seen": "2026-11-19"
   },
   {
@@ -1262,36 +1567,6 @@
    "last_seen": "2026-11-18"
   },
   {
-   "key": "advent|calendar|days|needoh|schylling|ships|squishmas|today",
-   "tokens": [
-    "needoh",
-    "schylling",
-    "squishmas",
-    "days",
-    "advent",
-    "calendar",
-    "ships",
-    "today"
-   ],
-   "title": "Authentic NeeDoh Schylling Squishmas 24 Days Advent Calendar 2026 - SHIPS TODAY",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-17",
-     "price": 89.95,
-     "count": 3
-    },
-    {
-     "date": "2026-11-18",
-     "price": 89.95,
-     "count": 3
-    }
-   ],
-   "market": 89.95,
-   "count": 3,
-   "last_seen": "2026-11-18"
-  },
-  {
    "key": "gaming|gengar|headset|kitty|kraken|razer|v2",
    "tokens": [
     "razer",
@@ -1341,52 +1616,6 @@
    "last_seen": "2026-11-18"
   },
   {
-   "key": "cube|doh|nee|nice|orange|squeeze|squishy|stack|tactile",
-   "tokens": [
-    "nee",
-    "doh",
-    "nice",
-    "cube",
-    "stack",
-    "orange",
-    "tactile",
-    "squishy",
-    "squeeze"
-   ],
-   "title": "Nee Doh Nice Cube Stack Pack Orange Tactile Squishy Squeeze Toy Set Exclusive",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-14",
-     "price": 89.99,
-     "count": 5
-    },
-    {
-     "date": "2026-11-15",
-     "price": 78.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-16",
-     "price": 74.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-17",
-     "price": 74.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-18",
-     "price": 71.99,
-     "count": 3
-    }
-   ],
-   "market": 74.99,
-   "count": 3,
-   "last_seen": "2026-11-18"
-  },
-  {
    "key": "classic|clog|crocs|mens|starters|womens",
    "tokens": [
     "crocs",
@@ -1417,52 +1646,6 @@
    ],
    "market": 49.99,
    "count": 3,
-   "last_seen": "2026-11-18"
-  },
-  {
-   "key": "angel|blind|box|cat|confirmed|life|mini|series|sonny",
-   "tokens": [
-    "sonny",
-    "angel",
-    "cat",
-    "life",
-    "series",
-    "mini",
-    "confirmed",
-    "blind",
-    "box"
-   ],
-   "title": "Sonny Angel Cat Life Series Mini Figures - Confirmed Blind Box Figure",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-14",
-     "price": 16.12,
-     "count": 2
-    },
-    {
-     "date": "2026-11-15",
-     "price": 27.5,
-     "count": 1
-    },
-    {
-     "date": "2026-11-16",
-     "price": 33.72,
-     "count": 2
-    },
-    {
-     "date": "2026-11-17",
-     "price": 33.72,
-     "count": 2
-    },
-    {
-     "date": "2026-11-18",
-     "price": 33.72,
-     "count": 2
-    }
-   ],
-   "market": 33.72,
-   "count": 2,
    "last_seen": "2026-11-18"
   },
   {
@@ -1672,45 +1855,6 @@
     }
    ],
    "market": 89.49,
-   "count": 3,
-   "last_seen": "2026-11-16"
-  },
-  {
-   "key": "90h|classic|clog|crocs|mens|nwb|starters",
-   "tokens": [
-    "crocs",
-    "starters",
-    "classic",
-    "clog",
-    "90h",
-    "mens",
-    "nwb"
-   ],
-   "title": "Crocs x Pokemon \"Pokemon Starters\" Classic Clog 211343-90H Men’s Size 9 NWB",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 62.24,
-     "count": 3
-    },
-    {
-     "date": "2026-11-13",
-     "price": 57.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-15",
-     "price": 62.24,
-     "count": 3
-    },
-    {
-     "date": "2026-11-16",
-     "price": 62.24,
-     "count": 3
-    }
-   ],
-   "market": 62.24,
    "count": 3,
    "last_seen": "2026-11-16"
   },
@@ -1927,32 +2071,6 @@
     }
    ],
    "market": 77.0,
-   "count": 3,
-   "last_seen": "2026-11-15"
-  },
-  {
-   "key": "50cm|black|dragon|gifts|jellycat|onyx|plush|retired|tags",
-   "tokens": [
-    "jellycat",
-    "onyx",
-    "dragon",
-    "plush",
-    "black",
-    "retired",
-    "50cm",
-    "tags",
-    "gifts"
-   ],
-   "title": "Jellycat Onyx Dragon Plush – Black - RETIRED RARE 50cm - NEW WITH TAGS Gifts",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-15",
-     "price": 42.99,
-     "count": 3
-    }
-   ],
-   "market": 42.99,
    "count": 3,
    "last_seen": "2026-11-15"
   },
