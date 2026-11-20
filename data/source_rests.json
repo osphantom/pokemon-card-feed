@@ -2,17 +2,5 @@
  "reddit-deals": {
   "failures": 11,
   "until": "2026-11-20T10:45:41Z"
- },
- "gn-pokemon-center": {
-  "failures": 1,
-  "until": "2026-11-20T04:45:41Z"
- },
- "gn-release": {
-  "failures": 1,
-  "until": "2026-11-20T04:45:41Z"
- },
- "gn-lorcana": {
-  "failures": 1,
-  "until": "2026-11-20T04:45:41Z"
  }
 }
