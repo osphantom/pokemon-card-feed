@@ -1,6 +1,19 @@
 {
  "items": [
   {
+   "title": "What Pokémon restocked this week (Nov 13 to Nov 20, 2026)",
+   "link": "https://pokerestockapp.com/pokemon/this-week/",
+   "source": "PokeRestock",
+   "source_id": "pokerestock-news",
+   "publisher": "",
+   "published": "2026-11-20T13:31:46Z",
+   "category": "restocks",
+   "stores": [],
+   "hot": false,
+   "id": "ba1a52ca1454e9",
+   "first_seen": "2026-11-20T14:15:33Z"
+  },
+  {
    "title": "Pokémon TCG Flowing Fists release date revealed - but which Mega Evolutions still need cards?",
    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UVXZkWTAxbmU3dDhmbHpfdXpKTUkySDRLRlhldHktUFlHemY3MThFMWdXRElvX2FETDltRU5NamFPbjBCNXIyM1hOa2luYzMzdS1hMWdURWJQamtlY0pCZDF2MS1rc0xFWHZFOXJYU21UZ2dl?oc=5",
    "source": "Google News: releases",
