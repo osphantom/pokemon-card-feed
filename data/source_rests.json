@@ -2,5 +2,25 @@
  "reddit-deals": {
   "failures": 13,
   "until": "2026-11-20T22:45:42Z"
+ },
+ "gn-pokeguardian": {
+  "failures": 1,
+  "until": "2026-11-20T17:15:39Z"
+ },
+ "gn-preorder": {
+  "failures": 1,
+  "until": "2026-11-20T17:15:39Z"
+ },
+ "gn-release": {
+  "failures": 1,
+  "until": "2026-11-20T17:15:39Z"
+ },
+ "gn-lorcana": {
+  "failures": 1,
+  "until": "2026-11-20T17:15:39Z"
+ },
+ "gn-mtg": {
+  "failures": 1,
+  "until": "2026-11-20T17:15:39Z"
  }
 }
