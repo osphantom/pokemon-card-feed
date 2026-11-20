@@ -2,13 +2,5 @@
  "reddit-deals": {
   "failures": 11,
   "until": "2026-11-20T10:45:41Z"
- },
- "gn-pokemon-center": {
-  "failures": 1,
-  "until": "2026-11-20T06:15:47Z"
- },
- "gn-raffles": {
-  "failures": 1,
-  "until": "2026-11-20T06:15:47Z"
  }
 }
