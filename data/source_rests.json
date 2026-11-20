@@ -2,13 +2,5 @@
  "reddit-deals": {
   "failures": 10,
   "until": "2026-11-20T04:45:32Z"
- },
- "gn-lorcana": {
-  "failures": 1,
-  "until": "2026-11-20T00:00:38Z"
- },
- "gn-onepiece": {
-  "failures": 1,
-  "until": "2026-11-20T00:00:38Z"
  }
 }
