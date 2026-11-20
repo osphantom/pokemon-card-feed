@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T05:45:31Z",
+ "generated_at": "2026-11-20T16:45:42Z",
  "ebay_used": true,
  "stopwords": [
   "pokemon",
@@ -219,6 +219,51 @@
    "last_seen": "2026-11-20"
   },
   {
+   "key": "amuseable|blue|christmas|jellycat|large|retired|spruce|tree",
+   "tokens": [
+    "jellycat",
+    "large",
+    "amuseable",
+    "blue",
+    "spruce",
+    "christmas",
+    "tree",
+    "retired"
+   ],
+   "title": "Jellycat LARGE Amuseable Blue Spruce Christmas Tree 18\"-Retired",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 120.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-15",
+     "price": 120.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 120.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-17",
+     "price": 120.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-20",
+     "price": 120.0,
+     "count": 3
+    }
+   ],
+   "market": 120.0,
+   "count": 3,
+   "last_seen": "2026-11-20"
+  },
+  {
    "key": "espeon|gaming|keyboard|ornata|razer|tenkeyless|umbreon|v3",
    "tokens": [
     "razer",
@@ -244,6 +289,27 @@
    "last_seen": "2026-11-20"
   },
   {
+   "key": "advent|calendar|needoh|schylling",
+   "tokens": [
+    "schylling",
+    "needoh",
+    "advent",
+    "calendar"
+   ],
+   "title": "New Sealed 100% AUTHENTIC 2026 NeeDoh Advent Calendar Schylling",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-20",
+     "price": 99.99,
+     "count": 3
+    }
+   ],
+   "market": 99.99,
+   "count": 3,
+   "last_seen": "2026-11-20"
+  },
+  {
    "key": "gaming|headset|kraken|razer|v4|wired",
    "tokens": [
     "razer",
@@ -263,6 +329,70 @@
     }
    ],
    "market": 89.99,
+   "count": 3,
+   "last_seen": "2026-11-20"
+  },
+  {
+   "key": "advent|calendar|days|needoh|schylling|ships|squishmas|today",
+   "tokens": [
+    "needoh",
+    "schylling",
+    "squishmas",
+    "days",
+    "advent",
+    "calendar",
+    "ships",
+    "today"
+   ],
+   "title": "Authentic NeeDoh Schylling Squishmas 24 Days Advent Calendar 2026 - SHIPS TODAY",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-17",
+     "price": 89.95,
+     "count": 3
+    },
+    {
+     "date": "2026-11-18",
+     "price": 89.95,
+     "count": 3
+    },
+    {
+     "date": "2026-11-19",
+     "price": 89.95,
+     "count": 3
+    },
+    {
+     "date": "2026-11-20",
+     "price": 89.95,
+     "count": 3
+    }
+   ],
+   "market": 89.95,
+   "count": 3,
+   "last_seen": "2026-11-20"
+  },
+  {
+   "key": "advent|calendar|christmas|days|needoh|schylling|squishmas",
+   "tokens": [
+    "schylling",
+    "needoh",
+    "advent",
+    "calendar",
+    "days",
+    "squishmas",
+    "christmas"
+   ],
+   "title": "Schylling NeeDoh Advent Calendar 24 Days of Squishmas Christmas Authentic New",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-20",
+     "price": 84.95,
+     "count": 3
+    }
+   ],
+   "market": 84.95,
    "count": 3,
    "last_seen": "2026-11-20"
   },
@@ -464,12 +594,12 @@
     },
     {
      "date": "2026-11-20",
-     "price": 74.99,
-     "count": 4
+     "price": 71.99,
+     "count": 3
     }
    ],
    "market": 74.99,
-   "count": 4,
+   "count": 3,
    "last_seen": "2026-11-20"
   },
   {
@@ -526,7 +656,7 @@
     },
     {
      "date": "2026-11-20",
-     "price": 70.0,
+     "price": 74.95,
      "count": 25
     }
    ],
@@ -935,6 +1065,30 @@
    "last_seen": "2026-11-20"
   },
   {
+   "key": "advent|calendar|days|hot|needoh|schylling|squishmas",
+   "tokens": [
+    "needoh",
+    "squishmas",
+    "advent",
+    "calendar",
+    "days",
+    "schylling",
+    "hot"
+   ],
+   "title": "NeeDoh Squishmas Advent Calendar NEW SEALED 24 Days Schylling 2026 Hot Gift",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-20",
+     "price": 36.9,
+     "count": 3
+    }
+   ],
+   "market": 36.9,
+   "count": 3,
+   "last_seen": "2026-11-20"
+  },
+  {
    "key": "angel|blind|box|day|love|mini|rainy|series|sonny|toys",
    "tokens": [
     "sonny",
@@ -984,6 +1138,71 @@
    ],
    "market": 31.99,
    "count": 1,
+   "last_seen": "2026-11-20"
+  },
+  {
+   "key": "color|dream|drop|hand|needoh|splash|vibes|violet",
+   "tokens": [
+    "needoh",
+    "dream",
+    "drop",
+    "color",
+    "splash",
+    "violet",
+    "vibes",
+    "hand"
+   ],
+   "title": "NeeDoh Dream Drop Color Splash Violet Vibes IN HAND",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-19",
+     "price": 31.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-20",
+     "price": 31.99,
+     "count": 3
+    }
+   ],
+   "market": 31.99,
+   "count": 3,
+   "last_seen": "2026-11-20"
+  },
+  {
+   "key": "angel|blind|box|cat|christmas|series|single|sonny",
+   "tokens": [
+    "sonny",
+    "angel",
+    "cat",
+    "christmas",
+    "series",
+    "single",
+    "blind",
+    "box"
+   ],
+   "title": "Sonny Angel Cat Christmas Series Single Blind Box Sealed-New 2026",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 29.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 29.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-20",
+     "price": 29.99,
+     "count": 3
+    }
+   ],
+   "market": 29.99,
+   "count": 3,
    "last_seen": "2026-11-20"
   },
   {
@@ -1042,6 +1261,26 @@
     }
    ],
    "market": 27.5,
+   "count": 3,
+   "last_seen": "2026-11-20"
+  },
+  {
+   "key": "board|game|monopoly",
+   "tokens": [
+    "monopoly",
+    "board",
+    "game"
+   ],
+   "title": "Monopoly Pokemon Board Game",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-20",
+     "price": 27.0,
+     "count": 3
+    }
+   ],
+   "market": 27.0,
    "count": 3,
    "last_seen": "2026-11-20"
   },
@@ -1153,11 +1392,11 @@
     },
     {
      "date": "2026-11-20",
-     "price": 19.99,
+     "price": 18.99,
      "count": 6
     }
    ],
-   "market": 19.99,
+   "market": 19.49,
    "count": 6,
    "last_seen": "2026-11-20"
   },
@@ -1270,11 +1509,11 @@
     {
      "date": "2026-11-20",
      "price": 18.0,
-     "count": 4
+     "count": 5
     }
    ],
    "market": 18.0,
-   "count": 4,
+   "count": 5,
    "last_seen": "2026-11-20"
   },
   {
@@ -1333,7 +1572,7 @@
     "30th",
     "anniversary"
    ],
-   "title": "Pokemon X Target Mystery Water Type Pokemon Bottle 30th Anniversary",
+   "title": "Pokemon X Target Mystery Water Type Pokemon Bottle 30th Anniversary (SEALED)",
    "ship": "pack",
    "history": [
     {
@@ -1378,12 +1617,12 @@
     },
     {
      "date": "2026-11-20",
-     "price": 17.85,
-     "count": 9
+     "price": 17.99,
+     "count": 7
     }
    ],
    "market": 17.99,
-   "count": 9,
+   "count": 7,
    "last_seen": "2026-11-20"
   },
   {
@@ -1425,7 +1664,7 @@
     },
     {
      "date": "2026-11-20",
-     "price": 15.33,
+     "price": 34.49,
      "count": 2
     }
    ],
@@ -1455,41 +1694,6 @@
     }
    ],
    "market": 108.0,
-   "count": 3,
-   "last_seen": "2026-11-19"
-  },
-  {
-   "key": "advent|calendar|days|needoh|schylling|ships|squishmas|today",
-   "tokens": [
-    "needoh",
-    "schylling",
-    "squishmas",
-    "days",
-    "advent",
-    "calendar",
-    "ships",
-    "today"
-   ],
-   "title": "Authentic NeeDoh Schylling Squishmas 24 Days Advent Calendar 2026 - SHIPS TODAY",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-17",
-     "price": 89.95,
-     "count": 3
-    },
-    {
-     "date": "2026-11-18",
-     "price": 89.95,
-     "count": 3
-    },
-    {
-     "date": "2026-11-19",
-     "price": 89.95,
-     "count": 3
-    }
-   ],
-   "market": 89.95,
    "count": 3,
    "last_seen": "2026-11-19"
   },
@@ -1735,31 +1939,6 @@
    "last_seen": "2026-11-19"
   },
   {
-   "key": "color|dream|drop|hand|needoh|splash|vibes|violet",
-   "tokens": [
-    "needoh",
-    "dream",
-    "drop",
-    "color",
-    "splash",
-    "violet",
-    "vibes",
-    "hand"
-   ],
-   "title": "NeeDoh Dream Drop Color Splash Violet Vibes IN HAND",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-19",
-     "price": 31.99,
-     "count": 3
-    }
-   ],
-   "market": 31.99,
-   "count": 3,
-   "last_seen": "2026-11-19"
-  },
-  {
    "key": "board|by|characters|game|hasbro|monopoly",
    "tokens": [
     "monopoly",
@@ -1915,46 +2094,6 @@
    "market": 29.98,
    "count": 3,
    "last_seen": "2026-11-18"
-  },
-  {
-   "key": "amuseable|blue|christmas|jellycat|large|retired|spruce|tree",
-   "tokens": [
-    "jellycat",
-    "large",
-    "amuseable",
-    "blue",
-    "spruce",
-    "christmas",
-    "tree",
-    "retired"
-   ],
-   "title": "Jellycat LARGE Amuseable Blue Spruce Christmas Tree 18\"-Retired",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-14",
-     "price": 120.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-15",
-     "price": 120.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-16",
-     "price": 120.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-17",
-     "price": 120.0,
-     "count": 3
-    }
-   ],
-   "market": 120.0,
-   "count": 3,
-   "last_seen": "2026-11-17"
   },
   {
    "key": "angel|code|dog|figurine|life|series|sonny",
@@ -2133,36 +2272,6 @@
     }
    ],
    "market": 37.99,
-   "count": 3,
-   "last_seen": "2026-11-16"
-  },
-  {
-   "key": "angel|blind|box|cat|christmas|series|single|sonny",
-   "tokens": [
-    "sonny",
-    "angel",
-    "cat",
-    "christmas",
-    "series",
-    "single",
-    "blind",
-    "box"
-   ],
-   "title": "Sonny Angel Cat Christmas Series Single Blind Box Sealed-New 2026",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-15",
-     "price": 29.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-16",
-     "price": 29.99,
-     "count": 3
-    }
-   ],
-   "market": 29.99,
    "count": 3,
    "last_seen": "2026-11-16"
   },

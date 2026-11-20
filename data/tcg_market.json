@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T05:45:31Z",
+ "generated_at": "2026-11-20T16:45:42Z",
  "games": [
   "Lorcana",
   "One Piece",
@@ -74,7 +74,7 @@
    "url": "https://www.tcgplayer.com/product/704878/one-piece-card-game-the-worlds-strongest-warriors-double-pack-set-vol-12-display",
    "catalog": 361.8,
    "verified": false,
-   "count": 1
+   "count": 0
   },
   {
    "game": "Lorcana",
@@ -197,14 +197,14 @@
    "game": "One Piece",
    "name": "The Dominance of God Booster Box",
    "set": "The Dominance of God",
-   "market": 209.97,
+   "market": 211.97,
    "release": "2026-11-20",
    "presale": true,
    "current": true,
    "url": "https://www.tcgplayer.com/product/712901/one-piece-card-game-the-dominance-of-god-the-dominance-of-god-booster-box",
    "catalog": 191.55,
    "verified": true,
-   "count": 19
+   "count": 15
   },
   {
    "game": "Magic",
@@ -548,7 +548,7 @@
    "game": "Star Wars Unlimited",
    "name": "Icons 2027 Edition - Booster Display",
    "set": "Icons 2027 Edition",
-   "market": 97.41,
+   "market": 86.94,
    "release": "2026-11-20",
    "presale": true,
    "current": true,
@@ -711,7 +711,7 @@
    "url": "https://www.tcgplayer.com/product/693390/star-wars-unlimited-ashes-of-the-empire-ashes-of-the-empire-booster-display",
    "catalog": 72.57,
    "verified": false,
-   "count": 0
+   "count": 1
   },
   {
    "game": "Magic",
@@ -802,7 +802,7 @@
    "url": "https://www.tcgplayer.com/product/706168/magic-commander-star-trek-star-trek-commander-deck-landing-party",
    "catalog": 54.09,
    "verified": true,
-   "count": 6
+   "count": 7
   },
   {
    "game": "Yu-Gi-Oh",
@@ -841,7 +841,7 @@
    "url": "https://www.tcgplayer.com/product/704757/one-piece-card-game-the-worlds-strongest-warriors-double-pack-set-vol-12",
    "catalog": 43.43,
    "verified": true,
-   "count": 13
+   "count": 12
   },
   {
    "game": "Magic",
@@ -880,7 +880,7 @@
    "url": "https://www.tcgplayer.com/product/706141/magic-star-trek-star-trek-collector-booster-pack",
    "catalog": 39.03,
    "verified": true,
-   "count": 26
+   "count": 28
   },
   {
    "game": "Magic",
@@ -912,14 +912,14 @@
    "game": "Magic",
    "name": "Secret Lair x MSCHF: The Zeta Set Booster Pack",
    "set": "Secret Lair x MSCHF: The Zeta Set",
-   "market": 34.5,
+   "market": 34.99,
    "release": "2026-11-07",
    "presale": false,
    "current": true,
    "url": "https://www.tcgplayer.com/product/714891/magic-secret-lair-x-mschf-the-zeta-set-secret-lair-x-mschf-the-zeta-set-booster-pack",
    "catalog": 34.39,
    "verified": true,
-   "count": 13
+   "count": 12
   },
   {
    "game": "Lorcana",
@@ -1023,7 +1023,7 @@
    "url": "https://www.tcgplayer.com/product/712904/one-piece-card-game-the-dominance-of-god-the-dominance-of-god-booster-pack",
    "catalog": 20.59,
    "verified": true,
-   "count": 7
+   "count": 14
   },
   {
    "game": "Gundam",
@@ -1081,7 +1081,7 @@
    "game": "Gundam",
    "name": "Starter Deck 14: Heavy Dominion",
    "set": "Starter Deck 14: Heavy Dominion",
-   "market": 19.99,
+   "market": 16.99,
    "release": "2026-09-25",
    "presale": false,
    "current": true,
@@ -1159,14 +1159,14 @@
    "game": "Lorcana",
    "name": "Disney Lorcana: Fabled Booster Box",
    "set": "Fabled",
-   "market": 809.98,
+   "market": 734.98,
    "release": "2025-09-05",
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/645298/lorcana-tcg-fabled-disney-lorcana-fabled-booster-box",
    "catalog": 808.04,
    "verified": true,
-   "count": 14
+   "count": 15
   },
   {
    "game": "Gundam",
@@ -1452,20 +1452,20 @@
    "url": "https://www.tcgplayer.com/product/646033/lorcana-tcg-fabled-disney-lorcana-fabled-collection-starter-set",
    "catalog": 101.65,
    "verified": true,
-   "count": 23
+   "count": 22
   },
   {
    "game": "Riftbound",
    "name": "Radiance - Booster Display",
    "set": "Radiance",
-   "market": 119.94,
+   "market": 110.0,
    "release": null,
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/711365/riftbound-league-of-legends-trading-card-game-radiance-radiance-booster-display",
    "catalog": 97.44,
    "verified": true,
-   "count": 34
+   "count": 35
   },
   {
    "game": "Star Wars Unlimited",
@@ -1660,7 +1660,7 @@
    "url": "https://www.tcgplayer.com/product/672287/star-wars-unlimited-a-lawless-time-a-lawless-time-booster-display",
    "catalog": 66.76,
    "verified": false,
-   "count": 1
+   "count": 0
   },
   {
    "game": "Riftbound",
@@ -1738,7 +1738,7 @@
    "url": "https://www.tcgplayer.com/product/645305/lorcana-tcg-fabled-disney-lorcana-fabled-starter-deck-emerald-and-ruby",
    "catalog": 52.75,
    "verified": false,
-   "count": 1
+   "count": 0
   },
   {
    "game": "Lorcana",
@@ -1881,7 +1881,7 @@
    "url": "https://www.tcgplayer.com/product/649927/lorcana-tcg-fabled-disney-lorcana-fabled-booster-pack",
    "catalog": 30.08,
    "verified": true,
-   "count": 17
+   "count": 16
   },
   {
    "game": "Gundam",
@@ -1920,7 +1920,7 @@
    "url": "https://www.tcgplayer.com/product/704885/one-piece-card-game-st-31-starter-deck-31-red-monkeydluffy-starter-deck-31-red-monkeydluffy",
    "catalog": 25.86,
    "verified": true,
-   "count": 48
+   "count": 47
   },
   {
    "game": "Lorcana",
@@ -2147,14 +2147,14 @@
    "game": "Lorcana",
    "name": "Disney Lorcana: Azurite Sea Starter Deck (Emerald & Sapphire)",
    "set": "Azurite Sea",
-   "market": 14.09,
+   "market": 9.85,
    "release": "2024-11-25",
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/578124/lorcana-tcg-azurite-sea-disney-lorcana-azurite-sea-starter-deck-emerald-and-sapphire",
    "catalog": 9.85,
-   "verified": true,
-   "count": 3
+   "verified": false,
+   "count": 2
   },
   {
    "game": "Lorcana",
@@ -2212,14 +2212,14 @@
    "game": "Lorcana",
    "name": "Disney Lorcana: Reign of Jafar Booster Pack",
    "set": "Reign of Jafar",
-   "market": 9.99,
+   "market": 10.0,
    "release": "2025-06-06",
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/623063/lorcana-tcg-reign-of-jafar-disney-lorcana-reign-of-jafar-booster-pack",
    "catalog": 8.08,
    "verified": true,
-   "count": 17
+   "count": 16
   }
  ]
 }
