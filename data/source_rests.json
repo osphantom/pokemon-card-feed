@@ -10,9 +10,5 @@
  "gn-mtg": {
   "failures": 2,
   "until": "2026-11-20T08:30:34Z"
- },
- "gn-swu": {
-  "failures": 1,
-  "until": "2026-11-20T08:00:34Z"
  }
 }
