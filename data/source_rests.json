@@ -2,5 +2,21 @@
  "reddit-deals": {
   "failures": 13,
   "until": "2026-11-20T22:45:42Z"
+ },
+ "gn-market": {
+  "failures": 1,
+  "until": "2026-11-20T18:15:44Z"
+ },
+ "gn-promo-stores": {
+  "failures": 1,
+  "until": "2026-11-20T18:15:44Z"
+ },
+ "gn-onepiece": {
+  "failures": 1,
+  "until": "2026-11-20T18:15:44Z"
+ },
+ "gn-swu": {
+  "failures": 1,
+  "until": "2026-11-20T18:15:44Z"
  }
 }
