@@ -1,6 +1,19 @@
 {
  "items": [
   {
+   "title": "Alt. Format - Mega Glimmora",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9yVTdpczAzNHJQVnRjeFFhSmh1VmRaMkJPNWVzVTBfLXlWc3VadUdra2J2VWg3SnJoX0xzX0pIem11aW9Yb2VmTENHVzlGTkMyY3NOcXNROWRvbnRkM3N5Ynk5cGc1ZVpkNUtzTExRam1QRDZmVk9YRmxNdVphYW8?oc=5",
+   "source": "PokeBeach",
+   "source_id": "gn-pokebeach",
+   "publisher": "PokeBeach",
+   "published": "2026-11-20T00:03:50Z",
+   "category": "news",
+   "stores": [],
+   "hot": false,
+   "id": "495af29e9504fa",
+   "first_seen": "2026-11-20T02:15:34Z"
+  },
+  {
    "title": "Even at Art Auctions: Pokémon Cards Soar in Popularity with Single Card Selling for 23.8 Billion Won",
    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB4STJiTXNOa2JwT2s4UFJnSXdFOEtPcFZjOF9wdFc5anRCcV84dWlPeGJEeFlIcUozU1VXcUlhNjFBb0h1dlpad1FhNGpBdkZkbVIwaGt0U1NDSW9FY3RwVzYzYm5YTWRseFBhajB30gFmQVVfeXFMUFU3eldYVm53Vjl0ZGRlUVlLRDdNSGVjaE5KbjJTeUNaYUh4Y181SVQtQmE0SVIzbUhWY1Rtb3A5bURUZF9YY1JTekZzLWpvd1h0RVpGTk1RenhqUmZRMFk0ZHY2X0Nn?oc=5",
    "source": "Google News: market",
@@ -174,19 +187,6 @@
    "first_seen": "2026-11-19T16:42:10Z"
   },
   {
-   "title": "Pokémon TCG Mega Evolution Flowing Fists: Release date, Z Mega Evolution cards, early access",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRzZyal9LeldYUG9ySlh5ZGozNms3SHVJbUJORTJPd2REaWhCSUxjTUw0UXA2RTJZLUhncDVNVmZUYzJrR09lMWhSYXFzMHM1QlFlZjA4cHRFVFAzekZCTlNMWHFZNGlYSmVMeVNkUm92NzNxT0M5dWV2NHNEWEFHNTZSbVNOcDVraTZIblFQcjJqazQ?oc=5",
-   "source": "Google News: releases",
-   "source_id": "gn-release",
-   "publisher": "Mashable",
-   "published": "2026-11-19T15:20:08Z",
-   "category": "preorders",
-   "stores": [],
-   "hot": true,
-   "id": "c71d6b5b4e09ca",
-   "first_seen": "2026-11-19T16:42:10Z"
-  },
-  {
    "title": "New Blastoise Revealed for Pokémon TCG Flowing Fists, Now Dated for Feb. 6, 2027",
    "link": "https://pokerestockapp.com/pokemon/news/flowing-fists-blastoise-revealed-expected-release-feb-5-2027/",
    "source": "PokeRestock",
@@ -210,6 +210,19 @@
    "stores": [],
    "hot": false,
    "id": "a0cf47e0953095",
+   "first_seen": "2026-11-19T16:42:10Z"
+  },
+  {
+   "title": "Pokémon TCG Mega Evolution Flowing Fists: Release date, Z Mega Evolution cards, early access",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRzZyal9LeldYUG9ySlh5ZGozNms3SHVJbUJORTJPd2REaWhCSUxjTUw0UXA2RTJZLUhncDVNVmZUYzJrR09lMWhSYXFzMHM1QlFlZjA4cHRFVFAzekZCTlNMWHFZNGlYSmVMeVNkUm92NzNxT0M5dWV2NHNEWEFHNTZSbVNOcDVraTZIblFQcjJqazQ?oc=5",
+   "source": "Google News: releases",
+   "source_id": "gn-release",
+   "publisher": "Mashable",
+   "published": "2026-11-19T14:52:40Z",
+   "category": "preorders",
+   "stores": [],
+   "hot": true,
+   "id": "c71d6b5b4e09ca",
    "first_seen": "2026-11-19T16:42:10Z"
   },
   {
