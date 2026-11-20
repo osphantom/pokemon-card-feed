@@ -3,16 +3,8 @@
   "failures": 10,
   "until": "2026-11-20T04:45:32Z"
  },
- "gn-pokemon-center": {
-  "failures": 1,
-  "until": "2026-11-20T04:00:47Z"
- },
- "gn-release": {
-  "failures": 1,
-  "until": "2026-11-20T04:00:47Z"
- },
  "gn-mtg": {
-  "failures": 1,
-  "until": "2026-11-20T04:00:47Z"
+  "failures": 2,
+  "until": "2026-11-20T04:45:39Z"
  }
 }
