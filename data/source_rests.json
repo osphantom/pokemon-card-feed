@@ -2,5 +2,9 @@
  "reddit-deals": {
   "failures": 16,
   "until": "2026-11-21T22:25:02Z"
+ },
+ "gn-onepiece": {
+  "failures": 1,
+  "until": "2026-11-21T18:45:41Z"
  }
 }
