@@ -1,6 +1,19 @@
 {
  "items": [
   {
+   "title": "Pokémon Flowing Fists Preorders Are Already Live",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMDBoYkR1eUU3cjBsODhmelJTR0JScHFiTlVUMGZpM3pEcmFtbl9MX1g4aXBacF9WTkM4ZzNHekZxa3RZUzhVSUx5WG1LcnI4LVYxV20wbkVfOU02NDZ0TUNMRy1KTlg3UGVTWHduV1NuVmFoY3E4ZU5wUlBkM3hSb2NrLXZnMy1HWUJLUE5ZNGpva2c?oc=5",
+   "source": "Google News: preorders",
+   "source_id": "gn-preorder",
+   "publisher": "Joseph Writer Anderson",
+   "published": "2026-11-21T08:15:51Z",
+   "category": "preorders",
+   "stores": [],
+   "hot": false,
+   "id": "512155a8fc7f42",
+   "first_seen": "2026-11-21T08:47:28Z"
+  },
+  {
    "title": "Complete Pokémon Flowing Fists Set List Revealed",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUy1EX0xaZ3R0Y1ZMQm9Uc2x3X3lmUVlZRjlyUjlZbTA1U0E0VnJhdlVRelNxUm9yOGFSRlQ5YjVvRHo4YkQwSXU0aTVqT2s4SjZzSWVXZjhMT0gxTFpOWElmaHBmRGxOWVRTVDFLQ3BTS01GMFYwdV96MlljWUNlQUdKTEJneUJpeFBXQlNfSWJxcjd1TDZHNDhKUlZKalZPWTZWRlVsUHU?oc=5",
    "source": "Google News: releases",
@@ -440,19 +453,6 @@
    "first_seen": "2026-11-19T20:15:34Z"
   },
   {
-   "title": "The best early Black Friday trading card deals: Pokémon, Magic: The Gathering, and Yu-Gi-Oh! on sale",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOckhrQkpSOFBuVVJKbXp1LUJCQjBxaktjNjFFZHFDODBpcklNYTNlWWJNaDQ2aFBzN3ZPZnZFRTFXMWxJc1BUYkZYbldBcWk2RTFVWmVDZWJnQVhNemtaM1pub25qX3hGSk9KMTk3UGxIZ1ZYMGdCS2psdWR1SVVFVEU1TzA?oc=5",
-   "source": "Google News: market",
-   "source_id": "gn-market",
-   "publisher": "Mashable",
-   "published": "2026-11-19T16:23:42Z",
-   "category": "deals",
-   "stores": [],
-   "hot": false,
-   "id": "0b6f3fd4c54a90",
-   "first_seen": "2026-11-19T23:30:33Z"
-  },
-  {
    "title": "Pokémon Officially Reveals First Z Mega Evolution TCG Cards Coming February 6",
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQWlFT3R2RFlyT3o5RDRJU0N5VG52RUdBa1pHbjRGdDdkb0M5VmVTNXR3b2c2RlQ3dGJDcXlOM1hBNm1KZXc0Z2NpdlhJOThqdTVVTGR3NXduV0Jmcnk5eUdUREZDZ0NTY19kNklNdlNzU1dUT1hOWmxCa0o5bzBwQmVKbHZRQWZuczBqeDB5SHlCM3c?oc=5",
    "source": "Google News: releases",
@@ -588,7 +588,7 @@
    "source": "Pokemon.com",
    "source_id": "gn-official",
    "publisher": "Pokemon.com",
-   "published": "2026-11-19T14:02:59Z",
+   "published": "2026-11-19T14:02:45Z",
    "category": "releases",
    "stores": [],
    "hot": false,
@@ -663,6 +663,19 @@
    "hot": false,
    "id": "7a3e5c0dcbabf0",
    "first_seen": "2026-11-20T18:45:31Z"
+  },
+  {
+   "title": "The best early Black Friday trading card deals: Pokémon, Magic: The Gathering, and Yu-Gi-Oh! on sale",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOckhrQkpSOFBuVVJKbXp1LUJCQjBxaktjNjFFZHFDODBpcklNYTNlWWJNaDQ2aFBzN3ZPZnZFRTFXMWxJc1BUYkZYbldBcWk2RTFVWmVDZWJnQVhNemtaM1pub25qX3hGSk9KMTk3UGxIZ1ZYMGdCS2psdWR1SVVFVEU1TzA?oc=5",
+   "source": "Google News: market",
+   "source_id": "gn-market",
+   "publisher": "Mashable",
+   "published": "2026-11-19T10:00:00Z",
+   "category": "deals",
+   "stores": [],
+   "hot": false,
+   "id": "0b6f3fd4c54a90",
+   "first_seen": "2026-11-19T23:30:33Z"
   },
   {
    "title": "Is Pokemon card trading “a crazy stupid hobby where you can make stupid money”?",

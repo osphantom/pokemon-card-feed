@@ -1,18 +1,6 @@
 {
  "reddit-deals": {
-  "failures": 14,
-  "until": "2026-11-21T05:00:32Z"
- },
- "gn-official": {
-  "failures": 1,
-  "until": "2026-11-21T01:45:45Z"
- },
- "gn-preorder": {
-  "failures": 1,
-  "until": "2026-11-21T01:45:45Z"
- },
- "gn-release": {
-  "failures": 1,
-  "until": "2026-11-21T01:45:45Z"
+  "failures": 15,
+  "until": "2026-11-21T14:47:28Z"
  }
 }
