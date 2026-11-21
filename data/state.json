@@ -284,6 +284,7 @@
   "a3107833be2bf9",
   "a354e8fd1783b8",
   "a36790ed6c55f2",
+  "a37ba12fe72843",
   "a43aa5adae7900",
   "a55749d78b954f",
   "a5a97123dcc217",
@@ -424,6 +425,7 @@
   "f936d35149dc43",
   "f9b0f6fba943e3",
   "fac1757c00a3ce",
+  "faccac4c83b5ba",
   "faf7ebf20e264f",
   "fb0f712bb465ab",
   "fc0ec2dad55159",
@@ -447,6 +449,7 @@
   "morning:2026-11-18",
   "morning:2026-11-19",
   "morning:2026-11-20",
+  "morning:2026-11-21",
   "raffle-ping:Target:2026-11-09",
   "raffle-ping:Target:2026-11-18",
   "raffle-ping:Walmart:2026-11-10",
@@ -1187,8 +1190,8 @@
   "pennsylvania",
   "virginia"
  ],
- "costco_checked_at": "2026-11-21T08:57:02Z",
- "promos_checked_at": "2026-11-21T08:57:02Z",
+ "costco_checked_at": "2026-11-21T16:25:31Z",
+ "promos_checked_at": "2026-11-21T16:25:31Z",
  "promo_markets": {
   "30th-celebration-mewtwo": 13.71,
   "delta-reign-kyogre": 5.39
@@ -1212,7 +1215,7 @@
   "PA",
   "VA"
  ],
- "sams_checked_at": "2026-11-21T08:57:02Z",
+ "sams_checked_at": "2026-11-21T16:25:31Z",
  "sams_status": {
   "990416407": {
    "6330": "order",
@@ -1319,8 +1322,8 @@
   }
  },
  "costco_stamp": "2026-11-20T13:57:10Z",
- "costco_read_at": "2026-11-21T08:57:02Z",
- "upc_checked_at": "2026-11-21T08:57:02Z",
+ "costco_read_at": "2026-11-21T16:25:31Z",
+ "upc_checked_at": "2026-11-21T16:25:31Z",
  "price_seen": {
   "704144": 252.14,
   "704191": 350.6,
