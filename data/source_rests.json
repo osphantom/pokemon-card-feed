@@ -3,12 +3,16 @@
   "failures": 16,
   "until": "2026-11-21T22:25:02Z"
  },
- "gn-release": {
+ "gn-lorcana": {
   "failures": 1,
-  "until": "2026-11-21T21:30:38Z"
+  "until": "2026-11-21T21:45:34Z"
  },
- "gn-market": {
+ "gn-onepiece": {
   "failures": 1,
-  "until": "2026-11-21T21:30:38Z"
+  "until": "2026-11-21T21:45:34Z"
+ },
+ "gn-mtg": {
+  "failures": 1,
+  "until": "2026-11-21T21:45:34Z"
  }
 }
