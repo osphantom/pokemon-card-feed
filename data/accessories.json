@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T08:47:28Z",
+ "generated_at": "2026-11-21T20:00:34Z",
  "ebay_used": true,
  "stopwords": [
   "pokemon",
@@ -306,6 +306,33 @@
    "last_seen": "2026-11-21"
   },
   {
+   "key": "advent|calendar|christmas|needoh|schylling",
+   "tokens": [
+    "schylling",
+    "needoh",
+    "christmas",
+    "advent",
+    "calendar"
+   ],
+   "title": "100% Authentic - Schylling 2026 NeeDoh Christmas Advent Calendar FAST ship",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 105.0,
+     "count": 5
+    },
+    {
+     "date": "2026-11-21",
+     "price": 99.99,
+     "count": 3
+    }
+   ],
+   "market": 102.5,
+   "count": 3,
+   "last_seen": "2026-11-21"
+  },
+  {
    "key": "advent|calendar|needoh|schylling",
    "tokens": [
     "schylling",
@@ -323,12 +350,12 @@
     },
     {
      "date": "2026-11-21",
-     "price": 91.71,
-     "count": 5
+     "price": 95.0,
+     "count": 4
     }
    ],
-   "market": 95.85,
-   "count": 5,
+   "market": 97.5,
+   "count": 4,
    "last_seen": "2026-11-21"
   },
   {
@@ -462,11 +489,11 @@
     {
      "date": "2026-11-21",
      "price": 80.0,
-     "count": 3
+     "count": 4
     }
    ],
    "market": 80.0,
-   "count": 3,
+   "count": 4,
    "last_seen": "2026-11-21"
   },
   {
@@ -639,12 +666,66 @@
     },
     {
      "date": "2026-11-21",
-     "price": 74.95,
-     "count": 25
+     "price": 74.99,
+     "count": 24
     }
    ],
    "market": 70.0,
-   "count": 25,
+   "count": 24,
+   "last_seen": "2026-11-21"
+  },
+  {
+   "key": "90h|classic|clog|crocs|mens|nwb|starters",
+   "tokens": [
+    "crocs",
+    "starters",
+    "classic",
+    "clog",
+    "90h",
+    "mens",
+    "nwb"
+   ],
+   "title": "Crocs x Pokemon \"Pokemon Starters\" Classic Clog 211343-90H Men’s Size 9 NWB",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 62.24,
+     "count": 3
+    },
+    {
+     "date": "2026-11-13",
+     "price": 57.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-15",
+     "price": 62.24,
+     "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 62.24,
+     "count": 3
+    },
+    {
+     "date": "2026-11-19",
+     "price": 57.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-20",
+     "price": 55.48,
+     "count": 3
+    },
+    {
+     "date": "2026-11-21",
+     "price": 55.48,
+     "count": 3
+    }
+   ],
+   "market": 57.98,
+   "count": 3,
    "last_seen": "2026-11-21"
   },
   {
@@ -945,11 +1026,67 @@
     {
      "date": "2026-11-21",
      "price": 29.0,
-     "count": 7
+     "count": 6
     }
    ],
    "market": 38.0,
-   "count": 7,
+   "count": 6,
+   "last_seen": "2026-11-21"
+  },
+  {
+   "key": "angel|blind|box|cat|confirmed|life|mini|series|sonny",
+   "tokens": [
+    "sonny",
+    "angel",
+    "cat",
+    "life",
+    "series",
+    "mini",
+    "confirmed",
+    "blind",
+    "box"
+   ],
+   "title": "Sonny Angel Cat Life Series Mini Figures - Confirmed Blind Box Figure",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 16.12,
+     "count": 2
+    },
+    {
+     "date": "2026-11-15",
+     "price": 27.5,
+     "count": 1
+    },
+    {
+     "date": "2026-11-16",
+     "price": 33.72,
+     "count": 2
+    },
+    {
+     "date": "2026-11-17",
+     "price": 33.72,
+     "count": 2
+    },
+    {
+     "date": "2026-11-18",
+     "price": 33.72,
+     "count": 2
+    },
+    {
+     "date": "2026-11-19",
+     "price": 37.45,
+     "count": 3
+    },
+    {
+     "date": "2026-11-21",
+     "price": 27.5,
+     "count": 3
+    }
+   ],
+   "market": 33.72,
+   "count": 3,
    "last_seen": "2026-11-21"
   },
   {
@@ -1001,7 +1138,7 @@
     },
     {
      "date": "2026-11-21",
-     "price": 31.99,
+     "price": 29.74,
      "count": 1
     }
    ],
@@ -1099,6 +1236,70 @@
    "last_seen": "2026-11-21"
   },
   {
+   "key": "expert|game|guess|pro|ready|trainer|ultra",
+   "tokens": [
+    "trainer",
+    "expert",
+    "game",
+    "ready",
+    "guess",
+    "ultra",
+    "pro"
+   ],
+   "title": "Pokemon Trainer Expert Game. Ready Set Guess.  Ultra Pro. Brand New",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 30.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-13",
+     "price": 30.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-14",
+     "price": 30.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 27.5,
+     "count": 3
+    },
+    {
+     "date": "2026-11-17",
+     "price": 27.5,
+     "count": 3
+    },
+    {
+     "date": "2026-11-18",
+     "price": 27.5,
+     "count": 3
+    },
+    {
+     "date": "2026-11-19",
+     "price": 27.5,
+     "count": 3
+    },
+    {
+     "date": "2026-11-20",
+     "price": 27.5,
+     "count": 3
+    },
+    {
+     "date": "2026-11-21",
+     "price": 27.5,
+     "count": 3
+    }
+   ],
+   "market": 27.5,
+   "count": 3,
+   "last_seen": "2026-11-21"
+  },
+  {
    "key": "board|game|monopoly",
    "tokens": [
     "monopoly",
@@ -1120,63 +1321,6 @@
     }
    ],
    "market": 27.0,
-   "count": 3,
-   "last_seen": "2026-11-21"
-  },
-  {
-   "key": "blind|box|confirmed|doll|mart|mega|molly|pop|series|space",
-   "tokens": [
-    "pop",
-    "mart",
-    "mega",
-    "space",
-    "molly",
-    "series",
-    "blind",
-    "box",
-    "confirmed",
-    "doll"
-   ],
-   "title": "POP MART 100% Mega Space Molly Series 4 Blind Box Confirmed Figure Toy Doll",
-   "ship": "bundle",
-   "history": [
-    {
-     "date": "2026-11-15",
-     "price": 14.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-16",
-     "price": 14.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-17",
-     "price": 23.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-18",
-     "price": 23.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-19",
-     "price": 22.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-20",
-     "price": 15.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-21",
-     "price": 24.98,
-     "count": 3
-    }
-   ],
-   "market": 22.98,
    "count": 3,
    "last_seen": "2026-11-21"
   },
@@ -1322,7 +1466,7 @@
     "doll",
     "pendant"
    ],
-   "title": "POP MART Labubu The Monsters Pin For Love Series Mini Vinyl Plush Doll Pendant N",
+   "title": "POP MART Labubu The Monsters Pin For Love Series Mini Vinyl Plush Doll Pendant ?",
    "ship": "small",
    "history": [
     {
@@ -1397,11 +1541,11 @@
     {
      "date": "2026-11-21",
      "price": 18.0,
-     "count": 5
+     "count": 6
     }
    ],
    "market": 18.0,
-   "count": 5,
+   "count": 6,
    "last_seen": "2026-11-21"
   },
   {
@@ -1524,6 +1668,63 @@
    "last_seen": "2026-11-21"
   },
   {
+   "key": "blind|box|confirmed|doll|mart|mega|molly|pop|series|space",
+   "tokens": [
+    "pop",
+    "mart",
+    "mega",
+    "space",
+    "molly",
+    "series",
+    "blind",
+    "box",
+    "confirmed",
+    "doll"
+   ],
+   "title": "POP MART 100% Mega Space Molly Series 4 Blind Box Confirmed Figure Toy Doll",
+   "ship": "bundle",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 14.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 14.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-17",
+     "price": 23.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-18",
+     "price": 23.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-19",
+     "price": 22.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-20",
+     "price": 15.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-21",
+     "price": 16.99,
+     "count": 3
+    }
+   ],
+   "market": 16.99,
+   "count": 3,
+   "last_seen": "2026-11-21"
+  },
+  {
    "key": "angel|blind|blossom|box|case|cherry|full|hippers|series|sonny",
    "tokens": [
     "sonny",
@@ -1567,12 +1768,12 @@
     },
     {
      "date": "2026-11-21",
-     "price": 34.08,
-     "count": 2
+     "price": 15.17,
+     "count": 1
     }
    ],
    "market": 15.49,
-   "count": 2,
+   "count": 1,
    "last_seen": "2026-11-21"
   },
   {
@@ -1684,55 +1885,6 @@
     }
    ],
    "market": 84.95,
-   "count": 3,
-   "last_seen": "2026-11-20"
-  },
-  {
-   "key": "90h|classic|clog|crocs|mens|nwb|starters",
-   "tokens": [
-    "crocs",
-    "starters",
-    "classic",
-    "clog",
-    "90h",
-    "mens",
-    "nwb"
-   ],
-   "title": "Crocs x Pokemon \"Pokemon Starters\" Classic Clog 211343-90H Men’s Size 9 NWB",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 62.24,
-     "count": 3
-    },
-    {
-     "date": "2026-11-13",
-     "price": 57.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-15",
-     "price": 62.24,
-     "count": 3
-    },
-    {
-     "date": "2026-11-16",
-     "price": 62.24,
-     "count": 3
-    },
-    {
-     "date": "2026-11-19",
-     "price": 57.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-20",
-     "price": 55.48,
-     "count": 3
-    }
-   ],
-   "market": 60.11,
    "count": 3,
    "last_seen": "2026-11-20"
   },
@@ -1925,65 +2077,6 @@
    "last_seen": "2026-11-20"
   },
   {
-   "key": "expert|game|guess|pro|ready|trainer|ultra",
-   "tokens": [
-    "trainer",
-    "expert",
-    "game",
-    "ready",
-    "guess",
-    "ultra",
-    "pro"
-   ],
-   "title": "Pokemon Trainer Expert Game. Ready Set Guess.  Ultra Pro. Brand New",
-   "ship": "box",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 30.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-13",
-     "price": 30.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-14",
-     "price": 30.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-16",
-     "price": 27.5,
-     "count": 3
-    },
-    {
-     "date": "2026-11-17",
-     "price": 27.5,
-     "count": 3
-    },
-    {
-     "date": "2026-11-18",
-     "price": 27.5,
-     "count": 3
-    },
-    {
-     "date": "2026-11-19",
-     "price": 27.5,
-     "count": 3
-    },
-    {
-     "date": "2026-11-20",
-     "price": 27.5,
-     "count": 3
-    }
-   ],
-   "market": 27.5,
-   "count": 3,
-   "last_seen": "2026-11-20"
-  },
-  {
    "key": "battle|charizard|jolteon|lego|play|smart|ultimate|vs",
    "tokens": [
     "lego",
@@ -2172,57 +2265,6 @@
     }
    ],
    "market": 41.99,
-   "count": 3,
-   "last_seen": "2026-11-19"
-  },
-  {
-   "key": "angel|blind|box|cat|confirmed|life|mini|series|sonny",
-   "tokens": [
-    "sonny",
-    "angel",
-    "cat",
-    "life",
-    "series",
-    "mini",
-    "confirmed",
-    "blind",
-    "box"
-   ],
-   "title": "Sonny Angel Cat Life Series Mini Figures - Confirmed Blind Box Figure",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-14",
-     "price": 16.12,
-     "count": 2
-    },
-    {
-     "date": "2026-11-15",
-     "price": 27.5,
-     "count": 1
-    },
-    {
-     "date": "2026-11-16",
-     "price": 33.72,
-     "count": 2
-    },
-    {
-     "date": "2026-11-17",
-     "price": 33.72,
-     "count": 2
-    },
-    {
-     "date": "2026-11-18",
-     "price": 33.72,
-     "count": 2
-    },
-    {
-     "date": "2026-11-19",
-     "price": 37.45,
-     "count": 3
-    }
-   ],
-   "market": 33.72,
    "count": 3,
    "last_seen": "2026-11-19"
   },
@@ -2661,28 +2703,6 @@
    ],
    "market": 139.99,
    "count": 3,
-   "last_seen": "2026-11-14"
-  },
-  {
-   "key": "advent|calendar|christmas|needoh|schylling",
-   "tokens": [
-    "schylling",
-    "needoh",
-    "christmas",
-    "advent",
-    "calendar"
-   ],
-   "title": "100% Authentic Schylling Needoh Christmas Advent Calendar 2026 SEALED",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-14",
-     "price": 105.0,
-     "count": 5
-    }
-   ],
-   "market": 105.0,
-   "count": 5,
    "last_seen": "2026-11-14"
   },
   {

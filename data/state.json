@@ -46,7 +46,7 @@
   },
   "preorders-tcg": {
    "id": "1570887541622575277",
-   "hash": "0634f5d31208"
+   "hash": "a00529542403"
   }
  },
  "initialized": true,
@@ -483,6 +483,7 @@
   "restockd:2026-11-19:de4d8724d6",
   "restockd:2026-11-19:f07439d29c",
   "restockd:2026-11-20:903f695f78",
+  "restockd:2026-11-21:92a4a6310d",
   "sams-sheet:984340698:November 16, 2026",
   "window:target-overnight:2026-11-13",
   "window:target-overnight:2026-11-20",
@@ -1191,7 +1192,7 @@
   "pennsylvania",
   "virginia"
  ],
- "costco_checked_at": "2026-11-21T19:31:00Z",
+ "costco_checked_at": "2026-11-21T20:11:29Z",
  "promos_checked_at": "2026-11-21T16:25:31Z",
  "promo_markets": {
   "30th-celebration-mewtwo": 13.71,
@@ -1216,7 +1217,7 @@
   "PA",
   "VA"
  ],
- "sams_checked_at": "2026-11-21T19:31:00Z",
+ "sams_checked_at": "2026-11-21T20:11:29Z",
  "sams_status": {
   "990416407": {
    "6330": "order",
@@ -1324,7 +1325,7 @@
  },
  "costco_stamp": "2026-11-20T13:57:10Z",
  "costco_read_at": "2026-11-21T16:25:31Z",
- "upc_checked_at": "2026-11-21T19:31:00Z",
+ "upc_checked_at": "2026-11-21T20:11:29Z",
  "price_seen": {
   "704144": 252.14,
   "704191": 350.6,
@@ -1400,6 +1401,6 @@
   "Amazon:Magic: Star Trek - Collector Booster Display",
   "See the article:30th Celebration Ultra-Premium Collection [Day]"
  ],
- "restockd_checked_at": "2026-11-21T08:57:02Z",
+ "restockd_checked_at": "2026-11-21T20:11:29Z",
  "restockd_seen": true
 }
