@@ -2,5 +2,21 @@
  "reddit-deals": {
   "failures": 17,
   "until": "2026-11-22T04:30:32Z"
+ },
+ "gn-release": {
+  "failures": 1,
+  "until": "2026-11-21T23:00:33Z"
+ },
+ "gn-raffles": {
+  "failures": 1,
+  "until": "2026-11-21T23:00:33Z"
+ },
+ "gn-lorcana": {
+  "failures": 1,
+  "until": "2026-11-21T23:00:33Z"
+ },
+ "gn-onepiece": {
+  "failures": 1,
+  "until": "2026-11-21T23:00:33Z"
  }
 }
