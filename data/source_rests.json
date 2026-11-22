@@ -10,57 +10,5 @@
  "gn-promos": {
   "failures": 2,
   "until": "2026-11-22T20:45:43Z"
- },
- "gn-restockd": {
-  "failures": 1,
-  "until": "2026-11-22T20:30:42Z"
- },
- "gn-pokebeach": {
-  "failures": 1,
-  "until": "2026-11-22T20:30:42Z"
- },
- "gn-pokeguardian": {
-  "failures": 1,
-  "until": "2026-11-22T20:30:42Z"
- },
- "gn-official": {
-  "failures": 1,
-  "until": "2026-11-22T20:30:42Z"
- },
- "gn-preorder": {
-  "failures": 1,
-  "until": "2026-11-22T20:30:42Z"
- },
- "gn-pokemon-center": {
-  "failures": 1,
-  "until": "2026-11-22T20:30:42Z"
- },
- "gn-release": {
-  "failures": 1,
-  "until": "2026-11-22T20:30:42Z"
- },
- "gn-raffles": {
-  "failures": 1,
-  "until": "2026-11-22T20:30:42Z"
- },
- "gn-promo-stores": {
-  "failures": 1,
-  "until": "2026-11-22T20:30:42Z"
- },
- "gn-lorcana": {
-  "failures": 1,
-  "until": "2026-11-22T20:30:42Z"
- },
- "gn-onepiece": {
-  "failures": 1,
-  "until": "2026-11-22T20:30:42Z"
- },
- "gn-mtg": {
-  "failures": 1,
-  "until": "2026-11-22T20:30:42Z"
- },
- "gn-swu": {
-  "failures": 1,
-  "until": "2026-11-22T20:30:42Z"
  }
 }
