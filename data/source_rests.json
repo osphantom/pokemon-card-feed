@@ -1,14 +1,10 @@
 {
  "reddit-deals": {
-  "failures": 17,
-  "until": "2026-11-22T04:30:32Z"
+  "failures": 18,
+  "until": "2026-11-22T10:30:34Z"
  },
- "gn-release": {
+ "gn-onepiece": {
   "failures": 1,
-  "until": "2026-11-22T04:15:41Z"
- },
- "gn-promos": {
-  "failures": 1,
-  "until": "2026-11-22T04:15:41Z"
+  "until": "2026-11-22T04:30:34Z"
  }
 }
