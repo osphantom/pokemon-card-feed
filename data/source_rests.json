@@ -3,12 +3,12 @@
   "failures": 18,
   "until": "2026-11-22T10:30:34Z"
  },
- "gn-release": {
+ "gn-market": {
   "failures": 1,
-  "until": "2026-11-22T05:15:44Z"
+  "until": "2026-11-22T05:30:44Z"
  },
- "gn-promos": {
+ "gn-promo-stores": {
   "failures": 1,
-  "until": "2026-11-22T05:15:44Z"
+  "until": "2026-11-22T05:30:44Z"
  }
 }
