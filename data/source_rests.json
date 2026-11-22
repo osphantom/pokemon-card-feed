@@ -2,37 +2,5 @@
  "reddit-deals": {
   "failures": 20,
   "until": "2026-11-23T01:15:34Z"
- },
- "gn-pokeguardian": {
-  "failures": 1,
-  "until": "2026-11-22T23:00:33Z"
- },
- "gn-official": {
-  "failures": 1,
-  "until": "2026-11-22T23:00:33Z"
- },
- "gn-preorder": {
-  "failures": 1,
-  "until": "2026-11-22T23:00:33Z"
- },
- "gn-pokemon-center": {
-  "failures": 1,
-  "until": "2026-11-22T23:00:33Z"
- },
- "gn-market": {
-  "failures": 1,
-  "until": "2026-11-22T23:00:33Z"
- },
- "gn-promos": {
-  "failures": 1,
-  "until": "2026-11-22T23:00:33Z"
- },
- "gn-promo-stores": {
-  "failures": 1,
-  "until": "2026-11-22T23:00:33Z"
- },
- "gn-mtg": {
-  "failures": 1,
-  "until": "2026-11-22T23:00:33Z"
  }
 }
