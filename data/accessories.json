@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T08:51:09Z",
+ "generated_at": "2026-11-22T20:00:43Z",
  "ebay_used": true,
  "stopwords": [
   "pokemon",
@@ -311,7 +311,7 @@
     "advent",
     "calendar"
    ],
-   "title": "*2 PACK* Schylling NeeDoh Advent Calendar 2026 *Authentic, Rare*",
+   "title": "NeeDoh Advent Calendar 2026 Authentic Schylling ✨FAST SHIP✨",
    "ship": "small",
    "history": [
     {
@@ -326,12 +326,12 @@
     },
     {
      "date": "2026-11-22",
-     "price": 100.0,
-     "count": 3
+     "price": 99.99,
+     "count": 5
     }
    ],
    "market": 99.99,
-   "count": 3,
+   "count": 5,
    "last_seen": "2026-11-22"
   },
   {
@@ -401,11 +401,11 @@
     {
      "date": "2026-11-22",
      "price": 84.0,
-     "count": 6
+     "count": 5
     }
    ],
    "market": 84.0,
-   "count": 6,
+   "count": 5,
    "last_seen": "2026-11-22"
   },
   {
@@ -812,12 +812,12 @@
     },
     {
      "date": "2026-11-22",
-     "price": 41.99,
-     "count": 2
+     "price": 16.56,
+     "count": 1
     }
    ],
    "market": 44.66,
-   "count": 2,
+   "count": 1,
    "last_seen": "2026-11-22"
   },
   {
@@ -919,7 +919,7 @@
     },
     {
      "date": "2026-11-22",
-     "price": 29.0,
+     "price": 25.79,
      "count": 7
     }
    ],
@@ -1022,6 +1022,68 @@
    "last_seen": "2026-11-22"
   },
   {
+   "key": "angel|blind|box|day|love|mini|rainy|series|sonny|toys",
+   "tokens": [
+    "sonny",
+    "angel",
+    "love",
+    "rainy",
+    "day",
+    "series",
+    "blind",
+    "box",
+    "mini",
+    "toys"
+   ],
+   "title": "Sonny Angel I Love Rainy Day Series Blind Box Mini Figure Toys USA",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 31.99,
+     "count": 1
+    },
+    {
+     "date": "2026-11-16",
+     "price": 31.99,
+     "count": 1
+    },
+    {
+     "date": "2026-11-17",
+     "price": 31.99,
+     "count": 1
+    },
+    {
+     "date": "2026-11-18",
+     "price": 31.99,
+     "count": 1
+    },
+    {
+     "date": "2026-11-19",
+     "price": 31.99,
+     "count": 1
+    },
+    {
+     "date": "2026-11-20",
+     "price": 31.99,
+     "count": 1
+    },
+    {
+     "date": "2026-11-21",
+     "price": 29.74,
+     "count": 1
+    },
+    {
+     "date": "2026-11-22",
+     "price": 31.99,
+     "count": 1
+    }
+   ],
+   "market": 31.99,
+   "count": 1,
+   "last_seen": "2026-11-22"
+  },
+  {
    "key": "board|game|monopoly",
    "tokens": [
     "monopoly",
@@ -1048,6 +1110,30 @@
     }
    ],
    "market": 27.0,
+   "count": 3,
+   "last_seen": "2026-11-22"
+  },
+  {
+   "key": "blind|box|exciting|labubu|macaron|monsters|single",
+   "tokens": [
+    "labubu",
+    "monsters",
+    "exciting",
+    "macaron",
+    "single",
+    "blind",
+    "box"
+   ],
+   "title": "LABUBU MONSTERS EXCITING MACARON SINGLE BLIND BOX SEALED",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-22",
+     "price": 21.99,
+     "count": 3
+    }
+   ],
+   "market": 21.99,
    "count": 3,
    "last_seen": "2026-11-22"
   },
@@ -1126,68 +1212,6 @@
    "last_seen": "2026-11-22"
   },
   {
-   "key": "blind|box|confirmed|doll|mart|mega|molly|pop|series|space",
-   "tokens": [
-    "pop",
-    "mart",
-    "mega",
-    "space",
-    "molly",
-    "series",
-    "blind",
-    "box",
-    "confirmed",
-    "doll"
-   ],
-   "title": "POP MART 100% Mega Space Molly Series 4 Blind Box Confirmed Figure Toy Doll",
-   "ship": "bundle",
-   "history": [
-    {
-     "date": "2026-11-15",
-     "price": 14.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-16",
-     "price": 14.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-17",
-     "price": 23.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-18",
-     "price": 23.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-19",
-     "price": 22.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-20",
-     "price": 15.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-21",
-     "price": 16.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-22",
-     "price": 24.98,
-     "count": 3
-    }
-   ],
-   "market": 19.98,
-   "count": 3,
-   "last_seen": "2026-11-22"
-  },
-  {
    "key": "blind|box|have|labubu|mart|monsters|plush|pop|seat|vinyl",
    "tokens": [
     "pop",
@@ -1201,7 +1225,7 @@
     "blind",
     "box"
    ],
-   "title": "POP MART THE MONSTERS Labubu Have a Seat Vinyl Plush Blind Box",
+   "title": "Pop Mart Labubu The Monsters Have A Seat Vinyl Plush Blind Box, Sealed",
    "ship": "small",
    "history": [
     {
@@ -1242,11 +1266,11 @@
     {
      "date": "2026-11-22",
      "price": 18.99,
-     "count": 6
+     "count": 5
     }
    ],
    "market": 19.49,
-   "count": 6,
+   "count": 5,
    "last_seen": "2026-11-22"
   },
   {
@@ -1316,11 +1340,11 @@
     {
      "date": "2026-11-22",
      "price": 18.0,
-     "count": 5
+     "count": 6
     }
    ],
    "market": 18.0,
-   "count": 5,
+   "count": 6,
    "last_seen": "2026-11-22"
   },
   {
@@ -1334,7 +1358,7 @@
     "30th",
     "anniversary"
    ],
-   "title": "Pokemon X Target Mystery Water Type Pokemon Bottle 30th Anniversary (SEALED)",
+   "title": "Pokémon × Target Mystery Water Type Pokemon Bottle 30th Anniversary",
    "ship": "pack",
    "history": [
     {
@@ -1390,11 +1414,73 @@
     {
      "date": "2026-11-22",
      "price": 17.99,
-     "count": 7
+     "count": 8
     }
    ],
    "market": 17.99,
-   "count": 7,
+   "count": 8,
+   "last_seen": "2026-11-22"
+  },
+  {
+   "key": "blind|box|confirmed|doll|mart|mega|molly|pop|series|space",
+   "tokens": [
+    "pop",
+    "mart",
+    "mega",
+    "space",
+    "molly",
+    "series",
+    "blind",
+    "box",
+    "confirmed",
+    "doll"
+   ],
+   "title": "POP MART 100% Mega Space Molly Series 4 Blind Box Confirmed Figure Toy Doll",
+   "ship": "bundle",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 14.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 14.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-17",
+     "price": 23.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-18",
+     "price": 23.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-19",
+     "price": 22.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-20",
+     "price": 15.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-21",
+     "price": 16.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-22",
+     "price": 15.99,
+     "count": 3
+    }
+   ],
+   "market": 16.49,
+   "count": 3,
    "last_seen": "2026-11-22"
   },
   {
@@ -1470,12 +1556,12 @@
     },
     {
      "date": "2026-11-22",
-     "price": 242.74,
-     "count": 2
+     "price": 15.49,
+     "count": 3
     }
    ],
    "market": 15.49,
-   "count": 2,
+   "count": 3,
    "last_seen": "2026-11-22"
   },
   {
@@ -1714,63 +1800,6 @@
    ],
    "market": 39.99,
    "count": 3,
-   "last_seen": "2026-11-21"
-  },
-  {
-   "key": "angel|blind|box|day|love|mini|rainy|series|sonny|toys",
-   "tokens": [
-    "sonny",
-    "angel",
-    "love",
-    "rainy",
-    "day",
-    "series",
-    "blind",
-    "box",
-    "mini",
-    "toys"
-   ],
-   "title": "Sonny Angel I Love Rainy Day Series Blind Box Mini Figure Toys USA",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-15",
-     "price": 31.99,
-     "count": 1
-    },
-    {
-     "date": "2026-11-16",
-     "price": 31.99,
-     "count": 1
-    },
-    {
-     "date": "2026-11-17",
-     "price": 31.99,
-     "count": 1
-    },
-    {
-     "date": "2026-11-18",
-     "price": 31.99,
-     "count": 1
-    },
-    {
-     "date": "2026-11-19",
-     "price": 31.99,
-     "count": 1
-    },
-    {
-     "date": "2026-11-20",
-     "price": 31.99,
-     "count": 1
-    },
-    {
-     "date": "2026-11-21",
-     "price": 29.74,
-     "count": 1
-    }
-   ],
-   "market": 31.99,
-   "count": 1,
    "last_seen": "2026-11-21"
   },
   {

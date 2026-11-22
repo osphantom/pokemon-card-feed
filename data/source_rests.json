@@ -3,8 +3,28 @@
   "failures": 20,
   "until": "2026-11-23T01:15:34Z"
  },
- "gn-pokemon-center": {
-  "failures": 2,
-  "until": "2026-11-22T19:45:34Z"
+ "gn-release": {
+  "failures": 1,
+  "until": "2026-11-22T20:00:43Z"
+ },
+ "gn-market": {
+  "failures": 1,
+  "until": "2026-11-22T20:00:43Z"
+ },
+ "gn-raffles": {
+  "failures": 1,
+  "until": "2026-11-22T20:00:43Z"
+ },
+ "gn-promos": {
+  "failures": 1,
+  "until": "2026-11-22T20:00:43Z"
+ },
+ "gn-lorcana": {
+  "failures": 1,
+  "until": "2026-11-22T20:00:43Z"
+ },
+ "gn-swu": {
+  "failures": 1,
+  "until": "2026-11-22T20:00:43Z"
  }
 }
