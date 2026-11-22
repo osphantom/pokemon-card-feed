@@ -2,13 +2,5 @@
  "reddit-deals": {
   "failures": 18,
   "until": "2026-11-22T10:30:34Z"
- },
- "gn-market": {
-  "failures": 1,
-  "until": "2026-11-22T05:30:44Z"
- },
- "gn-promo-stores": {
-  "failures": 1,
-  "until": "2026-11-22T05:30:44Z"
  }
 }

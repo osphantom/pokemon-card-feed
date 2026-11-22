@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T20:00:34Z",
+ "generated_at": "2026-11-22T08:51:09Z",
  "ebay_used": true,
  "stopwords": [
   "pokemon",
@@ -124,11 +124,16 @@
      "date": "2026-11-21",
      "price": 322.94,
      "count": 1
+    },
+    {
+     "date": "2026-11-22",
+     "price": 312.94,
+     "count": 1
     }
    ],
-   "market": 337.94,
+   "market": 332.94,
    "count": 1,
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "key": "ball|iconic|lego|moments|poke|trainer",
@@ -157,33 +162,16 @@
      "date": "2026-11-21",
      "price": 237.99,
      "count": 3
+    },
+    {
+     "date": "2026-11-22",
+     "price": 225.0,
+     "count": 3
     }
    ],
    "market": 237.99,
    "count": 3,
-   "last_seen": "2026-11-21"
-  },
-  {
-   "key": "28th|anniversary|bape|bearbrick|camo",
-   "tokens": [
-    "bape",
-    "bearbrick",
-    "camo",
-    "28th",
-    "anniversary"
-   ],
-   "title": "BAPE Bearbrick Camo #3 28th Anniversary 400%",
-   "ship": "box",
-   "history": [
-    {
-     "date": "2026-11-21",
-     "price": 220.0,
-     "count": 3
-    }
-   ],
-   "market": 220.0,
-   "count": 3,
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "key": "espeon|gaming|headset|kraken|limited|razer|umbreon|v4",
@@ -249,11 +237,16 @@
      "date": "2026-11-21",
      "price": 133.97,
      "count": 4
+    },
+    {
+     "date": "2026-11-22",
+     "price": 133.97,
+     "count": 4
     }
    ],
    "market": 133.97,
    "count": 4,
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "key": "amuseable|blue|christmas|jellycat|large|retired|spruce|tree",
@@ -299,38 +292,16 @@
      "date": "2026-11-21",
      "price": 120.0,
      "count": 3
+    },
+    {
+     "date": "2026-11-22",
+     "price": 120.0,
+     "count": 3
     }
    ],
    "market": 120.0,
    "count": 3,
-   "last_seen": "2026-11-21"
-  },
-  {
-   "key": "advent|calendar|christmas|needoh|schylling",
-   "tokens": [
-    "schylling",
-    "needoh",
-    "christmas",
-    "advent",
-    "calendar"
-   ],
-   "title": "100% Authentic - Schylling 2026 NeeDoh Christmas Advent Calendar FAST ship",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-14",
-     "price": 105.0,
-     "count": 5
-    },
-    {
-     "date": "2026-11-21",
-     "price": 99.99,
-     "count": 3
-    }
-   ],
-   "market": 102.5,
-   "count": 3,
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "key": "advent|calendar|needoh|schylling",
@@ -340,7 +311,7 @@
     "advent",
     "calendar"
    ],
-   "title": "Authentic Schylling NeeDoh Advent Calendar 2026 Brand New Sealed",
+   "title": "*2 PACK* Schylling NeeDoh Advent Calendar 2026 *Authentic, Rare*",
    "ship": "small",
    "history": [
     {
@@ -352,34 +323,16 @@
      "date": "2026-11-21",
      "price": 95.0,
      "count": 4
-    }
-   ],
-   "market": 97.5,
-   "count": 4,
-   "last_seen": "2026-11-21"
-  },
-  {
-   "key": "advent|calendar|christmas|days|needoh|schylling",
-   "tokens": [
-    "schylling",
-    "needoh",
-    "advent",
-    "calendar",
-    "christmas",
-    "days"
-   ],
-   "title": "Schylling NeeDoh Advent Calendar Christmas 24 days 2026 Authentic",
-   "ship": "small",
-   "history": [
+    },
     {
-     "date": "2026-11-21",
-     "price": 87.98,
-     "count": 4
+     "date": "2026-11-22",
+     "price": 100.0,
+     "count": 3
     }
    ],
-   "market": 87.98,
-   "count": 4,
-   "last_seen": "2026-11-21"
+   "market": 99.99,
+   "count": 3,
+   "last_seen": "2026-11-22"
   },
   {
    "key": "artisan|batch|craft|from|keycaps|unmounted|unused",
@@ -392,7 +345,7 @@
     "unused",
     "unmounted"
    ],
-   "title": "S-Craft Artisan Pokemon Keycaps from Batch 7 (2023) - New/Unused/Unmounted",
+   "title": "S-Craft Artisan Pokemon Keycaps from Batch 8 (2023) - New/Unused/Unmounted",
    "ship": "box",
    "history": [
     {
@@ -444,11 +397,16 @@
      "date": "2026-11-21",
      "price": 84.0,
      "count": 7
+    },
+    {
+     "date": "2026-11-22",
+     "price": 84.0,
+     "count": 6
     }
    ],
    "market": 84.0,
-   "count": 7,
-   "last_seen": "2026-11-21"
+   "count": 6,
+   "last_seen": "2026-11-22"
   },
   {
    "key": "hand|keyboard|target|wireless",
@@ -490,11 +448,16 @@
      "date": "2026-11-21",
      "price": 80.0,
      "count": 4
+    },
+    {
+     "date": "2026-11-22",
+     "price": 80.0,
+     "count": 4
     }
    ],
    "market": 80.0,
    "count": 4,
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "key": "gaming|headset|kanto|kraken|razer|starters|v4|wired",
@@ -540,11 +503,16 @@
      "date": "2026-11-21",
      "price": 75.0,
      "count": 3
+    },
+    {
+     "date": "2026-11-22",
+     "price": 75.0,
+     "count": 3
     }
    ],
    "market": 75.0,
    "count": 3,
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "key": "cube|doh|nee|nice|orange|squeeze|squishy|stack|tactile",
@@ -601,11 +569,69 @@
      "date": "2026-11-21",
      "price": 74.5,
      "count": 4
+    },
+    {
+     "date": "2026-11-22",
+     "price": 74.5,
+     "count": 4
     }
    ],
    "market": 74.99,
    "count": 4,
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
+  },
+  {
+   "key": "advent|calendar|days|needoh|schylling|squishmas",
+   "tokens": [
+    "schylling",
+    "needoh",
+    "squishmas",
+    "advent",
+    "calendar",
+    "days"
+   ],
+   "title": "Authentic NeeDoh Schylling Squishmas 24 Days Advent Calendar 2026",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 115.9,
+     "count": 4
+    },
+    {
+     "date": "2026-11-15",
+     "price": 70.99,
+     "count": 5
+    },
+    {
+     "date": "2026-11-16",
+     "price": 48.99,
+     "count": 9
+    },
+    {
+     "date": "2026-11-17",
+     "price": 52.99,
+     "count": 8
+    },
+    {
+     "date": "2026-11-18",
+     "price": 38.99,
+     "count": 7
+    },
+    {
+     "date": "2026-11-19",
+     "price": 94.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-22",
+     "price": 116.9,
+     "count": 3
+    }
+   ],
+   "market": 70.99,
+   "count": 3,
+   "last_seen": "2026-11-22"
   },
   {
    "key": "gogh|museum|pikachu|plush|van",
@@ -668,93 +694,16 @@
      "date": "2026-11-21",
      "price": 74.99,
      "count": 24
+    },
+    {
+     "date": "2026-11-22",
+     "price": 74.99,
+     "count": 24
     }
    ],
    "market": 70.0,
    "count": 24,
-   "last_seen": "2026-11-21"
-  },
-  {
-   "key": "90h|classic|clog|crocs|mens|nwb|starters",
-   "tokens": [
-    "crocs",
-    "starters",
-    "classic",
-    "clog",
-    "90h",
-    "mens",
-    "nwb"
-   ],
-   "title": "Crocs x Pokemon \"Pokemon Starters\" Classic Clog 211343-90H Men’s Size 9 NWB",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 62.24,
-     "count": 3
-    },
-    {
-     "date": "2026-11-13",
-     "price": 57.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-15",
-     "price": 62.24,
-     "count": 3
-    },
-    {
-     "date": "2026-11-16",
-     "price": 62.24,
-     "count": 3
-    },
-    {
-     "date": "2026-11-19",
-     "price": 57.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-20",
-     "price": 55.48,
-     "count": 3
-    },
-    {
-     "date": "2026-11-21",
-     "price": 55.48,
-     "count": 3
-    }
-   ],
-   "market": 57.98,
-   "count": 3,
-   "last_seen": "2026-11-21"
-  },
-  {
-   "key": "advent|christmas|countdown|needoh|schylling|squishmas",
-   "tokens": [
-    "schylling",
-    "needoh",
-    "advent",
-    "countdown",
-    "squishmas",
-    "christmas"
-   ],
-   "title": "Schylling NeeDoh Advent Countdown To Squishmas-2026 Christmas gift",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-19",
-     "price": 84.96,
-     "count": 3
-    },
-    {
-     "date": "2026-11-21",
-     "price": 29.99,
-     "count": 3
-    }
-   ],
-   "market": 57.47,
-   "count": 3,
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "key": "center|gengar|mug|nidorino|opening|oz|retro|scene",
@@ -820,9 +769,838 @@
      "date": "2026-11-21",
      "price": 50.0,
      "count": 3
+    },
+    {
+     "date": "2026-11-22",
+     "price": 50.0,
+     "count": 3
     }
    ],
    "market": 53.84,
+   "count": 3,
+   "last_seen": "2026-11-22"
+  },
+  {
+   "key": "angel|blind|box|decorative|hippers|limited|mini|sonny",
+   "tokens": [
+    "sonny",
+    "angel",
+    "hippers",
+    "limited",
+    "blind",
+    "box",
+    "decorative",
+    "mini"
+   ],
+   "title": "Sonny Angel Hippers Limited Edition Blind Box Decorative Mini Figure Sealed Gift",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 47.33,
+     "count": 2
+    },
+    {
+     "date": "2026-11-16",
+     "price": 47.33,
+     "count": 2
+    },
+    {
+     "date": "2026-11-21",
+     "price": 41.99,
+     "count": 2
+    },
+    {
+     "date": "2026-11-22",
+     "price": 41.99,
+     "count": 2
+    }
+   ],
+   "market": 44.66,
+   "count": 2,
+   "last_seen": "2026-11-22"
+  },
+  {
+   "key": "amazon|color|dream|drop|needoh|schylling|splash|swirl|vibes|violet",
+   "tokens": [
+    "needoh",
+    "color",
+    "splash",
+    "dream",
+    "drop",
+    "swirl",
+    "violet",
+    "vibes",
+    "amazon",
+    "schylling"
+   ],
+   "title": "NeeDoh Color Splash Dream Drop Swirl Violet Vibes Amazon Exclusive Schylling",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-17",
+     "price": 44.7,
+     "count": 3
+    },
+    {
+     "date": "2026-11-19",
+     "price": 40.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-20",
+     "price": 40.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-22",
+     "price": 40.0,
+     "count": 3
+    }
+   ],
+   "market": 40.0,
+   "count": 3,
+   "last_seen": "2026-11-22"
+  },
+  {
+   "key": "calendar|countdown|needoh|or|squeeze|squish|target|ween",
+   "tokens": [
+    "needoh",
+    "squish",
+    "or",
+    "squeeze",
+    "ween",
+    "countdown",
+    "calendar",
+    "target"
+   ],
+   "title": "Needoh Squish or Squeeze Squish-O-Ween Countdown Calendar Target Exclusive",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 38.0,
+     "count": 5
+    },
+    {
+     "date": "2026-11-15",
+     "price": 38.0,
+     "count": 5
+    },
+    {
+     "date": "2026-11-16",
+     "price": 38.0,
+     "count": 5
+    },
+    {
+     "date": "2026-11-17",
+     "price": 38.25,
+     "count": 4
+    },
+    {
+     "date": "2026-11-18",
+     "price": 38.0,
+     "count": 5
+    },
+    {
+     "date": "2026-11-19",
+     "price": 29.0,
+     "count": 5
+    },
+    {
+     "date": "2026-11-20",
+     "price": 29.0,
+     "count": 7
+    },
+    {
+     "date": "2026-11-21",
+     "price": 29.0,
+     "count": 6
+    },
+    {
+     "date": "2026-11-22",
+     "price": 29.0,
+     "count": 7
+    }
+   ],
+   "market": 38.0,
+   "count": 7,
+   "last_seen": "2026-11-22"
+  },
+  {
+   "key": "angel|blind|box|cat|confirmed|life|mini|series|sonny",
+   "tokens": [
+    "sonny",
+    "angel",
+    "cat",
+    "life",
+    "series",
+    "mini",
+    "confirmed",
+    "blind",
+    "box"
+   ],
+   "title": "Sonny Angel Cat Life Series Mini Figures - Confirmed Blind Box Figure",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 16.12,
+     "count": 2
+    },
+    {
+     "date": "2026-11-15",
+     "price": 27.5,
+     "count": 1
+    },
+    {
+     "date": "2026-11-16",
+     "price": 33.72,
+     "count": 2
+    },
+    {
+     "date": "2026-11-17",
+     "price": 33.72,
+     "count": 2
+    },
+    {
+     "date": "2026-11-18",
+     "price": 33.72,
+     "count": 2
+    },
+    {
+     "date": "2026-11-19",
+     "price": 37.45,
+     "count": 3
+    },
+    {
+     "date": "2026-11-21",
+     "price": 27.5,
+     "count": 3
+    },
+    {
+     "date": "2026-11-22",
+     "price": 38.89,
+     "count": 3
+    }
+   ],
+   "market": 33.72,
+   "count": 3,
+   "last_seen": "2026-11-22"
+  },
+  {
+   "key": "advent|christmas|countdown|needoh|schylling|squishmas",
+   "tokens": [
+    "schylling",
+    "needoh",
+    "advent",
+    "countdown",
+    "squishmas",
+    "christmas"
+   ],
+   "title": "Schylling NeeDoh Advent Countdown To Squishmas-2026 Christmas gift",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-19",
+     "price": 84.96,
+     "count": 3
+    },
+    {
+     "date": "2026-11-21",
+     "price": 29.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-22",
+     "price": 32.89,
+     "count": 3
+    }
+   ],
+   "market": 32.89,
+   "count": 3,
+   "last_seen": "2026-11-22"
+  },
+  {
+   "key": "board|game|monopoly",
+   "tokens": [
+    "monopoly",
+    "board",
+    "game"
+   ],
+   "title": "Monopoly Pokemon Board Game",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-20",
+     "price": 27.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-21",
+     "price": 27.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-22",
+     "price": 27.0,
+     "count": 3
+    }
+   ],
+   "market": 27.0,
+   "count": 3,
+   "last_seen": "2026-11-22"
+  },
+  {
+   "key": "gaming|grande|large|mouse|mousepad|pad|snorlax",
+   "tokens": [
+    "snorlax",
+    "grande",
+    "mousepad",
+    "large",
+    "gaming",
+    "mouse",
+    "pad"
+   ],
+   "title": "Pokemon Snorlax Grande Mousepad Large Gaming Mouse Pad",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 20.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-13",
+     "price": 20.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-14",
+     "price": 20.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-15",
+     "price": 20.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 20.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-17",
+     "price": 20.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-18",
+     "price": 20.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-19",
+     "price": 20.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-20",
+     "price": 20.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-21",
+     "price": 20.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-22",
+     "price": 20.0,
+     "count": 3
+    }
+   ],
+   "market": 20.0,
+   "count": 3,
+   "last_seen": "2026-11-22"
+  },
+  {
+   "key": "blind|box|confirmed|doll|mart|mega|molly|pop|series|space",
+   "tokens": [
+    "pop",
+    "mart",
+    "mega",
+    "space",
+    "molly",
+    "series",
+    "blind",
+    "box",
+    "confirmed",
+    "doll"
+   ],
+   "title": "POP MART 100% Mega Space Molly Series 4 Blind Box Confirmed Figure Toy Doll",
+   "ship": "bundle",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 14.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 14.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-17",
+     "price": 23.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-18",
+     "price": 23.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-19",
+     "price": 22.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-20",
+     "price": 15.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-21",
+     "price": 16.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-22",
+     "price": 24.98,
+     "count": 3
+    }
+   ],
+   "market": 19.98,
+   "count": 3,
+   "last_seen": "2026-11-22"
+  },
+  {
+   "key": "blind|box|have|labubu|mart|monsters|plush|pop|seat|vinyl",
+   "tokens": [
+    "pop",
+    "mart",
+    "labubu",
+    "monsters",
+    "have",
+    "seat",
+    "vinyl",
+    "plush",
+    "blind",
+    "box"
+   ],
+   "title": "POP MART THE MONSTERS Labubu Have a Seat Vinyl Plush Blind Box",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 19.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 18.0,
+     "count": 7
+    },
+    {
+     "date": "2026-11-17",
+     "price": 18.99,
+     "count": 4
+    },
+    {
+     "date": "2026-11-18",
+     "price": 19.99,
+     "count": 6
+    },
+    {
+     "date": "2026-11-19",
+     "price": 19.99,
+     "count": 5
+    },
+    {
+     "date": "2026-11-20",
+     "price": 18.99,
+     "count": 6
+    },
+    {
+     "date": "2026-11-21",
+     "price": 19.99,
+     "count": 6
+    },
+    {
+     "date": "2026-11-22",
+     "price": 18.99,
+     "count": 6
+    }
+   ],
+   "market": 19.49,
+   "count": 6,
+   "last_seen": "2026-11-22"
+  },
+  {
+   "key": "gaming|gengar|grande|large|mouse|mousepad|pad",
+   "tokens": [
+    "gengar",
+    "grande",
+    "mousepad",
+    "large",
+    "gaming",
+    "mouse",
+    "pad"
+   ],
+   "title": "P-Pokemon-Gengar Grande Mousepad Large Gaming Mouse Pad",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 18.0,
+     "count": 5
+    },
+    {
+     "date": "2026-11-13",
+     "price": 18.0,
+     "count": 6
+    },
+    {
+     "date": "2026-11-14",
+     "price": 18.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-15",
+     "price": 18.0,
+     "count": 5
+    },
+    {
+     "date": "2026-11-16",
+     "price": 18.0,
+     "count": 6
+    },
+    {
+     "date": "2026-11-17",
+     "price": 18.0,
+     "count": 6
+    },
+    {
+     "date": "2026-11-18",
+     "price": 18.0,
+     "count": 6
+    },
+    {
+     "date": "2026-11-19",
+     "price": 18.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-20",
+     "price": 18.0,
+     "count": 5
+    },
+    {
+     "date": "2026-11-21",
+     "price": 18.0,
+     "count": 6
+    },
+    {
+     "date": "2026-11-22",
+     "price": 18.0,
+     "count": 5
+    }
+   ],
+   "market": 18.0,
+   "count": 5,
+   "last_seen": "2026-11-22"
+  },
+  {
+   "key": "30th|anniversary|bottle|mystery|target|type|water",
+   "tokens": [
+    "target",
+    "mystery",
+    "water",
+    "type",
+    "bottle",
+    "30th",
+    "anniversary"
+   ],
+   "title": "Pokemon X Target Mystery Water Type Pokemon Bottle 30th Anniversary (SEALED)",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 18.24,
+     "count": 4
+    },
+    {
+     "date": "2026-11-13",
+     "price": 17.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-14",
+     "price": 17.88,
+     "count": 4
+    },
+    {
+     "date": "2026-11-15",
+     "price": 17.99,
+     "count": 5
+    },
+    {
+     "date": "2026-11-16",
+     "price": 17.99,
+     "count": 6
+    },
+    {
+     "date": "2026-11-17",
+     "price": 17.99,
+     "count": 6
+    },
+    {
+     "date": "2026-11-18",
+     "price": 17.85,
+     "count": 7
+    },
+    {
+     "date": "2026-11-19",
+     "price": 17.99,
+     "count": 8
+    },
+    {
+     "date": "2026-11-20",
+     "price": 17.99,
+     "count": 7
+    },
+    {
+     "date": "2026-11-21",
+     "price": 17.99,
+     "count": 7
+    },
+    {
+     "date": "2026-11-22",
+     "price": 17.99,
+     "count": 7
+    }
+   ],
+   "market": 17.99,
+   "count": 7,
+   "last_seen": "2026-11-22"
+  },
+  {
+   "key": "blind|box|dark|glow|living|series|smiski",
+   "tokens": [
+    "smiski",
+    "blind",
+    "box",
+    "living",
+    "series",
+    "glow",
+    "dark"
+   ],
+   "title": "Smiski Blind Box Living Series Glow in the Dark",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-22",
+     "price": 15.99,
+     "count": 1
+    }
+   ],
+   "market": 15.99,
+   "count": 1,
+   "last_seen": "2026-11-22"
+  },
+  {
+   "key": "angel|blind|blossom|box|case|cherry|full|hippers|series|sonny",
+   "tokens": [
+    "sonny",
+    "angel",
+    "hippers",
+    "cherry",
+    "blossom",
+    "series",
+    "blind",
+    "box",
+    "full",
+    "case"
+   ],
+   "title": "Sonny Angel HIPPERS Cherry Blossom Series Blind Box Full Case",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-16",
+     "price": 15.33,
+     "count": 2
+    },
+    {
+     "date": "2026-11-17",
+     "price": 15.49,
+     "count": 3
+    },
+    {
+     "date": "2026-11-18",
+     "price": 15.49,
+     "count": 3
+    },
+    {
+     "date": "2026-11-19",
+     "price": 15.49,
+     "count": 3
+    },
+    {
+     "date": "2026-11-20",
+     "price": 34.49,
+     "count": 2
+    },
+    {
+     "date": "2026-11-21",
+     "price": 15.17,
+     "count": 1
+    },
+    {
+     "date": "2026-11-22",
+     "price": 242.74,
+     "count": 2
+    }
+   ],
+   "market": 15.49,
+   "count": 2,
+   "last_seen": "2026-11-22"
+  },
+  {
+   "key": "28th|anniversary|bape|bearbrick|camo",
+   "tokens": [
+    "bape",
+    "bearbrick",
+    "camo",
+    "28th",
+    "anniversary"
+   ],
+   "title": "BAPE Bearbrick Camo #3 28th Anniversary 400%",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-21",
+     "price": 220.0,
+     "count": 3
+    }
+   ],
+   "market": 220.0,
+   "count": 3,
+   "last_seen": "2026-11-21"
+  },
+  {
+   "key": "advent|calendar|christmas|needoh|schylling",
+   "tokens": [
+    "schylling",
+    "needoh",
+    "christmas",
+    "advent",
+    "calendar"
+   ],
+   "title": "100% Authentic - Schylling 2026 NeeDoh Christmas Advent Calendar FAST ship",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 105.0,
+     "count": 5
+    },
+    {
+     "date": "2026-11-21",
+     "price": 99.99,
+     "count": 3
+    }
+   ],
+   "market": 102.5,
+   "count": 3,
+   "last_seen": "2026-11-21"
+  },
+  {
+   "key": "advent|calendar|christmas|days|needoh|schylling",
+   "tokens": [
+    "schylling",
+    "needoh",
+    "advent",
+    "calendar",
+    "christmas",
+    "days"
+   ],
+   "title": "Schylling NeeDoh Advent Calendar Christmas 24 days 2026 Authentic",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-21",
+     "price": 87.98,
+     "count": 4
+    }
+   ],
+   "market": 87.98,
+   "count": 4,
+   "last_seen": "2026-11-21"
+  },
+  {
+   "key": "90h|classic|clog|crocs|mens|nwb|starters",
+   "tokens": [
+    "crocs",
+    "starters",
+    "classic",
+    "clog",
+    "90h",
+    "mens",
+    "nwb"
+   ],
+   "title": "Crocs x Pokemon \"Pokemon Starters\" Classic Clog 211343-90H Men’s Size 9 NWB",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 62.24,
+     "count": 3
+    },
+    {
+     "date": "2026-11-13",
+     "price": 57.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-15",
+     "price": 62.24,
+     "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 62.24,
+     "count": 3
+    },
+    {
+     "date": "2026-11-19",
+     "price": 57.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-20",
+     "price": 55.48,
+     "count": 3
+    },
+    {
+     "date": "2026-11-21",
+     "price": 55.48,
+     "count": 3
+    }
+   ],
+   "market": 57.98,
    "count": 3,
    "last_seen": "2026-11-21"
   },
@@ -895,41 +1673,6 @@
    "last_seen": "2026-11-21"
   },
   {
-   "key": "angel|blind|box|decorative|hippers|limited|mini|sonny",
-   "tokens": [
-    "sonny",
-    "angel",
-    "hippers",
-    "limited",
-    "blind",
-    "box",
-    "decorative",
-    "mini"
-   ],
-   "title": "Sonny Angel Hippers Limited Edition Blind Box Decorative Mini Figure Sealed Gift",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-15",
-     "price": 47.33,
-     "count": 2
-    },
-    {
-     "date": "2026-11-16",
-     "price": 47.33,
-     "count": 2
-    },
-    {
-     "date": "2026-11-21",
-     "price": 41.99,
-     "count": 2
-    }
-   ],
-   "market": 47.33,
-   "count": 2,
-   "last_seen": "2026-11-21"
-  },
-  {
    "key": "controller|garden|nano|pikachu|powera|switch|wireless",
    "tokens": [
     "powera",
@@ -970,122 +1713,6 @@
     }
    ],
    "market": 39.99,
-   "count": 3,
-   "last_seen": "2026-11-21"
-  },
-  {
-   "key": "calendar|countdown|needoh|or|squeeze|squish|target|ween",
-   "tokens": [
-    "needoh",
-    "squish",
-    "or",
-    "squeeze",
-    "ween",
-    "countdown",
-    "calendar",
-    "target"
-   ],
-   "title": "Needoh Squish or Squeeze Squish-O-Ween Countdown Calendar Target Exclusive",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-14",
-     "price": 38.0,
-     "count": 5
-    },
-    {
-     "date": "2026-11-15",
-     "price": 38.0,
-     "count": 5
-    },
-    {
-     "date": "2026-11-16",
-     "price": 38.0,
-     "count": 5
-    },
-    {
-     "date": "2026-11-17",
-     "price": 38.25,
-     "count": 4
-    },
-    {
-     "date": "2026-11-18",
-     "price": 38.0,
-     "count": 5
-    },
-    {
-     "date": "2026-11-19",
-     "price": 29.0,
-     "count": 5
-    },
-    {
-     "date": "2026-11-20",
-     "price": 29.0,
-     "count": 7
-    },
-    {
-     "date": "2026-11-21",
-     "price": 29.0,
-     "count": 6
-    }
-   ],
-   "market": 38.0,
-   "count": 6,
-   "last_seen": "2026-11-21"
-  },
-  {
-   "key": "angel|blind|box|cat|confirmed|life|mini|series|sonny",
-   "tokens": [
-    "sonny",
-    "angel",
-    "cat",
-    "life",
-    "series",
-    "mini",
-    "confirmed",
-    "blind",
-    "box"
-   ],
-   "title": "Sonny Angel Cat Life Series Mini Figures - Confirmed Blind Box Figure",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-14",
-     "price": 16.12,
-     "count": 2
-    },
-    {
-     "date": "2026-11-15",
-     "price": 27.5,
-     "count": 1
-    },
-    {
-     "date": "2026-11-16",
-     "price": 33.72,
-     "count": 2
-    },
-    {
-     "date": "2026-11-17",
-     "price": 33.72,
-     "count": 2
-    },
-    {
-     "date": "2026-11-18",
-     "price": 33.72,
-     "count": 2
-    },
-    {
-     "date": "2026-11-19",
-     "price": 37.45,
-     "count": 3
-    },
-    {
-     "date": "2026-11-21",
-     "price": 27.5,
-     "count": 3
-    }
-   ],
-   "market": 33.72,
    "count": 3,
    "last_seen": "2026-11-21"
   },
@@ -1300,157 +1927,6 @@
    "last_seen": "2026-11-21"
   },
   {
-   "key": "board|game|monopoly",
-   "tokens": [
-    "monopoly",
-    "board",
-    "game"
-   ],
-   "title": "Monopoly Pokemon Board Game",
-   "ship": "box",
-   "history": [
-    {
-     "date": "2026-11-20",
-     "price": 27.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-21",
-     "price": 27.0,
-     "count": 3
-    }
-   ],
-   "market": 27.0,
-   "count": 3,
-   "last_seen": "2026-11-21"
-  },
-  {
-   "key": "gaming|grande|large|mouse|mousepad|pad|snorlax",
-   "tokens": [
-    "snorlax",
-    "grande",
-    "mousepad",
-    "large",
-    "gaming",
-    "mouse",
-    "pad"
-   ],
-   "title": "Pokemon Snorlax Grande Mousepad Large Gaming Mouse Pad",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 20.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-13",
-     "price": 20.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-14",
-     "price": 20.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-15",
-     "price": 20.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-16",
-     "price": 20.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-17",
-     "price": 20.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-18",
-     "price": 20.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-19",
-     "price": 20.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-20",
-     "price": 20.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-21",
-     "price": 20.0,
-     "count": 4
-    }
-   ],
-   "market": 20.0,
-   "count": 4,
-   "last_seen": "2026-11-21"
-  },
-  {
-   "key": "blind|box|have|labubu|mart|monsters|plush|pop|seat|vinyl",
-   "tokens": [
-    "pop",
-    "mart",
-    "labubu",
-    "monsters",
-    "have",
-    "seat",
-    "vinyl",
-    "plush",
-    "blind",
-    "box"
-   ],
-   "title": "Pop MART the Monsters Have a Seat Vinyl Plush Blind Box Set Labubu",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-15",
-     "price": 19.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-16",
-     "price": 18.0,
-     "count": 7
-    },
-    {
-     "date": "2026-11-17",
-     "price": 18.99,
-     "count": 4
-    },
-    {
-     "date": "2026-11-18",
-     "price": 19.99,
-     "count": 6
-    },
-    {
-     "date": "2026-11-19",
-     "price": 19.99,
-     "count": 5
-    },
-    {
-     "date": "2026-11-20",
-     "price": 18.99,
-     "count": 6
-    },
-    {
-     "date": "2026-11-21",
-     "price": 19.99,
-     "count": 6
-    }
-   ],
-   "market": 19.99,
-   "count": 6,
-   "last_seen": "2026-11-21"
-  },
-  {
    "key": "doll|labubu|love|mart|mini|monsters|pendant|pin|plush|pop|series|vinyl",
    "tokens": [
     "pop",
@@ -1477,75 +1953,6 @@
    ],
    "market": 18.99,
    "count": 3,
-   "last_seen": "2026-11-21"
-  },
-  {
-   "key": "gaming|gengar|grande|large|mouse|mousepad|pad",
-   "tokens": [
-    "gengar",
-    "grande",
-    "mousepad",
-    "large",
-    "gaming",
-    "mouse",
-    "pad"
-   ],
-   "title": "P-Pokemon-Gengar Grande Mousepad Large Gaming Mouse Pad",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 18.0,
-     "count": 5
-    },
-    {
-     "date": "2026-11-13",
-     "price": 18.0,
-     "count": 6
-    },
-    {
-     "date": "2026-11-14",
-     "price": 18.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-15",
-     "price": 18.0,
-     "count": 5
-    },
-    {
-     "date": "2026-11-16",
-     "price": 18.0,
-     "count": 6
-    },
-    {
-     "date": "2026-11-17",
-     "price": 18.0,
-     "count": 6
-    },
-    {
-     "date": "2026-11-18",
-     "price": 18.0,
-     "count": 6
-    },
-    {
-     "date": "2026-11-19",
-     "price": 18.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-20",
-     "price": 18.0,
-     "count": 5
-    },
-    {
-     "date": "2026-11-21",
-     "price": 18.0,
-     "count": 6
-    }
-   ],
-   "market": 18.0,
-   "count": 6,
    "last_seen": "2026-11-21"
   },
   {
@@ -1596,184 +2003,6 @@
    ],
    "market": 18.0,
    "count": 3,
-   "last_seen": "2026-11-21"
-  },
-  {
-   "key": "30th|anniversary|bottle|mystery|target|type|water",
-   "tokens": [
-    "target",
-    "mystery",
-    "water",
-    "type",
-    "bottle",
-    "30th",
-    "anniversary"
-   ],
-   "title": "Pokemon X Target Mystery Water Type Pokemon Bottle 30th Anniversary (SEALED)",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 18.24,
-     "count": 4
-    },
-    {
-     "date": "2026-11-13",
-     "price": 17.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-14",
-     "price": 17.88,
-     "count": 4
-    },
-    {
-     "date": "2026-11-15",
-     "price": 17.99,
-     "count": 5
-    },
-    {
-     "date": "2026-11-16",
-     "price": 17.99,
-     "count": 6
-    },
-    {
-     "date": "2026-11-17",
-     "price": 17.99,
-     "count": 6
-    },
-    {
-     "date": "2026-11-18",
-     "price": 17.85,
-     "count": 7
-    },
-    {
-     "date": "2026-11-19",
-     "price": 17.99,
-     "count": 8
-    },
-    {
-     "date": "2026-11-20",
-     "price": 17.99,
-     "count": 7
-    },
-    {
-     "date": "2026-11-21",
-     "price": 17.99,
-     "count": 7
-    }
-   ],
-   "market": 17.99,
-   "count": 7,
-   "last_seen": "2026-11-21"
-  },
-  {
-   "key": "blind|box|confirmed|doll|mart|mega|molly|pop|series|space",
-   "tokens": [
-    "pop",
-    "mart",
-    "mega",
-    "space",
-    "molly",
-    "series",
-    "blind",
-    "box",
-    "confirmed",
-    "doll"
-   ],
-   "title": "POP MART 100% Mega Space Molly Series 4 Blind Box Confirmed Figure Toy Doll",
-   "ship": "bundle",
-   "history": [
-    {
-     "date": "2026-11-15",
-     "price": 14.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-16",
-     "price": 14.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-17",
-     "price": 23.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-18",
-     "price": 23.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-19",
-     "price": 22.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-20",
-     "price": 15.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-21",
-     "price": 16.99,
-     "count": 3
-    }
-   ],
-   "market": 16.99,
-   "count": 3,
-   "last_seen": "2026-11-21"
-  },
-  {
-   "key": "angel|blind|blossom|box|case|cherry|full|hippers|series|sonny",
-   "tokens": [
-    "sonny",
-    "angel",
-    "hippers",
-    "cherry",
-    "blossom",
-    "series",
-    "blind",
-    "box",
-    "full",
-    "case"
-   ],
-   "title": "Sonny Angel HIPPERS Cherry Blossom Series Blind Box Full Case",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-16",
-     "price": 15.33,
-     "count": 2
-    },
-    {
-     "date": "2026-11-17",
-     "price": 15.49,
-     "count": 3
-    },
-    {
-     "date": "2026-11-18",
-     "price": 15.49,
-     "count": 3
-    },
-    {
-     "date": "2026-11-19",
-     "price": 15.49,
-     "count": 3
-    },
-    {
-     "date": "2026-11-20",
-     "price": 34.49,
-     "count": 2
-    },
-    {
-     "date": "2026-11-21",
-     "price": 15.17,
-     "count": 1
-    }
-   ],
-   "market": 15.49,
-   "count": 1,
    "last_seen": "2026-11-21"
   },
   {
@@ -1981,43 +2210,6 @@
    "last_seen": "2026-11-20"
   },
   {
-   "key": "amazon|color|dream|drop|needoh|schylling|splash|swirl|vibes|violet",
-   "tokens": [
-    "needoh",
-    "color",
-    "splash",
-    "dream",
-    "drop",
-    "swirl",
-    "violet",
-    "vibes",
-    "amazon",
-    "schylling"
-   ],
-   "title": "NeeDoh Color Splash Dream Drop Swirl Violet Vibes Amazon Exclusive Schylling",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-17",
-     "price": 44.7,
-     "count": 3
-    },
-    {
-     "date": "2026-11-19",
-     "price": 40.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-20",
-     "price": 40.0,
-     "count": 3
-    }
-   ],
-   "market": 40.0,
-   "count": 3,
-   "last_seen": "2026-11-20"
-  },
-  {
    "key": "advent|calendar|days|hot|needoh|schylling|squishmas",
    "tokens": [
     "needoh",
@@ -2126,54 +2318,6 @@
     }
    ],
    "market": 65.98,
-   "count": 3,
-   "last_seen": "2026-11-19"
-  },
-  {
-   "key": "advent|calendar|days|needoh|schylling|squishmas",
-   "tokens": [
-    "schylling",
-    "needoh",
-    "squishmas",
-    "advent",
-    "calendar",
-    "days"
-   ],
-   "title": "🎄🎁 Authentic 2026 Schylling NeeDoh Squishmas Advent Calendar 24 Days NEW🎄🫶",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-14",
-     "price": 115.9,
-     "count": 4
-    },
-    {
-     "date": "2026-11-15",
-     "price": 70.99,
-     "count": 5
-    },
-    {
-     "date": "2026-11-16",
-     "price": 48.99,
-     "count": 9
-    },
-    {
-     "date": "2026-11-17",
-     "price": 52.99,
-     "count": 8
-    },
-    {
-     "date": "2026-11-18",
-     "price": 38.99,
-     "count": 7
-    },
-    {
-     "date": "2026-11-19",
-     "price": 94.99,
-     "count": 3
-    }
-   ],
-   "market": 61.99,
    "count": 3,
    "last_seen": "2026-11-19"
   },
