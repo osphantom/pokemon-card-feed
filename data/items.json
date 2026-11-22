@@ -1,6 +1,19 @@
 {
  "items": [
   {
+   "title": "What Pokémon restocked this week (Nov 15 to Nov 22, 2026)",
+   "link": "https://pokerestockapp.com/pokemon/this-week/",
+   "source": "PokeRestock",
+   "source_id": "pokerestock-news",
+   "publisher": "",
+   "published": "2026-11-22T13:34:51Z",
+   "category": "restocks",
+   "stores": [],
+   "hot": false,
+   "id": "043483c60adcfa",
+   "first_seen": "2026-11-22T16:53:12Z"
+  },
+  {
    "title": "The Pokémon TCG Hop's Zacian ex Box is 20% off with coupon code — shop for close to market price",
    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5pdTg1TzM3TnFmZUZ2TVlySGFwdlVMZ0xPYjcyeHdrLUNRVE5yaFBhbExTSUJhd1BkSzJQWkZwQTVuZnRRRkdlNnhrZVZoaWY0STU4anNVRTdyLVo1RDRmQ0pJRlg1WndmaG9mcUxjZjRKSDV1Q1VZ?oc=5",
    "source": "Google News: market",

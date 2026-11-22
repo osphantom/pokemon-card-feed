@@ -18,7 +18,7 @@
   },
   "costco": {
    "id": "1569155125014954136",
-   "hash": "d5cca42016f5"
+   "hash": "be673f878a6f"
   },
   "walmart": {
    "id": "1569157229586944012",
@@ -60,6 +60,7 @@
   "040493920a9d53",
   "040aad21b904b9",
   "04334bb6e21626",
+  "043483c60adcfa",
   "04439ead322530",
   "050f1752e306be",
   "0532a95ac415b6",
@@ -1198,7 +1199,7 @@
   "pennsylvania",
   "virginia"
  ],
- "costco_checked_at": "2026-11-22T13:09:23Z",
+ "costco_checked_at": "2026-11-22T16:53:39Z",
  "promos_checked_at": "2026-11-22T13:09:23Z",
  "promo_markets": {
   "30th-celebration-mewtwo": 13.12,
@@ -1223,7 +1224,7 @@
   "PA",
   "VA"
  ],
- "sams_checked_at": "2026-11-22T13:09:23Z",
+ "sams_checked_at": "2026-11-22T16:53:39Z",
  "sams_status": {
   "990416407": {
    "6330": "order",
@@ -1329,9 +1330,9 @@
    "6371": "transit"
   }
  },
- "costco_stamp": "2026-11-20T13:57:10Z",
- "costco_read_at": "2026-11-22T13:09:23Z",
- "upc_checked_at": "2026-11-22T13:09:23Z",
+ "costco_stamp": "2026-11-22T14:02:30Z",
+ "costco_read_at": "2026-11-22T16:53:39Z",
+ "upc_checked_at": "2026-11-22T16:53:39Z",
  "price_seen": {
   "704144": 253.77,
   "704191": 331.41,
