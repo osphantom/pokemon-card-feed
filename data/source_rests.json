@@ -3,12 +3,8 @@
   "failures": 20,
   "until": "2026-11-23T01:15:34Z"
  },
- "gn-market": {
-  "failures": 2,
-  "until": "2026-11-22T20:45:43Z"
- },
- "gn-promos": {
-  "failures": 2,
-  "until": "2026-11-22T20:45:43Z"
+ "gn-lorcana": {
+  "failures": 1,
+  "until": "2026-11-22T21:00:35Z"
  }
 }
