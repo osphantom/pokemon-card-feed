@@ -3,8 +3,12 @@
   "failures": 21,
   "until": "2026-11-23T07:30:31Z"
  },
- "gn-mtg": {
+ "gn-release": {
   "failures": 1,
-  "until": "2026-11-23T02:45:32Z"
+  "until": "2026-11-23T02:51:02Z"
+ },
+ "gn-promo-stores": {
+  "failures": 1,
+  "until": "2026-11-23T02:51:02Z"
  }
 }
