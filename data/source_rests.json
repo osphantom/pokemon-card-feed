@@ -2,9 +2,5 @@
  "reddit-deals": {
   "failures": 23,
   "until": "2026-11-24T00:00:35Z"
- },
- "polygon": {
-  "failures": 1,
-  "until": "2026-11-23T23:15:33Z"
  }
 }
