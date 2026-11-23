@@ -1,6 +1,10 @@
 {
  "reddit-deals": {
-  "failures": 22,
-  "until": "2026-11-23T17:48:25Z"
+  "failures": 23,
+  "until": "2026-11-24T00:00:35Z"
+ },
+ "gn-onepiece": {
+  "failures": 1,
+  "until": "2026-11-23T18:00:35Z"
  }
 }
