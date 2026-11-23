@@ -3,8 +3,16 @@
   "failures": 23,
   "until": "2026-11-24T00:00:35Z"
  },
- "gn-swu": {
+ "dropradar-newsletter": {
   "failures": 1,
-  "until": "2026-11-23T18:30:34Z"
+  "until": "2026-11-23T18:45:32Z"
+ },
+ "gn-raffles": {
+  "failures": 1,
+  "until": "2026-11-23T18:45:32Z"
+ },
+ "gn-promos": {
+  "failures": 1,
+  "until": "2026-11-23T18:45:32Z"
  }
 }
