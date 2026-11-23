@@ -1,6 +1,32 @@
 {
  "items": [
   {
+   "title": "Pokémon TCG Confirms Three New Sets Will All Release May 2027",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1BU2tBM2Q3Ql9saklUcTJ5SnplQlg4X3pZUm00S2NndnlZRUdEZ0dPSU8xSUYxc3FEMzZKUEpGNW94YW0tYVlidl9ySEhYVUxWaHJpX21LWm91QXMwTUZOb3Q0N0NPMjBHVWNydzdpUmo?oc=5",
+   "source": "Google News: preorders",
+   "source_id": "gn-preorder",
+   "publisher": "ScreenRant",
+   "published": "2026-11-23T14:15:14Z",
+   "category": "releases",
+   "stores": [],
+   "hot": false,
+   "id": "301fa79a25bedd",
+   "first_seen": "2026-11-23T14:49:23Z"
+  },
+  {
+   "title": "Pokémon TCG 30th Anniversary Ultra-Premium Collections are live for Black Friday: Shop for close to market price",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPb3NFSFJzYTUwSk50a1NXTXN2WWF0a2Y2MHRtX2EtZ3dyd1BzZXlybVdaU2tSTjJqLUpVWWhVQk1iam4tNHBsOXFTZ2wxZURXQ1Z2bmpVejNpNUszYlFac0V0Y2d2T2U4RHdPNXhwRGdyUDloQUlSVDhyU1dtdmF2aDNSQU8zOUQ0aGFtQjc2STFPUW1f?oc=5",
+   "source": "Google News: raffles and invites",
+   "source_id": "gn-raffles",
+   "publisher": "Mashable",
+   "published": "2026-11-23T13:45:46Z",
+   "category": "restocks",
+   "stores": [],
+   "hot": true,
+   "id": "3270a48b8450f9",
+   "first_seen": "2026-11-23T14:49:23Z"
+  },
+  {
    "title": "The best early Black Friday Pokémon deals: Shop live deals on 30th Celebration, Delta Reign, and more",
    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1KZjhJVl9tMmFELWdXV2xPZ1E0a1VYLUpsTFRwMzgtS1liMHk3TjJZT1ROS280NERaZmp3WGowbFB3VEtCbmY4UzdXN2tlcUZCQ3V5TGRDUE1NRkI0Q3RBQUpKYjFfbFlEcE9fNGJ5V0ZKU1lNa08wbUhlMDNCQQ?oc=5",
    "source": "Google News: raffles and invites",
@@ -12,6 +38,21 @@
    "hot": false,
    "id": "202ca2c3ffff4b",
    "first_seen": "2026-11-23T11:48:25Z"
+  },
+  {
+   "title": "The Pokémon TCG 30th Celebration Booster Bundle is back at Amazon: Buy now for close to market price",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbzNrS2tvYldtWGZkTl9QUzRtQzFpaThVa2lmOGFnT1VpU0gxZVZHZk44RDFyeFlIMDd0RVdMdVd5dGZoWnA0Ym05VDhfSUJCbmVPMk5YVjBsOFpyUElhSWc5TUVwQXQ5RE1JNDVmYUJ4bVBfZVFCTzFucnFDejdYZXZRY3J3RTNzakxTOA?oc=5",
+   "source": "Google News: raffles and invites",
+   "source_id": "gn-raffles",
+   "publisher": "Mashable",
+   "published": "2026-11-23T11:19:39Z",
+   "category": "market",
+   "stores": [
+    "Amazon"
+   ],
+   "hot": false,
+   "id": "21e709a009c7bf",
+   "first_seen": "2026-11-23T14:49:23Z"
   },
   {
    "title": "Four \"Aura Seeker\" Secret Rares Revealed: Blastoise, Hatterene, Hawlucha, Mega Lucario Z ex!",
@@ -51,6 +92,19 @@
    "hot": false,
    "id": "11bea7cb40483d",
    "first_seen": "2026-11-23T03:45:33Z"
+  },
+  {
+   "title": "Best Pokémon TCG deal: Get almost $10 off the Hop’s Zacian ex Box",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5pdTg1TzM3TnFmZUZ2TVlySGFwdlVMZ0xPYjcyeHdrLUNRVE5yaFBhbExTSUJhd1BkSzJQWkZwQTVuZnRRRkdlNnhrZVZoaWY0STU4anNVRTdyLVo1RDRmQ0pJRlg1WndmaG9mcUxjZjRKSDV1Q1VZ?oc=5",
+   "source": "Google News: market",
+   "source_id": "gn-market",
+   "publisher": "Mashable",
+   "published": "2026-11-23T00:53:40Z",
+   "category": "deals",
+   "stores": [],
+   "hot": false,
+   "id": "152c74b8b1c4f8",
+   "first_seen": "2026-11-23T14:49:23Z"
   },
   {
    "title": "A bull market for Pokémon cards, fuelled by Pikachu and nostalgia",
@@ -4696,19 +4750,6 @@
    "hot": false,
    "id": "04334bb6e21626",
    "first_seen": "2026-11-08T17:32:32Z"
-  },
-  {
-   "title": "Pokémon TCG release dates (updated Oct 24)",
-   "link": "https://pokerestockapp.com/pokemon/release-dates/",
-   "source": "PokeRestock",
-   "source_id": "pokerestock-news",
-   "publisher": "",
-   "published": "2026-10-24T12:00:00Z",
-   "category": "releases",
-   "stores": [],
-   "hot": false,
-   "id": "ce090f40fe3e85",
-   "first_seen": "2026-11-09T00:59:44Z"
   }
  ]
 }
