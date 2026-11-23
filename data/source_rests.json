@@ -3,20 +3,8 @@
   "failures": 21,
   "until": "2026-11-23T07:30:31Z"
  },
- "gn-promos": {
-  "failures": 2,
-  "until": "2026-11-23T02:30:41Z"
- },
- "gn-lorcana": {
+ "gn-mtg": {
   "failures": 1,
-  "until": "2026-11-23T02:30:33Z"
- },
- "gn-onepiece": {
-  "failures": 1,
-  "until": "2026-11-23T02:30:33Z"
- },
- "gn-swu": {
-  "failures": 1,
-  "until": "2026-11-23T02:30:33Z"
+  "until": "2026-11-23T02:45:32Z"
  }
 }
