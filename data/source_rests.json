@@ -3,16 +3,16 @@
   "failures": 26,
   "until": "2026-11-24T23:06:51Z"
  },
- "gn-onepiece": {
+ "gn-pokemon-center": {
   "failures": 1,
-  "until": "2026-11-24T22:30:35Z"
+  "until": "2026-11-24T22:45:47Z"
  },
- "gn-mtg": {
+ "gn-promos": {
   "failures": 1,
-  "until": "2026-11-24T22:30:35Z"
+  "until": "2026-11-24T22:45:47Z"
  },
- "gn-swu": {
+ "gn-promo-stores": {
   "failures": 1,
-  "until": "2026-11-24T22:30:35Z"
+  "until": "2026-11-24T22:45:47Z"
  }
 }
