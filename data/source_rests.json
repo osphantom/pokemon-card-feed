@@ -6,5 +6,13 @@
  "gn-lorcana": {
   "failures": 2,
   "until": "2026-11-24T19:45:34Z"
+ },
+ "gn-preorder": {
+  "failures": 1,
+  "until": "2026-11-24T19:45:33Z"
+ },
+ "gn-pokemon-center": {
+  "failures": 1,
+  "until": "2026-11-24T19:45:33Z"
  }
 }
