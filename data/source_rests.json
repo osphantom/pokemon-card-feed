@@ -1,6 +1,10 @@
 {
  "reddit-deals": {
-  "failures": 23,
-  "until": "2026-11-24T00:00:35Z"
+  "failures": 24,
+  "until": "2026-11-24T06:15:40Z"
+ },
+ "gn-mtg": {
+  "failures": 1,
+  "until": "2026-11-24T00:15:40Z"
  }
 }
