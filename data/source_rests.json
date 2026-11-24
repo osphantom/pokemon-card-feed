@@ -2,5 +2,9 @@
  "reddit-deals": {
   "failures": 24,
   "until": "2026-11-24T06:15:40Z"
+ },
+ "gn-swu": {
+  "failures": 1,
+  "until": "2026-11-24T04:45:40Z"
  }
 }
