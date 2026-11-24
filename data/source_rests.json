@@ -3,12 +3,8 @@
   "failures": 24,
   "until": "2026-11-24T06:15:40Z"
  },
- "gn-pokemon-center": {
-  "failures": 1,
-  "until": "2026-11-24T01:00:48Z"
- },
  "gn-lorcana": {
-  "failures": 1,
-  "until": "2026-11-24T01:00:48Z"
+  "failures": 2,
+  "until": "2026-11-24T01:45:44Z"
  }
 }
