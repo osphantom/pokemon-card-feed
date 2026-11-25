@@ -2,5 +2,13 @@
  "reddit-deals": {
   "failures": 27,
   "until": "2026-11-25T05:15:32Z"
+ },
+ "gn-mtg": {
+  "failures": 1,
+  "until": "2026-11-25T04:45:34Z"
+ },
+ "gn-swu": {
+  "failures": 1,
+  "until": "2026-11-25T04:45:34Z"
  }
 }
