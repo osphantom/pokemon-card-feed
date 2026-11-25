@@ -3,20 +3,12 @@
   "failures": 30,
   "until": "2026-11-25T23:55:30Z"
  },
- "gn-raffles": {
+ "gn-release": {
   "failures": 1,
-  "until": "2026-11-25T22:30:34Z"
+  "until": "2026-11-25T22:45:35Z"
  },
- "gn-promos": {
+ "gn-market": {
   "failures": 1,
-  "until": "2026-11-25T22:30:34Z"
- },
- "gn-onepiece": {
-  "failures": 1,
-  "until": "2026-11-25T22:30:34Z"
- },
- "gn-mtg": {
-  "failures": 1,
-  "until": "2026-11-25T22:30:34Z"
+  "until": "2026-11-25T22:45:35Z"
  }
 }
