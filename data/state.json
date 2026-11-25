@@ -562,7 +562,8 @@
   "window:target-overnight:2026-11-13",
   "window:target-overnight:2026-11-20",
   "window:walmart-drawing:2026-11-11",
-  "window:walmart-drawing:2026-11-18"
+  "window:walmart-drawing:2026-11-18",
+  "window:walmart-drawing:2026-11-25"
  ],
  "event_fingerprints": {
   "mcdonalds-2026": "4a2c9af31a76",
@@ -1269,7 +1270,7 @@
   "pennsylvania",
   "virginia"
  ],
- "costco_checked_at": "2026-11-25T20:40:26Z",
+ "costco_checked_at": "2026-11-25T21:16:04Z",
  "promos_checked_at": "2026-11-25T18:06:01Z",
  "promo_markets": {
   "30th-celebration-mewtwo": 13.0,
@@ -1294,7 +1295,7 @@
   "PA",
   "VA"
  ],
- "sams_checked_at": "2026-11-25T20:40:26Z",
+ "sams_checked_at": "2026-11-25T21:16:04Z",
  "sams_status": {
   "990416407": {
    "6330": "order",
@@ -1402,7 +1403,7 @@
  },
  "costco_stamp": "2026-11-22T14:02:30Z",
  "costco_read_at": "2026-11-25T18:06:01Z",
- "upc_checked_at": "2026-11-25T20:40:26Z",
+ "upc_checked_at": "2026-11-25T21:16:04Z",
  "price_seen": {
   "704144": 249.37,
   "704191": 339.94,
