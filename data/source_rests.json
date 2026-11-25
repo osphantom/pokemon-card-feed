@@ -2,17 +2,5 @@
  "reddit-deals": {
   "failures": 30,
   "until": "2026-11-25T23:55:30Z"
- },
- "gn-promo-stores": {
-  "failures": 1,
-  "until": "2026-11-25T22:00:43Z"
- },
- "gn-lorcana": {
-  "failures": 1,
-  "until": "2026-11-25T22:00:43Z"
- },
- "gn-mtg": {
-  "failures": 1,
-  "until": "2026-11-25T22:00:43Z"
  }
 }
