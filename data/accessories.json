@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T17:06:51Z",
+ "generated_at": "2026-11-25T04:15:33Z",
  "ebay_used": true,
  "stopwords": [
   "pokemon",
@@ -137,7 +137,7 @@
     },
     {
      "date": "2026-11-24",
-     "price": 294.94,
+     "price": 285.94,
      "count": 1
     }
    ],
@@ -318,6 +318,74 @@
    "last_seen": "2026-11-24"
   },
   {
+   "key": "advent|calendar|christmas|needoh|schylling",
+   "tokens": [
+    "schylling",
+    "needoh",
+    "advent",
+    "christmas",
+    "calendar"
+   ],
+   "title": "100% Authentic Schylling Needoh Christmas Advent Calendar 2026 SEALED",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 105.0,
+     "count": 5
+    },
+    {
+     "date": "2026-11-21",
+     "price": 99.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-24",
+     "price": 88.97,
+     "count": 4
+    }
+   ],
+   "market": 99.99,
+   "count": 4,
+   "last_seen": "2026-11-24"
+  },
+  {
+   "key": "advent|calendar|needoh|schylling",
+   "tokens": [
+    "needoh",
+    "schylling",
+    "advent",
+    "calendar"
+   ],
+   "title": "*2 PACK* Schylling NeeDoh Advent Calendar 2026 *Authentic, Rare*",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-20",
+     "price": 99.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-21",
+     "price": 95.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-22",
+     "price": 99.99,
+     "count": 5
+    },
+    {
+     "date": "2026-11-24",
+     "price": 89.99,
+     "count": 3
+    }
+   ],
+   "market": 97.5,
+   "count": 3,
+   "last_seen": "2026-11-24"
+  },
+  {
    "key": "gaming|gengar|headset|kitty|kraken|razer|v2",
    "tokens": [
     "razer",
@@ -448,11 +516,11 @@
     {
      "date": "2026-11-24",
      "price": 84.0,
-     "count": 7
+     "count": 6
     }
    ],
    "market": 84.0,
-   "count": 7,
+   "count": 6,
    "last_seen": "2026-11-24"
   },
   {
@@ -649,12 +717,75 @@
     },
     {
      "date": "2026-11-24",
-     "price": 75.99,
-     "count": 4
+     "price": 71.99,
+     "count": 3
     }
    ],
    "market": 74.99,
-   "count": 4,
+   "count": 3,
+   "last_seen": "2026-11-24"
+  },
+  {
+   "key": "advent|calendar|days|needoh|schylling|squishmas",
+   "tokens": [
+    "needoh",
+    "schylling",
+    "squishmas",
+    "days",
+    "advent",
+    "calendar"
+   ],
+   "title": "Authentic NeeDoh Schylling Squishmas 24 Days Advent Calendar 2026",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 115.9,
+     "count": 4
+    },
+    {
+     "date": "2026-11-15",
+     "price": 70.99,
+     "count": 5
+    },
+    {
+     "date": "2026-11-16",
+     "price": 48.99,
+     "count": 9
+    },
+    {
+     "date": "2026-11-17",
+     "price": 52.99,
+     "count": 8
+    },
+    {
+     "date": "2026-11-18",
+     "price": 38.99,
+     "count": 7
+    },
+    {
+     "date": "2026-11-19",
+     "price": 94.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-22",
+     "price": 116.9,
+     "count": 3
+    },
+    {
+     "date": "2026-11-23",
+     "price": 74.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-24",
+     "price": 69.99,
+     "count": 3
+    }
+   ],
+   "market": 70.99,
+   "count": 3,
    "last_seen": "2026-11-24"
   },
   {
@@ -731,12 +862,12 @@
     },
     {
      "date": "2026-11-24",
-     "price": 74.99,
-     "count": 26
+     "price": 73.99,
+     "count": 28
     }
    ],
    "market": 70.0,
-   "count": 26,
+   "count": 28,
    "last_seen": "2026-11-24"
   },
   {
@@ -884,6 +1015,52 @@
    "last_seen": "2026-11-24"
   },
   {
+   "key": "board|game|johto|monopoly",
+   "tokens": [
+    "monopoly",
+    "board",
+    "game",
+    "johto"
+   ],
+   "title": "Monopoly Pokemon Johto Edition Board Game - NEW",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 41.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-13",
+     "price": 41.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-14",
+     "price": 46.45,
+     "count": 4
+    },
+    {
+     "date": "2026-11-16",
+     "price": 41.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-19",
+     "price": 50.9,
+     "count": 3
+    },
+    {
+     "date": "2026-11-24",
+     "price": 41.99,
+     "count": 3
+    }
+   ],
+   "market": 41.99,
+   "count": 3,
+   "last_seen": "2026-11-24"
+  },
+  {
    "key": "angel|blind|box|decorative|hippers|limited|mini|sonny",
    "tokens": [
     "sonny",
@@ -925,12 +1102,67 @@
     },
     {
      "date": "2026-11-24",
-     "price": 37.98,
-     "count": 1
+     "price": 25.98,
+     "count": 2
     }
    ],
    "market": 39.98,
-   "count": 1,
+   "count": 2,
+   "last_seen": "2026-11-24"
+  },
+  {
+   "key": "bag|brown|capybara|clyde|dust|included|jellycat|plush|soft",
+   "tokens": [
+    "jellycat",
+    "clyde",
+    "capybara",
+    "soft",
+    "plush",
+    "brown",
+    "dust",
+    "bag",
+    "included"
+   ],
+   "title": "Jellycat Clyde Capybara Soft Plush Toy in Brown with Dust Bag Included US",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-24",
+     "price": 33.99,
+     "count": 3
+    }
+   ],
+   "market": 33.99,
+   "count": 3,
+   "last_seen": "2026-11-24"
+  },
+  {
+   "key": "advent|calendar|days|hot|needoh|schylling|squishmas",
+   "tokens": [
+    "needoh",
+    "squishmas",
+    "advent",
+    "calendar",
+    "days",
+    "schylling",
+    "hot"
+   ],
+   "title": "NeeDoh Squishmas Advent Calendar NEW SEALED 24 Days Schylling 2026 Hot Gift",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-20",
+     "price": 36.9,
+     "count": 3
+    },
+    {
+     "date": "2026-11-24",
+     "price": 30.99,
+     "count": 4
+    }
+   ],
+   "market": 33.95,
+   "count": 4,
    "last_seen": "2026-11-24"
   },
   {
@@ -996,41 +1228,12 @@
     },
     {
      "date": "2026-11-24",
-     "price": 37.5,
-     "count": 3
+     "price": 33.72,
+     "count": 2
     }
    ],
    "market": 33.72,
-   "count": 3,
-   "last_seen": "2026-11-24"
-  },
-  {
-   "key": "advent|calendar|days|hot|needoh|schylling|squishmas",
-   "tokens": [
-    "needoh",
-    "squishmas",
-    "advent",
-    "calendar",
-    "days",
-    "schylling",
-    "hot"
-   ],
-   "title": "NeeDoh Squishmas Advent Calendar NEW SEALED 24 Days Schylling 2026 Hot Gift",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-20",
-     "price": 36.9,
-     "count": 3
-    },
-    {
-     "date": "2026-11-24",
-     "price": 29.99,
-     "count": 3
-    }
-   ],
-   "market": 33.45,
-   "count": 3,
+   "count": 2,
    "last_seen": "2026-11-24"
   },
   {
@@ -1166,7 +1369,7 @@
     },
     {
      "date": "2026-11-24",
-     "price": 31.99,
+     "price": 31.49,
      "count": 1
     }
    ],
@@ -1242,11 +1445,79 @@
     {
      "date": "2026-11-24",
      "price": 25.79,
-     "count": 7
+     "count": 5
     }
    ],
    "market": 29.0,
-   "count": 7,
+   "count": 5,
+   "last_seen": "2026-11-24"
+  },
+  {
+   "key": "board|game|monopoly",
+   "tokens": [
+    "monopoly",
+    "board",
+    "game"
+   ],
+   "title": "Monopoly Pokemon Board Game",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-20",
+     "price": 27.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-21",
+     "price": 27.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-22",
+     "price": 27.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-23",
+     "price": 27.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-24",
+     "price": 21.99,
+     "count": 3
+    }
+   ],
+   "market": 27.0,
+   "count": 3,
+   "last_seen": "2026-11-24"
+  },
+  {
+   "key": "box|dada|have|inside|labubu|mart|monsters|open|plush|pop|seat",
+   "tokens": [
+    "pop",
+    "mart",
+    "labubu",
+    "monsters",
+    "have",
+    "seat",
+    "dada",
+    "plush",
+    "open",
+    "box",
+    "inside"
+   ],
+   "title": "POP MART Labubu The Monsters Have A Seat Dada Plush Figure Open Box New Inside",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-24",
+     "price": 21.99,
+     "count": 3
+    }
+   ],
+   "market": 21.99,
+   "count": 3,
    "last_seen": "2026-11-24"
   },
   {
@@ -1326,10 +1597,82 @@
     {
      "date": "2026-11-24",
      "price": 20.0,
-     "count": 3
+     "count": 4
     }
    ],
    "market": 20.0,
+   "count": 4,
+   "last_seen": "2026-11-24"
+  },
+  {
+   "key": "blind|box|have|labubu|mart|monsters|plush|pop|seat|vinyl",
+   "tokens": [
+    "pop",
+    "mart",
+    "labubu",
+    "monsters",
+    "have",
+    "seat",
+    "vinyl",
+    "plush",
+    "blind",
+    "box"
+   ],
+   "title": "POP MART Labubu Have a Seat Blind Box THE MONSTERS Vinyl Plush Sealed",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 19.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 18.0,
+     "count": 7
+    },
+    {
+     "date": "2026-11-17",
+     "price": 18.99,
+     "count": 4
+    },
+    {
+     "date": "2026-11-18",
+     "price": 19.99,
+     "count": 6
+    },
+    {
+     "date": "2026-11-19",
+     "price": 19.99,
+     "count": 5
+    },
+    {
+     "date": "2026-11-20",
+     "price": 18.99,
+     "count": 6
+    },
+    {
+     "date": "2026-11-21",
+     "price": 19.99,
+     "count": 6
+    },
+    {
+     "date": "2026-11-22",
+     "price": 18.99,
+     "count": 5
+    },
+    {
+     "date": "2026-11-23",
+     "price": 19.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-24",
+     "price": 20.0,
+     "count": 3
+    }
+   ],
+   "market": 19.99,
    "count": 3,
    "last_seen": "2026-11-24"
   },
@@ -1418,6 +1761,61 @@
    "last_seen": "2026-11-24"
   },
   {
+   "key": "big|blind|box|energy|into|labubu|mart|pop",
+   "tokens": [
+    "pop",
+    "mart",
+    "labubu",
+    "big",
+    "into",
+    "energy",
+    "blind",
+    "box"
+   ],
+   "title": "Authentic POP MART-LABUBU: Big Into Energy Blind Box New!",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-16",
+     "price": 18.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-17",
+     "price": 18.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-18",
+     "price": 18.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-19",
+     "price": 18.98,
+     "count": 4
+    },
+    {
+     "date": "2026-11-20",
+     "price": 17.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-21",
+     "price": 17.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-24",
+     "price": 19.95,
+     "count": 3
+    }
+   ],
+   "market": 18.0,
+   "count": 3,
+   "last_seen": "2026-11-24"
+  },
+  {
    "key": "30th|anniversary|bottle|mystery|target|type|water",
    "tokens": [
     "target",
@@ -1428,7 +1826,7 @@
     "30th",
     "anniversary"
    ],
-   "title": "Pokemon X Target Mystery Water Type Pokemon Bottle 30th Anniversary (SEALED)",
+   "title": "Pokemon 30th Anniversary Mystery Water Type Bottle Target Exclusive New",
    "ship": "pack",
    "history": [
     {
@@ -1493,7 +1891,7 @@
     },
     {
      "date": "2026-11-24",
-     "price": 18.49,
+     "price": 17.99,
      "count": 6
     }
    ],
@@ -1660,12 +2058,12 @@
     },
     {
      "date": "2026-11-24",
-     "price": 15.49,
-     "count": 1
+     "price": 242.58,
+     "count": 2
     }
    ],
    "market": 15.49,
-   "count": 1,
+   "count": 2,
    "last_seen": "2026-11-24"
   },
   {
@@ -1765,64 +2163,6 @@
    "last_seen": "2026-11-23"
   },
   {
-   "key": "advent|calendar|days|needoh|schylling|squishmas",
-   "tokens": [
-    "needoh",
-    "days",
-    "squishmas",
-    "advent",
-    "calendar",
-    "schylling"
-   ],
-   "title": "Authentic NeeDoh Schylling Squishmas 24 Days Advent Calendar 2026",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-14",
-     "price": 115.9,
-     "count": 4
-    },
-    {
-     "date": "2026-11-15",
-     "price": 70.99,
-     "count": 5
-    },
-    {
-     "date": "2026-11-16",
-     "price": 48.99,
-     "count": 9
-    },
-    {
-     "date": "2026-11-17",
-     "price": 52.99,
-     "count": 8
-    },
-    {
-     "date": "2026-11-18",
-     "price": 38.99,
-     "count": 7
-    },
-    {
-     "date": "2026-11-19",
-     "price": 94.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-22",
-     "price": 116.9,
-     "count": 3
-    },
-    {
-     "date": "2026-11-23",
-     "price": 74.99,
-     "count": 3
-    }
-   ],
-   "market": 72.99,
-   "count": 3,
-   "last_seen": "2026-11-23"
-  },
-  {
    "key": "amazon|color|dream|drop|needoh|schylling|splash|swirl|vibes|violet",
    "tokens": [
     "needoh",
@@ -1870,41 +2210,6 @@
    "last_seen": "2026-11-23"
   },
   {
-   "key": "board|game|monopoly",
-   "tokens": [
-    "monopoly",
-    "board",
-    "game"
-   ],
-   "title": "Monopoly Pokemon Board Game",
-   "ship": "box",
-   "history": [
-    {
-     "date": "2026-11-20",
-     "price": 27.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-21",
-     "price": 27.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-22",
-     "price": 27.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-23",
-     "price": 27.0,
-     "count": 3
-    }
-   ],
-   "market": 27.0,
-   "count": 3,
-   "last_seen": "2026-11-23"
-  },
-  {
    "key": "board|by|characters|game|hasbro|monopoly",
    "tokens": [
     "monopoly",
@@ -1941,104 +2246,6 @@
    "market": 24.9,
    "count": 1,
    "last_seen": "2026-11-23"
-  },
-  {
-   "key": "blind|box|have|labubu|mart|monsters|plush|pop|seat|vinyl",
-   "tokens": [
-    "pop",
-    "mart",
-    "labubu",
-    "monsters",
-    "have",
-    "seat",
-    "vinyl",
-    "plush",
-    "blind",
-    "box"
-   ],
-   "title": "POP MART THE MONSTERS Labubu Have a Seat Blind Box Vinyl Plush Figure",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-15",
-     "price": 19.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-16",
-     "price": 18.0,
-     "count": 7
-    },
-    {
-     "date": "2026-11-17",
-     "price": 18.99,
-     "count": 4
-    },
-    {
-     "date": "2026-11-18",
-     "price": 19.99,
-     "count": 6
-    },
-    {
-     "date": "2026-11-19",
-     "price": 19.99,
-     "count": 5
-    },
-    {
-     "date": "2026-11-20",
-     "price": 18.99,
-     "count": 6
-    },
-    {
-     "date": "2026-11-21",
-     "price": 19.99,
-     "count": 6
-    },
-    {
-     "date": "2026-11-22",
-     "price": 18.99,
-     "count": 5
-    },
-    {
-     "date": "2026-11-23",
-     "price": 19.99,
-     "count": 3
-    }
-   ],
-   "market": 19.99,
-   "count": 3,
-   "last_seen": "2026-11-23"
-  },
-  {
-   "key": "advent|calendar|needoh|schylling",
-   "tokens": [
-    "schylling",
-    "needoh",
-    "advent",
-    "calendar"
-   ],
-   "title": "NeeDoh Advent Calendar 2026 Authentic Schylling ✨FAST SHIP✨",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-20",
-     "price": 99.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-21",
-     "price": 95.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-22",
-     "price": 99.99,
-     "count": 5
-    }
-   ],
-   "market": 99.99,
-   "count": 5,
-   "last_seen": "2026-11-22"
   },
   {
    "key": "blind|box|exciting|labubu|macaron|monsters|single",
@@ -2107,33 +2314,6 @@
     }
    ],
    "market": 220.0,
-   "count": 3,
-   "last_seen": "2026-11-21"
-  },
-  {
-   "key": "advent|calendar|christmas|needoh|schylling",
-   "tokens": [
-    "schylling",
-    "needoh",
-    "christmas",
-    "advent",
-    "calendar"
-   ],
-   "title": "100% Authentic - Schylling 2026 NeeDoh Christmas Advent Calendar FAST ship",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-14",
-     "price": 105.0,
-     "count": 5
-    },
-    {
-     "date": "2026-11-21",
-     "price": 99.99,
-     "count": 3
-    }
-   ],
-   "market": 102.5,
    "count": 3,
    "last_seen": "2026-11-21"
   },
@@ -2451,56 +2631,6 @@
     }
    ],
    "market": 18.99,
-   "count": 3,
-   "last_seen": "2026-11-21"
-  },
-  {
-   "key": "big|blind|box|energy|into|labubu|mart|pop",
-   "tokens": [
-    "pop",
-    "mart",
-    "labubu",
-    "big",
-    "into",
-    "energy",
-    "blind",
-    "box"
-   ],
-   "title": "Authentic POP MART-LABUBU: Big Into Energy Blind Box New!",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-16",
-     "price": 18.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-17",
-     "price": 18.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-18",
-     "price": 18.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-19",
-     "price": 18.98,
-     "count": 4
-    },
-    {
-     "date": "2026-11-20",
-     "price": 17.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-21",
-     "price": 17.0,
-     "count": 3
-    }
-   ],
-   "market": 18.0,
    "count": 3,
    "last_seen": "2026-11-21"
   },
@@ -2843,47 +2973,6 @@
     }
    ],
    "market": 49.49,
-   "count": 3,
-   "last_seen": "2026-11-19"
-  },
-  {
-   "key": "board|game|johto|monopoly",
-   "tokens": [
-    "monopoly",
-    "board",
-    "game",
-    "johto"
-   ],
-   "title": "Sealed Monopoly Pokémon Johto Edition Board Game",
-   "ship": "box",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 41.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-13",
-     "price": 41.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-14",
-     "price": 46.45,
-     "count": 4
-    },
-    {
-     "date": "2026-11-16",
-     "price": 41.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-19",
-     "price": 50.9,
-     "count": 3
-    }
-   ],
-   "market": 41.99,
    "count": 3,
    "last_seen": "2026-11-19"
   },
