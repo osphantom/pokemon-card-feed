@@ -46,7 +46,7 @@
   },
   "preorders-tcg": {
    "id": "1570887541622575277",
-   "hash": "08b2e7095ae1"
+   "hash": "5cf9caab6611"
   }
  },
  "initialized": true,
@@ -102,6 +102,7 @@
   "17123556e61010",
   "1714334dacef78",
   "1746dc8cd2e142",
+  "177ddc910ce5b7",
   "17bd0ecc243c72",
   "190aa74dff2638",
   "194834e1795d03",
@@ -116,6 +117,7 @@
   "1d0e1d513bbbce",
   "1d8c919dbab227",
   "1dc0d3a37d7f8c",
+  "1f19b300f92f47",
   "202bf6bfd55a94",
   "202ca2c3ffff4b",
   "2057bce2d25785",
@@ -233,6 +235,7 @@
   "69d4818fcc9d60",
   "6b05a6e66deeac",
   "6ba9e51f41aba2",
+  "6c2df93ab61701",
   "6d11100759f6fe",
   "6ef6ab677b65bf",
   "6f25fde9ca7e2c",
@@ -285,6 +288,7 @@
   "89959e5bf5c711",
   "89e8d603c4eeab",
   "89ef8aac6b24cb",
+  "8a52213d29536c",
   "8ada658baaf712",
   "8b3d1aba086df5",
   "8c41e9ba8896ec",
@@ -402,6 +406,7 @@
   "c7b420fda97a56",
   "c7d32309da86ee",
   "c89eb5d7b6a6d8",
+  "c9e44fc97a799c",
   "ca5eb1b9de9ae3",
   "ca701ee9627917",
   "cba5341365f57e",
@@ -504,6 +509,7 @@
   "morning:2026-11-22",
   "morning:2026-11-23",
   "morning:2026-11-24",
+  "morning:2026-11-25",
   "raffle-ping:Target:2026-11-09",
   "raffle-ping:Target:2026-11-18",
   "raffle-ping:Walmart:2026-11-10",
@@ -546,6 +552,7 @@
   "restockd:2026-11-23:e2b070b328",
   "restockd:2026-11-24:b5170ab10a",
   "restockd:2026-11-25:00c1c18667",
+  "restockd:2026-11-25:23fae11a71",
   "sams-sheet:984340698:November 16, 2026",
   "window:target-overnight:2026-11-13",
   "window:target-overnight:2026-11-20",
@@ -1257,8 +1264,8 @@
   "pennsylvania",
   "virginia"
  ],
- "costco_checked_at": "2026-11-25T11:44:40Z",
- "promos_checked_at": "2026-11-25T11:44:40Z",
+ "costco_checked_at": "2026-11-25T18:06:01Z",
+ "promos_checked_at": "2026-11-25T18:06:01Z",
  "promo_markets": {
   "30th-celebration-mewtwo": 13.0,
   "delta-reign-kyogre": 5.2
@@ -1282,7 +1289,7 @@
   "PA",
   "VA"
  ],
- "sams_checked_at": "2026-11-25T11:44:40Z",
+ "sams_checked_at": "2026-11-25T18:06:01Z",
  "sams_status": {
   "990416407": {
    "6330": "order",
@@ -1389,8 +1396,8 @@
   }
  },
  "costco_stamp": "2026-11-22T14:02:30Z",
- "costco_read_at": "2026-11-25T06:16:00Z",
- "upc_checked_at": "2026-11-25T11:44:40Z",
+ "costco_read_at": "2026-11-25T18:06:01Z",
+ "upc_checked_at": "2026-11-25T18:06:01Z",
  "price_seen": {
   "704144": 249.37,
   "704191": 339.94,
@@ -1469,6 +1476,6 @@
   "Amazon:Magic: Star Trek - Collector Booster Display",
   "See the article:30th Celebration Ultra-Premium Collection [Day]"
  ],
- "restockd_checked_at": "2026-11-25T04:24:39Z",
+ "restockd_checked_at": "2026-11-25T18:06:01Z",
  "restockd_seen": true
 }

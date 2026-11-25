@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T04:15:33Z",
+ "generated_at": "2026-11-25T17:55:30Z",
  "games": [
   "Lorcana",
   "One Piece",
@@ -288,14 +288,14 @@
    "game": "Magic",
    "name": "Star Trek Commander Deck - We Are the Borg (Collector's Edition)",
    "set": "Commander: Star Trek",
-   "market": 217.98,
+   "market": 175.04,
    "release": "2026-11-13",
    "presale": false,
    "current": true,
    "url": "https://www.tcgplayer.com/product/706173/magic-commander-star-trek-star-trek-commander-deck-we-are-the-borg-collectors-edition",
    "catalog": 175.04,
-   "verified": true,
-   "count": 3
+   "verified": false,
+   "count": 2
   },
   {
    "game": "Lorcana",
@@ -457,14 +457,14 @@
    "game": "Riftbound",
    "name": "Vendetta - Booster Display",
    "set": "Vendetta",
-   "market": 131.83,
+   "market": 145.0,
    "release": "2026-07-31",
    "presale": false,
    "current": true,
    "url": "https://www.tcgplayer.com/product/693380/riftbound-league-of-legends-trading-card-game-vendetta-vendetta-booster-display",
    "catalog": 110.97,
    "verified": true,
-   "count": 14
+   "count": 13
   },
   {
    "game": "Magic",
@@ -633,7 +633,7 @@
    "url": "https://www.tcgplayer.com/product/691167/yugioh-chaos-origins-chaos-origins-booster-box-1st-edition",
    "catalog": 88.27,
    "verified": true,
-   "count": 11
+   "count": 10
   },
   {
    "game": "Magic",
@@ -704,14 +704,14 @@
    "game": "Magic",
    "name": "Star Trek Commander Deck - We Are the Borg",
    "set": "Commander: Star Trek",
-   "market": 74.0,
+   "market": 73.99,
    "release": "2026-11-13",
    "presale": false,
    "current": true,
    "url": "https://www.tcgplayer.com/product/706171/magic-commander-star-trek-star-trek-commander-deck-we-are-the-borg",
    "catalog": 72.99,
    "verified": true,
-   "count": 12
+   "count": 11
   },
   {
    "game": "Gundam",
@@ -880,7 +880,7 @@
    "url": "https://www.tcgplayer.com/product/706141/magic-star-trek-star-trek-collector-booster-pack",
    "catalog": 37.63,
    "verified": true,
-   "count": 33
+   "count": 35
   },
   {
    "game": "Riftbound",
@@ -899,7 +899,7 @@
    "game": "Magic",
    "name": "Secret Lair x MSCHF: The Zeta Set Booster Pack",
    "set": "Secret Lair x MSCHF: The Zeta Set",
-   "market": 36.99,
+   "market": 34.99,
    "release": "2026-11-07",
    "presale": false,
    "current": true,
@@ -951,14 +951,14 @@
    "game": "Magic",
    "name": "Star Trek Commander Deck - Klingon Fury",
    "set": "Commander: Star Trek",
-   "market": 38.88,
+   "market": 39.99,
    "release": "2026-11-13",
    "presale": false,
    "current": true,
    "url": "https://www.tcgplayer.com/product/706169/magic-commander-star-trek-star-trek-commander-deck-klingon-fury",
    "catalog": 31.81,
    "verified": true,
-   "count": 17
+   "count": 16
   },
   {
    "game": "Lorcana",
@@ -1114,7 +1114,7 @@
    "url": "https://www.tcgplayer.com/product/690386/lorcana-tcg-attack-of-the-vine-disney-lorcana-attack-of-the-vine-booster-pack",
    "catalog": 8.34,
    "verified": true,
-   "count": 22
+   "count": 21
   },
   {
    "game": "One Piece",
@@ -1218,7 +1218,7 @@
    "url": "https://www.tcgplayer.com/product/664819/lorcana-tcg-winterspell-disney-lorcana-winterspell-booster-box",
    "catalog": 231.09,
    "verified": true,
-   "count": 19
+   "count": 18
   },
   {
    "game": "Lorcana",
@@ -1244,7 +1244,7 @@
    "url": "https://www.tcgplayer.com/product/678165/lorcana-tcg-wilds-unknown-disney-lorcana-wilds-unknown-booster-box",
    "catalog": 215.84,
    "verified": true,
-   "count": 16
+   "count": 15
   },
   {
    "game": "Lorcana",
@@ -1263,14 +1263,14 @@
    "game": "One Piece",
    "name": "The Dominance of God Booster Box",
    "set": "The Dominance of God",
-   "market": 90.0,
+   "market": 87.99,
    "release": null,
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/712901/one-piece-card-game-the-dominance-of-god-the-dominance-of-god-booster-box",
    "catalog": 186.67,
    "verified": true,
-   "count": 26
+   "count": 24
   },
   {
    "game": "One Piece",
@@ -1400,7 +1400,7 @@
    "url": "https://www.tcgplayer.com/product/578093/lorcana-tcg-azurite-sea-disney-lorcana-azurite-sea-booster-box",
    "catalog": 118.86,
    "verified": true,
-   "count": 14
+   "count": 15
   },
   {
    "game": "Gundam",
@@ -1484,7 +1484,7 @@
    "game": "Gundam",
    "name": "Stardust Trails Booster Box",
    "set": "Stardust Trails",
-   "market": 90.58,
+   "market": 90.79,
    "release": null,
    "presale": false,
    "current": false,
@@ -1510,7 +1510,7 @@
    "game": "Gundam",
    "name": "Eternal Nexus Booster Box",
    "set": "Eternal Nexus",
-   "market": 110.0,
+   "market": 109.0,
    "release": null,
    "presale": false,
    "current": false,
@@ -2082,7 +2082,7 @@
    "game": "Lorcana",
    "name": "Disney Lorcana: Whispers in the Well Booster Pack",
    "set": "Whispers in the Well",
-   "market": 15.99,
+   "market": 12.79,
    "release": "2025-11-14",
    "presale": false,
    "current": false,
