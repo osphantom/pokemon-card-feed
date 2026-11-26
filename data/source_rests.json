@@ -1,18 +1,6 @@
 {
  "reddit-deals": {
-  "failures": 32,
-  "until": "2026-11-26T18:31:21Z"
- },
- "gn-preorder": {
-  "failures": 1,
-  "until": "2026-11-26T12:31:21Z"
- },
- "gn-pokemon-center": {
-  "failures": 1,
-  "until": "2026-11-26T12:31:21Z"
- },
- "gn-release": {
-  "failures": 1,
-  "until": "2026-11-26T12:31:21Z"
+  "failures": 33,
+  "until": "2026-11-27T03:50:25Z"
  }
 }
