@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T17:55:30Z",
+ "generated_at": "2026-11-26T12:31:21Z",
  "ebay_used": true,
  "stopwords": [
   "pokemon",
@@ -144,11 +144,16 @@
      "date": "2026-11-25",
      "price": 285.94,
      "count": 1
+    },
+    {
+     "date": "2026-11-26",
+     "price": 285.94,
+     "count": 1
     }
    ],
    "market": 332.94,
    "count": 1,
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "key": "espeon|gaming|headset|kraken|limited|razer|umbreon|v4",
@@ -234,11 +239,16 @@
      "date": "2026-11-25",
      "price": 133.97,
      "count": 4
+    },
+    {
+     "date": "2026-11-26",
+     "price": 133.97,
+     "count": 4
     }
    ],
    "market": 133.97,
    "count": 4,
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "key": "amuseable|blue|christmas|jellycat|large|retired|spruce|tree",
@@ -304,74 +314,83 @@
      "date": "2026-11-25",
      "price": 120.0,
      "count": 3
+    },
+    {
+     "date": "2026-11-26",
+     "price": 120.0,
+     "count": 3
     }
    ],
    "market": 120.0,
    "count": 3,
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
-   "key": "needoh|sampler|sensory|unopened|walmart",
+   "key": "battle|charizard|jolteon|lego|play|smart|ultimate|vs",
    "tokens": [
-    "needoh",
-    "sensory",
-    "sampler",
-    "walmart",
-    "unopened"
+    "lego",
+    "smart",
+    "play",
+    "charizard",
+    "vs",
+    "jolteon",
+    "ultimate",
+    "battle"
    ],
-   "title": "NeeDoh Sensory Sampler 8 Pack Walmart Exclusive 2026 Brand New Unopened",
-   "ship": "small",
+   "title": "LEGO Pokemon SMART Play: Charizard vs. Jolteon Ultimate Battle 72167",
+   "ship": "bundle",
    "history": [
     {
-     "date": "2026-11-25",
-     "price": 119.99,
+     "date": "2026-11-19",
+     "price": 108.0,
      "count": 3
+    },
+    {
+     "date": "2026-11-26",
+     "price": 100.48,
+     "count": 4
     }
    ],
-   "market": 119.99,
-   "count": 3,
-   "last_seen": "2026-11-25"
+   "market": 104.24,
+   "count": 4,
+   "last_seen": "2026-11-26"
   },
   {
-   "key": "advent|calendar|needoh|schylling",
+   "key": "advent|calendar|christmas|needoh|schylling",
    "tokens": [
     "schylling",
     "needoh",
+    "christmas",
     "advent",
     "calendar"
    ],
-   "title": "Schylling NeeDoh Advent Calendar",
+   "title": "100% Authentic - Schylling Brand 2026 NeeDoh Christmas Advent Calendar",
    "ship": "small",
    "history": [
     {
-     "date": "2026-11-20",
-     "price": 99.99,
-     "count": 3
+     "date": "2026-11-14",
+     "price": 105.0,
+     "count": 5
     },
     {
      "date": "2026-11-21",
-     "price": 95.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-22",
      "price": 99.99,
-     "count": 5
-    },
-    {
-     "date": "2026-11-24",
-     "price": 89.99,
      "count": 3
     },
     {
-     "date": "2026-11-25",
-     "price": 89.99,
-     "count": 5
+     "date": "2026-11-24",
+     "price": 88.97,
+     "count": 4
+    },
+    {
+     "date": "2026-11-26",
+     "price": 85.5,
+     "count": 4
     }
    ],
-   "market": 95.0,
-   "count": 5,
-   "last_seen": "2026-11-25"
+   "market": 94.48,
+   "count": 4,
+   "last_seen": "2026-11-26"
   },
   {
    "key": "gaming|gengar|headset|kitty|kraken|razer|v2",
@@ -426,21 +445,26 @@
      "date": "2026-11-25",
      "price": 88.99,
      "count": 3
+    },
+    {
+     "date": "2026-11-26",
+     "price": 88.99,
+     "count": 3
     }
    ],
    "market": 88.99,
    "count": 3,
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "key": "advent|calendar|christmas|days|needoh|schylling",
    "tokens": [
+    "schylling",
     "needoh",
     "advent",
     "calendar",
-    "christmas",
-    "schylling",
-    "days"
+    "days",
+    "christmas"
    ],
    "title": "Schylling NeeDoh Advent Calendar Christmas 24 days 2026 Authentic",
    "ship": "small",
@@ -454,11 +478,16 @@
      "date": "2026-11-25",
      "price": 88.99,
      "count": 3
+    },
+    {
+     "date": "2026-11-26",
+     "price": 88.99,
+     "count": 3
     }
    ],
-   "market": 88.48,
+   "market": 88.99,
    "count": 3,
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "key": "artisan|batch|craft|from|keycaps|unmounted|unused",
@@ -471,7 +500,7 @@
     "unused",
     "unmounted"
    ],
-   "title": "S-Craft Artisan Pokemon Keycaps from Batch 8 (2023) - New/Unused/Unmounted",
+   "title": "S-Craft Artisan Pokemon Keycaps from Batch 7 (2023) - New/Unused/Unmounted",
    "ship": "box",
    "history": [
     {
@@ -543,11 +572,16 @@
      "date": "2026-11-25",
      "price": 84.0,
      "count": 7
+    },
+    {
+     "date": "2026-11-26",
+     "price": 84.0,
+     "count": 7
     }
    ],
    "market": 84.0,
    "count": 7,
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "key": "hand|keyboard|target|wireless",
@@ -609,11 +643,16 @@
      "date": "2026-11-25",
      "price": 80.0,
      "count": 4
+    },
+    {
+     "date": "2026-11-26",
+     "price": 80.0,
+     "count": 3
     }
    ],
    "market": 80.0,
-   "count": 4,
-   "last_seen": "2026-11-25"
+   "count": 3,
+   "last_seen": "2026-11-26"
   },
   {
    "key": "gaming|headset|kanto|kraken|razer|starters|v4|wired",
@@ -679,11 +718,16 @@
      "date": "2026-11-25",
      "price": 65.12,
      "count": 4
+    },
+    {
+     "date": "2026-11-26",
+     "price": 65.12,
+     "count": 4
     }
    ],
    "market": 75.0,
    "count": 4,
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "key": "cube|doh|nee|nice|orange|squeeze|squishy|stack|tactile",
@@ -760,11 +804,16 @@
      "date": "2026-11-25",
      "price": 71.99,
      "count": 3
+    },
+    {
+     "date": "2026-11-26",
+     "price": 71.99,
+     "count": 3
     }
    ],
-   "market": 74.75,
+   "market": 74.5,
    "count": 3,
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "key": "gogh|museum|pikachu|plush|van",
@@ -847,75 +896,16 @@
      "date": "2026-11-25",
      "price": 73.99,
      "count": 28
+    },
+    {
+     "date": "2026-11-26",
+     "price": 73.99,
+     "count": 28
     }
    ],
    "market": 70.0,
    "count": 28,
-   "last_seen": "2026-11-25"
-  },
-  {
-   "key": "90h|classic|clog|crocs|mens|nwb|starters",
-   "tokens": [
-    "crocs",
-    "starters",
-    "classic",
-    "clog",
-    "90h",
-    "mens",
-    "nwb"
-   ],
-   "title": "Crocs x Pokemon \"Pokemon Starters\" Classic Clog 211343-90H Men’s Size 10 NWB",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 62.24,
-     "count": 3
-    },
-    {
-     "date": "2026-11-13",
-     "price": 57.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-15",
-     "price": 62.24,
-     "count": 3
-    },
-    {
-     "date": "2026-11-16",
-     "price": 62.24,
-     "count": 3
-    },
-    {
-     "date": "2026-11-19",
-     "price": 57.98,
-     "count": 3
-    },
-    {
-     "date": "2026-11-20",
-     "price": 55.48,
-     "count": 3
-    },
-    {
-     "date": "2026-11-21",
-     "price": 55.48,
-     "count": 3
-    },
-    {
-     "date": "2026-11-24",
-     "price": 42.39,
-     "count": 3
-    },
-    {
-     "date": "2026-11-25",
-     "price": 42.39,
-     "count": 3
-    }
-   ],
-   "market": 57.98,
-   "count": 3,
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "key": "center|gengar|mug|nidorino|opening|oz|retro|scene",
@@ -1001,62 +991,125 @@
      "date": "2026-11-25",
      "price": 50.0,
      "count": 3
+    },
+    {
+     "date": "2026-11-26",
+     "price": 50.0,
+     "count": 3
     }
    ],
    "market": 53.84,
    "count": 3,
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
-   "key": "board|game|johto|monopoly",
+   "key": "championships|francisco|puzzle|san|world|xp",
    "tokens": [
-    "monopoly",
-    "board",
-    "game",
-    "johto"
+    "world",
+    "championships",
+    "xp",
+    "puzzle",
+    "san",
+    "francisco"
    ],
-   "title": "Monopoly Pokemon Johto Edition Board Game - NEW",
-   "ship": "box",
+   "title": "Pokemon World Championships &  XP 2026 Puzzle 1000 PCs San Francisco Exclusive",
+   "ship": "bundle",
    "history": [
     {
      "date": "2026-11-12",
-     "price": 41.99,
-     "count": 3
+     "price": 48.0,
+     "count": 4
     },
     {
      "date": "2026-11-13",
-     "price": 41.99,
-     "count": 3
+     "price": 48.0,
+     "count": 4
     },
     {
      "date": "2026-11-14",
-     "price": 46.45,
+     "price": 48.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-15",
+     "price": 48.0,
      "count": 4
     },
     {
      "date": "2026-11-16",
-     "price": 41.99,
+     "price": 48.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-17",
+     "price": 48.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-18",
+     "price": 48.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-19",
+     "price": 49.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-20",
+     "price": 49.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-21",
+     "price": 49.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-26",
+     "price": 49.99,
+     "count": 3
+    }
+   ],
+   "market": 48.0,
+   "count": 3,
+   "last_seen": "2026-11-26"
+  },
+  {
+   "key": "50cm|black|dragon|gifts|jellycat|onyx|plush|retired|tags",
+   "tokens": [
+    "jellycat",
+    "onyx",
+    "dragon",
+    "plush",
+    "black",
+    "retired",
+    "50cm",
+    "tags",
+    "gifts"
+   ],
+   "title": "Jellycat Onyx Dragon Plush – Black - RETIRED RARE 50cm - NEW WITH TAGS Gifts.",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 42.99,
      "count": 3
     },
     {
      "date": "2026-11-19",
-     "price": 50.9,
+     "price": 55.99,
      "count": 3
     },
     {
-     "date": "2026-11-24",
-     "price": 41.99,
+     "date": "2026-11-26",
+     "price": 41.98,
      "count": 3
-    },
-    {
-     "date": "2026-11-25",
-     "price": 40.45,
-     "count": 4
     }
    ],
-   "market": 41.99,
-   "count": 4,
-   "last_seen": "2026-11-25"
+   "market": 42.99,
+   "count": 3,
+   "last_seen": "2026-11-26"
   },
   {
    "key": "advent|christmas|countdown|needoh|schylling|squishmas",
@@ -1100,11 +1153,16 @@
      "date": "2026-11-25",
      "price": 37.89,
      "count": 5
+    },
+    {
+     "date": "2026-11-26",
+     "price": 34.1,
+     "count": 5
     }
    ],
-   "market": 35.39,
+   "market": 34.1,
    "count": 5,
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "key": "angel|blind|box|cat|confirmed|life|mini|series|sonny",
@@ -1176,11 +1234,16 @@
      "date": "2026-11-25",
      "price": 37.5,
      "count": 3
+    },
+    {
+     "date": "2026-11-26",
+     "price": 29.94,
+     "count": 3
     }
    ],
    "market": 33.72,
    "count": 3,
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "key": "angel|blind|box|day|love|mini|rainy|series|sonny|toys",
@@ -1253,11 +1316,16 @@
      "date": "2026-11-25",
      "price": 30.86,
      "count": 2
+    },
+    {
+     "date": "2026-11-26",
+     "price": 31.99,
+     "count": 1
     }
    ],
    "market": 31.99,
-   "count": 2,
-   "last_seen": "2026-11-25"
+   "count": 1,
+   "last_seen": "2026-11-26"
   },
   {
    "key": "advent|calendar|days|hot|needoh|schylling|squishmas",
@@ -1287,11 +1355,56 @@
      "date": "2026-11-25",
      "price": 30.49,
      "count": 4
+    },
+    {
+     "date": "2026-11-26",
+     "price": 30.99,
+     "count": 3
     }
    ],
    "market": 30.99,
-   "count": 4,
-   "last_seen": "2026-11-25"
+   "count": 3,
+   "last_seen": "2026-11-26"
+  },
+  {
+   "key": "angel|blind|box|cat|christmas|series|single|sonny",
+   "tokens": [
+    "sonny",
+    "angel",
+    "cat",
+    "christmas",
+    "series",
+    "single",
+    "blind",
+    "box"
+   ],
+   "title": "Sonny Angel Cat Christmas Series Single Blind Box Sealed-New 2026",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 29.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 29.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-20",
+     "price": 29.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-26",
+     "price": 29.99,
+     "count": 3
+    }
+   ],
+   "market": 29.99,
+   "count": 3,
+   "last_seen": "2026-11-26"
   },
   {
    "key": "board|families|fun|game|games|guess|kids|who",
@@ -1312,11 +1425,16 @@
      "date": "2026-11-25",
      "price": 29.84,
      "count": 4
+    },
+    {
+     "date": "2026-11-26",
+     "price": 29.84,
+     "count": 4
     }
    ],
    "market": 29.84,
    "count": 4,
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "key": "calendar|countdown|needoh|or|squeeze|squish|target|ween",
@@ -1392,54 +1510,16 @@
      "date": "2026-11-25",
      "price": 25.79,
      "count": 6
+    },
+    {
+     "date": "2026-11-26",
+     "price": 25.79,
+     "count": 5
     }
    ],
    "market": 29.0,
-   "count": 6,
-   "last_seen": "2026-11-25"
-  },
-  {
-   "key": "board|by|characters|game|hasbro|monopoly",
-   "tokens": [
-    "monopoly",
-    "board",
-    "game",
-    "characters",
-    "by",
-    "hasbro"
-   ],
-   "title": "Monopoly Pokemon Board Game with Characters 2025 by Hasbro - NEW",
-   "ship": "box",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 24.9,
-     "count": 1
-    },
-    {
-     "date": "2026-11-16",
-     "price": 24.9,
-     "count": 1
-    },
-    {
-     "date": "2026-11-19",
-     "price": 24.9,
-     "count": 1
-    },
-    {
-     "date": "2026-11-23",
-     "price": 24.9,
-     "count": 1
-    },
-    {
-     "date": "2026-11-25",
-     "price": 24.9,
-     "count": 1
-    }
-   ],
-   "market": 24.9,
-   "count": 1,
-   "last_seen": "2026-11-25"
+   "count": 5,
+   "last_seen": "2026-11-26"
   },
   {
    "key": "gaming|grande|large|mouse|mousepad|pad|snorlax",
@@ -1524,11 +1604,16 @@
      "date": "2026-11-25",
      "price": 20.0,
      "count": 5
+    },
+    {
+     "date": "2026-11-26",
+     "price": 20.0,
+     "count": 5
     }
    ],
    "market": 20.0,
    "count": 5,
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "key": "gaming|gengar|grande|large|mouse|mousepad|pad",
@@ -1613,71 +1698,16 @@
      "date": "2026-11-25",
      "price": 18.0,
      "count": 7
+    },
+    {
+     "date": "2026-11-26",
+     "price": 18.0,
+     "count": 5
     }
    ],
    "market": 18.0,
-   "count": 7,
-   "last_seen": "2026-11-25"
-  },
-  {
-   "key": "big|blind|box|energy|into|labubu|mart|pop",
-   "tokens": [
-    "pop",
-    "mart",
-    "labubu",
-    "big",
-    "into",
-    "energy",
-    "blind",
-    "box"
-   ],
-   "title": "Authentic POP MART-LABUBU: Big Into Energy Blind Box New!",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-16",
-     "price": 18.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-17",
-     "price": 18.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-18",
-     "price": 18.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-19",
-     "price": 18.98,
-     "count": 4
-    },
-    {
-     "date": "2026-11-20",
-     "price": 17.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-21",
-     "price": 17.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-24",
-     "price": 19.95,
-     "count": 3
-    },
-    {
-     "date": "2026-11-25",
-     "price": 19.95,
-     "count": 3
-    }
-   ],
-   "market": 18.0,
-   "count": 3,
-   "last_seen": "2026-11-25"
+   "count": 5,
+   "last_seen": "2026-11-26"
   },
   {
    "key": "30th|anniversary|bottle|mystery|target|type|water",
@@ -1762,11 +1792,16 @@
      "date": "2026-11-25",
      "price": 17.99,
      "count": 6
+    },
+    {
+     "date": "2026-11-26",
+     "price": 17.99,
+     "count": 6
     }
    ],
    "market": 17.99,
    "count": 6,
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "key": "blind|box|confirmed|doll|mart|mega|molly|pop|series|space",
@@ -1782,7 +1817,7 @@
     "confirmed",
     "doll"
    ],
-   "title": "POP MART 100% Mega Space Molly Series 4 Blind Box Confirmed Figure Toy Doll",
+   "title": "POP MART 100% Mega Space Molly Series 3 Blind Box Confirmed Figure Toy Doll",
    "ship": "bundle",
    "history": [
     {
@@ -1839,11 +1874,16 @@
      "date": "2026-11-25",
      "price": 15.98,
      "count": 3
+    },
+    {
+     "date": "2026-11-26",
+     "price": 24.98,
+     "count": 3
     }
    ],
-   "market": 15.99,
+   "market": 16.49,
    "count": 3,
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   {
    "key": "angel|blind|blossom|box|case|cherry|full|hippers|series|sonny",
@@ -1911,9 +1951,295 @@
      "date": "2026-11-25",
      "price": 15.49,
      "count": 3
+    },
+    {
+     "date": "2026-11-26",
+     "price": 15.17,
+     "count": 1
     }
    ],
    "market": 15.49,
+   "count": 1,
+   "last_seen": "2026-11-26"
+  },
+  {
+   "key": "needoh|sampler|sensory|unopened|walmart",
+   "tokens": [
+    "needoh",
+    "sensory",
+    "sampler",
+    "walmart",
+    "unopened"
+   ],
+   "title": "NeeDoh Sensory Sampler 8 Pack Walmart Exclusive 2026 Brand New Unopened",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-25",
+     "price": 119.99,
+     "count": 3
+    }
+   ],
+   "market": 119.99,
+   "count": 3,
+   "last_seen": "2026-11-25"
+  },
+  {
+   "key": "advent|calendar|needoh|schylling",
+   "tokens": [
+    "schylling",
+    "needoh",
+    "advent",
+    "calendar"
+   ],
+   "title": "Schylling NeeDoh Advent Calendar",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-20",
+     "price": 99.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-21",
+     "price": 95.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-22",
+     "price": 99.99,
+     "count": 5
+    },
+    {
+     "date": "2026-11-24",
+     "price": 89.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-25",
+     "price": 89.99,
+     "count": 5
+    }
+   ],
+   "market": 95.0,
+   "count": 5,
+   "last_seen": "2026-11-25"
+  },
+  {
+   "key": "90h|classic|clog|crocs|mens|nwb|starters",
+   "tokens": [
+    "crocs",
+    "starters",
+    "classic",
+    "clog",
+    "90h",
+    "mens",
+    "nwb"
+   ],
+   "title": "Crocs x Pokemon \"Pokemon Starters\" Classic Clog 211343-90H Men’s Size 10 NWB",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 62.24,
+     "count": 3
+    },
+    {
+     "date": "2026-11-13",
+     "price": 57.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-15",
+     "price": 62.24,
+     "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 62.24,
+     "count": 3
+    },
+    {
+     "date": "2026-11-19",
+     "price": 57.98,
+     "count": 3
+    },
+    {
+     "date": "2026-11-20",
+     "price": 55.48,
+     "count": 3
+    },
+    {
+     "date": "2026-11-21",
+     "price": 55.48,
+     "count": 3
+    },
+    {
+     "date": "2026-11-24",
+     "price": 42.39,
+     "count": 3
+    },
+    {
+     "date": "2026-11-25",
+     "price": 42.39,
+     "count": 3
+    }
+   ],
+   "market": 57.98,
+   "count": 3,
+   "last_seen": "2026-11-25"
+  },
+  {
+   "key": "board|game|johto|monopoly",
+   "tokens": [
+    "monopoly",
+    "board",
+    "game",
+    "johto"
+   ],
+   "title": "Monopoly Pokemon Johto Edition Board Game - NEW",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 41.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-13",
+     "price": 41.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-14",
+     "price": 46.45,
+     "count": 4
+    },
+    {
+     "date": "2026-11-16",
+     "price": 41.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-19",
+     "price": 50.9,
+     "count": 3
+    },
+    {
+     "date": "2026-11-24",
+     "price": 41.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-25",
+     "price": 40.45,
+     "count": 4
+    }
+   ],
+   "market": 41.99,
+   "count": 4,
+   "last_seen": "2026-11-25"
+  },
+  {
+   "key": "board|by|characters|game|hasbro|monopoly",
+   "tokens": [
+    "monopoly",
+    "board",
+    "game",
+    "characters",
+    "by",
+    "hasbro"
+   ],
+   "title": "Monopoly Pokemon Board Game with Characters 2025 by Hasbro - NEW",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 24.9,
+     "count": 1
+    },
+    {
+     "date": "2026-11-16",
+     "price": 24.9,
+     "count": 1
+    },
+    {
+     "date": "2026-11-19",
+     "price": 24.9,
+     "count": 1
+    },
+    {
+     "date": "2026-11-23",
+     "price": 24.9,
+     "count": 1
+    },
+    {
+     "date": "2026-11-25",
+     "price": 24.9,
+     "count": 1
+    }
+   ],
+   "market": 24.9,
+   "count": 1,
+   "last_seen": "2026-11-25"
+  },
+  {
+   "key": "big|blind|box|energy|into|labubu|mart|pop",
+   "tokens": [
+    "pop",
+    "mart",
+    "labubu",
+    "big",
+    "into",
+    "energy",
+    "blind",
+    "box"
+   ],
+   "title": "Authentic POP MART-LABUBU: Big Into Energy Blind Box New!",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-16",
+     "price": 18.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-17",
+     "price": 18.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-18",
+     "price": 18.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-19",
+     "price": 18.98,
+     "count": 4
+    },
+    {
+     "date": "2026-11-20",
+     "price": 17.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-21",
+     "price": 17.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-24",
+     "price": 19.95,
+     "count": 3
+    },
+    {
+     "date": "2026-11-25",
+     "price": 19.95,
+     "count": 3
+    }
+   ],
+   "market": 18.0,
    "count": 3,
    "last_seen": "2026-11-25"
   },
@@ -1937,38 +2263,6 @@
    ],
    "market": 99.99,
    "count": 3,
-   "last_seen": "2026-11-24"
-  },
-  {
-   "key": "advent|calendar|christmas|needoh|schylling",
-   "tokens": [
-    "schylling",
-    "needoh",
-    "advent",
-    "christmas",
-    "calendar"
-   ],
-   "title": "100% Authentic Schylling Needoh Christmas Advent Calendar 2026 SEALED",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-14",
-     "price": 105.0,
-     "count": 5
-    },
-    {
-     "date": "2026-11-21",
-     "price": 99.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-24",
-     "price": 88.97,
-     "count": 4
-    }
-   ],
-   "market": 99.99,
-   "count": 4,
    "last_seen": "2026-11-24"
   },
   {
@@ -2518,74 +2812,6 @@
    "last_seen": "2026-11-21"
   },
   {
-   "key": "championships|francisco|puzzle|san|world|xp",
-   "tokens": [
-    "world",
-    "championships",
-    "xp",
-    "puzzle",
-    "san",
-    "francisco"
-   ],
-   "title": "Pokemon World Championships &  XP 2026 Puzzle 1000 PCs San Francisco Exclusive",
-   "ship": "bundle",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 48.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-13",
-     "price": 48.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-14",
-     "price": 48.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-15",
-     "price": 48.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-16",
-     "price": 48.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-17",
-     "price": 48.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-18",
-     "price": 48.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-19",
-     "price": 49.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-20",
-     "price": 49.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-21",
-     "price": 49.99,
-     "count": 3
-    }
-   ],
-   "market": 48.0,
-   "count": 3,
-   "last_seen": "2026-11-21"
-  },
-  {
    "key": "controller|garden|nano|pikachu|powera|switch|wireless",
    "tokens": [
     "powera",
@@ -3016,66 +3242,6 @@
    "last_seen": "2026-11-20"
   },
   {
-   "key": "angel|blind|box|cat|christmas|series|single|sonny",
-   "tokens": [
-    "sonny",
-    "angel",
-    "cat",
-    "christmas",
-    "series",
-    "single",
-    "blind",
-    "box"
-   ],
-   "title": "Sonny Angel Cat Christmas Series Single Blind Box Sealed-New 2026",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-15",
-     "price": 29.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-16",
-     "price": 29.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-20",
-     "price": 29.99,
-     "count": 3
-    }
-   ],
-   "market": 29.99,
-   "count": 3,
-   "last_seen": "2026-11-20"
-  },
-  {
-   "key": "battle|charizard|jolteon|lego|play|smart|ultimate|vs",
-   "tokens": [
-    "lego",
-    "smart",
-    "play",
-    "charizard",
-    "vs",
-    "jolteon",
-    "ultimate",
-    "battle"
-   ],
-   "title": "LEGO Pokémon Smart Play 72167 Charizard vs Jolteon Ultimate Battle 751 pcs",
-   "ship": "bundle",
-   "history": [
-    {
-     "date": "2026-11-19",
-     "price": 108.0,
-     "count": 3
-    }
-   ],
-   "market": 108.0,
-   "count": 3,
-   "last_seen": "2026-11-19"
-  },
-  {
    "key": "cobra|espeon|mouse|razer|umbreon|wired",
    "tokens": [
     "razer",
@@ -3119,37 +3285,6 @@
     }
    ],
    "market": 56.11,
-   "count": 3,
-   "last_seen": "2026-11-19"
-  },
-  {
-   "key": "50cm|black|dragon|gifts|jellycat|onyx|plush|retired|tags",
-   "tokens": [
-    "jellycat",
-    "onyx",
-    "dragon",
-    "plush",
-    "black",
-    "retired",
-    "50cm",
-    "tags",
-    "gifts"
-   ],
-   "title": "Jellycat Onyx Dragon Plush – Black - RETIRED RARE 50cm - NEW WITH TAGS Gifts.",
-   "ship": "pack",
-   "history": [
-    {
-     "date": "2026-11-15",
-     "price": 42.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-19",
-     "price": 55.99,
-     "count": 3
-    }
-   ],
-   "market": 49.49,
    "count": 3,
    "last_seen": "2026-11-19"
   },
