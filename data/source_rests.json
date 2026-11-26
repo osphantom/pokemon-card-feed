@@ -1,14 +1,6 @@
 {
  "reddit-deals": {
-  "failures": 30,
-  "until": "2026-11-25T23:55:30Z"
- },
- "gn-release": {
-  "failures": 1,
-  "until": "2026-11-25T22:45:35Z"
- },
- "gn-market": {
-  "failures": 1,
-  "until": "2026-11-25T22:45:35Z"
+  "failures": 31,
+  "until": "2026-11-26T09:08:11Z"
  }
 }
