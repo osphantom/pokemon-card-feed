@@ -2,5 +2,9 @@
  "reddit-deals": {
   "failures": 34,
   "until": "2026-11-27T09:56:16Z"
+ },
+ "gn-lorcana": {
+  "failures": 1,
+  "until": "2026-11-27T05:30:34Z"
  }
 }
