@@ -64,6 +64,7 @@
   "04334bb6e21626",
   "043483c60adcfa",
   "04439ead322530",
+  "044ec738603de7",
   "050f1752e306be",
   "0532a95ac415b6",
   "05953ad713931a",
@@ -115,6 +116,7 @@
   "1966cf2103e4f9",
   "19771e775da827",
   "1a8b553ba26b1d",
+  "1abd65b16a6f46",
   "1ad0c1b409c59d",
   "1af17198e489a7",
   "1af2f570acc953",
@@ -272,6 +274,7 @@
   "7858055d139088",
   "78847bab6dc800",
   "7967506920cc64",
+  "79abf2ebaed9f2",
   "7a2be356a6482c",
   "7a3e5c0dcbabf0",
   "7a614415342799",
@@ -348,6 +351,7 @@
   "a37ba12fe72843",
   "a3d7266fb42041",
   "a43aa5adae7900",
+  "a4a13e27b3bf7f",
   "a55749d78b954f",
   "a5a97123dcc217",
   "a5c67c704b91f9",
@@ -430,6 +434,7 @@
   "ca5eb1b9de9ae3",
   "ca701ee9627917",
   "cba5341365f57e",
+  "cc0e1c7799e3a5",
   "ccb75f24edd9db",
   "cd34a220b0c7f0",
   "cd9434f89c7fcd",
@@ -497,6 +502,7 @@
   "f4dc773ab727c0",
   "f518e6b442751a",
   "f58447a93c6c59",
+  "f621534737c732",
   "f77af37db63395",
   "f7baa643ca26de",
   "f7ca901705393d",
@@ -511,6 +517,7 @@
   "fb0f712bb465ab",
   "fc0ec2dad55159",
   "fd7f264f3c6970",
+  "fdac8ef130eee3",
   "fedca7e46f4feb",
   "ff21c7ac2e37b0",
   "ff3a95529a14d2",
@@ -1298,7 +1305,7 @@
   "pennsylvania",
   "virginia"
  ],
- "costco_checked_at": "2026-11-27T13:38:53Z",
+ "costco_checked_at": "2026-11-27T19:30:11Z",
  "promos_checked_at": "2026-11-27T13:38:53Z",
  "promo_markets": {
   "30th-celebration-mewtwo": 12.61,
@@ -1323,7 +1330,7 @@
   "PA",
   "VA"
  ],
- "sams_checked_at": "2026-11-27T13:38:53Z",
+ "sams_checked_at": "2026-11-27T19:30:11Z",
  "sams_status": {
   "990416407": {
    "6330": "order",
@@ -1431,7 +1438,7 @@
  },
  "costco_stamp": "2026-11-22T14:02:30Z",
  "costco_read_at": "2026-11-27T13:38:53Z",
- "upc_checked_at": "2026-11-27T13:38:53Z",
+ "upc_checked_at": "2026-11-27T19:30:11Z",
  "price_seen": {
   "704144": 249.33,
   "704191": 332.45,
