@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T12:31:21Z",
+ "generated_at": "2026-11-27T01:02:08Z",
  "ebay_used": true,
  "stopwords": [
   "pokemon",
@@ -337,7 +337,7 @@
     "ultimate",
     "battle"
    ],
-   "title": "LEGO Pokemon SMART Play: Charizard vs. Jolteon Ultimate Battle 72167",
+   "title": "LEGO Pokemon Smart Play 72167 Charizard vs. Jolteon Ultimate Battle",
    "ship": "bundle",
    "history": [
     {
@@ -347,12 +347,12 @@
     },
     {
      "date": "2026-11-26",
-     "price": 100.48,
-     "count": 4
+     "price": 104.98,
+     "count": 3
     }
    ],
-   "market": 104.24,
-   "count": 4,
+   "market": 106.49,
+   "count": 3,
    "last_seen": "2026-11-26"
   },
   {
@@ -364,7 +364,7 @@
     "advent",
     "calendar"
    ],
-   "title": "100% Authentic - Schylling Brand 2026 NeeDoh Christmas Advent Calendar",
+   "title": "100% Authentic Schylling Needoh Christmas Advent Calendar 2026 SEALED",
    "ship": "small",
    "history": [
     {
@@ -384,11 +384,57 @@
     },
     {
      "date": "2026-11-26",
-     "price": 85.5,
-     "count": 4
+     "price": 80.0,
+     "count": 7
     }
    ],
    "market": 94.48,
+   "count": 7,
+   "last_seen": "2026-11-26"
+  },
+  {
+   "key": "advent|calendar|needoh|schylling",
+   "tokens": [
+    "schylling",
+    "needoh",
+    "advent",
+    "calendar"
+   ],
+   "title": "Schylling NeeDoh Advent Calendar",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-20",
+     "price": 99.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-21",
+     "price": 95.0,
+     "count": 4
+    },
+    {
+     "date": "2026-11-22",
+     "price": 99.99,
+     "count": 5
+    },
+    {
+     "date": "2026-11-24",
+     "price": 89.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-25",
+     "price": 89.99,
+     "count": 5
+    },
+    {
+     "date": "2026-11-26",
+     "price": 90.0,
+     "count": 4
+    }
+   ],
+   "market": 92.5,
    "count": 4,
    "last_seen": "2026-11-26"
   },
@@ -647,11 +693,11 @@
     {
      "date": "2026-11-26",
      "price": 80.0,
-     "count": 3
+     "count": 4
     }
    ],
    "market": 80.0,
-   "count": 3,
+   "count": 4,
    "last_seen": "2026-11-26"
   },
   {
@@ -812,6 +858,74 @@
     }
    ],
    "market": 74.5,
+   "count": 3,
+   "last_seen": "2026-11-26"
+  },
+  {
+   "key": "advent|calendar|days|needoh|schylling|squishmas",
+   "tokens": [
+    "needoh",
+    "advent",
+    "calendar",
+    "squishmas",
+    "schylling",
+    "days"
+   ],
+   "title": "Authentic NeeDoh Schylling Squishmas 24 Days Advent Calendar 2026",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-14",
+     "price": 115.9,
+     "count": 4
+    },
+    {
+     "date": "2026-11-15",
+     "price": 70.99,
+     "count": 5
+    },
+    {
+     "date": "2026-11-16",
+     "price": 48.99,
+     "count": 9
+    },
+    {
+     "date": "2026-11-17",
+     "price": 52.99,
+     "count": 8
+    },
+    {
+     "date": "2026-11-18",
+     "price": 38.99,
+     "count": 7
+    },
+    {
+     "date": "2026-11-19",
+     "price": 94.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-22",
+     "price": 116.9,
+     "count": 3
+    },
+    {
+     "date": "2026-11-23",
+     "price": 74.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-24",
+     "price": 69.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-26",
+     "price": 84.99,
+     "count": 3
+    }
+   ],
+   "market": 72.99,
    "count": 3,
    "last_seen": "2026-11-26"
   },
@@ -1088,7 +1202,7 @@
     "tags",
     "gifts"
    ],
-   "title": "Jellycat Onyx Dragon Plush – Black - RETIRED RARE 50cm - NEW WITH TAGS Gifts.",
+   "title": "NEW Jellycat Onyx Dragon Plush – Black - RETIRED RARE 50cm New WITH TAGS Gifts",
    "ship": "pack",
    "history": [
     {
@@ -1103,11 +1217,119 @@
     },
     {
      "date": "2026-11-26",
-     "price": 41.98,
+     "price": 34.29,
      "count": 3
     }
    ],
    "market": 42.99,
+   "count": 3,
+   "last_seen": "2026-11-26"
+  },
+  {
+   "key": "board|game|johto|monopoly",
+   "tokens": [
+    "monopoly",
+    "board",
+    "game",
+    "johto"
+   ],
+   "title": "Pokemon Monopoly Board Game Johto Edition Brand New",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-12",
+     "price": 41.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-13",
+     "price": 41.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-14",
+     "price": 46.45,
+     "count": 4
+    },
+    {
+     "date": "2026-11-16",
+     "price": 41.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-19",
+     "price": 50.9,
+     "count": 3
+    },
+    {
+     "date": "2026-11-24",
+     "price": 41.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-25",
+     "price": 40.45,
+     "count": 4
+    },
+    {
+     "date": "2026-11-26",
+     "price": 50.9,
+     "count": 3
+    }
+   ],
+   "market": 41.99,
+   "count": 3,
+   "last_seen": "2026-11-26"
+  },
+  {
+   "key": "amazon|color|dream|drop|needoh|schylling|splash|swirl|vibes|violet",
+   "tokens": [
+    "needoh",
+    "color",
+    "splash",
+    "dream",
+    "drop",
+    "swirl",
+    "violet",
+    "vibes",
+    "amazon",
+    "schylling"
+   ],
+   "title": "NeeDoh Color Splash Dream Drop Swirl Violet Vibes Amazon Exclusive Schylling",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-17",
+     "price": 44.7,
+     "count": 3
+    },
+    {
+     "date": "2026-11-19",
+     "price": 40.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-20",
+     "price": 40.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-22",
+     "price": 40.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-23",
+     "price": 39.5,
+     "count": 4
+    },
+    {
+     "date": "2026-11-26",
+     "price": 40.0,
+     "count": 3
+    }
+   ],
+   "market": 40.0,
    "count": 3,
    "last_seen": "2026-11-26"
   },
@@ -1157,11 +1379,11 @@
     {
      "date": "2026-11-26",
      "price": 34.1,
-     "count": 5
+     "count": 6
     }
    ],
    "market": 34.1,
-   "count": 5,
+   "count": 6,
    "last_seen": "2026-11-26"
   },
   {
@@ -1246,6 +1468,32 @@
    "last_seen": "2026-11-26"
   },
   {
+   "key": "animal|dog|jellycat|medium|otto|plush|sausage|soft|toys",
+   "tokens": [
+    "jellycat",
+    "otto",
+    "medium",
+    "sausage",
+    "dog",
+    "soft",
+    "plush",
+    "animal",
+    "toys"
+   ],
+   "title": "JellyCat Otto Medium Sausage Dog Soft Plush Toy Stuffed Animal Gift Toys NWT US",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-26",
+     "price": 32.99,
+     "count": 3
+    }
+   ],
+   "market": 32.99,
+   "count": 3,
+   "last_seen": "2026-11-26"
+  },
+  {
    "key": "angel|blind|box|day|love|mini|rainy|series|sonny|toys",
    "tokens": [
     "sonny",
@@ -1319,12 +1567,12 @@
     },
     {
      "date": "2026-11-26",
-     "price": 31.99,
-     "count": 1
+     "price": 27.49,
+     "count": 2
     }
    ],
    "market": 31.99,
-   "count": 1,
+   "count": 2,
    "last_seen": "2026-11-26"
   },
   {
@@ -1359,11 +1607,11 @@
     {
      "date": "2026-11-26",
      "price": 30.99,
-     "count": 3
+     "count": 5
     }
    ],
    "market": 30.99,
-   "count": 3,
+   "count": 5,
    "last_seen": "2026-11-26"
   },
   {
@@ -1514,11 +1762,56 @@
     {
      "date": "2026-11-26",
      "price": 25.79,
-     "count": 5
+     "count": 7
     }
    ],
    "market": 29.0,
-   "count": 5,
+   "count": 7,
+   "last_seen": "2026-11-26"
+  },
+  {
+   "key": "board|game|monopoly",
+   "tokens": [
+    "monopoly",
+    "board",
+    "game"
+   ],
+   "title": "Monopoly Pokemon Board Game",
+   "ship": "box",
+   "history": [
+    {
+     "date": "2026-11-20",
+     "price": 27.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-21",
+     "price": 27.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-22",
+     "price": 27.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-23",
+     "price": 27.0,
+     "count": 3
+    },
+    {
+     "date": "2026-11-24",
+     "price": 21.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-26",
+     "price": 27.0,
+     "count": 3
+    }
+   ],
+   "market": 27.0,
+   "count": 3,
    "last_seen": "2026-11-26"
   },
   {
@@ -1702,11 +1995,11 @@
     {
      "date": "2026-11-26",
      "price": 18.0,
-     "count": 5
+     "count": 6
     }
    ],
    "market": 18.0,
-   "count": 5,
+   "count": 6,
    "last_seen": "2026-11-26"
   },
   {
@@ -1817,7 +2110,7 @@
     "confirmed",
     "doll"
    ],
-   "title": "POP MART 100% Mega Space Molly Series 3 Blind Box Confirmed Figure Toy Doll",
+   "title": "POP MART 100% Mega Space Molly Series 4 Blind Box Confirmed Figure Toy Doll",
    "ship": "bundle",
    "history": [
     {
@@ -1954,12 +2247,12 @@
     },
     {
      "date": "2026-11-26",
-     "price": 15.17,
-     "count": 1
+     "price": 15.49,
+     "count": 3
     }
    ],
    "market": 15.49,
-   "count": 1,
+   "count": 3,
    "last_seen": "2026-11-26"
   },
   {
@@ -1982,47 +2275,6 @@
    ],
    "market": 119.99,
    "count": 3,
-   "last_seen": "2026-11-25"
-  },
-  {
-   "key": "advent|calendar|needoh|schylling",
-   "tokens": [
-    "schylling",
-    "needoh",
-    "advent",
-    "calendar"
-   ],
-   "title": "Schylling NeeDoh Advent Calendar",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-20",
-     "price": 99.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-21",
-     "price": 95.0,
-     "count": 4
-    },
-    {
-     "date": "2026-11-22",
-     "price": 99.99,
-     "count": 5
-    },
-    {
-     "date": "2026-11-24",
-     "price": 89.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-25",
-     "price": 89.99,
-     "count": 5
-    }
-   ],
-   "market": 95.0,
-   "count": 5,
    "last_seen": "2026-11-25"
   },
   {
@@ -2087,57 +2339,6 @@
    ],
    "market": 57.98,
    "count": 3,
-   "last_seen": "2026-11-25"
-  },
-  {
-   "key": "board|game|johto|monopoly",
-   "tokens": [
-    "monopoly",
-    "board",
-    "game",
-    "johto"
-   ],
-   "title": "Monopoly Pokemon Johto Edition Board Game - NEW",
-   "ship": "box",
-   "history": [
-    {
-     "date": "2026-11-12",
-     "price": 41.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-13",
-     "price": 41.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-14",
-     "price": 46.45,
-     "count": 4
-    },
-    {
-     "date": "2026-11-16",
-     "price": 41.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-19",
-     "price": 50.9,
-     "count": 3
-    },
-    {
-     "date": "2026-11-24",
-     "price": 41.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-25",
-     "price": 40.45,
-     "count": 4
-    }
-   ],
-   "market": 41.99,
-   "count": 4,
    "last_seen": "2026-11-25"
   },
   {
@@ -2266,69 +2467,6 @@
    "last_seen": "2026-11-24"
   },
   {
-   "key": "advent|calendar|days|needoh|schylling|squishmas",
-   "tokens": [
-    "needoh",
-    "schylling",
-    "squishmas",
-    "days",
-    "advent",
-    "calendar"
-   ],
-   "title": "Authentic NeeDoh Schylling Squishmas 24 Days Advent Calendar 2026",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-14",
-     "price": 115.9,
-     "count": 4
-    },
-    {
-     "date": "2026-11-15",
-     "price": 70.99,
-     "count": 5
-    },
-    {
-     "date": "2026-11-16",
-     "price": 48.99,
-     "count": 9
-    },
-    {
-     "date": "2026-11-17",
-     "price": 52.99,
-     "count": 8
-    },
-    {
-     "date": "2026-11-18",
-     "price": 38.99,
-     "count": 7
-    },
-    {
-     "date": "2026-11-19",
-     "price": 94.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-22",
-     "price": 116.9,
-     "count": 3
-    },
-    {
-     "date": "2026-11-23",
-     "price": 74.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-24",
-     "price": 69.99,
-     "count": 3
-    }
-   ],
-   "market": 70.99,
-   "count": 3,
-   "last_seen": "2026-11-24"
-  },
-  {
    "key": "angel|blind|box|decorative|hippers|limited|mini|sonny",
    "tokens": [
     "sonny",
@@ -2427,46 +2565,6 @@
     }
    ],
    "market": 32.0,
-   "count": 3,
-   "last_seen": "2026-11-24"
-  },
-  {
-   "key": "board|game|monopoly",
-   "tokens": [
-    "monopoly",
-    "board",
-    "game"
-   ],
-   "title": "Monopoly Pokemon Board Game",
-   "ship": "box",
-   "history": [
-    {
-     "date": "2026-11-20",
-     "price": 27.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-21",
-     "price": 27.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-22",
-     "price": 27.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-23",
-     "price": 27.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-24",
-     "price": 21.99,
-     "count": 3
-    }
-   ],
-   "market": 27.0,
    "count": 3,
    "last_seen": "2026-11-24"
   },
@@ -2692,53 +2790,6 @@
    ],
    "market": 132.25,
    "count": 3,
-   "last_seen": "2026-11-23"
-  },
-  {
-   "key": "amazon|color|dream|drop|needoh|schylling|splash|swirl|vibes|violet",
-   "tokens": [
-    "needoh",
-    "color",
-    "splash",
-    "dream",
-    "drop",
-    "swirl",
-    "violet",
-    "vibes",
-    "amazon",
-    "schylling"
-   ],
-   "title": "NeeDoh Color Splash Dream Drop Swirl Violet Vibes Amazon Exclusive Schylling",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-17",
-     "price": 44.7,
-     "count": 3
-    },
-    {
-     "date": "2026-11-19",
-     "price": 40.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-20",
-     "price": 40.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-22",
-     "price": 40.0,
-     "count": 3
-    },
-    {
-     "date": "2026-11-23",
-     "price": 39.5,
-     "count": 4
-    }
-   ],
-   "market": 40.0,
-   "count": 4,
    "last_seen": "2026-11-23"
   },
   {
