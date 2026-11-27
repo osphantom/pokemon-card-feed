@@ -1,6 +1,19 @@
 {
  "items": [
   {
+   "title": "The 10 best Black Friday Magic: The Gathering deals",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZjRBV2hFVGZwcmg4VE5HRTNvekFDc2taZjE1MGxEQmUxLTc5YkFtX19najVXREZfTmxxVktkcjJ4eDZCTHViUU5zTkNGajRsdU1PTnVXTGxWYTd2U1Jrc09BTEJLeUFWSy1ETXFIdXJRSXo2SDdhRWFJRnRkUjRwYXpjOA?oc=5",
+   "source": "Google News: Magic TCG",
+   "source_id": "gn-mtg",
+   "publisher": "Polygon.com",
+   "published": "2026-11-27T19:43:24Z",
+   "category": "deals",
+   "stores": [],
+   "hot": false,
+   "id": "0fbac2c0f65f04",
+   "first_seen": "2026-11-27T20:00:40Z"
+  },
+  {
    "title": "Best Pokémon TCG Black Friday Deals: Amazon & TCGplayer",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeFo5am5NZ21SNGItbFUzbjdxcXRTaGJGd2VpQ01YaVB0YjJwc001bVMxcXdJMDJHTzI1WURjQzkxb0NIcXF3TFV0R1FhWi12ek8xcjdsUk14Y28tdVE5aG9NY1FYak9VREYweEpwR3BCazZ1Mm54VWVOZGt2YzJZMVhpRnNwN0djS281UTdCeFc3T3pwZkZyMHdVWkp5UmZTd25qMjlSQlN5TjBVRVRKeDJxbXhrdw?oc=5",
    "source": "Google News: market",
@@ -454,6 +467,21 @@
    "hot": false,
    "id": "1f19b300f92f47",
    "first_seen": "2026-11-25T17:55:30Z"
+  },
+  {
+   "title": "Best Pokémon TCG Black Friday Deal: Grab a 30th Celebration Ultra-Premium Collection for under $310 at Walmart",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNY0RlVzN2emRMV0lXaUpOanB1cDZwUDU0SWNNLUNrN3J2dWFBWTlaVW9XZEJnYk5ZODlDMEQ4SFJiRUppZXFydkFFSmJ3VHpTb1RtcnU0cVliNnBVR3ZsM3YwRURxYk9MNVc3NFVKek9NaVlxNnFaU3NQQzZGRzhlNmY4eTNNbUtoTWZB?oc=5",
+   "source": "Google News: preorders",
+   "source_id": "gn-preorder",
+   "publisher": "Mashable",
+   "published": "2026-11-25T12:12:18Z",
+   "category": "deals",
+   "stores": [
+    "Walmart"
+   ],
+   "hot": false,
+   "id": "adfb93789f3605",
+   "first_seen": "2026-11-27T20:00:40Z"
   },
   {
    "title": "Best Magic: The Gathering deal: You can preorder 30 packs of Marvel Darkhold Destiny at an Amazon discount",
