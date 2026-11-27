@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T01:02:08Z",
+ "generated_at": "2026-11-27T13:29:03Z",
  "games": [
   "Lorcana",
   "One Piece",
@@ -67,14 +67,14 @@
    "game": "Magic",
    "name": "Star Trek - Collector Booster Display",
    "set": "Star Trek",
-   "market": 429.99,
+   "market": 419.99,
    "release": "2026-11-13",
    "presale": false,
    "current": true,
    "url": "https://www.tcgplayer.com/product/706142/magic-star-trek-star-trek-collector-booster-display",
    "catalog": 402.04,
    "verified": true,
-   "count": 4
+   "count": 5
   },
   {
    "game": "Lorcana",
@@ -444,14 +444,14 @@
    "game": "Riftbound",
    "name": "Vendetta - Booster Display",
    "set": "Vendetta",
-   "market": 150.0,
+   "market": 145.0,
    "release": "2026-07-31",
    "presale": false,
    "current": true,
    "url": "https://www.tcgplayer.com/product/693380/riftbound-league-of-legends-trading-card-game-vendetta-vendetta-booster-display",
    "catalog": 110.28,
    "verified": true,
-   "count": 12
+   "count": 13
   },
   {
    "game": "Magic",
@@ -698,7 +698,7 @@
    "url": "https://www.tcgplayer.com/product/706171/magic-commander-star-trek-star-trek-commander-deck-we-are-the-borg",
    "catalog": 68.82,
    "verified": true,
-   "count": 10
+   "count": 11
   },
   {
    "game": "Gundam",
@@ -789,7 +789,7 @@
    "url": "https://www.tcgplayer.com/product/711263/yugioh-beyond-the-brave-beyond-the-brave-booster-box-1st-edition",
    "catalog": 53.74,
    "verified": true,
-   "count": 35
+   "count": 34
   },
   {
    "game": "Star Wars Unlimited",
@@ -893,7 +893,7 @@
    "url": "https://www.tcgplayer.com/product/709720/magic-mystery-booster-commander-edition-mystery-booster-commander-edition-booster-pack",
    "catalog": 34.85,
    "verified": false,
-   "count": 1
+   "count": 2
   },
   {
    "game": "Magic",
@@ -1062,7 +1062,7 @@
    "url": "https://www.tcgplayer.com/product/710643/gundam-card-game-starter-deck-14-heavy-dominion-starter-deck-14-heavy-dominion",
    "catalog": 11.93,
    "verified": true,
-   "count": 28
+   "count": 27
   },
   {
    "game": "Yu-Gi-Oh",
@@ -1101,7 +1101,7 @@
    "url": "https://www.tcgplayer.com/product/690386/lorcana-tcg-attack-of-the-vine-disney-lorcana-attack-of-the-vine-booster-pack",
    "catalog": 8.35,
    "verified": true,
-   "count": 22
+   "count": 23
   },
   {
    "game": "One Piece",
@@ -1198,14 +1198,14 @@
    "game": "Lorcana",
    "name": "Disney Lorcana: Winterspell Booster Box",
    "set": "Winterspell",
-   "market": 99.99,
+   "market": 107.99,
    "release": "2026-02-20",
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/664819/lorcana-tcg-winterspell-disney-lorcana-winterspell-booster-box",
    "catalog": 227.65,
    "verified": true,
-   "count": 18
+   "count": 17
   },
   {
    "game": "Lorcana",
@@ -1250,7 +1250,7 @@
    "game": "One Piece",
    "name": "The Dominance of God Booster Box",
    "set": "The Dominance of God",
-   "market": 84.99,
+   "market": 84.77,
    "release": null,
    "presale": false,
    "current": false,
@@ -1328,14 +1328,14 @@
    "game": "Lorcana",
    "name": "Disney Lorcana: Reign of Jafar Booster Box",
    "set": "Reign of Jafar",
-   "market": 159.0,
+   "market": 160.0,
    "release": "2025-06-06",
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/623064/lorcana-tcg-reign-of-jafar-disney-lorcana-reign-of-jafar-booster-box",
    "catalog": 153.88,
    "verified": true,
-   "count": 11
+   "count": 10
   },
   {
    "game": "Gundam",
@@ -1458,14 +1458,14 @@
    "game": "Riftbound",
    "name": "Radiance - Booster Display",
    "set": "Radiance",
-   "market": 109.89,
+   "market": 99.99,
    "release": null,
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/711365/riftbound-league-of-legends-trading-card-game-radiance-radiance-booster-display",
    "catalog": 93.6,
    "verified": true,
-   "count": 35
+   "count": 37
   },
   {
    "game": "Star Wars Unlimited",
@@ -1484,14 +1484,14 @@
    "game": "Gundam",
    "name": "Eternal Nexus Booster Box",
    "set": "Eternal Nexus",
-   "market": 110.0,
+   "market": 109.0,
    "release": null,
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/693103/gundam-card-game-eternal-nexus-eternal-nexus-booster-box",
    "catalog": 88.26,
    "verified": true,
-   "count": 15
+   "count": 16
   },
   {
    "game": "Gundam",
@@ -1504,7 +1504,7 @@
    "url": "https://www.tcgplayer.com/product/710652/gundam-card-game-stardust-trails-stardust-trails-booster-box",
    "catalog": 88.04,
    "verified": true,
-   "count": 15
+   "count": 17
   },
   {
    "game": "Lorcana",
@@ -1757,14 +1757,14 @@
    "game": "Lorcana",
    "name": "Disney Lorcana: Fabled Gift Set",
    "set": "Fabled",
-   "market": 53.99,
+   "market": 54.99,
    "release": null,
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/645308/lorcana-tcg-fabled-disney-lorcana-fabled-gift-set",
    "catalog": 43.74,
    "verified": true,
-   "count": 4
+   "count": 3
   },
   {
    "game": "Riftbound",
@@ -1783,14 +1783,14 @@
    "game": "Lorcana",
    "name": "Disney Lorcana: Winterspell Collection Starter Set - Stitch Edition",
    "set": "Winterspell",
-   "market": 45.0,
+   "market": 44.99,
    "release": "2026-03-13",
    "presale": false,
    "current": false,
    "url": "https://www.tcgplayer.com/product/668330/lorcana-tcg-winterspell-disney-lorcana-winterspell-collection-starter-set-stitch-edition",
    "catalog": 39.78,
    "verified": true,
-   "count": 17
+   "count": 18
   },
   {
    "game": "Lorcana",
@@ -1816,7 +1816,7 @@
    "url": "https://www.tcgplayer.com/product/704889/one-piece-card-game-st-32-starter-deck-32-green-roronoa-zoro-starter-deck-32-green-roronoa-zoro",
    "catalog": 32.08,
    "verified": true,
-   "count": 31
+   "count": 32
   },
   {
    "game": "Riftbound",
@@ -2115,7 +2115,7 @@
    "url": "https://www.tcgplayer.com/product/664821/lorcana-tcg-winterspell-disney-lorcana-winterspell-booster-pack",
    "catalog": 10.77,
    "verified": true,
-   "count": 16
+   "count": 17
   },
   {
    "game": "Lorcana",
@@ -2206,7 +2206,7 @@
    "url": "https://www.tcgplayer.com/product/623063/lorcana-tcg-reign-of-jafar-disney-lorcana-reign-of-jafar-booster-pack",
    "catalog": 8.09,
    "verified": true,
-   "count": 17
+   "count": 16
   }
  ]
 }

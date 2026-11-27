@@ -2,7 +2,7 @@
  "boards": {
   "next-drops": {
    "id": "1569124781813665805",
-   "hash": "b6e861fad573"
+   "hash": "bad06717c483"
   },
   "release-calendar": {
    "id": "1569124785269768347",
@@ -46,7 +46,7 @@
   },
   "preorders-tcg": {
    "id": "1570887541622575277",
-   "hash": "294bcf201b4d"
+   "hash": "000fc0b34aa5"
   }
  },
  "initialized": true,
@@ -57,6 +57,7 @@
   "0138043beb69d7",
   "018020cde51267",
   "019ec313582fbe",
+  "02a297260f44aa",
   "02c181fa1324c8",
   "040493920a9d53",
   "040aad21b904b9",
@@ -81,6 +82,7 @@
   "0beb20e790a69c",
   "0e00d821ebcbd3",
   "0eada0d5210707",
+  "0fcd3763859e04",
   "100e5c711e2459",
   "108968ef374229",
   "1157ff43227fea",
@@ -91,6 +93,7 @@
   "1286596034c99c",
   "128f54990c83f0",
   "130eab8c8ac769",
+  "139bd911075220",
   "13dcd87460f8ae",
   "146ad7c4778189",
   "1482d91742bc1f",
@@ -215,6 +218,7 @@
   "59863c15131597",
   "5991cedf53f5b5",
   "59d87e1207258f",
+  "5bb927f61a67bd",
   "5beedb40f21810",
   "5bf148b8493eca",
   "5cf49509b3d12c",
@@ -448,6 +452,7 @@
   "d4c9065cc0c086",
   "d4fe25431de6e2",
   "d6c0cc705cf509",
+  "d72b145538bac9",
   "d74f21408cfff6",
   "d763d34a0c782a",
   "d88559e144d41a",
@@ -467,6 +472,7 @@
   "e3752a1abb5913",
   "e4c3bdf7c84917",
   "e620597509fb58",
+  "e673194e339586",
   "e67e511e442384",
   "e6887a1ab4ef95",
   "e6e3481685fa19",
@@ -509,7 +515,8 @@
   "ff21c7ac2e37b0",
   "ff3a95529a14d2",
   "ffb9ff72e54550",
-  "ffc07f9c867e71"
+  "ffc07f9c867e71",
+  "ffc8140d3c4ad4"
  ],
  "posted_keys": [
   "morning:2026-11-08",
@@ -531,6 +538,7 @@
   "morning:2026-11-24",
   "morning:2026-11-25",
   "morning:2026-11-26",
+  "morning:2026-11-27",
   "raffle-ping:Target:2026-11-09",
   "raffle-ping:Target:2026-11-18",
   "raffle-ping:Walmart:2026-11-10",
@@ -1290,8 +1298,8 @@
   "pennsylvania",
   "virginia"
  ],
- "costco_checked_at": "2026-11-27T06:16:02Z",
- "promos_checked_at": "2026-11-27T03:56:44Z",
+ "costco_checked_at": "2026-11-27T13:38:53Z",
+ "promos_checked_at": "2026-11-27T13:38:53Z",
  "promo_markets": {
   "30th-celebration-mewtwo": 12.61,
   "delta-reign-kyogre": 5.26
@@ -1315,7 +1323,7 @@
   "PA",
   "VA"
  ],
- "sams_checked_at": "2026-11-27T06:16:02Z",
+ "sams_checked_at": "2026-11-27T13:38:53Z",
  "sams_status": {
   "990416407": {
    "6330": "order",
@@ -1422,8 +1430,8 @@
   }
  },
  "costco_stamp": "2026-11-22T14:02:30Z",
- "costco_read_at": "2026-11-27T04:16:04Z",
- "upc_checked_at": "2026-11-27T06:16:02Z",
+ "costco_read_at": "2026-11-27T13:38:53Z",
+ "upc_checked_at": "2026-11-27T13:38:53Z",
  "price_seen": {
   "704144": 249.33,
   "704191": 332.45,
@@ -1502,6 +1510,6 @@
   "Amazon:Magic: Star Trek - Collector Booster Display",
   "See the article:30th Celebration Ultra-Premium Collection [Day]"
  ],
- "restockd_checked_at": "2026-11-27T01:11:56Z",
+ "restockd_checked_at": "2026-11-27T13:38:53Z",
  "restockd_seen": true
 }
