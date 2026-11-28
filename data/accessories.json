@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T13:29:03Z",
+ "generated_at": "2026-11-28T00:30:35Z",
  "ebay_used": true,
  "stopwords": [
   "pokemon",
@@ -152,12 +152,34 @@
     },
     {
      "date": "2026-11-27",
-     "price": 277.94,
+     "price": 269.94,
      "count": 1
     }
    ],
    "market": 327.94,
    "count": 1,
+   "last_seen": "2026-11-27"
+  },
+  {
+   "key": "ages|needoh|sampler|sensory|stack",
+   "tokens": [
+    "needoh",
+    "sensory",
+    "sampler",
+    "stack",
+    "ages"
+   ],
+   "title": "NeeDoh Sensory Sampler Set & Needoh Stack Pack Set, Ages 3+, rare",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "price": 150.0,
+     "count": 7
+    }
+   ],
+   "market": 150.0,
+   "count": 7,
    "last_seen": "2026-11-27"
   },
   {
@@ -261,49 +283,6 @@
    "last_seen": "2026-11-27"
   },
   {
-   "key": "hand|needoh|sampler|sensory|walmart",
-   "tokens": [
-    "needoh",
-    "sensory",
-    "sampler",
-    "walmart",
-    "hand"
-   ],
-   "title": "NeeDoh Sensory Sampler (Walmart Exclusive) Brand NEW & Sealed - IN HAND",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-27",
-     "price": 130.0,
-     "count": 3
-    }
-   ],
-   "market": 130.0,
-   "count": 3,
-   "last_seen": "2026-11-27"
-  },
-  {
-   "key": "needoh|sampler|sensory|walmart",
-   "tokens": [
-    "needoh",
-    "sensory",
-    "sampler",
-    "walmart"
-   ],
-   "title": "NeeDoh Sensory Sampler 8-Pack.  Walmart Exclusive",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-27",
-     "price": 130.0,
-     "count": 3
-    }
-   ],
-   "market": 130.0,
-   "count": 3,
-   "last_seen": "2026-11-27"
-  },
-  {
    "key": "amuseable|blue|christmas|jellycat|large|retired|spruce|tree",
    "tokens": [
     "jellycat",
@@ -392,7 +371,7 @@
     "walmart",
     "unopened"
    ],
-   "title": "NeeDoh Sensory Sampler 8 Pack Walmart Exclusive 2026 Brand New Unopened",
+   "title": "Brand New NeeDoh Sensory Sampler 8-Pack Walmart Exclusive 2026 UNOPENED",
    "ship": "small",
    "history": [
     {
@@ -402,12 +381,77 @@
     },
     {
      "date": "2026-11-27",
-     "price": 120.0,
+     "price": 113.5,
+     "count": 6
+    }
+   ],
+   "market": 116.75,
+   "count": 6,
+   "last_seen": "2026-11-27"
+  },
+  {
+   "key": "box|needoh|sampler|sensory|walmart",
+   "tokens": [
+    "needoh",
+    "sensory",
+    "sampler",
+    "walmart",
+    "box"
+   ],
+   "title": "NEW NeeDoh Sensory Sampler 8-Pack Walmart Exclusive 2026 Sealed Box",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "price": 111.99,
      "count": 3
     }
    ],
-   "market": 120.0,
+   "market": 111.99,
    "count": 3,
+   "last_seen": "2026-11-27"
+  },
+  {
+   "key": "hand|needoh|sampler|sensory|walmart",
+   "tokens": [
+    "needoh",
+    "sensory",
+    "sampler",
+    "walmart",
+    "hand"
+   ],
+   "title": "NeeDoh Sensory Sampler 8 Pack Walmart Exclusive 2026 New Sealed In Hand",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "price": 95.99,
+     "count": 13
+    }
+   ],
+   "market": 95.99,
+   "count": 13,
+   "last_seen": "2026-11-27"
+  },
+  {
+   "key": "needoh|sampler|sensory|walmart",
+   "tokens": [
+    "needoh",
+    "sensory",
+    "sampler",
+    "walmart"
+   ],
+   "title": "NeeDoh Sensory Sampler 8-Piece Walmart Exclusive",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "price": 95.0,
+     "count": 8
+    }
+   ],
+   "market": 95.0,
+   "count": 8,
    "last_seen": "2026-11-27"
   },
   {
@@ -418,7 +462,7 @@
     "advent",
     "calendar"
    ],
-   "title": "Schylling NeeDoh Advent Calendar",
+   "title": "*2 PACK* Schylling NeeDoh Advent Calendar 2026 *Authentic, Rare*",
    "ship": "small",
    "history": [
     {
@@ -453,12 +497,12 @@
     },
     {
      "date": "2026-11-27",
-     "price": 90.0,
-     "count": 4
+     "price": 89.99,
+     "count": 3
     }
    ],
    "market": 90.0,
-   "count": 4,
+   "count": 3,
    "last_seen": "2026-11-27"
   },
   {
@@ -664,11 +708,11 @@
     {
      "date": "2026-11-27",
      "price": 84.0,
-     "count": 6
+     "count": 7
     }
    ],
    "market": 84.0,
-   "count": 6,
+   "count": 7,
    "last_seen": "2026-11-27"
   },
   {
@@ -819,12 +863,12 @@
     },
     {
      "date": "2026-11-27",
-     "price": 65.12,
-     "count": 4
+     "price": 75.0,
+     "count": 3
     }
    ],
    "market": 75.0,
-   "count": 4,
+   "count": 3,
    "last_seen": "2026-11-27"
   },
   {
@@ -910,12 +954,12 @@
     },
     {
      "date": "2026-11-27",
-     "price": 71.0,
-     "count": 4
+     "price": 69.99,
+     "count": 6
     }
    ],
    "market": 74.5,
-   "count": 4,
+   "count": 6,
    "last_seen": "2026-11-27"
   },
   {
@@ -1007,11 +1051,11 @@
     },
     {
      "date": "2026-11-27",
-     "price": 73.99,
+     "price": 70.0,
      "count": 28
     }
    ],
-   "market": 72.0,
+   "market": 70.0,
    "count": 28,
    "last_seen": "2026-11-27"
   },
@@ -1445,12 +1489,85 @@
     },
     {
      "date": "2026-11-27",
-     "price": 31.49,
+     "price": 30.99,
      "count": 4
     }
    ],
    "market": 30.99,
    "count": 4,
+   "last_seen": "2026-11-27"
+  },
+  {
+   "key": "angel|blind|box|cat|christmas|series|single|sonny",
+   "tokens": [
+    "sonny",
+    "angel",
+    "cat",
+    "christmas",
+    "series",
+    "single",
+    "blind",
+    "box"
+   ],
+   "title": "Sonny Angel Cat Christmas Series Single Blind Box Sealed-New 2026",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-15",
+     "price": 29.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-16",
+     "price": 29.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-20",
+     "price": 29.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-26",
+     "price": 29.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-27",
+     "price": 29.99,
+     "count": 3
+    }
+   ],
+   "market": 29.99,
+   "count": 3,
+   "last_seen": "2026-11-27"
+  },
+  {
+   "key": "34cm|bag|dust|gifts|jellycat|label|medium|monkey|plush|smudge|stock",
+   "tokens": [
+    "34cm",
+    "jellycat",
+    "smudge",
+    "monkey",
+    "medium",
+    "label",
+    "dust",
+    "bag",
+    "plush",
+    "gifts",
+    "stock"
+   ],
+   "title": "34CM Jellycat Smudge Monkey Medium NWT with Label Dust Bag Plush Gifts USA Stock",
+   "ship": "pack",
+   "history": [
+    {
+     "date": "2026-11-27",
+     "price": 29.98,
+     "count": 3
+    }
+   ],
+   "market": 29.98,
+   "count": 3,
    "last_seen": "2026-11-27"
   },
   {
@@ -1536,11 +1653,11 @@
     {
      "date": "2026-11-27",
      "price": 25.79,
-     "count": 5
+     "count": 3
     }
    ],
    "market": 29.0,
-   "count": 5,
+   "count": 3,
    "last_seen": "2026-11-27"
   },
   {
@@ -1761,12 +1878,46 @@
     },
     {
      "date": "2026-11-27",
-     "price": 19.99,
-     "count": 3
+     "price": 19.49,
+     "count": 4
     }
    ],
    "market": 19.99,
-   "count": 3,
+   "count": 4,
+   "last_seen": "2026-11-27"
+  },
+  {
+   "key": "doll|labubu|love|mart|mini|monsters|pendant|pin|plush|pop|series|vinyl",
+   "tokens": [
+    "pop",
+    "mart",
+    "labubu",
+    "monsters",
+    "pin",
+    "love",
+    "series",
+    "mini",
+    "vinyl",
+    "plush",
+    "doll",
+    "pendant"
+   ],
+   "title": "POP MART Labubu The Monsters Pin For Love Series Mini Vinyl Plush Doll Pendant ?",
+   "ship": "small",
+   "history": [
+    {
+     "date": "2026-11-21",
+     "price": 18.99,
+     "count": 3
+    },
+    {
+     "date": "2026-11-27",
+     "price": 18.99,
+     "count": 5
+    }
+   ],
+   "market": 18.99,
+   "count": 5,
    "last_seen": "2026-11-27"
   },
   {
@@ -2046,7 +2197,7 @@
     },
     {
      "date": "2026-11-27",
-     "price": 17.99,
+     "price": 63.99,
      "count": 3
     }
    ],
@@ -2128,12 +2279,12 @@
     },
     {
      "date": "2026-11-27",
-     "price": 15.49,
-     "count": 3
+     "price": 33.74,
+     "count": 4
     }
    ],
    "market": 15.49,
-   "count": 3,
+   "count": 4,
    "last_seen": "2026-11-27"
   },
   {
@@ -2518,46 +2669,6 @@
     }
    ],
    "market": 32.99,
-   "count": 3,
-   "last_seen": "2026-11-26"
-  },
-  {
-   "key": "angel|blind|box|cat|christmas|series|single|sonny",
-   "tokens": [
-    "sonny",
-    "angel",
-    "cat",
-    "christmas",
-    "series",
-    "single",
-    "blind",
-    "box"
-   ],
-   "title": "Sonny Angel Cat Christmas Series Single Blind Box Sealed-New 2026",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-15",
-     "price": 29.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-16",
-     "price": 29.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-20",
-     "price": 29.99,
-     "count": 3
-    },
-    {
-     "date": "2026-11-26",
-     "price": 29.99,
-     "count": 3
-    }
-   ],
-   "market": 29.99,
    "count": 3,
    "last_seen": "2026-11-26"
   },
@@ -3234,35 +3345,6 @@
     }
    ],
    "market": 27.5,
-   "count": 3,
-   "last_seen": "2026-11-21"
-  },
-  {
-   "key": "doll|labubu|love|mart|mini|monsters|pendant|pin|plush|pop|series|vinyl",
-   "tokens": [
-    "pop",
-    "mart",
-    "labubu",
-    "monsters",
-    "pin",
-    "love",
-    "series",
-    "mini",
-    "vinyl",
-    "plush",
-    "doll",
-    "pendant"
-   ],
-   "title": "POP MART Labubu The Monsters Pin For Love Series Mini Vinyl Plush Doll Pendant ?",
-   "ship": "small",
-   "history": [
-    {
-     "date": "2026-11-21",
-     "price": 18.99,
-     "count": 3
-    }
-   ],
-   "market": 18.99,
    "count": 3,
    "last_seen": "2026-11-21"
   },
