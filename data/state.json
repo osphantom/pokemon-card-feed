@@ -2,11 +2,11 @@
  "boards": {
   "next-drops": {
    "id": "1569124781813665805",
-   "hash": "552ef6d2a8f1"
+   "hash": "b9264eb288dc"
   },
   "release-calendar": {
    "id": "1569124785269768347",
-   "hash": "6c844d584823"
+   "hash": "11f0ed7b350c"
   },
   "what-to-buy": {
    "id": "1569124788478148641",
@@ -1313,7 +1313,7 @@
   "pennsylvania",
   "virginia"
  ],
- "costco_checked_at": "2026-11-28T04:16:00Z",
+ "costco_checked_at": "2026-11-28T05:00:57Z",
  "promos_checked_at": "2026-11-28T01:46:01Z",
  "promo_markets": {
   "30th-celebration-mewtwo": 12.98,
@@ -1338,7 +1338,7 @@
   "PA",
   "VA"
  ],
- "sams_checked_at": "2026-11-28T04:16:00Z",
+ "sams_checked_at": "2026-11-28T05:00:57Z",
  "sams_status": {
   "990416407": {
    "6330": "order",
@@ -1446,7 +1446,7 @@
  },
  "costco_stamp": "2026-11-22T14:02:30Z",
  "costco_read_at": "2026-11-28T02:46:03Z",
- "upc_checked_at": "2026-11-28T04:16:00Z",
+ "upc_checked_at": "2026-11-28T05:00:57Z",
  "price_seen": {
   "704144": 243.8,
   "704191": 356.28,
